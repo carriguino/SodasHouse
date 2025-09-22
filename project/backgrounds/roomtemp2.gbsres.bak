@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "487cc941-47e4-402c-b143-e3a989629177",
+  "name": "roomTemp2",
+  "symbol": "bg_roomtemp2",
+  "width": 80,
+  "height": 72,
+  "imageWidth": 640,
+  "imageHeight": 576,
+  "filename": "roomTemp2.png",
+  "tileColors": ""
+}

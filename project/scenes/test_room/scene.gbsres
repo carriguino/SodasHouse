@@ -1,0 +1,91 @@
+{
+  "_resourceType": "scene",
+  "id": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
+  "_index": 0,
+  "type": "POINTNCLICK",
+  "name": "Test Room",
+  "symbol": "scene_1",
+  "x": 662,
+  "y": 499.38461538461536,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "bbd18ecb-4a0b-450c-bafa-74082c582661",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "default-bg-1"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 0.5
+      },
+      "id": "d696e9f0-12c7-44b4-a3e1-c731bf93e969"
+    },
+    {
+      "command": "EVENT_IF_SAVED_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "0",
+              "variableSource": "0",
+              "saveSlot": 0
+            },
+            "id": "c42c3b08-718f-42a6-8809-fbf73f6ed7ac"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "1",
+              "variableSource": "1",
+              "saveSlot": 0
+            },
+            "id": "f2eff6e9-8c19-46c8-93c3-13f9e417a099"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "6c513f2f-d191-4e95-8d61-a5f502771cdf"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "c2e00273-32ce-4e5e-b446-ba4dbdcc9fec"
+          }
+        ]
+      },
+      "id": "0096b1ea-54a1-4801-b820-818da50f51a5"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "",
+  "autoFadeEventCollapse": true
+}

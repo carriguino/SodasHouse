@@ -1,0 +1,128 @@
+{
+  "_resourceType": "trigger",
+  "id": "73275a47-e996-495c-b706-d0e1d1376641",
+  "_index": 0,
+  "symbol": "trigger_0",
+  "prefabId": "",
+  "name": "Sleep",
+  "x": 2,
+  "y": 12,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "5",
+        "__collapseElse": false,
+        "condition": {
+          "type": "variable",
+          "value": "5"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "default-bg-2",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": false
+            },
+            "id": "21314782-a0c2-4dd1-b152-3e205ce60b53"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_SPRITE",
+            "args": {
+              "palette0": "default-bg-2",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": true
+            },
+            "id": "9c6e7333-7bd0-43c0-9a40-816ef7a063b5"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "77fc4a32-1802-4188-b397-6d92fa5011a6"
+            },
+            "id": "e4e82524-e467-4569-b310-f9b445462923"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "2df9282b-8b76-419a-b000-9267c80837a0"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "default-bg-1",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": false
+            },
+            "id": "0fbde3bb-c603-4873-981f-3b74b83a0e65"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_SPRITE",
+            "args": {
+              "palette0": "dmg",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": true
+            },
+            "id": "eb9dc5ce-41eb-49fa-b3c7-e593ef421332"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "77fc4a32-1802-4188-b397-6d92fa5011a6"
+            },
+            "id": "099efbef-1dcc-41b6-9cbe-18aaeddd6005"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "d702dc41-156b-45f4-ae34-bfbae3d6fb9b"
+          }
+        ]
+      },
+      "id": "85e54ee4-1735-4352-ab17-65c558ee8e80"
+    }
+  ],
+  "leaveScript": []
+}

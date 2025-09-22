@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "27c21be2-c51e-4621-ad19-4d48fd8f0ae8",
+  "name": "settingsBGp",
+  "symbol": "bg_settingsbgp",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "settingsBGp.png",
+  "tileColors": ""
+}

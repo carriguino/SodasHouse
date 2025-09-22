@@ -1,0 +1,120 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "happiness",
+      "symbol": "var_happiness"
+    },
+    {
+      "id": "1",
+      "name": "hunger",
+      "symbol": "var_hunger"
+    },
+    {
+      "id": "2",
+      "name": "weight",
+      "symbol": "var_weight"
+    },
+    {
+      "id": "3",
+      "name": "attentionWanted",
+      "symbol": "var_attentionwanted"
+    },
+    {
+      "id": "4",
+      "name": "Variable 5",
+      "symbol": "var_variable_5"
+    },
+    {
+      "id": "5",
+      "name": "lights",
+      "symbol": "var_lights"
+    },
+    {
+      "id": "6",
+      "name": "hungerTimer",
+      "symbol": "var_hungertimer"
+    },
+    {
+      "id": "7",
+      "name": "Variable 7",
+      "symbol": "var_variable_7"
+    },
+    {
+      "id": "30",
+      "name": "RTC - Days",
+      "symbol": "var_rtc_days"
+    },
+    {
+      "id": "31",
+      "name": "RTC - Hours",
+      "symbol": "var_rtc_hours"
+    },
+    {
+      "id": "32",
+      "name": "RTC - Mins",
+      "symbol": "var_rtc_mins"
+    },
+    {
+      "id": "33",
+      "name": "RTC - TENS TEMP",
+      "symbol": "var_rtc_tens_temp"
+    },
+    {
+      "id": "34",
+      "name": "RTC - ONES TEMP",
+      "symbol": "var_rtc_ones_temp"
+    },
+    {
+      "id": "35",
+      "name": "RTC - Secs",
+      "symbol": "var_rtc_secs"
+    },
+    {
+      "id": "36",
+      "name": "RTC - Confirm",
+      "symbol": "var_rtc_confirm"
+    },
+    {
+      "id": "3a066778-da30-4ee5-858e-12141e7966cc__L0",
+      "name": "da",
+      "symbol": "var_da_0"
+    },
+    {
+      "id": "73275a47-e996-495c-b706-d0e1d1376641__L1",
+      "name": "Local 1",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "24251738-415c-4c92-b619-7dd01c505b02__L0",
+      "name": "game choice",
+      "symbol": "var_game_choice"
+    },
+    {
+      "id": "24251738-415c-4c92-b619-7dd01c505b02__L1",
+      "name": "game score",
+      "symbol": "var_game_score"
+    },
+    {
+      "id": "24251738-415c-4c92-b619-7dd01c505b02__L4",
+      "name": "playerNum",
+      "symbol": "var_playernum"
+    },
+    {
+      "id": "24251738-415c-4c92-b619-7dd01c505b02__L3",
+      "name": "houseNum",
+      "symbol": "var_housenum"
+    },
+    {
+      "id": "24251738-415c-4c92-b619-7dd01c505b02__L2",
+      "name": "game rounds",
+      "symbol": "var_game_rounds"
+    },
+    {
+      "id": "24251738-415c-4c92-b619-7dd01c505b02__L5",
+      "name": "sodaScore",
+      "symbol": "var_sodascore"
+    }
+  ]
+}

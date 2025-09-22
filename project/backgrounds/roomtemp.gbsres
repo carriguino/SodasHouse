@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bbd18ecb-4a0b-450c-bafa-74082c582661",
+  "name": "roomTemp",
+  "symbol": "bg_roomtemp",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "roomTemp.png",
+  "tileColors": "",
+  "autoColor": false
+}

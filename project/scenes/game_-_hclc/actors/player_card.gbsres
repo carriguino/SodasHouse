@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "24d20c6f-7afd-4571-997f-98ac396a5a2e",
+  "name": "Player Card",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "fd0255e9-c120-435a-a408-d3c929eaa817",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_7",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Card Back",
+        "loopAnim": false
+      },
+      "id": "d836734d-462d-4740-b1b6-e0c339d086de"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 15,
+  "y": 8,
+  "_index": 1
+}

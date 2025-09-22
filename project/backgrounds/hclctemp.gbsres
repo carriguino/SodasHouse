@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "16b3152a-399a-40e2-b15e-006503a1e51b",
+  "name": "HCLCTemp",
+  "symbol": "bg_hclctemp",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "HCLCTemp.png",
+  "tileColors": "",
+  "autoColor": false
+}

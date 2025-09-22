@@ -1,0 +1,54 @@
+{
+  "_resourceType": "trigger",
+  "id": "183d1b5c-209c-4e36-b9c2-c465d37824d7",
+  "_index": 3,
+  "symbol": "trigger_3",
+  "prefabId": "",
+  "name": "Speak",
+  "x": 16,
+  "y": 12,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "5",
+        "__collapseElse": true,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "ca975b67-89ff-42d8-9463-718af9d0bada"
+          }
+        ],
+        "false": []
+      },
+      "id": "dc3ca3a1-a456-489a-8aef-e1902d48bf77"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "im soda!"
+        ],
+        "avatarId": ""
+      },
+      "id": "6be1538b-ae24-412a-8b18-2d5dcf4b6814"
+    }
+  ],
+  "leaveScript": []
+}
