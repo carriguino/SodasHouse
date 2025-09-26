@@ -101,7 +101,7 @@
           "type": "number",
           "value": 1
         },
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Main Game Loop"
       },
       "children": {
@@ -128,7 +128,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "fb4d1692-fcb3-43de-b95d-773edd10e1f5"
           },
@@ -154,7 +154,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "6728e0e4-c2ac-4237-977e-a162521d8fc0"
           },
@@ -254,7 +254,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "6eddda52-76f4-4d45-ab89-d020eee05024"
           },
@@ -288,7 +288,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "194baaf2-18ae-47b3-b6d5-8193bf716cea"
           },
@@ -350,7 +350,7 @@
               "__collapseCase15": false,
               "value15": 16,
               "__collapseElse": false,
-              "__collapse": false,
+              "__collapse": true,
               "__disableElse": true
             },
             "children": {
@@ -792,7 +792,7 @@
               },
               "__collapseElse": true,
               "__disableElse": true,
-              "__collapse": true,
+              "__collapse": false,
               "__label": "If Player Wins"
             },
             "children": {
@@ -937,7 +937,7 @@
               },
               "__collapseElse": true,
               "__disableElse": true,
-              "__collapse": true,
+              "__collapse": false,
               "__label": "If Soda Wins"
             },
             "children": {

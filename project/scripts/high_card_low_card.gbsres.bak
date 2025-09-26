@@ -176,14 +176,14 @@
                   "value": 9
                 }
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "b97548cd-c9c2-49d3-aa58-409265993fb5"
           },
           {
             "command": "EVENT_RNG_SEED",
             "args": {
-              "__collapse": true
+              "__collapse": false
             },
             "id": "3413a815-ba69-45d6-bbcd-26fc68d4bf43"
           },
@@ -198,7 +198,7 @@
                   "value": 9
                 }
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "c467fdf3-3a2a-44de-9683-f004ae17835b"
           },
@@ -208,7 +208,7 @@
               "actorId": "0",
               "spriteStateId": "",
               "loopAnim": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "2da28e5f-b8c3-4a63-b594-9fb4d232db24"
           },
@@ -220,7 +220,7 @@
                 "type": "variable",
                 "value": "V1"
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "7e90e5a9-c89e-4d8f-bad2-c426328b7608"
           },
@@ -792,7 +792,7 @@
               },
               "__collapseElse": true,
               "__disableElse": true,
-              "__collapse": true,
+              "__collapse": false,
               "__label": "If Player Wins"
             },
             "children": {
