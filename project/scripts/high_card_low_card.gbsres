@@ -101,7 +101,7 @@
           "type": "number",
           "value": 1
         },
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Main Game Loop"
       },
       "children": {
@@ -904,11 +904,11 @@
                     "sceneId": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
                     "x": {
                       "type": "number",
-                      "value": 0
+                      "value": 4
                     },
                     "y": {
                       "type": "number",
-                      "value": 0
+                      "value": 17
                     },
                     "direction": "",
                     "fadeSpeed": 4,
@@ -948,7 +948,7 @@
                     "text": [
                       "WOAHHHHHHHHHHHH\nTHERE FOLKS!",
                       "WE HAVE A WINNNNNN\nNNNNNNNNNNNNERRRR!",
-                      "GIVE IT UP FOR\nSOOOOOOOOOOOODA!!!!!"
+                      "GIVE IT UP FOR\nSOOOOOOOOOODA!!!!!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -966,7 +966,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "8a191f51-ebcd-4a02-8c07-b38c2c69a38a"
                 },
@@ -1058,11 +1058,11 @@
                     "sceneId": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
                     "x": {
                       "type": "number",
-                      "value": 0
+                      "value": 6
                     },
                     "y": {
                       "type": "number",
-                      "value": 0
+                      "value": 17
                     },
                     "direction": "",
                     "fadeSpeed": 4,

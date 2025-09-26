@@ -3,11 +3,11 @@
   "id": "65687192-ced4-4330-82fe-3635668d7661",
   "_index": 2,
   "name": "Set Clock",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "27c21be2-c51e-4621-ad19-4d48fd8f0ae8",
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "type": "POINTNCLICK",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "00168+",
@@ -37,24 +37,6 @@
         }
       },
       "id": "8d228686-94f8-45a1-9057-dfeb762bbb62"
-    },
-    {
-      "command": "PT_EVENT_RTC_SET",
-      "args": {
-        "variableDays": "L0",
-        "valueDays": 0,
-        "typeDays": "number",
-        "variableHours": "L0",
-        "valueHours": 0,
-        "typeHours": "number",
-        "variableMinutes": "L0",
-        "valueMinutes": 0,
-        "typeMinutes": "number",
-        "variableSeconds": "L0",
-        "valueSeconds": 0,
-        "typeSeconds": "number"
-      },
-      "id": "9e13aaf8-3417-417f-b550-50a13559e39b"
     }
   ],
   "playerHit1Script": [],

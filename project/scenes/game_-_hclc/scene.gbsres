@@ -25,6 +25,17 @@
       "id": "ca7835a1-011c-4833-b23f-15fe9d5808fd"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "788c7740-4c3a-4a03-83c6-fae33dd818df"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -57,7 +68,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "5589179b-b86b-493c-929d-1ed454cadb0f",
-        "__collapse": false,
+        "__collapse": true,
         "$variable[V0]$": {
           "type": "variable",
           "value": "L2"
@@ -96,5 +107,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": true
 }

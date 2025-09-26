@@ -13,7 +13,7 @@
   "paletteId": "",
   "direction": "down",
   "moveSpeed": 0.0001,
-  "animSpeed": 15,
+  "animSpeed": 255,
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
@@ -369,7 +369,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Menu Input"
       },
       "children": {

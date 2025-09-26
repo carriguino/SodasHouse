@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 660,
-  "worldScrollY": 1048.6666259765625,
-  "zoom": 250,
+  "worldScrollX": 1352,
+  "worldScrollY": 1506.6666259765625,
+  "zoom": 325,
   "navigatorSplitSizes": [
     520,
     205,
@@ -18,11 +18,12 @@
     "EVENT_SWITCH_SCENE",
     "EVENT_SWITCH",
     "EVENT_INC_VALUE",
-    "EVENT_SET_VALUE"
+    "EVENT_SET_VALUE",
+    "EVENT_TEXT"
   ],
   "debuggerEnabled": true,
   "debuggerScriptType": "editor",
-  "debuggerVariablesFilter": "all",
+  "debuggerVariablesFilter": "watched",
   "debuggerCollapsedPanes": [],
   "debuggerPauseOnScriptChanged": false,
   "debuggerPauseOnWatchedVariableChanged": false,
@@ -33,7 +34,10 @@
     "3",
     "30",
     "31",
-    "32"
+    "32",
+    "35",
+    "T1",
+    "T0"
   ],
   "openBuildLogOnWarnings": false
 }

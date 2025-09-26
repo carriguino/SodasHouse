@@ -660,7 +660,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
+              "sceneId": "fa21c0c7-b14d-4fc8-a0a2-28cd2d545030",
               "x": {
                 "type": "number",
                 "value": 0
@@ -670,7 +670,7 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": 1
+              "fadeSpeed": 0
             },
             "id": "19e3c9dd-f282-4ad3-8f9f-4e36ee10b403"
           }

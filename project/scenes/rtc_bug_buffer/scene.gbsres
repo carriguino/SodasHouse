@@ -1,0 +1,64 @@
+{
+  "_resourceType": "scene",
+  "id": "fa21c0c7-b14d-4fc8-a0a2-28cd2d545030",
+  "_index": 3,
+  "name": "RTC Bug Buffer",
+  "backgroundId": "27c21be2-c51e-4621-ad19-4d48fd8f0ae8",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 347.4666748046875,
+  "y": 301.0666748046875,
+  "script": [
+    {
+      "command": "PT_EVENT_RTC_SET",
+      "args": {
+        "variableDays": "30",
+        "valueDays": 0,
+        "typeDays": "variable",
+        "variableHours": "31",
+        "valueHours": 0,
+        "typeHours": "variable",
+        "variableMinutes": "32",
+        "valueMinutes": 0,
+        "typeMinutes": "variable",
+        "variableSeconds": "L0",
+        "valueSeconds": 0,
+        "typeSeconds": "number",
+        "__collapse": false
+      },
+      "id": "87f08cdb-8ba0-4259-a2c5-1c9fc321474d"
+    },
+    {
+      "command": "PT_EVENT_RTC_START",
+      "args": {},
+      "id": "1b6322fa-a887-4ce7-b147-1913c2038c81"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "direction": "",
+        "fadeSpeed": 1
+      },
+      "id": "182e573d-3832-4bff-b361-b551824efc3c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

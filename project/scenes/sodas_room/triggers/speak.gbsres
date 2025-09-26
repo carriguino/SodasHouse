@@ -15,7 +15,7 @@
       "command": "EVENT_IF",
       "args": {
         "variable": "5",
-        "__collapseElse": true,
+        "__collapseElse": false,
         "condition": {
           "type": "eq",
           "valueA": {
@@ -32,22 +32,23 @@
           {
             "command": "EVENT_STOP",
             "args": {},
-            "id": "ca975b67-89ff-42d8-9463-718af9d0bada"
+            "id": "49c274fa-bfec-4b07-9bd8-db77553a0662"
           }
         ],
         "false": []
       },
-      "id": "dc3ca3a1-a456-489a-8aef-e1902d48bf77"
+      "id": "9cdeea39-bb42-4acf-bad1-75e89c66f419"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "text": [
-          "im soda!"
-        ],
-        "avatarId": ""
+        "customEventId": "83b22cb2-5275-4669-a203-3d5793f3297e",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "T0"
+        }
       },
-      "id": "6be1538b-ae24-412a-8b18-2d5dcf4b6814"
+      "id": "64a3a0f9-afb3-43d6-b670-ef21a9d4dbd2"
     }
   ],
   "leaveScript": []

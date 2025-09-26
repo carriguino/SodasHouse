@@ -3,13 +3,13 @@
   "id": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
   "_index": 0,
   "type": "POINTNCLICK",
-  "name": "Test Room",
+  "name": "Soda's Room",
   "symbol": "scene_1",
   "x": 662,
   "y": 499.38461538461536,
   "width": 20,
   "height": 18,
-  "backgroundId": "bbd18ecb-4a0b-450c-bafa-74082c582661",
+  "backgroundId": "aaa7c87e-a06e-4f47-a715-09c4969a8792",
   "tilesetId": "",
   "paletteIds": [
     "dmg"
@@ -21,18 +21,39 @@
   "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
   "script": [
     {
+      "command": "PT_EVENT_RTC_START",
+      "args": {
+        "__collapse": true
+      },
+      "id": "a771e8ee-7c2c-4ca5-af02-6587283ee486"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 600,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "00a25ee2-72d4-4444-a4b2-775daa8d2f3b"
+    },
+    {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 0.5
+        "speed": 0.25,
+        "__collapse": true
       },
-      "id": "d696e9f0-12c7-44b4-a3e1-c731bf93e969"
+      "id": "826d7885-a185-4c2c-96c9-2468ebee8796"
     },
     {
       "command": "EVENT_IF_SAVED_DATA",
       "args": {
         "saveSlot": 0,
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -81,6 +102,14 @@
         ]
       },
       "id": "0096b1ea-54a1-4801-b820-818da50f51a5"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 3
+      },
+      "id": "4e26d90e-bea0-44b4-8359-5fc7f88b9ae4"
     }
   ],
   "playerHit1Script": [],

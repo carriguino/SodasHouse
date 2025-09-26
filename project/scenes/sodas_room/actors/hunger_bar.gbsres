@@ -5,11 +5,11 @@
   "symbol": "actor_3",
   "prefabId": "",
   "name": "Hunger Bar",
-  "x": 15,
+  "x": 16,
   "y": 3,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "f59ce0a1-5ac0-46d0-aeee-778fbf008342",
+  "spriteSheetId": "155d9800-ea8c-4d47-9cc6-b253aa35c2db",
   "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -27,7 +27,7 @@
         "frames": 30,
         "__scriptTabs": "end",
         "timer": 1,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Hunger Timer"
       },
       "children": {

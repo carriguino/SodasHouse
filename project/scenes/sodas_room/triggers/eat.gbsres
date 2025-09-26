@@ -1,0 +1,244 @@
+{
+  "_resourceType": "trigger",
+  "id": "59395351-a0c6-42c8-a857-df467ff1a2b2",
+  "_index": 2,
+  "symbol": "trigger_2",
+  "prefabId": "",
+  "name": "Eat",
+  "x": 12,
+  "y": 12,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "5",
+        "__collapseElse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "c67b3d33-10c5-40a9-a1d5-3dce42e48ea8"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 3
+                }
+              },
+              "__collapseElse": true,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "SODA: I'm not\nhungry right now,",
+                      "but thank you for\noffering!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "d42f6659-7ee4-4e7e-aaaa-4f560fdeda61"
+                },
+                {
+                  "command": "EVENT_STOP",
+                  "args": {
+                    "__collapse": true
+                  },
+                  "id": "a9d772f4-0ab6-4935-b126-5dc511207c55"
+                }
+              ],
+              "false": []
+            },
+            "id": "226906c5-14a9-4028-b063-01aab7aae1f7"
+          }
+        ]
+      },
+      "id": "5a18f2e0-e636-4d50-a025-3e01f02aff79"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 3,
+        "option1": "Meal",
+        "option2": "Snack",
+        "option3": "Back",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "menu",
+        "cancelOnLastOption": true,
+        "__collapse": true
+      },
+      "id": "a0b74e69-1bfb-4723-80e6-ef333bbffa84"
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "L0",
+        "choices": 2,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 2,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false,
+        "__collapse": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "b6c23183-226f-494f-87dd-94e9e7e15ff7"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "add",
+                "valueA": {
+                  "type": "variable",
+                  "value": "2"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              }
+            },
+            "id": "639f0151-2851-4c64-a52c-ca7ba064aadf"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "0"
+            },
+            "id": "fd79c5c6-c6d1-4d7f-ab50-bf0c9cdca2b4"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "1"
+            },
+            "id": "eb806f51-1ac6-4d92-99a9-32df6d4c5dfd"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "2"
+            },
+            "id": "7f136c78-9c51-4ed3-b522-1b33b04cb5db"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "0"
+            },
+            "id": "9d4b5d1f-8072-4d4e-85f6-0f6ada8e7f63"
+          }
+        ],
+        "true2": [],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "e445145a-8582-4bfe-b8ff-def0f080d019"
+    }
+  ],
+  "leaveScript": []
+}

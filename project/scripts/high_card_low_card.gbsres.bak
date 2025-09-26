@@ -101,7 +101,8 @@
           "type": "number",
           "value": 1
         },
-        "__collapse": false
+        "__collapse": false,
+        "__label": "Main Game Loop"
       },
       "children": {
         "true": [
@@ -206,7 +207,8 @@
             "args": {
               "actorId": "0",
               "spriteStateId": "",
-              "loopAnim": false
+              "loopAnim": false,
+              "__collapse": true
             },
             "id": "2da28e5f-b8c3-4a63-b594-9fb4d232db24"
           },
@@ -217,14 +219,16 @@
               "frame": {
                 "type": "variable",
                 "value": "V1"
-              }
+              },
+              "__collapse": true
             },
             "id": "7e90e5a9-c89e-4d8f-bad2-c426328b7608"
           },
           {
             "command": "EVENT_INC_VALUE",
             "args": {
-              "variable": "V1"
+              "variable": "V1",
+              "__collapse": true
             },
             "id": "2b8f450d-62cd-4124-9638-9aac5ca59aa9"
           },
@@ -249,14 +253,16 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": false
             },
             "id": "6eddda52-76f4-4d45-ab89-d020eee05024"
           },
           {
             "command": "EVENT_DEC_VALUE",
             "args": {
-              "variable": "V1"
+              "variable": "V1",
+              "__collapse": true
             },
             "id": "5c7bd086-d6ed-4e5a-a916-7479c5e6da24"
           },
@@ -313,7 +319,7 @@
               "choices": 2,
               "__collapseCase0": true,
               "value0": 1,
-              "__collapseCase1": false,
+              "__collapseCase1": true,
               "value1": 2,
               "__collapseCase2": false,
               "value2": 3,
@@ -344,7 +350,8 @@
               "__collapseCase15": false,
               "value15": 16,
               "__collapseElse": false,
-              "__collapse": false
+              "__collapse": false,
+              "__disableElse": true
             },
             "children": {
               "true0": [
@@ -407,8 +414,9 @@
                         "value": "V1"
                       }
                     },
-                    "__collapseElse": false,
-                    "__collapse": false
+                    "__collapseElse": true,
+                    "__collapse": true,
+                    "__label": "If Tie"
                   },
                   "children": {
                     "true": [
@@ -465,7 +473,8 @@
                             }
                           },
                           "__collapseElse": false,
-                          "__collapse": false
+                          "__collapse": false,
+                          "__label": "If Correct"
                         },
                         "children": {
                           "true": [
@@ -578,7 +587,8 @@
                   "args": {
                     "actorId": "1",
                     "spriteStateId": "",
-                    "loopAnim": false
+                    "loopAnim": false,
+                    "__collapse": true
                   },
                   "id": "b21835a4-0ef5-4446-a59d-b1d7fd1c02c6"
                 },
@@ -608,7 +618,8 @@
                       }
                     },
                     "__collapseElse": false,
-                    "__collapse": false
+                    "__collapse": false,
+                    "__label": "If Tied"
                   },
                   "children": {
                     "true": [
@@ -665,7 +676,8 @@
                             }
                           },
                           "__collapseElse": false,
-                          "__collapse": false
+                          "__collapse": false,
+                          "__label": "If Correct"
                         },
                         "children": {
                           "true": [
@@ -779,7 +791,9 @@
                 }
               },
               "__collapseElse": true,
-              "__disableElse": true
+              "__disableElse": true,
+              "__collapse": true,
+              "__label": "If Player Wins"
             },
             "children": {
               "true": [
@@ -890,11 +904,11 @@
                     "sceneId": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
                     "x": {
                       "type": "number",
-                      "value": 0
+                      "value": 4
                     },
                     "y": {
                       "type": "number",
-                      "value": 0
+                      "value": 17
                     },
                     "direction": "",
                     "fadeSpeed": 4,
@@ -922,7 +936,9 @@
                 }
               },
               "__collapseElse": true,
-              "__disableElse": true
+              "__disableElse": true,
+              "__collapse": false,
+              "__label": "If Soda Wins"
             },
             "children": {
               "true": [
@@ -932,7 +948,7 @@
                     "text": [
                       "WOAHHHHHHHHHHHH\nTHERE FOLKS!",
                       "WE HAVE A WINNNNNN\nNNNNNNNNNNNNERRRR!",
-                      "GIVE IT UP FOR\nSOOOOOOOOOOOODA!!!!!"
+                      "GIVE IT UP FOR\nSOOOOOOOOOODA!!!!!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -950,7 +966,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "8a191f51-ebcd-4a02-8c07-b38c2c69a38a"
                 },
@@ -1042,11 +1058,11 @@
                     "sceneId": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
                     "x": {
                       "type": "number",
-                      "value": 0
+                      "value": 6
                     },
                     "y": {
                       "type": "number",
-                      "value": 0
+                      "value": 17
                     },
                     "direction": "",
                     "fadeSpeed": 4,

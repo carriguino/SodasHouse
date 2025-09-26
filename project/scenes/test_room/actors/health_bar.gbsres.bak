@@ -5,8 +5,8 @@
   "symbol": "actor_6",
   "prefabId": "",
   "name": "Health Bar",
-  "x": 15,
-  "y": 1,
+  "x": 2,
+  "y": 2,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "155d9800-ea8c-4d47-9cc6-b253aa35c2db",
@@ -60,7 +60,8 @@
         "value15": 16,
         "__collapseElse": false,
         "__disableElse": true,
-        "__collapse": false
+        "__collapse": true,
+        "__label": "Update Happiness"
       },
       "children": {
         "true0": [

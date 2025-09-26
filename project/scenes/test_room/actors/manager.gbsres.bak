@@ -369,11 +369,22 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Menu Input"
       },
       "children": {
         "true": [
+          {
+            "command": "PT_EVENT_RTC_GET",
+            "args": {
+              "variableDays": "30",
+              "variableHours": "31",
+              "variableMinutes": "32",
+              "variableSeconds": "35",
+              "__collapse": false
+            },
+            "id": "c1f805b9-63ff-4f4c-82ce-08cccebb5622"
+          },
           {
             "command": "EVENT_MENU",
             "args": {
@@ -381,7 +392,7 @@
               "items": 4,
               "option1": "Save Game",
               "option2": "Erase Save",
-              "option3": "Set Clock",
+              "option3": "Set Clock ($31$:$32$)",
               "option4": "Back",
               "option5": "",
               "option6": "",
