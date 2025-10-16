@@ -1,0 +1,43 @@
+{
+  "_resourceType": "actor",
+  "id": "699639de-95ec-409e-ad3c-f6a27fe2ab39",
+  "name": "night guard",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d04cf812-dd39-4def-a692-41da1dadd868",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "_index": 3,
+  "symbol": "actor_16",
+  "x": 11,
+  "y": 15,
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "71042b13-c35b-4688-b1d2-8f0aa1e20240"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "$self$",
+        "spriteSheetId": "eac8d132-8b6f-45ae-a510-4705a860946e"
+      },
+      "id": "d43b22d4-3bb2-4095-8ed7-c759e28b6cac"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

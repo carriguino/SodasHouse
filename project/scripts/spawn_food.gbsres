@@ -146,7 +146,7 @@
           "type": "direction",
           "value": "right"
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "becd704c-84e9-4e41-976e-ab177a3473b0"
     },
@@ -174,7 +174,7 @@
           "type": "number",
           "value": 11
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "f8a9b8d8-f03b-451f-8717-4f4664550179"
     },
@@ -183,7 +183,7 @@
       "args": {
         "time": 0.5,
         "frames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "28dd7da2-a072-4cfb-a45d-4fd440e76d61"
     },
@@ -203,15 +203,17 @@
       "command": "EVENT_ACTOR_EMOTE",
       "args": {
         "actorId": "$self$",
-        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+        "__collapse": true
       },
       "id": "fa5b0fad-644a-4007-9712-2520443f68ee"
     },
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.2,
-        "frames": 30
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
       },
       "id": "81eb4927-5d6d-4ef9-893f-3d0150e0d612"
     },
@@ -232,7 +234,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -261,7 +263,8 @@
                 "value": 11
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": false,
+              "__comment": true
             },
             "id": "f0842406-4738-40b3-af08-881bddc9f920"
           }
@@ -285,14 +288,16 @@
               "actorId": "1",
               "x": {
                 "type": "expression",
-                "value": "$V1$ + 4"
+                "value": "$V1$ - 1"
               },
               "y": {
                 "type": "number",
                 "value": 11
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": false,
+              "__comment": false,
+              "__collapse": false
             },
             "id": "2bb2d75b-1a66-4283-86c8-19d8393878cd"
           }
@@ -325,14 +330,16 @@
       "command": "EVENT_WAIT",
       "args": {
         "time": 0.5,
-        "frames": 30
+        "frames": 30,
+        "__collapse": true
       },
       "id": "d7c007c5-b3ff-4360-8510-9cea2e8e3212"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "0"
+        "actorId": "0",
+        "__collapse": true
       },
       "id": "b482613b-3766-4a0a-854d-5e7b9978e8eb"
     },
@@ -374,7 +381,7 @@
         "__collapseCase15": false,
         "value15": 16,
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__disableElse": true,
         "__label": "Switch - Update Vars"
       },
@@ -388,7 +395,7 @@
                 "type": "number",
                 "value": 4
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "26aaf812-4e14-432d-af94-f0c9dbb6dfb5"
           },

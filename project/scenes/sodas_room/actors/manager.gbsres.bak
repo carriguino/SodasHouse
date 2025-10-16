@@ -29,6 +29,14 @@
       "id": "649eb205-3099-4e02-b2be-5b0b4bf4c446"
     },
     {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "91acfc38-8c41-4de6-8d16-8b3fd653b751",
+        "__collapse": true
+      },
+      "id": "36252693-13b6-4fc4-8ecc-3d5c6d71aecc"
+    },
+    {
       "command": "EVENT_ACTOR_SET_POSITION",
       "args": {
         "actorId": "player",
@@ -604,6 +612,80 @@
         ]
       },
       "id": "30e16f40-f099-40d8-bb16-fbca64ccaedc"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "T0",
+              "items": 2,
+              "option1": "Change Rooms",
+              "option2": "Back",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "cancelOnLastOption": true
+            },
+            "id": "65b728f9-c061-41c4-a5e3-948b33e6b45e"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "T0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "c212435d-916b-4a8d-8899-6cfe2ed6a71d",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "7089723a-ae77-416b-be95-43ae8fa8acd8"
+                }
+              ],
+              "false": []
+            },
+            "id": "4f5cad86-cd6c-432f-b429-326bf57f3820"
+          }
+        ]
+      },
+      "id": "6ab2695f-a495-494b-84e4-14e89daf4e85"
     }
   ],
   "updateScript": [],

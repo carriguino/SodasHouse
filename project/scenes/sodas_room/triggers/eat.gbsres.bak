@@ -101,7 +101,7 @@
     {
       "command": "EVENT_MENU",
       "args": {
-        "variable": "L0",
+        "variable": "T0",
         "items": 3,
         "option1": "Meal",
         "option2": "Snack",
@@ -125,7 +125,7 @@
           "type": "ne",
           "valueA": {
             "type": "variable",
-            "value": "L0"
+            "value": "T0"
           },
           "valueB": {
             "type": "number",
@@ -137,15 +137,21 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_RNG_SEED",
+            "args": {},
+            "id": "9e9db8e8-c0d2-4a3b-a997-7aa6207523f3"
+          },
+          {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "fd9c7372-06f1-46dd-9b64-9e196422a0f7",
               "$variable[V0]$": {
                 "type": "variable",
-                "value": "L0"
+                "value": "T0"
               },
               "$actor[0]$": "91acfc38-8c41-4de6-8d16-8b3fd653b751",
-              "$actor[1]$": "e87d4bdf-9c10-48a8-867b-20d04716f9e9"
+              "$actor[1]$": "e87d4bdf-9c10-48a8-867b-20d04716f9e9",
+              "$actor[2]$": "player"
             },
             "id": "c8908edd-e2e4-4f19-b04b-d2e7394a755c"
           }

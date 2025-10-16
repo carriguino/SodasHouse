@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "438312c5-68af-422c-a66b-7d03c68a5139",
+  "name": "To Soda's Room",
+  "prefabId": "",
+  "_index": 2,
+  "symbol": "trigger_22",
+  "x": 9,
+  "y": 2,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "22635448-a79a-4c6c-8bb8-b3839b1b0cff"
+    }
+  ],
+  "leaveScript": []
+}

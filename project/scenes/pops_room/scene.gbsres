@@ -1,0 +1,178 @@
+{
+  "_resourceType": "scene",
+  "id": "4d973770-c21e-40b1-8da2-af4c75ddb0b7",
+  "_index": 6,
+  "name": "Pop's Room",
+  "backgroundId": "aaa7c87e-a06e-4f47-a715-09c4969a8792",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [
+    "dmg",
+    null,
+    null,
+    ""
+  ],
+  "spritePaletteIds": [
+    "default-bg-1"
+  ],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 848,
+  "y": 352,
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "script": [
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 600,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "0fcec8ea-f6c4-41f5-81f7-59797169c064"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 0.25,
+        "__collapse": true
+      },
+      "id": "ce92f5d7-e48f-4495-a427-0de7a34fd6e3"
+    },
+    {
+      "command": "EVENT_IF_SAVED_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "0",
+              "variableSource": "0",
+              "saveSlot": 0
+            },
+            "id": "ecdbf594-0390-46c1-bf94-44b24cc33c56"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "1",
+              "variableSource": "1",
+              "saveSlot": 0
+            },
+            "id": "4533d7e4-76da-46a1-8e2f-6b44a665d33d"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "30",
+              "variableSource": "30",
+              "saveSlot": 0
+            },
+            "id": "930b0c35-70fa-4cdc-bd38-17c2c2ca5eaf"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "32",
+              "variableSource": "32",
+              "saveSlot": 0
+            },
+            "id": "49393577-5cbf-4466-ae2f-f5a6537aa98e"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "31",
+              "variableSource": "31",
+              "saveSlot": 0
+            },
+            "id": "a7c434de-ea34-4e5f-9d07-b9351c24050f"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "35",
+              "variableSource": "35",
+              "saveSlot": 0
+            },
+            "id": "e01cc16c-a6cd-4926-b3f8-5d1312441f47"
+          },
+          {
+            "command": "PT_EVENT_RTC_SET",
+            "args": {
+              "variableDays": "30",
+              "valueDays": 0,
+              "typeDays": "variable",
+              "variableHours": "31",
+              "valueHours": 0,
+              "typeHours": "variable",
+              "variableMinutes": "32",
+              "valueMinutes": 0,
+              "typeMinutes": "variable",
+              "variableSeconds": "35",
+              "valueSeconds": 0,
+              "typeSeconds": "variable"
+            },
+            "id": "a0ca5ff9-e2fa-4dc1-a98f-1bfee81eaab6"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "0114ea49-af6c-425e-9628-7fa1185a08bd"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "5dc2801b-93d0-49ae-bba5-4ff5f895cf63"
+          }
+        ]
+      },
+      "id": "bc9e5013-21c9-499f-9f31-433f590e0453"
+    },
+    {
+      "command": "PT_EVENT_RTC_START",
+      "args": {
+        "__collapse": true
+      },
+      "id": "a4e6b167-4056-4c6e-9b6b-6fd82cff3fec"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 3,
+        "__collapse": true
+      },
+      "id": "d5a50204-ca66-427d-a9d6-89dda9afe525"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

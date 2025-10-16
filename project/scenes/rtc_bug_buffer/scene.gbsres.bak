@@ -13,8 +13,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 347.4666748046875,
-  "y": 301.0666748046875,
+  "x": 184,
+  "y": 384,
   "script": [
     {
       "command": "PT_EVENT_RTC_SET",
@@ -36,36 +36,6 @@
       "id": "87f08cdb-8ba0-4259-a2c5-1c9fc321474d"
     },
     {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "$30$ : $31$ : $32$"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "173c8de9-d19e-4789-b380-6e98a4c97d83"
-    },
-    {
-      "command": "PT_EVENT_RTC_START",
-      "args": {},
-      "id": "1b6322fa-a887-4ce7-b147-1913c2038c81"
-    },
-    {
       "command": "EVENT_SAVE_DATA",
       "args": {
         "saveSlot": 0,
@@ -73,6 +43,36 @@
       },
       "children": {
         "true": [
+          {
+            "command": "PT_EVENT_RTC_START",
+            "args": {},
+            "id": "1b6322fa-a887-4ce7-b147-1913c2038c81"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Time Set!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "931e1719-6ca1-4184-988b-ca8ce5a6ac97"
+          },
           {
             "command": "EVENT_WAIT",
             "args": {

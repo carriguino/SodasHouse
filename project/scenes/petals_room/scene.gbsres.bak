@@ -1,0 +1,175 @@
+{
+  "_resourceType": "scene",
+  "id": "76f9746b-da10-4855-a3e5-1cfea06a7999",
+  "_index": 5,
+  "name": "Petal's Room",
+  "backgroundId": "aaa7c87e-a06e-4f47-a715-09c4969a8792",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "default-bg-4"
+  ],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 680,
+  "y": 552,
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "script": [
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 600,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "18991b17-7af8-4f8a-9742-c088743f1d19"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 0.25,
+        "__collapse": true
+      },
+      "id": "6a33b56b-4c99-4108-b8ca-980ee72427a4"
+    },
+    {
+      "command": "EVENT_IF_SAVED_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "0",
+              "variableSource": "0",
+              "saveSlot": 0
+            },
+            "id": "454ef8d4-b538-4197-baac-daa9e7e1d570"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "1",
+              "variableSource": "1",
+              "saveSlot": 0
+            },
+            "id": "d89ee0b2-fa46-4146-a9e0-3ed079ace0cc"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "30",
+              "variableSource": "30",
+              "saveSlot": 0
+            },
+            "id": "c843867f-104e-4f45-af0c-f8cea4190bd1"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "32",
+              "variableSource": "32",
+              "saveSlot": 0
+            },
+            "id": "7ba4eb20-522c-414e-a9aa-1ced86aec259"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "31",
+              "variableSource": "31",
+              "saveSlot": 0
+            },
+            "id": "23d87113-f81b-4719-b4ed-b5045a07d713"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "35",
+              "variableSource": "35",
+              "saveSlot": 0
+            },
+            "id": "f9ae8070-22aa-4060-aae8-edd1d0232a06"
+          },
+          {
+            "command": "PT_EVENT_RTC_SET",
+            "args": {
+              "variableDays": "30",
+              "valueDays": 0,
+              "typeDays": "variable",
+              "variableHours": "31",
+              "valueHours": 0,
+              "typeHours": "variable",
+              "variableMinutes": "32",
+              "valueMinutes": 0,
+              "typeMinutes": "variable",
+              "variableSeconds": "35",
+              "valueSeconds": 0,
+              "typeSeconds": "variable"
+            },
+            "id": "177357a0-7da1-4303-817c-b933f5e4741b"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "79d1d808-e309-4a43-824c-d0bc2a71d890"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "26d44dd4-6861-4da5-90ff-659d26bf80e7"
+          }
+        ]
+      },
+      "id": "6d86d666-4b75-49f5-b71d-c7735ef1a572"
+    },
+    {
+      "command": "PT_EVENT_RTC_START",
+      "args": {
+        "__collapse": true
+      },
+      "id": "66c34694-253e-4063-9a0a-99c5bbdded0d"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 3,
+        "__collapse": true
+      },
+      "id": "89236eca-9358-4b8c-b964-cd21a23de86b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

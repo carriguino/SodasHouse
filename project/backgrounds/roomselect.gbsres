@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9425d321-7b4b-4b1a-b0bf-9c94066d8b5b",
+  "name": "roomselect",
+  "symbol": "bg_roomselect",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "roomselect.png",
+  "tileColors": ""
+}

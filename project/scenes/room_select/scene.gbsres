@@ -1,0 +1,26 @@
+{
+  "_resourceType": "scene",
+  "id": "14b781a2-6b45-4493-b0cc-a3bd80deca7d",
+  "_index": 8,
+  "name": "Room Select",
+  "backgroundId": "9425d321-7b4b-4b1a-b0bf-9c94066d8b5b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    null,
+    "default-sprite"
+  ],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 656,
+  "y": 432,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+}

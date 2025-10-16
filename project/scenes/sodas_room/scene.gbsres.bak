@@ -5,8 +5,8 @@
   "type": "POINTNCLICK",
   "name": "Soda's Room",
   "symbol": "scene_1",
-  "x": 662,
-  "y": 499.38461538461536,
+  "x": 488,
+  "y": 360,
   "width": 20,
   "height": 18,
   "backgroundId": "aaa7c87e-a06e-4f47-a715-09c4969a8792",
@@ -20,13 +20,6 @@
   "autoFadeSpeed": 1,
   "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
   "script": [
-    {
-      "command": "PT_EVENT_RTC_START",
-      "args": {
-        "__collapse": true
-      },
-      "id": "a771e8ee-7c2c-4ca5-af02-6587283ee486"
-    },
     {
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
       "args": {
@@ -52,7 +45,7 @@
       "command": "EVENT_IF_SAVED_DATA",
       "args": {
         "saveSlot": 0,
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": true
       },
       "children": {
@@ -74,6 +67,60 @@
               "saveSlot": 0
             },
             "id": "f2eff6e9-8c19-46c8-93c3-13f9e417a099"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "30",
+              "variableSource": "30",
+              "saveSlot": 0
+            },
+            "id": "ed173eda-c6e1-4b46-9a7c-58ba7ddf4139"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "32",
+              "variableSource": "32",
+              "saveSlot": 0
+            },
+            "id": "c31da8e5-b53b-4723-a5e2-44830bc9788b"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "31",
+              "variableSource": "31",
+              "saveSlot": 0
+            },
+            "id": "f43b4443-50d7-49c3-81a6-894f6ff9595f"
+          },
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "35",
+              "variableSource": "35",
+              "saveSlot": 0
+            },
+            "id": "5aa0df08-656b-4f11-8219-28dfb5f4902a"
+          },
+          {
+            "command": "PT_EVENT_RTC_SET",
+            "args": {
+              "variableDays": "30",
+              "valueDays": 0,
+              "typeDays": "variable",
+              "variableHours": "31",
+              "valueHours": 0,
+              "typeHours": "variable",
+              "variableMinutes": "32",
+              "valueMinutes": 0,
+              "typeMinutes": "variable",
+              "variableSeconds": "35",
+              "valueSeconds": 0,
+              "typeSeconds": "variable"
+            },
+            "id": "5590dfdb-21ee-4ddc-a45e-472c1d8332e8"
           }
         ],
         "false": [
@@ -104,10 +151,18 @@
       "id": "0096b1ea-54a1-4801-b820-818da50f51a5"
     },
     {
+      "command": "PT_EVENT_RTC_START",
+      "args": {
+        "__collapse": true
+      },
+      "id": "a771e8ee-7c2c-4ca5-af02-6587283ee486"
+    },
+    {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 3
+        "speed": 3,
+        "__collapse": true
       },
       "id": "4e26d90e-bea0-44b4-8359-5fc7f88b9ae4"
     }

@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "642bb90a-0e10-4bf9-98ff-f470b94f4f9e",
+  "name": "Sleep",
+  "prefabId": "",
+  "_index": 1,
+  "symbol": "trigger_21",
+  "x": 13,
+  "y": 13,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "76f9746b-da10-4855-a3e5-1cfea06a7999",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "d4077b6b-1a4d-4ade-adba-3d234e003d2e"
+    }
+  ],
+  "leaveScript": []
+}

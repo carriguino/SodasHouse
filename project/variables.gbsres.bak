@@ -23,8 +23,8 @@
     },
     {
       "id": "4",
-      "name": "Variable 5",
-      "symbol": "var_variable_5"
+      "name": "lastScene",
+      "symbol": "var_lastscene"
     },
     {
       "id": "5",
@@ -79,7 +79,7 @@
     {
       "id": "3a066778-da30-4ee5-858e-12141e7966cc__L0",
       "name": "da",
-      "symbol": "var_da_0"
+      "symbol": "var_da"
     },
     {
       "id": "73275a47-e996-495c-b706-d0e1d1376641__L1",
@@ -115,6 +115,76 @@
       "id": "24251738-415c-4c92-b619-7dd01c505b02__L5",
       "name": "sodaScore",
       "symbol": "var_sodascore"
+    },
+    {
+      "id": "2eda5ba1-2e86-48b6-a8b0-7feee62029b1__L0",
+      "name": "da",
+      "symbol": "var_da_0"
+    },
+    {
+      "id": "db565bd4-f1c6-447c-bab4-93193ad78b36__L1",
+      "name": "Local 1",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "fb3bf8b7-513c-4f00-9330-d0fc12e5fdb4__L0",
+      "name": "da",
+      "symbol": "var_da_1"
+    },
+    {
+      "id": "9f7bc61a-fa52-41b7-8c30-5aa5660f6580__L1",
+      "name": "Local 1",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "f273ffe0-737e-495f-b164-bd644391afc8__L0",
+      "name": "Local0",
+      "symbol": "var_local0"
+    },
+    {
+      "id": "bdaaceb8-7a2a-427e-b51a-128d6be14dba__L1",
+      "name": "Local 1",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "a16e5560-5abb-49e3-ab38-f74f6958ad11__L0",
+      "name": "da",
+      "symbol": "var_da_3"
+    },
+    {
+      "id": "f9ddeba3-149e-4bca-b413-f54e2a4ec358__L1",
+      "name": "Local 1",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "dcb05d56-6497-4359-82b4-b8cdad1fba87__L1",
+      "name": "Local 1",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "642bb90a-0e10-4bf9-98ff-f470b94f4f9e__L1",
+      "name": "Local 1",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "e759fe49-96f5-426e-89ab-fe9a5abdf99b__L0",
+      "name": "cursorPos",
+      "symbol": "var_cursorpos"
+    },
+    {
+      "id": "438312c5-68af-422c-a66b-7d03c68a5139__L1",
+      "name": "Local 1",
+      "symbol": "var_local_7"
+    },
+    {
+      "id": "acf18c3c-a395-477e-880e-424d55bbf3e1__L1",
+      "name": "Local 1",
+      "symbol": "var_local_8"
+    },
+    {
+      "id": "a93a30dd-ea09-40dc-8a3f-adc7229d2f93__L1",
+      "name": "Local 1",
+      "symbol": "var_local_9"
     }
   ]
 }
