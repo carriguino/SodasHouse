@@ -173,7 +173,7 @@
         "option2_l": 1,
         "option2_r": 3,
         "option2_u": 0,
-        "option2_d": 4,
+        "option2_d": 5,
         "option_3_text": "3",
         "option3_x": 5,
         "option3_y": 2,
@@ -341,7 +341,7 @@
         "option3_x": 5,
         "option3_y": 2,
         "option3_l": 2,
-        "option3_r": 4,
+        "option3_r": 0,
         "option3_u": 0,
         "option3_d": 6,
         "option_4_text": "4",
@@ -368,9 +368,9 @@
         "option_7_text": "7",
         "option7_x": 1,
         "option7_y": 6,
-        "option7_l": 6,
+        "option7_l": 0,
         "option7_r": 8,
-        "option7_u": 3,
+        "option7_u": 4,
         "option7_d": 10,
         "option_8_text": "8",
         "option8_x": 3,
@@ -435,7 +435,7 @@
         "option16_r": 0,
         "option16_u": 0,
         "option16_d": 0,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Min Ones Adv Menu"
       },
       "id": "a6ac1524-9ca3-4254-a361-55988b54c984"
@@ -484,7 +484,7 @@
           "type": "expression",
           "value": "($33$ * 10) + $34$"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "56fb2439-5e46-4680-a4fb-64e796c9b44d"
     },
@@ -632,31 +632,6 @@
       },
       "children": {
         "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Time Set!"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "41913d70-4a3d-44be-b8f6-a0de2e42a037"
-          },
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {

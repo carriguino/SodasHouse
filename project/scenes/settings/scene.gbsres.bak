@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "65687192-ced4-4330-82fe-3635668d7661",
   "_index": 2,
-  "name": "Set Clock",
+  "name": "Settings",
   "backgroundId": "27c21be2-c51e-4621-ad19-4d48fd8f0ae8",
   "tilesetId": "",
   "width": 20,
@@ -29,24 +29,6 @@
         "customEventId": "a04335c9-7f3c-4be7-82c0-a689e6b3fbdc"
       },
       "id": "73877421-15b1-4f4b-9d58-da4142c9ee3a"
-    },
-    {
-      "command": "PT_EVENT_RTC_SET",
-      "args": {
-        "variableDays": "L0",
-        "valueDays": 0,
-        "typeDays": "number",
-        "variableHours": "L0",
-        "valueHours": 0,
-        "typeHours": "number",
-        "variableMinutes": "L0",
-        "valueMinutes": 0,
-        "typeMinutes": "number",
-        "variableSeconds": "L0",
-        "valueSeconds": 0,
-        "typeSeconds": "number"
-      },
-      "id": "12f70465-77eb-41fe-9861-390218e39d61"
     }
   ],
   "playerHit1Script": [],

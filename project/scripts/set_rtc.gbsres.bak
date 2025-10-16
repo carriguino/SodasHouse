@@ -173,7 +173,7 @@
         "option2_l": 1,
         "option2_r": 3,
         "option2_u": 0,
-        "option2_d": 4,
+        "option2_d": 5,
         "option_3_text": "3",
         "option3_x": 5,
         "option3_y": 2,
@@ -341,7 +341,7 @@
         "option3_x": 5,
         "option3_y": 2,
         "option3_l": 2,
-        "option3_r": 4,
+        "option3_r": 0,
         "option3_u": 0,
         "option3_d": 6,
         "option_4_text": "4",
@@ -368,9 +368,9 @@
         "option_7_text": "7",
         "option7_x": 1,
         "option7_y": 6,
-        "option7_l": 6,
+        "option7_l": 0,
         "option7_r": 8,
-        "option7_u": 3,
+        "option7_u": 4,
         "option7_d": 10,
         "option_8_text": "8",
         "option8_x": 3,
@@ -435,7 +435,7 @@
         "option16_r": 0,
         "option16_u": 0,
         "option16_d": 0,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Min Ones Adv Menu"
       },
       "id": "a6ac1524-9ca3-4254-a361-55988b54c984"
@@ -484,7 +484,7 @@
           "type": "expression",
           "value": "($33$ * 10) + $34$"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "56fb2439-5e46-4680-a4fb-64e796c9b44d"
     },
@@ -633,24 +633,6 @@
       "children": {
         "true": [
           {
-            "command": "PT_EVENT_RTC_SET",
-            "args": {
-              "variableDays": "V0",
-              "valueDays": 0,
-              "typeDays": "number",
-              "variableHours": "V0",
-              "valueHours": 0,
-              "typeHours": "number",
-              "variableMinutes": "V0",
-              "valueMinutes": 0,
-              "typeMinutes": "number",
-              "variableSeconds": "V0",
-              "valueSeconds": 0,
-              "typeSeconds": "number"
-            },
-            "id": "68b65f0f-4289-4031-b6fe-f5f1e5bde019"
-          },
-          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -678,7 +660,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
+              "sceneId": "fa21c0c7-b14d-4fc8-a0a2-28cd2d545030",
               "x": {
                 "type": "number",
                 "value": 0
@@ -688,7 +670,7 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": 1
+              "fadeSpeed": 0
             },
             "id": "19e3c9dd-f282-4ad3-8f9f-4e36ee10b403"
           }
@@ -714,24 +696,6 @@
         ]
       },
       "id": "e46e3569-1978-48da-a6c3-1b05805f9b79"
-    },
-    {
-      "command": "PT_EVENT_RTC_SET",
-      "args": {
-        "variableDays": "V0",
-        "valueDays": 0,
-        "typeDays": "number",
-        "variableHours": "V0",
-        "valueHours": 0,
-        "typeHours": "number",
-        "variableMinutes": "V0",
-        "valueMinutes": 0,
-        "typeMinutes": "number",
-        "variableSeconds": "V0",
-        "valueSeconds": 0,
-        "typeSeconds": "number"
-      },
-      "id": "7f08d02c-11c2-49a1-ab9e-37ee15971ac0"
     }
   ]
 }

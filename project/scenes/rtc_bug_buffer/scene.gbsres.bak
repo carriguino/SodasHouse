@@ -36,29 +36,76 @@
       "id": "87f08cdb-8ba0-4259-a2c5-1c9fc321474d"
     },
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "$30$ : $31$ : $32$"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "173c8de9-d19e-4789-b380-6e98a4c97d83"
+    },
+    {
       "command": "PT_EVENT_RTC_START",
       "args": {},
       "id": "1b6322fa-a887-4ce7-b147-1913c2038c81"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_SAVE_DATA",
       "args": {
-        "sceneId": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
-        "x": {
-          "type": "number",
-          "value": 2
-        },
-        "y": {
-          "type": "number",
-          "value": 17
-        },
-        "direction": "",
-        "fadeSpeed": 1
+        "saveSlot": 0,
+        "__scriptTabs": "save"
       },
-      "id": "182e573d-3832-4bff-b361-b551824efc3c"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "f1291f2c-5d6a-41a0-86c2-85e99c236d96"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "direction": "",
+              "fadeSpeed": 1
+            },
+            "id": "182e573d-3832-4bff-b361-b551824efc3c"
+          }
+        ],
+        "load": []
+      },
+      "id": "4955cf03-02dc-43b4-89be-fd1bd5141647"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
 }

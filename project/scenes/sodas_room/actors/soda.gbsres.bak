@@ -5,7 +5,7 @@
   "symbol": "actor_1",
   "prefabId": "",
   "name": "Soda",
-  "x": 9,
+  "x": 4,
   "y": 11,
   "frame": 0,
   "animate": false,
@@ -144,7 +144,7 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 4,
-        "duration": 4,
+        "duration": 60,
         "frames": 30,
         "__scriptTabs": "end",
         "__collapse": false
@@ -184,6 +184,19 @@
             },
             "children": {
               "true": [
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "priority": "medium",
+                    "pitch": 6,
+                    "frequency": 600,
+                    "duration": 0.05,
+                    "wait": true,
+                    "effect": 0
+                  },
+                  "id": "57861d75-5cd6-4890-9f63-dbb682a8920d"
+                },
                 {
                   "command": "EVENT_SET_VALUE",
                   "args": {
@@ -462,7 +475,7 @@
                             },
                             "valueB": {
                               "type": "number",
-                              "value": 6
+                              "value": 30
                             }
                           },
                           "__collapseElse": true,
@@ -518,6 +531,19 @@
                                 "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
                               },
                               "id": "2a8d02cc-0ddf-4928-93b1-49f51cc3b083"
+                            },
+                            {
+                              "command": "EVENT_SOUND_PLAY_EFFECT",
+                              "args": {
+                                "type": "crash",
+                                "priority": "medium",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": true,
+                                "effect": 0
+                              },
+                              "id": "e211da1c-f014-44d6-822b-db31837e5ac1"
                             }
                           ],
                           "false": []

@@ -29,14 +29,6 @@
       "id": "649eb205-3099-4e02-b2be-5b0b4bf4c446"
     },
     {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "91acfc38-8c41-4de6-8d16-8b3fd653b751",
-        "__collapse": true
-      },
-      "id": "36252693-13b6-4fc4-8ecc-3d5c6d71aecc"
-    },
-    {
       "command": "EVENT_ACTOR_SET_POSITION",
       "args": {
         "actorId": "player",

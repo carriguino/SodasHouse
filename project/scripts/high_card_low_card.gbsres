@@ -305,10 +305,10 @@
               "option6": "",
               "option7": "",
               "option8": "",
-              "cancelOnB": true,
+              "cancelOnB": false,
               "layout": "dialogue",
               "cancelOnLastOption": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "28957e59-6907-4983-ac94-1e6898e20b3d"
           },

@@ -35,7 +35,7 @@
         "frequency": 600,
         "duration": 0.05,
         "effect": 0,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "00a25ee2-72d4-4444-a4b2-775daa8d2f3b"
     },
