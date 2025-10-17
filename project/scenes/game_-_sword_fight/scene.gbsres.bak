@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "c34cbfb4-fa5e-46b3-8964-3267cdcd3071",
+  "_index": 9,
+  "name": "Game - Sword Fight",
+  "backgroundId": "9ebe6a33-f59f-4a00-8893-d1b711b9006b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 1040,
+  "y": 232,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "e122d8ad-edca-4d1d-a9bb-9ff40e0243f9"
+      },
+      "id": "914d0555-6d0f-4e14-ada4-42464d0c95d6"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

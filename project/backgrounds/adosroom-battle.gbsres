@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9ebe6a33-f59f-4a00-8893-d1b711b9006b",
+  "name": "adosroom-battle",
+  "symbol": "bg_adosroom_battle",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "adosroom-battle.png",
+  "tileColors": ""
+}

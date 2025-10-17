@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "79cdde71-52b9-4ddc-895f-3c61aaca6db3",
+  "name": "Dpad4",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f52c21d2-01cf-4a38-900a-1b7666d16867",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_68",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "63913931-2216-4446-8bf0-214ce9857c33"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 16,
+  "y": 16,
+  "_index": 4
+}

@@ -3,13 +3,13 @@
   "variables": [
     {
       "id": "0",
-      "name": "happiness",
-      "symbol": "var_happiness"
+      "name": "sodaHappiness",
+      "symbol": "var_sodahappiness"
     },
     {
       "id": "1",
-      "name": "hunger",
-      "symbol": "var_hunger"
+      "name": "sodaHunger",
+      "symbol": "var_sodahunger"
     },
     {
       "id": "2",
@@ -18,8 +18,8 @@
     },
     {
       "id": "3",
-      "name": "attentionWanted",
-      "symbol": "var_attentionwanted"
+      "name": "sodaAttentionWanted",
+      "symbol": "var_sodaattentionwanted"
     },
     {
       "id": "4",
@@ -28,8 +28,8 @@
     },
     {
       "id": "5",
-      "name": "lights",
-      "symbol": "var_lights"
+      "name": "sodaLights",
+      "symbol": "var_sodalights"
     },
     {
       "id": "6",
@@ -38,8 +38,8 @@
     },
     {
       "id": "7",
-      "name": "Variable 7",
-      "symbol": "var_variable_7"
+      "name": "adosAttentionWanted",
+      "symbol": "var_adosattentionwanted"
     },
     {
       "id": "30",
@@ -185,6 +185,86 @@
       "id": "a93a30dd-ea09-40dc-8a3f-adc7229d2f93__L1",
       "name": "Local 1",
       "symbol": "var_local_9"
+    },
+    {
+      "id": "8",
+      "name": "adosHappiness",
+      "symbol": "var_adoshappiness"
+    },
+    {
+      "id": "9",
+      "name": "adosHunger",
+      "symbol": "var_adoshunger"
+    },
+    {
+      "id": "10",
+      "name": "adosLights",
+      "symbol": "var_adoslights"
+    },
+    {
+      "id": "11",
+      "name": "apricotAttentionWanted",
+      "symbol": "var_apricotattentionwanted"
+    },
+    {
+      "id": "12",
+      "name": "popAttentionWanted",
+      "symbol": "var_popattentionwanted"
+    },
+    {
+      "id": "13",
+      "name": "petalAttentionWanted",
+      "symbol": "var_petalattentionwanted"
+    },
+    {
+      "id": "14",
+      "name": "popHappiness",
+      "symbol": "var_pophappiness"
+    },
+    {
+      "id": "15",
+      "name": "apricotHappiness",
+      "symbol": "var_apricothappiness"
+    },
+    {
+      "id": "16",
+      "name": "petalHappiness",
+      "symbol": "var_petalhappiness"
+    },
+    {
+      "id": "17",
+      "name": "popHunger",
+      "symbol": "var_pophunger"
+    },
+    {
+      "id": "18",
+      "name": "apricotHunger",
+      "symbol": "var_apricothunger"
+    },
+    {
+      "id": "19",
+      "name": "petalHunger",
+      "symbol": "var_petalhunger"
+    },
+    {
+      "id": "20",
+      "name": "Lights",
+      "symbol": "var_lights"
+    },
+    {
+      "id": "21",
+      "name": "popLights",
+      "symbol": "var_poplights"
+    },
+    {
+      "id": "22",
+      "name": "apricotLights",
+      "symbol": "var_apricotlights"
+    },
+    {
+      "id": "23",
+      "name": "petalLights",
+      "symbol": "var_petallights"
     }
   ]
 }
