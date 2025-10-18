@@ -17,8 +17,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_8",
-  "x": 584,
-  "y": 168,
+  "x": 464,
+  "y": 344,
   "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
   "script": [
     {

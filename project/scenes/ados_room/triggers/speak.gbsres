@@ -15,12 +15,12 @@
       "command": "EVENT_IF",
       "args": {
         "variable": "5",
-        "__collapseElse": false,
+        "__collapseElse": true,
         "condition": {
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "5"
+            "value": "10"
           },
           "valueB": {
             "type": "false"
@@ -42,11 +42,12 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "83b22cb2-5275-4669-a203-3d5793f3297e",
+        "customEventId": "f2decf85-d1c3-4ad7-a44e-62fed136c001",
         "$variable[V0]$": {
           "type": "variable",
           "value": "T0"
-        }
+        },
+        "$actor[0]$": "134a5524-3c99-4271-b460-627d8499b0a1"
       },
       "id": "3e26ea37-679f-4d78-b4ed-943e4867b65c"
     }

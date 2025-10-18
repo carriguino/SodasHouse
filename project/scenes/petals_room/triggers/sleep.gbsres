@@ -18,7 +18,7 @@
         "__collapseElse": false,
         "condition": {
           "type": "variable",
-          "value": "5"
+          "value": "23"
         }
       },
       "children": {
@@ -63,7 +63,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "5",
+              "variable": "23",
               "value": {
                 "type": "false"
               }
@@ -141,7 +141,7 @@
           {
             "command": "EVENT_PALETTE_SET_SPRITE",
             "args": {
-              "palette0": "default-bg-1",
+              "palette0": "default-bg-4",
               "palette1": "keep",
               "palette2": "keep",
               "palette3": "keep",
@@ -164,7 +164,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "5",
+              "variable": "23",
               "value": {
                 "type": "true"
               }

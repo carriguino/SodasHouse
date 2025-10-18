@@ -155,6 +155,14 @@
               "$variable[V1]$": {
                 "type": "variable",
                 "value": "T1"
+              },
+              "$variable[V2]$": {
+                "type": "variable",
+                "value": "1"
+              },
+              "$variable[V4]$": {
+                "type": "variable",
+                "value": "2"
               }
             },
             "id": "c8908edd-e2e4-4f19-b04b-d2e7394a755c"

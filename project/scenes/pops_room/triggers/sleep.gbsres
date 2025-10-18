@@ -18,7 +18,7 @@
         "__collapseElse": false,
         "condition": {
           "type": "variable",
-          "value": "5"
+          "value": "21"
         }
       },
       "children": {
@@ -63,7 +63,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "5",
+              "variable": "21",
               "value": {
                 "type": "false"
               }
@@ -164,7 +164,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "5",
+              "variable": "21",
               "value": {
                 "type": "true"
               }

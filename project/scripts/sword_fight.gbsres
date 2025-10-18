@@ -247,7 +247,7 @@
                     "actorId": "0",
                     "direction": {
                       "type": "direction",
-                      "value": "left"
+                      "value": "up"
                     },
                     "__collapseElse": false
                   },
@@ -257,7 +257,7 @@
                         "command": "EVENT_AWAIT_INPUT",
                         "args": {
                           "input": [
-                            "left"
+                            "up"
                           ]
                         },
                         "id": "a6673951-dadb-4e45-b329-06416bdd9ca9"
@@ -295,7 +295,7 @@
                                   "type": "direction",
                                   "value": "right"
                                 },
-                                "__collapseElse": true
+                                "__collapseElse": false
                               },
                               "children": {
                                 "true": [

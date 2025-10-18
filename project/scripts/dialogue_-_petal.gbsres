@@ -1,0 +1,548 @@
+{
+  "_resourceType": "script",
+  "id": "a94cb1a1-472c-453e-9a94-65a865aae6a1",
+  "name": "Dialogue - Petal",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_8",
+  "script": [
+    {
+      "command": "EVENT_RNG_SEED",
+      "args": {},
+      "id": "bc99cb1a-de40-4dce-ae89-7c5037d26ee5"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V0",
+        "value": {
+          "type": "rnd",
+          "value": {
+            "type": "number",
+            "value": 12
+          }
+        },
+        "__collapse": true
+      },
+      "id": "4ca5252a-ad87-4677-b661-a67d2c62f463"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "SODA: I'm so\nfreaking hungry!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "76af2c0a-7edd-4a73-aaa2-6c78afad864e"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "SODA: Sorry...\nI'm not really",
+                      "in the mood to\ntalk right now..."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "579d3ae2-8f65-4e22-a68f-0ec72409e4c8"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "V0",
+                    "choices": 12,
+                    "__collapseCase0": false,
+                    "value0": 1,
+                    "__collapseCase1": false,
+                    "value1": 2,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": false,
+                    "__collapse": false,
+                    "__disableElse": true
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: Hi! I'm\nSoda! :P"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "6c4c2be0-3efd-45dd-a64a-d77acc1b50d9"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: .... uh....\nI was gonna say",
+                            "something, \nbut i forgot..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "13366b91-2af1-4972-ae85-a624d165fd62"
+                      }
+                    ],
+                    "true2": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: Merry\nChristmas!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "7f1aaaa8-0e2b-431f-b39e-4d6e61609770"
+                      }
+                    ],
+                    "true3": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: Rub my\nbelly!!!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "e4f88e1d-6f15-471e-adab-cb731696e089"
+                      }
+                    ],
+                    "true4": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: Wanna see\nsomething cool?",
+                            "Check it. B)",
+                            "effective. Power \nلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ 冗",
+                            "Wait it can't\nrender those",
+                            "characters....\nnvm...."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "456f06ae-9e4c-4e1a-8825-22ae6542f8b7"
+                      }
+                    ],
+                    "true5": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: I love\nGHM comics!",
+                            "And I love my\nparents!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "37fe13bc-69b2-4795-aa1c-70c77e462e90"
+                      }
+                    ],
+                    "true6": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: I saw ADOS\neating my snacks",
+                            "out of the fridge\nlast night...",
+                            "He's such a\nmenace!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "ba85c94a-ae09-4153-a050-1304876832eb"
+                      }
+                    ],
+                    "true7": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: Hi!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "3e671188-b83e-4278-a8a4-671933e0380c"
+                      }
+                    ],
+                    "true8": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: Thank you so\nmuch for taking",
+                            "care of me! <3"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "ff5a0a35-81e9-4707-a98f-636a178e17d8"
+                      }
+                    ],
+                    "true9": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: I wish we\nhad a mail service",
+                            "Then I could send\nyou fan mail!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "bb0dc122-7a7c-4d73-b2b2-06b85b409092"
+                      }
+                    ],
+                    "true10": [
+                      {
+                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                        "args": {
+                          "type": "tone",
+                          "priority": "medium",
+                          "pitch": 4,
+                          "frequency": 75,
+                          "duration": 0.5,
+                          "wait": true,
+                          "effect": 0
+                        },
+                        "id": "e08cca1e-7e2c-4487-89bb-43e4af4228b8"
+                      },
+                      {
+                        "command": "EVENT_CAMERA_SHAKE",
+                        "args": {
+                          "time": 0.25,
+                          "frames": 30,
+                          "shakeDirection": "horizontal",
+                          "magnitude": {
+                            "type": "number",
+                            "value": 5
+                          }
+                        },
+                        "id": "3b09b3d8-c92e-442d-8efd-7da669e7fd62"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: *BURPS*"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "f3b4ca6f-af54-4b1f-8ddc-b67860f6c91e"
+                      }
+                    ],
+                    "true11": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: I had two\npancakes earlier!",
+                            "Two!!!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "e54764ff-738f-4deb-8e38-eefaac458bb7"
+                      }
+                    ],
+                    "true12": [],
+                    "true13": [],
+                    "true14": [],
+                    "true15": [],
+                    "false": []
+                  },
+                  "id": "efdb7a71-62cc-40af-a5fb-fe49ddd6cde1"
+                }
+              ]
+            },
+            "id": "d342628e-daaf-4efa-a55f-95bce86ea878"
+          }
+        ]
+      },
+      "id": "fe669bc0-a649-4fde-b17c-2de9cdc5acf8"
+    }
+  ]
+}

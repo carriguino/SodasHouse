@@ -13,8 +13,8 @@
     },
     {
       "id": "2",
-      "name": "weight",
-      "symbol": "var_weight"
+      "name": "sodaWeight",
+      "symbol": "var_sodaweight"
     },
     {
       "id": "3",
@@ -79,7 +79,7 @@
     {
       "id": "15",
       "name": "apricotHappiness",
-      "symbol": "var_apricothappiness"
+      "symbol": "var_apricothappiness_0"
     },
     {
       "id": "16",
@@ -89,7 +89,7 @@
     {
       "id": "17",
       "name": "popHunger",
-      "symbol": "var_pophunger"
+      "symbol": "var_pophunger_0"
     },
     {
       "id": "18",
@@ -99,7 +99,7 @@
     {
       "id": "19",
       "name": "petalHunger",
-      "symbol": "var_petalhunger"
+      "symbol": "var_petalhunger_0"
     },
     {
       "id": "20",
@@ -119,7 +119,7 @@
     {
       "id": "23",
       "name": "petalLights",
-      "symbol": "var_petallights"
+      "symbol": "var_petallights_0"
     },
     {
       "id": "30",
@@ -265,6 +265,36 @@
       "id": "a93a30dd-ea09-40dc-8a3f-adc7229d2f93__L1",
       "name": "Local 1",
       "symbol": "var_local_9"
+    },
+    {
+      "id": "44",
+      "name": "adosWeight",
+      "symbol": "var_adosweight"
+    },
+    {
+      "id": "24",
+      "name": "apricotWeight",
+      "symbol": "var_apricotweight"
+    },
+    {
+      "id": "25",
+      "name": "petalWeight",
+      "symbol": "var_petalweight"
+    },
+    {
+      "id": "28",
+      "name": "popWeight",
+      "symbol": "var_popweight"
+    },
+    {
+      "id": "c38b6d62-1577-4cef-bdbe-e2cf5482eb5f__L0",
+      "name": "da",
+      "symbol": "var_da_2"
+    },
+    {
+      "id": "006caa94-fbc7-4c93-b478-d9dca6585950__L1",
+      "name": "Local 1",
+      "symbol": "var_local_10"
     }
   ]
 }

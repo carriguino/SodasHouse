@@ -50,7 +50,7 @@
                       "type": "gt",
                       "valueA": {
                         "type": "variable",
-                        "value": "1"
+                        "value": "18"
                       },
                       "valueB": {
                         "type": "number",
@@ -65,7 +65,7 @@
                       {
                         "command": "EVENT_DEC_VALUE",
                         "args": {
-                          "variable": "1"
+                          "variable": "18"
                         },
                         "id": "e3dd6229-f137-465c-93f2-110febdf4aa8"
                       }
@@ -77,7 +77,7 @@
                 {
                   "command": "EVENT_DEC_VALUE",
                   "args": {
-                    "variable": "0"
+                    "variable": "18"
                   },
                   "id": "ce757bd2-a699-4f1e-bda7-6727c650303d"
                 }
@@ -104,7 +104,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -121,7 +121,7 @@
                 "type": "lte",
                 "valueA": {
                   "type": "variable",
-                  "value": "1"
+                  "value": "18"
                 },
                 "valueB": {
                   "type": "number",
@@ -134,7 +134,7 @@
                 {
                   "command": "EVENT_INC_VALUE",
                   "args": {
-                    "variable": "1"
+                    "variable": "18"
                   },
                   "id": "e707e535-6782-4289-a3ec-45e878794aa0"
                 }
@@ -155,7 +155,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -172,7 +172,7 @@
                 "type": "gte",
                 "valueA": {
                   "type": "variable",
-                  "value": "1"
+                  "value": "18"
                 },
                 "valueB": {
                   "type": "number",
@@ -185,7 +185,7 @@
                 {
                   "command": "EVENT_DEC_VALUE",
                   "args": {
-                    "variable": "1"
+                    "variable": "18"
                   },
                   "id": "f3a4ca05-b74b-46a6-9dd3-335f09d2fad9"
                 }
@@ -203,7 +203,7 @@
     {
       "command": "EVENT_SWITCH",
       "args": {
-        "variable": "1",
+        "variable": "18",
         "choices": 5,
         "__collapseCase0": false,
         "value0": 0,
@@ -239,7 +239,7 @@
         "value15": 16,
         "__collapseElse": false,
         "__disableElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Update Hunger"
       },
       "children": {

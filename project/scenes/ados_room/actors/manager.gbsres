@@ -67,11 +67,11 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "5",
+        "variable": "10",
         "value": {
           "type": "true"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "c78970cd-0d2d-4013-9f2a-e7b7d1cb8855"
     },
@@ -377,7 +377,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Menu Input"
       },
       "children": {
@@ -633,7 +633,7 @@
         "override": true,
         "__scriptTabs": "press",
         "__label": "Start Input",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

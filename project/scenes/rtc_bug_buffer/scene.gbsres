@@ -17,6 +17,13 @@
   "y": 384,
   "script": [
     {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "f3510d93-d549-4050-be6a-6ac589b1233d"
+    },
+    {
       "command": "PT_EVENT_RTC_SET",
       "args": {
         "variableDays": "30",

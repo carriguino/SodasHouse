@@ -575,6 +575,17 @@
               ],
               "true2": [
                 {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "4",
+                    "value": {
+                      "type": "number",
+                      "value": 2
+                    }
+                  },
+                  "id": "8e800557-e3e6-4506-8c90-3abcdd5c291a"
+                },
+                {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
                     "sceneId": "65687192-ced4-4330-82fe-3635668d7661",
@@ -621,8 +632,8 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__label": "Room Switcher",
-        "__collapse": true
+        "__label": "Start Input",
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -664,16 +675,27 @@
             "children": {
               "true": [
                 {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "4",
+                    "value": {
+                      "type": "number",
+                      "value": 2
+                    }
+                  },
+                  "id": "5a791001-2023-4ab5-a59f-b6becf08ebfc"
+                },
+                {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "c212435d-916b-4a8d-8899-6cfe2ed6a71d",
+                    "sceneId": "14b781a2-6b45-4493-b0cc-a3bd80deca7d",
                     "x": {
                       "type": "number",
-                      "value": 0
+                      "value": 2
                     },
                     "y": {
                       "type": "number",
-                      "value": 0
+                      "value": 17
                     },
                     "direction": "",
                     "fadeSpeed": "2"

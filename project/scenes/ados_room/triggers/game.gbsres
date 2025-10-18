@@ -20,7 +20,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "5"
+            "value": "10"
           },
           "valueB": {
             "type": "false"

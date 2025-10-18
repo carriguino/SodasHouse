@@ -575,6 +575,17 @@
               ],
               "true2": [
                 {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "4",
+                    "value": {
+                      "type": "number",
+                      "value": 4
+                    }
+                  },
+                  "id": "daf86bb9-4243-4478-a4b4-74841a0bd39f"
+                },
+                {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
                     "sceneId": "65687192-ced4-4330-82fe-3635668d7661",
@@ -612,6 +623,93 @@
         ]
       },
       "id": "e79587a2-2ee6-47cb-922f-8810e9578a21"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__label": "Start Input",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "T0",
+              "items": 2,
+              "option1": "Change Rooms",
+              "option2": "Back",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "cancelOnLastOption": true
+            },
+            "id": "e57de29f-59ed-4718-82d6-7d3f88396020"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "T0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "4",
+                    "value": {
+                      "type": "number",
+                      "value": 4
+                    }
+                  },
+                  "id": "71f2f071-93ab-4efc-b213-c41dfdc5a9cc"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "14b781a2-6b45-4493-b0cc-a3bd80deca7d",
+                    "x": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "6192497d-e832-4bde-b80e-025ff2ba9f75"
+                }
+              ],
+              "false": []
+            },
+            "id": "1e56ceb1-e8ed-4f02-943a-d418ea245685"
+          }
+        ]
+      },
+      "id": "1d04beac-5a57-4387-b61f-3bf526654e3e"
     }
   ],
   "updateScript": [],

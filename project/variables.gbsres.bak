@@ -13,8 +13,8 @@
     },
     {
       "id": "2",
-      "name": "weight",
-      "symbol": "var_weight"
+      "name": "sodaWeight",
+      "symbol": "var_sodaweight"
     },
     {
       "id": "3",
@@ -40,6 +40,86 @@
       "id": "7",
       "name": "adosAttentionWanted",
       "symbol": "var_adosattentionwanted"
+    },
+    {
+      "id": "8",
+      "name": "adosHappiness",
+      "symbol": "var_adoshappiness"
+    },
+    {
+      "id": "9",
+      "name": "adosHunger",
+      "symbol": "var_adoshunger"
+    },
+    {
+      "id": "10",
+      "name": "adosLights",
+      "symbol": "var_adoslights"
+    },
+    {
+      "id": "11",
+      "name": "apricotAttentionWanted",
+      "symbol": "var_apricotattentionwanted"
+    },
+    {
+      "id": "12",
+      "name": "popAttentionWanted",
+      "symbol": "var_popattentionwanted"
+    },
+    {
+      "id": "13",
+      "name": "petalAttentionWanted",
+      "symbol": "var_petalattentionwanted"
+    },
+    {
+      "id": "14",
+      "name": "popHappiness",
+      "symbol": "var_pophappiness"
+    },
+    {
+      "id": "15",
+      "name": "apricotHappiness",
+      "symbol": "var_apricothappiness_0"
+    },
+    {
+      "id": "16",
+      "name": "petalHappiness",
+      "symbol": "var_petalhappiness"
+    },
+    {
+      "id": "17",
+      "name": "popHunger",
+      "symbol": "var_pophunger_0"
+    },
+    {
+      "id": "18",
+      "name": "apricotHunger",
+      "symbol": "var_apricothunger"
+    },
+    {
+      "id": "19",
+      "name": "petalHunger",
+      "symbol": "var_petalhunger_0"
+    },
+    {
+      "id": "20",
+      "name": "Lights",
+      "symbol": "var_lights"
+    },
+    {
+      "id": "21",
+      "name": "popLights",
+      "symbol": "var_poplights"
+    },
+    {
+      "id": "22",
+      "name": "apricotLights",
+      "symbol": "var_apricotlights"
+    },
+    {
+      "id": "23",
+      "name": "petalLights",
+      "symbol": "var_petallights_0"
     },
     {
       "id": "30",
@@ -187,84 +267,24 @@
       "symbol": "var_local_9"
     },
     {
-      "id": "8",
-      "name": "adosHappiness",
-      "symbol": "var_adoshappiness"
+      "id": "44",
+      "name": "adosWeight",
+      "symbol": "var_adosweight"
     },
     {
-      "id": "9",
-      "name": "adosHunger",
-      "symbol": "var_adoshunger"
+      "id": "24",
+      "name": "apricotWeight",
+      "symbol": "var_apricotweight"
     },
     {
-      "id": "10",
-      "name": "adosLights",
-      "symbol": "var_adoslights"
+      "id": "25",
+      "name": "petalWeight",
+      "symbol": "var_petalweight"
     },
     {
-      "id": "11",
-      "name": "apricotAttentionWanted",
-      "symbol": "var_apricotattentionwanted"
-    },
-    {
-      "id": "12",
-      "name": "popAttentionWanted",
-      "symbol": "var_popattentionwanted"
-    },
-    {
-      "id": "13",
-      "name": "petalAttentionWanted",
-      "symbol": "var_petalattentionwanted"
-    },
-    {
-      "id": "14",
-      "name": "popHappiness",
-      "symbol": "var_pophappiness"
-    },
-    {
-      "id": "15",
-      "name": "apricotHappiness",
-      "symbol": "var_apricothappiness"
-    },
-    {
-      "id": "16",
-      "name": "petalHappiness",
-      "symbol": "var_petalhappiness"
-    },
-    {
-      "id": "17",
-      "name": "popHunger",
-      "symbol": "var_pophunger"
-    },
-    {
-      "id": "18",
-      "name": "apricotHunger",
-      "symbol": "var_apricothunger"
-    },
-    {
-      "id": "19",
-      "name": "petalHunger",
-      "symbol": "var_petalhunger"
-    },
-    {
-      "id": "20",
-      "name": "Lights",
-      "symbol": "var_lights"
-    },
-    {
-      "id": "21",
-      "name": "popLights",
-      "symbol": "var_poplights"
-    },
-    {
-      "id": "22",
-      "name": "apricotLights",
-      "symbol": "var_apricotlights"
-    },
-    {
-      "id": "23",
-      "name": "petalLights",
-      "symbol": "var_petallights"
+      "id": "28",
+      "name": "popWeight",
+      "symbol": "var_popweight"
     }
   ]
 }

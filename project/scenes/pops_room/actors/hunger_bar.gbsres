@@ -50,7 +50,7 @@
                       "type": "gt",
                       "valueA": {
                         "type": "variable",
-                        "value": "1"
+                        "value": "17"
                       },
                       "valueB": {
                         "type": "number",
@@ -58,14 +58,14 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__disableElse": false
+                    "__disableElse": true
                   },
                   "children": {
                     "true": [
                       {
                         "command": "EVENT_DEC_VALUE",
                         "args": {
-                          "variable": "1"
+                          "variable": "17"
                         },
                         "id": "e6d170c0-1fdf-425e-984e-15c087d10ac9"
                       }
@@ -77,7 +77,7 @@
                 {
                   "command": "EVENT_DEC_VALUE",
                   "args": {
-                    "variable": "0"
+                    "variable": "17"
                   },
                   "id": "07c0928d-ed2d-4a32-a71b-31596e3f5c21"
                 }
@@ -104,7 +104,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -121,7 +121,7 @@
                 "type": "lte",
                 "valueA": {
                   "type": "variable",
-                  "value": "1"
+                  "value": "17"
                 },
                 "valueB": {
                   "type": "number",
@@ -134,7 +134,7 @@
                 {
                   "command": "EVENT_INC_VALUE",
                   "args": {
-                    "variable": "1"
+                    "variable": "17"
                   },
                   "id": "ac97ab8e-8dd5-4f0b-889e-e30ebfb8d2d7"
                 }
@@ -155,7 +155,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -172,7 +172,7 @@
                 "type": "gte",
                 "valueA": {
                   "type": "variable",
-                  "value": "1"
+                  "value": "17"
                 },
                 "valueB": {
                   "type": "number",
@@ -185,7 +185,7 @@
                 {
                   "command": "EVENT_DEC_VALUE",
                   "args": {
-                    "variable": "1"
+                    "variable": "17"
                   },
                   "id": "bf287490-c66a-4d3f-828f-c5a7821fbf41"
                 }
@@ -203,7 +203,7 @@
     {
       "command": "EVENT_SWITCH",
       "args": {
-        "variable": "1",
+        "variable": "17",
         "choices": 5,
         "__collapseCase0": false,
         "value0": 0,
@@ -239,7 +239,7 @@
         "value15": 16,
         "__collapseElse": false,
         "__disableElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Update Hunger"
       },
       "children": {

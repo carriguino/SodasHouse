@@ -2,26 +2,26 @@
   "_resourceType": "scene",
   "id": "4d973770-c21e-40b1-8da2-af4c75ddb0b7",
   "_index": 6,
+  "type": "POINTNCLICK",
   "name": "Pop's Room",
-  "backgroundId": "aaa7c87e-a06e-4f47-a715-09c4969a8792",
-  "tilesetId": "",
+  "symbol": "scene_7",
+  "x": 848,
+  "y": 352,
   "width": 20,
   "height": 18,
-  "type": "POINTNCLICK",
+  "backgroundId": "aaa7c87e-a06e-4f47-a715-09c4969a8792",
+  "tilesetId": "",
   "paletteIds": [
     "dmg",
-    null,
-    null,
+    "",
+    "",
     ""
   ],
   "spritePaletteIds": [
     "default-bg-1"
   ],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_7",
-  "x": 848,
-  "y": 352,
+  "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
   "script": [
     {
@@ -174,5 +174,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "collisions": ""
 }

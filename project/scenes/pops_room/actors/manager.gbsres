@@ -67,11 +67,11 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "5",
+        "variable": "21",
         "value": {
           "type": "true"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "ff8f9922-ee07-4771-a47b-8eb5e1ed6684"
     },
@@ -83,7 +83,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Move Cursor Right"
       },
       "children": {

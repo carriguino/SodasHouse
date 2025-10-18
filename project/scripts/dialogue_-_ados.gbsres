@@ -1,0 +1,771 @@
+{
+  "_resourceType": "script",
+  "id": "f2decf85-d1c3-4ad7-a44e-62fed136c001",
+  "name": "Dialogue - Ados",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "localTemp0",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Pet"
+    }
+  },
+  "symbol": "script_7",
+  "script": [
+    {
+      "command": "EVENT_RNG_SEED",
+      "args": {},
+      "id": "da6bccc9-4353-43b3-87e5-f938bc2d5273"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "V0",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 1,
+        "maxValue": 12,
+        "clamp": false
+      },
+      "id": "7673f50b-372c-4087-b523-e751d60a2216"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "9"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "ADOS: H...HUNGRY!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a8eb7743-fbf8-4767-81d6-998ea8b6a268"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "8"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "ADOS: Don't talk\nto me."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "5586a54f-fc1b-407b-9c75-e77b80f131bf"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "V0",
+                    "choices": 12,
+                    "__collapseCase0": false,
+                    "value0": 1,
+                    "__collapseCase1": false,
+                    "value1": 2,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": false,
+                    "__collapse": false,
+                    "__disableElse": true
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS: Don't try me"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "73b297b8-d173-4928-9767-fbf6836f8dca"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS: What do you\nfreaking want?",
+                            "I don't have\nanything for you.",
+                            "..for free..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "37197970-0609-4cf1-b54f-7b2903936703"
+                      },
+                      {
+                        "command": "EVENT_MENU",
+                        "args": {
+                          "variable": "V0",
+                          "items": 2,
+                          "option1": "Pay ADOS",
+                          "option2": "Flat broke, sorry",
+                          "option3": "",
+                          "option4": "",
+                          "option5": "",
+                          "option6": "",
+                          "option7": "",
+                          "option8": "",
+                          "cancelOnB": true,
+                          "layout": "dialogue",
+                          "cancelOnLastOption": true
+                        },
+                        "id": "568feb5f-d21e-4826-96cf-773c58b7eb90"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "V0"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 1
+                            }
+                          },
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "ADOS: Thanks.\nHere you go.",
+                                  "*ADOS hands you a\nsmall baggie of",
+                                  "dry green clumps*"
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "bcbcc984-9343-47bc-a92a-f03f083b0f67"
+                            },
+                            {
+                              "command": "EVENT_WAIT",
+                              "args": {
+                                "time": 0.7,
+                                "frames": 30
+                              },
+                              "id": "ceb94bfa-0f69-4565-b840-b8c2a81dfd17"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_EMOTE",
+                              "args": {
+                                "actorId": "0",
+                                "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+                              },
+                              "id": "5eaec0e2-b369-4b4e-bdb2-9fde12578a92"
+                            },
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "ADOS: ... it's not\nwhat you wanted?",
+                                  "ADOS: Coward."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "b91aa401-0b90-4aad-b2f6-4926669ae5aa"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "ADOS: Your loss."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "69273fac-77dc-4375-9510-e3491d80e20c"
+                            }
+                          ]
+                        },
+                        "id": "05d11246-676d-4a34-97a2-577660004780"
+                      }
+                    ],
+                    "true2": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS: Do NOT rub\nmy belly."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "9e739e27-e228-4c6e-8c5e-17289fc3d5c5"
+                      }
+                    ],
+                    "true3": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS: Have you\nseen my mom? I mi-",
+                            "I need her for\nsomething."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "33ba203f-05d6-4117-96ec-dbc052dffef6"
+                      }
+                    ],
+                    "true4": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS: ...",
+                            "ADOS: What...?",
+                            "ADOS: Leave."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "8eeaeabb-11a4-4ce2-9857-5c11e243ae79"
+                      }
+                    ],
+                    "true5": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS: Please tell\nSODA to put down",
+                            "all the webcomics.\nHe won't shut up",
+                            "about this stupid\none with stupid",
+                            "dogs working in a\nstupid office.",
+                            "ADOS: So dumb.\nDon't they realize",
+                            "it's way more fun\nto be ",
+                            "unemployed like\nme."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "ab25f1a5-3dfd-4d17-8a47-943546c24e91"
+                      }
+                    ],
+                    "true6": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS: I ate some\nreally good snacks",
+                            "last night. Wonder\nwhose they were?"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "c96552c0-c46f-47eb-815e-3229ec73fdc3"
+                      }
+                    ],
+                    "true7": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS: Sup."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "64c1817c-9278-4afa-84b4-13290a509b5b"
+                      }
+                    ],
+                    "true8": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "*You look at ADOS'\nback tattoo*"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "0562d354-6e65-4d5b-a457-4c7b9c543101"
+                      },
+                      {
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 0.5,
+                          "frames": 30
+                        },
+                        "id": "8b104b15-9fde-4fab-8dad-4e1999ee4326"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "0",
+                          "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+                        },
+                        "id": "3f846bd7-fb67-41cf-8f43-2099924afdb2"
+                      },
+                      {
+                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                        "args": {
+                          "type": "tone",
+                          "priority": "medium",
+                          "pitch": 4,
+                          "frequency": 75,
+                          "duration": 0.35,
+                          "wait": false,
+                          "effect": 0
+                        },
+                        "id": "6d2697e1-710b-427c-ab35-4662f302edf6"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS: HEY. My eyes\nare up here."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "a9cabff4-5db6-41e8-af17-bee744590883"
+                      }
+                    ],
+                    "true9": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: POP keeps\nsqueezing under",
+                            "my freaking door!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "a5e03521-f121-4d2d-aa1c-00fed68d1ca0"
+                      }
+                    ],
+                    "true10": [
+                      {
+                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                        "args": {
+                          "type": "tone",
+                          "priority": "medium",
+                          "pitch": 1,
+                          "frequency": 75,
+                          "duration": 0.05,
+                          "wait": true,
+                          "effect": 0
+                        },
+                        "id": "e3fd386b-2bb4-4a70-8b2e-04cfc1244657"
+                      },
+                      {
+                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                        "args": {
+                          "type": "tone",
+                          "priority": "medium",
+                          "pitch": 1,
+                          "frequency": 50,
+                          "duration": 0.1,
+                          "wait": true,
+                          "effect": 0
+                        },
+                        "id": "99532c83-6f7e-468f-b718-8872aee7aa0c"
+                      },
+                      {
+                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                        "args": {
+                          "type": "crash",
+                          "priority": "medium",
+                          "pitch": 1,
+                          "frequency": 50,
+                          "duration": 0.5,
+                          "wait": true,
+                          "effect": 0
+                        },
+                        "id": "b7191b62-a3b1-45c8-ac19-118cf61b4ebd"
+                      },
+                      {
+                        "command": "EVENT_CAMERA_SHAKE",
+                        "args": {
+                          "time": 0.3,
+                          "frames": 30,
+                          "shakeDirection": "horizontal",
+                          "magnitude": {
+                            "type": "number",
+                            "value": 7
+                          },
+                          "__collapse": false
+                        },
+                        "id": "91f86d3e-309f-4475-8884-c934990c1671"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "*ADOS tripped over\nhis own tail*"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "287684f9-4f99-458a-b539-79a5e63176f9"
+                      }
+                    ],
+                    "true11": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS: Don't look\nme in the eyes."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "21aba402-f61a-4d03-a560-c4a65d27032a"
+                      }
+                    ],
+                    "true12": [],
+                    "true13": [],
+                    "true14": [],
+                    "true15": [],
+                    "false": []
+                  },
+                  "id": "43deee4c-7ed2-46a1-afa8-302bac1962d0"
+                }
+              ]
+            },
+            "id": "1e76d4aa-8d6d-436e-9287-b9c8a5425744"
+          }
+        ]
+      },
+      "id": "b1fc5db5-687c-43b2-802a-8bc12084c9ad"
+    }
+  ]
+}

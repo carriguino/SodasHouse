@@ -26,8 +26,8 @@
       "args": {
         "type": "tone",
         "pitch": 4,
-        "frequency": 600,
-        "duration": 0.05,
+        "frequency": 400,
+        "duration": 0.1,
         "effect": 0,
         "__collapse": false
       },
@@ -54,8 +54,8 @@
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
-              "variableDest": "0",
-              "variableSource": "0",
+              "variableDest": "15",
+              "variableSource": "15",
               "saveSlot": 0
             },
             "id": "b38529f8-c88a-4285-bea0-0c48c09b994f"
@@ -63,8 +63,8 @@
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
-              "variableDest": "1",
-              "variableSource": "1",
+              "variableDest": "18",
+              "variableSource": "18",
               "saveSlot": 0
             },
             "id": "2018f8e3-0e46-4338-b4a5-8ec9fe46073e"
@@ -128,7 +128,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "0",
+              "variable": "15",
               "value": {
                 "type": "number",
                 "value": 1
@@ -139,7 +139,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "1",
+              "variable": "18",
               "value": {
                 "type": "number",
                 "value": 1

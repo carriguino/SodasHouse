@@ -20,7 +20,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "5"
+            "value": "10"
           },
           "valueB": {
             "type": "false"
@@ -43,7 +43,7 @@
                 "type": "gt",
                 "valueA": {
                   "type": "variable",
-                  "value": "1"
+                  "value": "9"
                 },
                 "valueB": {
                   "type": "number",
@@ -59,8 +59,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "SODA: I'm not\nhungry right now,",
-                      "but thank you for\noffering!"
+                      "ADOS: HEY!! I'm\nalready FULL.",
+                      "No thanks."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -155,6 +155,18 @@
               "$variable[V1]$": {
                 "type": "variable",
                 "value": "T1"
+              },
+              "$variable[V2]$": {
+                "type": "variable",
+                "value": "9"
+              },
+              "$variable[V3]$": {
+                "type": "variable",
+                "value": "8"
+              },
+              "$variable[V4]$": {
+                "type": "variable",
+                "value": "44"
               }
             },
             "id": "9d98b7c3-f2fa-4a3e-9ba5-91abc7899453"

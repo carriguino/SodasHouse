@@ -151,7 +151,11 @@
               },
               "$actor[0]$": "fe1158a9-5f37-45d0-a401-a2a187abeb0b",
               "$actor[1]$": "134a5524-3c99-4271-b460-627d8499b0a1",
-              "$actor[2]$": "player"
+              "$actor[2]$": "player",
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "T1"
+              }
             },
             "id": "9d98b7c3-f2fa-4a3e-9ba5-91abc7899453"
           }

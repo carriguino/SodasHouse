@@ -71,7 +71,7 @@
         "value": {
           "type": "true"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "49467e0b-b648-4792-b869-cd91ef5fc86d"
     },

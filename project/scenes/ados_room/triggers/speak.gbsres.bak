@@ -1,0 +1,55 @@
+{
+  "_resourceType": "trigger",
+  "id": "ec06126c-4c6e-4ccd-a8f0-45ee601defab",
+  "name": "Speak",
+  "prefabId": "",
+  "_index": 3,
+  "symbol": "trigger_19",
+  "x": 16,
+  "y": 12,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "5",
+        "__collapseElse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "08fffbec-9b85-4a7a-8b99-4ed4debeb3a4"
+          }
+        ],
+        "false": []
+      },
+      "id": "ef916d41-3eed-4d21-80a5-54d2d8175246"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "f2decf85-d1c3-4ad7-a44e-62fed136c001",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "8"
+        }
+      },
+      "id": "3e26ea37-679f-4d78-b4ed-943e4867b65c"
+    }
+  ],
+  "leaveScript": []
+}

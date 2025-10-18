@@ -20,7 +20,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "5"
+            "value": "22"
           },
           "valueB": {
             "type": "false"
@@ -42,10 +42,10 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "83b22cb2-5275-4669-a203-3d5793f3297e",
+        "customEventId": "08321f2d-a8d8-4038-9f1a-7bdf7fcc8fd1",
         "$variable[V0]$": {
           "type": "variable",
-          "value": "T0"
+          "value": "15"
         }
       },
       "id": "92722830-eca8-44f9-9484-9a4bcaba7bd4"

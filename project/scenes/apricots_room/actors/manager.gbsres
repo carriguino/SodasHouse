@@ -67,11 +67,11 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "5",
+        "variable": "22",
         "value": {
           "type": "true"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "480f321a-d0fc-41a4-bb59-d0635c41b048"
     },
