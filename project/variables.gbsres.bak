@@ -285,6 +285,16 @@
       "id": "28",
       "name": "popWeight",
       "symbol": "var_popweight"
+    },
+    {
+      "id": "c38b6d62-1577-4cef-bdbe-e2cf5482eb5f__L0",
+      "name": "da",
+      "symbol": "var_da_2"
+    },
+    {
+      "id": "006caa94-fbc7-4c93-b478-d9dca6585950__L1",
+      "name": "Local 1",
+      "symbol": "var_local_10"
     }
   ]
 }

@@ -24,7 +24,7 @@
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "4296281e-beaa-405d-a931-0ad4b70ff7a5"
     },
@@ -49,8 +49,8 @@
       "args": {
         "variable": "L0",
         "value": {
-          "type": "number",
-          "value": 0
+          "type": "variable",
+          "value": "4"
         },
         "__collapse": false
       },

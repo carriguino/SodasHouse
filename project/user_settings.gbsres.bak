@@ -1,11 +1,11 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 392.6666564941406,
-  "worldScrollY": 170.6666717529297,
+  "worldScrollX": 283.3333435058594,
+  "worldScrollY": 340,
   "zoom": 175,
   "navigatorSplitSizes": [
-    520,
-    111,
+    421,
+    210,
     299,
     380
   ],

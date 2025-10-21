@@ -122,6 +122,21 @@
       "symbol": "var_petallights_0"
     },
     {
+      "id": "24",
+      "name": "apricotWeight",
+      "symbol": "var_apricotweight"
+    },
+    {
+      "id": "25",
+      "name": "petalWeight",
+      "symbol": "var_petalweight"
+    },
+    {
+      "id": "28",
+      "name": "popWeight",
+      "symbol": "var_popweight"
+    },
+    {
       "id": "30",
       "name": "RTC - Days",
       "symbol": "var_rtc_days"
@@ -155,6 +170,11 @@
       "id": "36",
       "name": "RTC - Confirm",
       "symbol": "var_rtc_confirm"
+    },
+    {
+      "id": "44",
+      "name": "adosWeight",
+      "symbol": "var_adosweight"
     },
     {
       "id": "3a066778-da30-4ee5-858e-12141e7966cc__L0",
@@ -267,26 +287,6 @@
       "symbol": "var_local_9"
     },
     {
-      "id": "44",
-      "name": "adosWeight",
-      "symbol": "var_adosweight"
-    },
-    {
-      "id": "24",
-      "name": "apricotWeight",
-      "symbol": "var_apricotweight"
-    },
-    {
-      "id": "25",
-      "name": "petalWeight",
-      "symbol": "var_petalweight"
-    },
-    {
-      "id": "28",
-      "name": "popWeight",
-      "symbol": "var_popweight"
-    },
-    {
       "id": "c38b6d62-1577-4cef-bdbe-e2cf5482eb5f__L0",
       "name": "da",
       "symbol": "var_da_2"
@@ -295,6 +295,11 @@
       "id": "006caa94-fbc7-4c93-b478-d9dca6585950__L1",
       "name": "Local 1",
       "symbol": "var_local_10"
+    },
+    {
+      "id": "37",
+      "name": "autosaveTimer",
+      "symbol": "var_autosavetimer_0"
     }
   ]
 }

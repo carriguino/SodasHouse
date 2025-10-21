@@ -5,7 +5,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "03d0a687-e0c7-45c1-bb46-52d84bf5b88a",
-  "prefabId": "",
+  "prefabId": "4beaac17-c46c-4eb2-bd75-34470027f5f3",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 255,
@@ -13,7 +13,52 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "fa1a60b8-9c2d-4775-8a37-d0c628fe7aaa": {
+      "id": "fa1a60b8-9c2d-4775-8a37-d0c628fe7aaa",
+      "args": {
+        "variable": "37"
+      }
+    },
+    "ba66f176-eaa5-4359-8153-ecd8a6cbc586": {
+      "id": "ba66f176-eaa5-4359-8153-ecd8a6cbc586",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "37"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 100
+          }
+        },
+        "__collapseElse": false
+      }
+    },
+    "e36580a7-9deb-46d3-92d3-3455f3a26338": {
+      "id": "e36580a7-9deb-46d3-92d3-3455f3a26338",
+      "args": {
+        "variable": "37"
+      }
+    },
+    "3811b76c-0f58-46c4-a47b-d0ce609ed56b": {
+      "id": "3811b76c-0f58-46c4-a47b-d0ce609ed56b",
+      "args": {
+        "text": "$37$",
+        "location": "overlay",
+        "x": 0,
+        "y": 0
+      }
+    },
+    "8206a63f-15a8-4bd6-84a4-a226dac9fbca": {
+      "id": "8206a63f-15a8-4bd6-84a4-a226dac9fbca",
+      "args": {
+        "variable": "37"
+      }
+    }
+  },
   "symbol": "actor_4",
   "script": [],
   "startScript": [],

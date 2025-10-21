@@ -25,9 +25,9 @@
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
       "args": {
         "type": "tone",
-        "pitch": 4,
-        "frequency": 600,
-        "duration": 0.05,
+        "pitch": 1,
+        "frequency": 300,
+        "duration": 0.3,
         "effect": 0,
         "__collapse": false
       },
@@ -38,7 +38,7 @@
       "args": {
         "actorId": "$self$",
         "speed": 0.25,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "6a33b56b-4c99-4108-b8ca-980ee72427a4"
     },
@@ -54,7 +54,7 @@
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
-              "variableDest": "0",
+              "variableDest": "16",
               "variableSource": "0",
               "saveSlot": 0
             },
@@ -63,8 +63,8 @@
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
-              "variableDest": "1",
-              "variableSource": "1",
+              "variableDest": "19",
+              "variableSource": "19",
               "saveSlot": 0
             },
             "id": "d89ee0b2-fa46-4146-a9e0-3ed079ace0cc"
@@ -128,7 +128,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "0",
+              "variable": "16",
               "value": {
                 "type": "number",
                 "value": 1
@@ -139,7 +139,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "1",
+              "variable": "19",
               "value": {
                 "type": "number",
                 "value": 1

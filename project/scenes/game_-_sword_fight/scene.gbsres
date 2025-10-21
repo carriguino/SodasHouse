@@ -46,6 +46,39 @@
         }
       },
       "id": "914d0555-6d0f-4e14-ada4-42464d0c95d6"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start",
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "c212435d-916b-4a8d-8899-6cfe2ed6a71d",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "a0b7584d-eec8-49eb-9460-f9890b9437c7"
+          }
+        ]
+      },
+      "id": "5a519522-f2ad-4645-a881-76dff2511915"
     }
   ],
   "playerHit1Script": [],

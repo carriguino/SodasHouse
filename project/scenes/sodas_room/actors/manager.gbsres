@@ -71,7 +71,7 @@
         "value": {
           "type": "true"
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "49467e0b-b648-4792-b869-cd91ef5fc86d"
     },
@@ -633,7 +633,7 @@
         "override": true,
         "__scriptTabs": "press",
         "__label": "Start Input",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -643,7 +643,7 @@
               "variable": "T0",
               "items": 2,
               "option1": "Change Rooms",
-              "option2": "Back",
+              "option2": "Back (AUTO: $37$)",
               "option3": "",
               "option4": "",
               "option5": "",

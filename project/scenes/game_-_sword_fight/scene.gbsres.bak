@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
-  "x": 1040,
-  "y": 232,
+  "x": 1072,
+  "y": 216,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -31,7 +31,19 @@
         "$actor[0]$": "2a5b9e10-2209-4e7c-a595-fd285b03cd41",
         "$actor[1]$": "d7a5513e-91f9-4814-b811-0a8118c5cb76",
         "$actor[2]$": "044a6468-2412-4a76-968a-b2401bc12d2b",
-        "$actor[3]$": "79cdde71-52b9-4ddc-895f-3c61aaca6db3"
+        "$actor[3]$": "79cdde71-52b9-4ddc-895f-3c61aaca6db3",
+        "$variable[V7]$": {
+          "type": "variable",
+          "value": "L1"
+        },
+        "$variable[V8]$": {
+          "type": "variable",
+          "value": "L2"
+        },
+        "$variable[V9]$": {
+          "type": "variable",
+          "value": "L3"
+        }
       },
       "id": "914d0555-6d0f-4e14-ada4-42464d0c95d6"
     }
