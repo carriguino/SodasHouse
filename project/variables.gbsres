@@ -132,9 +132,19 @@
       "symbol": "var_petalweight"
     },
     {
+      "id": "26",
+      "name": "schmupBest",
+      "symbol": "var_schmupbest"
+    },
+    {
       "id": "28",
       "name": "popWeight",
       "symbol": "var_popweight"
+    },
+    {
+      "id": "29",
+      "name": "schmupLives",
+      "symbol": "var_schmuplives"
     },
     {
       "id": "30",
@@ -172,9 +182,19 @@
       "symbol": "var_rtc_confirm"
     },
     {
+      "id": "37",
+      "name": "autosaveTimer",
+      "symbol": "var_autosavetimer_0"
+    },
+    {
       "id": "44",
       "name": "adosWeight",
       "symbol": "var_adosweight"
+    },
+    {
+      "id": "66",
+      "name": "schmupScore",
+      "symbol": "var_schmupscore"
     },
     {
       "id": "3a066778-da30-4ee5-858e-12141e7966cc__L0",
@@ -297,9 +317,24 @@
       "symbol": "var_local_10"
     },
     {
-      "id": "37",
-      "name": "autosaveTimer",
-      "symbol": "var_autosavetimer_0"
+      "id": "2d5c3882-b876-4f73-91e1-0b0d627b922f__L0",
+      "name": "score",
+      "symbol": "var_score"
+    },
+    {
+      "id": "2d5c3882-b876-4f73-91e1-0b0d627b922f__L1",
+      "name": "E1Hit",
+      "symbol": "var_e1hit"
+    },
+    {
+      "id": "b14537b9-62a3-4179-b564-346c5da22fd1__L0",
+      "name": "Local 0",
+      "symbol": "var_local_11"
+    },
+    {
+      "id": "73275a47-e996-495c-b706-d0e1d1376641__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture"
     }
   ]
 }

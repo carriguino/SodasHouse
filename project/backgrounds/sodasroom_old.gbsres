@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
   "id": "aaa7c87e-a06e-4f47-a715-09c4969a8792",
-  "name": "sodasroom",
+  "name": "sodasroom_OLD",
   "symbol": "bg_sodasroom",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "sodasroom.png",
+  "filename": "sodasroom_OLD.png",
   "tileColors": "",
   "autoColor": false
 }

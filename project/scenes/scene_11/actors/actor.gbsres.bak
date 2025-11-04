@@ -1,0 +1,101 @@
+{
+  "_resourceType": "actor",
+  "id": "2d5c3882-b876-4f73-91e1-0b0d627b922f",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_64",
+  "script": [
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "66"
+      },
+      "id": "31768487-1ec2-485f-ad8d-dc34918b682a"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "4c3b0c59-9ad7-4d0f-86b0-fcfc93533d5c"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "SCORE:$66$",
+        "x": 1,
+        "y": 1,
+        "location": "background"
+      },
+      "id": "ac98d1cf-2c9b-41fb-8e75-7645bdfb7254"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operator": "<=",
+        "distance": {
+          "type": "number",
+          "value": 15
+        },
+        "otherActorId": "$self$",
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__presetId": "2afe9792-5ca2-4965-b68b-71ef6065ac0f",
+              "__section": "projectile",
+              "spriteSheetId": "5699334d-9c54-4583-b6b2-c243f851456b",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "directionType": "direction",
+              "otherActorId": "$self$",
+              "direction": "down",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "initialOffset": 0,
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "player"
+              ]
+            },
+            "id": "64190272-21ec-4a95-ba50-b66667d36302"
+          }
+        ],
+        "false": []
+      },
+      "id": "61b939af-0d47-46b2-8048-b9b77d3b2fbd"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 4,
+  "y": 157,
+  "_index": 0
+}

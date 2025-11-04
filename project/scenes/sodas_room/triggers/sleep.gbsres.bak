@@ -12,117 +12,128 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "command": "EVENT_IF",
+      "command": "PT_EVENT_ADVANCED_MENU",
       "args": {
-        "variable": "5",
-        "__collapseElse": false,
-        "condition": {
-          "type": "variable",
-          "value": "5"
-        }
+        "__scriptTabs": "items",
+        "width": 10,
+        "height": 5,
+        "from": "bottom",
+        "variable": "L0",
+        "items": 3,
+        "option_1_text": "Yes",
+        "option1_x": 2,
+        "option1_y": 2,
+        "option1_l": 0,
+        "option1_r": 0,
+        "option1_u": 0,
+        "option1_d": 2,
+        "option_2_text": "No",
+        "option2_x": 2,
+        "option2_y": 3,
+        "option2_l": 0,
+        "option2_r": 0,
+        "option2_u": 1,
+        "option2_d": 0,
+        "option_3_text": "Move Furniture?",
+        "option3_x": 0,
+        "option3_y": 0,
+        "option3_l": 0,
+        "option3_r": 0,
+        "option3_u": 0,
+        "option3_d": 0,
+        "option_4_text": "",
+        "option4_x": 0,
+        "option4_y": 0,
+        "option4_l": 0,
+        "option4_r": 0,
+        "option4_u": 0,
+        "option4_d": 0,
+        "option_5_text": "",
+        "option5_x": 0,
+        "option5_y": 0,
+        "option5_l": 0,
+        "option5_r": 0,
+        "option5_u": 0,
+        "option5_d": 0,
+        "option_6_text": "",
+        "option6_x": 0,
+        "option6_y": 0,
+        "option6_l": 0,
+        "option6_r": 0,
+        "option6_u": 0,
+        "option6_d": 0,
+        "option_7_text": "",
+        "option7_x": 0,
+        "option7_y": 0,
+        "option7_l": 0,
+        "option7_r": 0,
+        "option7_u": 0,
+        "option7_d": 0,
+        "option_8_text": "",
+        "option8_x": 0,
+        "option8_y": 0,
+        "option8_l": 0,
+        "option8_r": 0,
+        "option8_u": 0,
+        "option8_d": 0,
+        "option_9_text": "",
+        "option9_x": 0,
+        "option9_y": 0,
+        "option9_l": 0,
+        "option9_r": 0,
+        "option9_u": 0,
+        "option9_d": 0,
+        "option_10_text": "",
+        "option10_x": 0,
+        "option10_y": 0,
+        "option10_l": 0,
+        "option10_r": 0,
+        "option10_u": 0,
+        "option10_d": 0,
+        "option_11_text": "",
+        "option11_x": 0,
+        "option11_y": 0,
+        "option11_l": 0,
+        "option11_r": 0,
+        "option11_u": 0,
+        "option11_d": 0,
+        "option_12_text": "",
+        "option12_x": 0,
+        "option12_y": 0,
+        "option12_l": 0,
+        "option12_r": 0,
+        "option12_u": 0,
+        "option12_d": 0,
+        "option_13_text": "",
+        "option13_x": 0,
+        "option13_y": 0,
+        "option13_l": 0,
+        "option13_r": 0,
+        "option13_u": 0,
+        "option13_d": 0,
+        "option_14_text": "",
+        "option14_x": 0,
+        "option14_y": 0,
+        "option14_l": 0,
+        "option14_r": 0,
+        "option14_u": 0,
+        "option14_d": 0,
+        "option_15_text": "",
+        "option15_x": 0,
+        "option15_y": 0,
+        "option15_l": 0,
+        "option15_r": 0,
+        "option15_u": 0,
+        "option15_d": 0,
+        "option_16_text": "",
+        "option16_x": 0,
+        "option16_y": 0,
+        "option16_l": 0,
+        "option16_r": 0,
+        "option16_u": 0,
+        "option16_d": 0
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_PALETTE_SET_BACKGROUND",
-            "args": {
-              "palette0": "default-bg-2",
-              "palette1": "keep",
-              "palette2": "keep",
-              "palette3": "keep",
-              "palette4": "keep",
-              "palette5": "keep",
-              "palette6": "keep",
-              "palette7": "keep",
-              "__collapse": false
-            },
-            "id": "21314782-a0c2-4dd1-b152-3e205ce60b53"
-          },
-          {
-            "command": "EVENT_PALETTE_SET_SPRITE",
-            "args": {
-              "palette0": "default-bg-2",
-              "palette1": "keep",
-              "palette2": "keep",
-              "palette3": "keep",
-              "palette4": "keep",
-              "palette5": "keep",
-              "palette6": "keep",
-              "palette7": "keep",
-              "__collapse": false
-            },
-            "id": "9c6e7333-7bd0-43c0-9a40-816ef7a063b5"
-          },
-          {
-            "command": "EVENT_ACTOR_SHOW",
-            "args": {
-              "actorId": "77fc4a32-1802-4188-b397-6d92fa5011a6"
-            },
-            "id": "e4e82524-e467-4569-b310-f9b445462923"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "5",
-              "value": {
-                "type": "false"
-              }
-            },
-            "id": "2df9282b-8b76-419a-b000-9267c80837a0"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_PALETTE_SET_BACKGROUND",
-            "args": {
-              "palette0": "dmg",
-              "palette1": "keep",
-              "palette2": "keep",
-              "palette3": "keep",
-              "palette4": "keep",
-              "palette5": "keep",
-              "palette6": "keep",
-              "palette7": "keep",
-              "__collapse": false
-            },
-            "id": "0fbde3bb-c603-4873-981f-3b74b83a0e65"
-          },
-          {
-            "command": "EVENT_PALETTE_SET_SPRITE",
-            "args": {
-              "palette0": "default-bg-1",
-              "palette1": "keep",
-              "palette2": "keep",
-              "palette3": "keep",
-              "palette4": "keep",
-              "palette5": "keep",
-              "palette6": "keep",
-              "palette7": "keep",
-              "__collapse": false
-            },
-            "id": "eb9dc5ce-41eb-49fa-b3c7-e593ef421332"
-          },
-          {
-            "command": "EVENT_ACTOR_HIDE",
-            "args": {
-              "actorId": "77fc4a32-1802-4188-b397-6d92fa5011a6",
-              "__collapse": true
-            },
-            "id": "099efbef-1dcc-41b6-9cbe-18aaeddd6005"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "5",
-              "value": {
-                "type": "true"
-              }
-            },
-            "id": "d702dc41-156b-45f4-ae34-bfbae3d6fb9b"
-          }
-        ]
-      },
-      "id": "85e54ee4-1735-4352-ab17-65c558ee8e80"
+      "id": "e073dcda-b126-4c88-814a-848d54aa24be"
     }
   ],
   "leaveScript": []

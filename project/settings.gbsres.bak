@@ -1,11 +1,11 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "c34cbfb4-fa5e-46b3-8964-3267cdcd3071",
-  "startX": 1,
-  "startY": 17,
+  "startSceneId": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
+  "startX": 6,
+  "startY": 4,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
-  "startDirection": "down",
+  "startDirection": "right",
   "showCollisionExtraTiles": false,
   "sgbEnabled": false,
   "customHead": "",
@@ -38,7 +38,7 @@
     "TOPDOWN": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "PLATFORM": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "SHMUP": "08872221-ae2e-48d2-9ae2-0536fcc06653",
     "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
   },
@@ -60,6 +60,41 @@
   "colorMode": "mixed",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
-  "scriptEventPresets": {},
+  "scriptEventPresets": {
+    "EVENT_LAUNCH_PROJECTILE": {
+      "2afe9792-5ca2-4965-b68b-71ef6065ac0f": {
+        "id": "2afe9792-5ca2-4965-b68b-71ef6065ac0f",
+        "name": "Enemy Standard",
+        "groups": [
+          "projectile",
+          "source",
+          "direction"
+        ],
+        "args": {
+          "spriteSheetId": "5699334d-9c54-4583-b6b2-c243f851456b",
+          "spriteStateId": "",
+          "speed": 2,
+          "animSpeed": 15,
+          "lifeTime": 1,
+          "loopAnim": true,
+          "destroyOnHit": true,
+          "collisionGroup": "3",
+          "collisionMask": [
+            "player"
+          ],
+          "actorId": "$self$",
+          "x": 0,
+          "y": 0,
+          "directionType": "direction",
+          "otherActorId": "$self$",
+          "direction": "left",
+          "angle": 0,
+          "angleVariable": "L0",
+          "targetActorId": "$self$",
+          "initialOffset": 0
+        }
+      }
+    }
+  },
   "scriptEventDefaultPresets": {}
 }

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8b58631e-cbd4-4793-8591-2d994ae03518",
+  "name": "temproom3",
+  "symbol": "sprite_temproom3",
+  "width": 180,
+  "height": 20,
+  "imageWidth": 1440,
+  "imageHeight": 160,
+  "filename": "temproom3.png",
+  "tileColors": "",
+  "autoColor": false
+}
