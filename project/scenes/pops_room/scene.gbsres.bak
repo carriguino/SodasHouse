@@ -5,7 +5,7 @@
   "type": "POINTNCLICK",
   "name": "Pop's Room",
   "symbol": "scene_7",
-  "x": 848,
+  "x": 864,
   "y": 352,
   "width": 20,
   "height": 18,
@@ -29,7 +29,7 @@
       "args": {
         "type": "tone",
         "pitch": 4,
-        "frequency": 600,
+        "frequency": 800,
         "duration": 0.05,
         "effect": 0,
         "__collapse": false

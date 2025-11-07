@@ -1,10 +1,10 @@
 {
   "_resourceType": "trigger",
-  "id": "fcd6ce20-f0a0-4460-883d-bbd42bafca0f",
-  "_index": 1,
-  "symbol": "trigger_1",
-  "prefabId": "",
+  "id": "d4c13940-0190-43ca-a4f5-7c5f3c89a155",
   "name": "Game",
+  "prefabId": "",
+  "_index": 1,
+  "symbol": "trigger_26",
   "x": 6,
   "y": 12,
   "width": 2,
@@ -45,11 +45,11 @@
               "direction": "down",
               "fadeSpeed": 2
             },
-            "id": "71b06872-209c-41dd-90a4-65815d369e71"
+            "id": "10329303-5a17-48dd-a923-33e93ebca5b7"
           }
         ]
       },
-      "id": "94884ec4-3210-4ac1-a525-8a54d7ccf9ab"
+      "id": "4aec9185-77ae-4bff-9644-a5dc00a79210"
     }
   ],
   "leaveScript": []

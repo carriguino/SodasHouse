@@ -1,10 +1,10 @@
 {
   "_resourceType": "trigger",
-  "id": "73275a47-e996-495c-b706-d0e1d1376641",
-  "_index": 0,
-  "symbol": "trigger_0",
-  "prefabId": "",
+  "id": "fc4b59cd-ea67-458a-b4c5-5a5794cb706b",
   "name": "Sleep",
+  "prefabId": "",
+  "_index": 0,
+  "symbol": "trigger_25",
   "x": 2,
   "y": 12,
   "width": 2,
@@ -133,7 +133,7 @@
         "option16_u": 0,
         "option16_d": 0
       },
-      "id": "e073dcda-b126-4c88-814a-848d54aa24be"
+      "id": "ab0cd510-a65e-42dc-8be3-e7793bc3ceea"
     },
     {
       "command": "EVENT_IF",
@@ -156,14 +156,42 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "71a0f2cf-7f5a-4d42-a964-1a03f8b82be5"
+              "customEventId": "71a0f2cf-7f5a-4d42-a964-1a03f8b82be5",
+              "$actor[0]$": "d8e36fa9-aa04-4bcb-be7f-8c0a43e02190",
+              "$actor[1]$": "34ffd2cc-82e3-4f82-9f12-282c265b1f75",
+              "$actor[2]$": "3be3146c-59a6-4787-a881-0d3331b08f2a",
+              "$actor[3]$": "18f43967-f9f5-4f9c-aa66-2ccdc9017db1",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L1"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "L2"
+              },
+              "$variable[V2]$": {
+                "type": "variable",
+                "value": "27"
+              },
+              "$variable[V3]$": {
+                "type": "variable",
+                "value": "38"
+              },
+              "$variable[V4]$": {
+                "type": "variable",
+                "value": "45"
+              },
+              "$variable[V5]$": {
+                "type": "variable",
+                "value": "52"
+              }
             },
-            "id": "a646d6c5-13b0-4926-ae1f-ecec4ea0f389"
+            "id": "ba7d7a9f-70da-49ed-845a-065b9deb9dee"
           }
         ],
         "false": []
       },
-      "id": "9ccbc94d-44bc-4741-be92-0a381d7bfa73"
+      "id": "313a0951-ac56-4ee1-bbf1-771b3829826d"
     }
   ],
   "leaveScript": []

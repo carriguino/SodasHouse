@@ -1,10 +1,10 @@
 {
   "_resourceType": "trigger",
-  "id": "59395351-a0c6-42c8-a857-df467ff1a2b2",
-  "_index": 2,
-  "symbol": "trigger_2",
-  "prefabId": "",
+  "id": "443c2be2-04aa-4b40-be53-31c2edf29f78",
   "name": "Eat",
+  "prefabId": "",
+  "_index": 2,
+  "symbol": "trigger_27",
   "x": 12,
   "y": 12,
   "width": 2,
@@ -25,14 +25,15 @@
           "valueB": {
             "type": "false"
           }
-        }
+        },
+        "__disableElse": true
       },
       "children": {
         "true": [
           {
             "command": "EVENT_STOP",
             "args": {},
-            "id": "c67b3d33-10c5-40a9-a1d5-3dce42e48ea8"
+            "id": "7f4f25a3-750f-4390-9be5-cfad012531df"
           }
         ],
         "false": [
@@ -80,23 +81,23 @@
                     "closeDelayFrames": 30,
                     "__collapse": false
                   },
-                  "id": "d42f6659-7ee4-4e7e-aaaa-4f560fdeda61"
+                  "id": "33b6d80b-a8f3-4a21-97ed-72c8839af65e"
                 },
                 {
                   "command": "EVENT_STOP",
                   "args": {
                     "__collapse": true
                   },
-                  "id": "a9d772f4-0ab6-4935-b126-5dc511207c55"
+                  "id": "0b8af111-e7f0-407d-86a6-af1f7f464927"
                 }
               ],
               "false": []
             },
-            "id": "226906c5-14a9-4028-b063-01aab7aae1f7"
+            "id": "93814b57-8bd3-4c0c-9c0f-cb4ae4f83a0d"
           }
         ]
       },
-      "id": "5a18f2e0-e636-4d50-a025-3e01f02aff79"
+      "id": "516005fb-b351-4c84-9215-8d873f2dc3d5"
     },
     {
       "command": "EVENT_MENU",
@@ -116,7 +117,7 @@
         "cancelOnLastOption": true,
         "__collapse": false
       },
-      "id": "a0b74e69-1bfb-4723-80e6-ef333bbffa84"
+      "id": "63d252e6-f0a8-49d3-816b-ccd232654685"
     },
     {
       "command": "EVENT_IF",
@@ -132,14 +133,14 @@
             "value": 0
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_RNG_SEED",
             "args": {},
-            "id": "9e9db8e8-c0d2-4a3b-a997-7aa6207523f3"
+            "id": "81009c9a-6702-43ec-b94c-ae7e4bece018"
           },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -149,8 +150,8 @@
                 "type": "variable",
                 "value": "T0"
               },
-              "$actor[0]$": "91acfc38-8c41-4de6-8d16-8b3fd653b751",
-              "$actor[1]$": "e87d4bdf-9c10-48a8-867b-20d04716f9e9",
+              "$actor[0]$": "4701d773-c2ec-4850-a4dc-cc270352a4aa",
+              "$actor[1]$": "5e3e5e0c-10f8-40ba-a94a-133cfae32675",
               "$actor[2]$": "player",
               "$variable[V1]$": {
                 "type": "variable",
@@ -165,12 +166,12 @@
                 "value": "2"
               }
             },
-            "id": "c8908edd-e2e4-4f19-b04b-d2e7394a755c"
+            "id": "d95a62e9-2e09-42a0-b94b-4fc140267b77"
           }
         ],
         "false": []
       },
-      "id": "ca867c62-f1dd-4cdc-82a2-f1dfa24c408c"
+      "id": "c6f76643-f3c5-43f8-818c-dba86c8236b4"
     }
   ],
   "leaveScript": []

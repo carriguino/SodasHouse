@@ -1080,7 +1080,21 @@
           "frames": [
             {
               "id": "ece0481f-e304-4bbf-aa64-02057b8ce9d9",
-              "tiles": []
+              "tiles": [
+                {
+                  "id": "534d51a0-2b1f-4723-b819-3f8f950f2e84",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
             }
           ]
         },

@@ -5,7 +5,7 @@
   "symbol": "sprite_meter",
   "numFrames": 3,
   "filename": "meter.png",
-  "checksum": "8b0fba0d03778836306d067913110db4f3d52834",
+  "checksum": "16fd8c9196fdcca15cc79b181777bd311fa4dd54",
   "width": 48,
   "height": 8,
   "states": [
@@ -23,8 +23,8 @@
               "tiles": [
                 {
                   "id": "776b560f-615b-4c29-8928-8d38335e00b1",
-                  "x": -8,
-                  "y": 4,
+                  "x": -12,
+                  "y": 7,
                   "sliceX": 0,
                   "sliceY": -8,
                   "palette": 0,
@@ -36,8 +36,8 @@
                 },
                 {
                   "id": "3bc91bdb-a307-451d-b673-3b390eb500c0",
-                  "x": 0,
-                  "y": 4,
+                  "x": -4,
+                  "y": 7,
                   "sliceX": 8,
                   "sliceY": -8,
                   "palette": 0,
@@ -49,8 +49,8 @@
                 },
                 {
                   "id": "9244f28c-b625-4e6c-9d08-705c5deb63f3",
-                  "x": 16,
-                  "y": 4,
+                  "x": 12,
+                  "y": 7,
                   "sliceX": 16,
                   "sliceY": -8,
                   "palette": 0,
@@ -62,8 +62,8 @@
                 },
                 {
                   "id": "4e8ec5a5-3deb-4a0b-85b7-f1d9799764d5",
-                  "x": 8,
-                  "y": 4,
+                  "x": 4,
+                  "y": 7,
                   "sliceX": 8,
                   "sliceY": -8,
                   "palette": 0,
@@ -80,8 +80,8 @@
               "tiles": [
                 {
                   "id": "5ad67881-c1ca-4f16-bab9-0048ce3d2bff",
-                  "x": -8,
-                  "y": 4,
+                  "x": -12,
+                  "y": 7,
                   "sliceX": 0,
                   "sliceY": -8,
                   "palette": 0,
@@ -93,8 +93,8 @@
                 },
                 {
                   "id": "a765c8be-8906-4fc5-802d-a14a7d20df48",
-                  "x": 0,
-                  "y": 4,
+                  "x": -4,
+                  "y": 7,
                   "sliceX": 8,
                   "sliceY": -8,
                   "palette": 0,
@@ -106,8 +106,8 @@
                 },
                 {
                   "id": "7b0b23e4-45cf-43b7-b5ff-4655d5743fa3",
-                  "x": 8,
-                  "y": 4,
+                  "x": 4,
+                  "y": 7,
                   "sliceX": 8,
                   "sliceY": -8,
                   "palette": 0,
@@ -119,8 +119,8 @@
                 },
                 {
                   "id": "1d967751-ddad-427e-a557-c87f2333c8bb",
-                  "x": 16,
-                  "y": 4,
+                  "x": 12,
+                  "y": 7,
                   "sliceX": 40,
                   "sliceY": -8,
                   "palette": 0,
@@ -137,8 +137,8 @@
               "tiles": [
                 {
                   "id": "c584dc09-c5b4-4b4d-b2e2-90b7af41f3d1",
-                  "x": -8,
-                  "y": 4,
+                  "x": -12,
+                  "y": 7,
                   "sliceX": 0,
                   "sliceY": -8,
                   "palette": 0,
@@ -150,8 +150,8 @@
                 },
                 {
                   "id": "942b12ab-69bd-4be4-9d0b-ff1dccd7d124",
-                  "x": 0,
-                  "y": 4,
+                  "x": -4,
+                  "y": 7,
                   "sliceX": 8,
                   "sliceY": -8,
                   "palette": 0,
@@ -163,8 +163,8 @@
                 },
                 {
                   "id": "f7c48429-11ba-4a62-b192-c7b105b61548",
-                  "x": 16,
-                  "y": 4,
+                  "x": 12,
+                  "y": 7,
                   "sliceX": 40,
                   "sliceY": -8,
                   "palette": 0,
@@ -176,8 +176,8 @@
                 },
                 {
                   "id": "e7fbb76b-1fb3-48c9-8e0e-48d0317432a9",
-                  "x": 8,
-                  "y": 4,
+                  "x": 4,
+                  "y": 7,
                   "sliceX": 32,
                   "sliceY": -8,
                   "palette": 0,
@@ -194,8 +194,8 @@
               "tiles": [
                 {
                   "id": "806ed741-1f7c-4d6f-a34d-f96d91a9a458",
-                  "x": -8,
-                  "y": 4,
+                  "x": -12,
+                  "y": 7,
                   "sliceX": 0,
                   "sliceY": -8,
                   "palette": 0,
@@ -207,8 +207,8 @@
                 },
                 {
                   "id": "a0b8756c-3d04-4157-9327-dba188749b7e",
-                  "x": 16,
-                  "y": 4,
+                  "x": 12,
+                  "y": 7,
                   "sliceX": 40,
                   "sliceY": -8,
                   "palette": 0,
@@ -220,8 +220,8 @@
                 },
                 {
                   "id": "2fe515d8-f30f-4a08-9632-6ca35dc74a13",
-                  "x": 8,
-                  "y": 4,
+                  "x": 4,
+                  "y": 7,
                   "sliceX": 32,
                   "sliceY": -8,
                   "palette": 0,
@@ -233,8 +233,8 @@
                 },
                 {
                   "id": "be89ffe6-ddd5-4485-89e8-fcaa5f8721da",
-                  "x": 0,
-                  "y": 4,
+                  "x": -4,
+                  "y": 7,
                   "sliceX": 32,
                   "sliceY": -8,
                   "palette": 0,
@@ -251,8 +251,8 @@
               "tiles": [
                 {
                   "id": "5a604464-26b5-4721-b07d-28191e9253be",
-                  "x": 16,
-                  "y": 4,
+                  "x": 12,
+                  "y": 7,
                   "sliceX": 40,
                   "sliceY": -8,
                   "palette": 0,
@@ -264,8 +264,8 @@
                 },
                 {
                   "id": "6f4063c0-a290-49ab-89df-a8f91a32bc02",
-                  "x": 8,
-                  "y": 4,
+                  "x": 4,
+                  "y": 7,
                   "sliceX": 32,
                   "sliceY": -8,
                   "palette": 0,
@@ -277,8 +277,8 @@
                 },
                 {
                   "id": "c22f13ce-8943-4143-bb32-7cb53cf81504",
-                  "x": 0,
-                  "y": 4,
+                  "x": -4,
+                  "y": 7,
                   "sliceX": 32,
                   "sliceY": -8,
                   "palette": 0,
@@ -290,8 +290,8 @@
                 },
                 {
                   "id": "117e6617-4272-4a4c-86c9-b37775592215",
-                  "x": -8,
-                  "y": 4,
+                  "x": -12,
+                  "y": 7,
                   "sliceX": 24,
                   "sliceY": -8,
                   "palette": 0,
@@ -371,9 +371,9 @@
       ]
     }
   ],
-  "numTiles": 6,
-  "canvasWidth": 32,
-  "canvasHeight": 16,
+  "numTiles": 3,
+  "canvasWidth": 48,
+  "canvasHeight": 24,
   "boundsX": 0,
   "boundsY": 0,
   "boundsWidth": 16,

@@ -1,23 +1,24 @@
 {
   "_resourceType": "scene",
-  "id": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
-  "_index": 0,
-  "type": "POINTNCLICK",
+  "id": "78dc882c-dca5-4f43-9ab9-d1ecbaca3e12",
+  "_index": 11,
   "name": "Soda's Room",
-  "symbol": "scene_1",
-  "x": 656,
-  "y": 216,
+  "backgroundId": "3632771a-2527-46e7-901e-0fb925cc7ae2",
+  "tilesetId": "",
   "width": 20,
   "height": 18,
-  "backgroundId": "88f65c0f-5d36-4d6f-a72e-05ec68552ceb",
-  "tilesetId": "",
+  "type": "POINTNCLICK",
   "paletteIds": [
     "dmg"
   ],
   "spritePaletteIds": [
     "default-bg-1"
   ],
+  "collisions": "",
   "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 696,
+  "y": 32,
   "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
   "script": [
     {
@@ -30,7 +31,7 @@
         "effect": 0,
         "__collapse": true
       },
-      "id": "00a25ee2-72d4-4444-a4b2-775daa8d2f3b"
+      "id": "a6f74c32-1bab-42f6-870e-390c03651b34"
     },
     {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -39,14 +40,14 @@
         "speed": 0.25,
         "__collapse": true
       },
-      "id": "826d7885-a185-4c2c-96c9-2468ebee8796"
+      "id": "63041426-4aa7-442b-8338-832badaafeab"
     },
     {
       "command": "EVENT_IF_SAVED_DATA",
       "args": {
         "saveSlot": 0,
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -55,54 +56,65 @@
             "args": {
               "variableDest": "0",
               "variableSource": "0",
-              "saveSlot": 0
+              "saveSlot": 0,
+              "__collapse": false,
+              "__label": "Load Soda Happiness"
             },
-            "id": "c42c3b08-718f-42a6-8809-fbf73f6ed7ac"
+            "id": "a3cb475c-9ec7-4a79-9af9-68438a60b26d"
           },
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
               "variableDest": "1",
               "variableSource": "1",
-              "saveSlot": 0
+              "saveSlot": 0,
+              "__label": "Load Soda Hunger"
             },
-            "id": "f2eff6e9-8c19-46c8-93c3-13f9e417a099"
+            "id": "0061174e-ed41-4605-bea6-4dc0e0447145"
           },
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
               "variableDest": "30",
               "variableSource": "30",
-              "saveSlot": 0
+              "saveSlot": 0,
+              "__label": "Load Soda Days",
+              "__collapse": true
             },
-            "id": "ed173eda-c6e1-4b46-9a7c-58ba7ddf4139"
+            "id": "323a4616-b17f-4db9-8c4b-a0e022cb6ce7"
           },
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
               "variableDest": "32",
               "variableSource": "32",
-              "saveSlot": 0
+              "saveSlot": 0,
+              "__label": "Load Soda Mins",
+              "__collapse": true
             },
-            "id": "c31da8e5-b53b-4723-a5e2-44830bc9788b"
+            "id": "5bbd7104-d746-4fdc-a93b-41622c1bacb7"
           },
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
               "variableDest": "31",
               "variableSource": "31",
-              "saveSlot": 0
+              "saveSlot": 0,
+              "__label": "Load Soda Hours",
+              "__collapse": true
             },
-            "id": "f43b4443-50d7-49c3-81a6-894f6ff9595f"
+            "id": "011418bb-5a3d-43ed-8d53-dc87bcf9737b"
           },
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
               "variableDest": "35",
               "variableSource": "35",
-              "saveSlot": 0
+              "saveSlot": 0,
+              "__label": "Load Soda Secs",
+              "__collapse": true
             },
-            "id": "5aa0df08-656b-4f11-8219-28dfb5f4902a"
+            "id": "03cc6181-180c-425c-8fae-dc34f7fdff11"
           },
           {
             "command": "PT_EVENT_RTC_SET",
@@ -118,9 +130,53 @@
               "typeMinutes": "variable",
               "variableSeconds": "35",
               "valueSeconds": 0,
-              "typeSeconds": "variable"
+              "typeSeconds": "variable",
+              "__collapse": true
             },
-            "id": "5590dfdb-21ee-4ddc-a45e-472c1d8332e8"
+            "id": "b401b3ad-8677-4083-9973-7c998bd98fea"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "67f9cd51-9247-46e9-a59a-d3f7f695b993",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "27"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "38"
+              },
+              "$variable[V2]$": {
+                "type": "variable",
+                "value": "45"
+              },
+              "$variable[V3]$": {
+                "type": "variable",
+                "value": "52"
+              },
+              "$variable[V4]$": {
+                "type": "variable",
+                "value": "45"
+              },
+              "$variable[V5]$": {
+                "type": "variable",
+                "value": "45"
+              },
+              "$variable[V6]$": {
+                "type": "variable",
+                "value": "52"
+              },
+              "$variable[V7]$": {
+                "type": "variable",
+                "value": "52"
+              },
+              "$actor[0]$": "d8e36fa9-aa04-4bcb-be7f-8c0a43e02190",
+              "$actor[1]$": "34ffd2cc-82e3-4f82-9f12-282c265b1f75",
+              "$actor[2]$": "3be3146c-59a6-4787-a881-0d3331b08f2a",
+              "$actor[3]$": "18f43967-f9f5-4f9c-aa66-2ccdc9017db1"
+            },
+            "id": "10f5ddcb-fce9-4ed6-a5cd-76905f479e9a"
           }
         ],
         "false": [
@@ -133,7 +189,7 @@
                 "value": 1
               }
             },
-            "id": "6c513f2f-d191-4e95-8d61-a5f502771cdf"
+            "id": "ee4e6915-8432-4b7c-a972-12abcd0e895d"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -144,32 +200,31 @@
                 "value": 1
               }
             },
-            "id": "c2e00273-32ce-4e5e-b446-ba4dbdcc9fec"
+            "id": "64760013-a284-45d0-b650-382923ba4333"
           }
         ]
       },
-      "id": "0096b1ea-54a1-4801-b820-818da50f51a5"
+      "id": "16210f10-7d91-4bde-b9fe-93949b2d9f2b"
     },
     {
       "command": "PT_EVENT_RTC_START",
       "args": {
         "__collapse": true
       },
-      "id": "a771e8ee-7c2c-4ca5-af02-6587283ee486"
+      "id": "29de3ada-3fe2-45d0-8997-253cc6872617"
     },
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 3,
-        "__collapse": true
+        "speed": 15,
+        "__collapse": false
       },
-      "id": "4e26d90e-bea0-44b4-8359-5fc7f88b9ae4"
+      "id": "36cd9f25-65e2-43bb-8ce3-27f200973c81"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "",
   "autoFadeEventCollapse": true
 }

@@ -254,24 +254,13 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_SET_DIRECTION",
-            "args": {
-              "actorId": "1",
-              "direction": {
-                "type": "direction",
-                "value": "right"
-              },
-              "__collapse": false
-            },
-            "id": "f16f20b8-aac1-4740-bad6-a9a59bea769b"
-          },
-          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "1",
               "x": {
-                "type": "expression",
-                "value": "$V1$ + 4"
+                "type": "property",
+                "target": "0",
+                "property": "xpos"
               },
               "y": {
                 "type": "number",
@@ -286,24 +275,13 @@
         ],
         "false": [
           {
-            "command": "EVENT_ACTOR_SET_DIRECTION",
-            "args": {
-              "actorId": "1",
-              "direction": {
-                "type": "direction",
-                "value": "left"
-              },
-              "__collapse": false
-            },
-            "id": "df9b4128-da2d-4523-9038-a92ccd65df6b"
-          },
-          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "1",
               "x": {
-                "type": "expression",
-                "value": "$V1$ - 4"
+                "type": "property",
+                "target": "0",
+                "property": "xpos"
               },
               "y": {
                 "type": "number",

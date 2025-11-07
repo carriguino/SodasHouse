@@ -335,6 +335,41 @@
       "id": "73275a47-e996-495c-b706-d0e1d1376641__L0",
       "name": "moveFurniture",
       "symbol": "var_movefurniture"
+    },
+    {
+      "id": "d8e4b24b-15de-40c3-a8cb-995f5d653f33__L0",
+      "name": "da",
+      "symbol": "var_da_4"
+    },
+    {
+      "id": "fc4b59cd-ea67-458a-b4c5-5a5794cb706b__L1",
+      "name": "Local 1",
+      "symbol": "var_local_12"
+    },
+    {
+      "id": "fc4b59cd-ea67-458a-b4c5-5a5794cb706b__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture_0"
+    },
+    {
+      "id": "27",
+      "name": "Furniture Soda 1",
+      "symbol": "var_furniture_soda_1"
+    },
+    {
+      "id": "38",
+      "name": "Furniture Soda 2",
+      "symbol": "var_furniture_soda_2"
+    },
+    {
+      "id": "45",
+      "name": "Furniture Soda 3",
+      "symbol": "var_furniture_soda_3"
+    },
+    {
+      "id": "52",
+      "name": "Furniture Soda 4",
+      "symbol": "var_furniture_soda_4"
     }
   ]
 }

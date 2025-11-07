@@ -17,8 +17,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_8",
-  "x": 464,
-  "y": 344,
+  "x": 696,
+  "y": 216,
   "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
   "script": [
     {
@@ -26,7 +26,7 @@
       "args": {
         "type": "tone",
         "pitch": 4,
-        "frequency": 600,
+        "frequency": 150,
         "duration": 0.05,
         "effect": 0,
         "__collapse": false
@@ -38,7 +38,7 @@
       "args": {
         "actorId": "$self$",
         "speed": 0.25,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "77b339f7-64cf-4f8e-a09d-8b28de5d3ea1"
     },
@@ -54,8 +54,8 @@
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
-              "variableDest": "0",
-              "variableSource": "0",
+              "variableDest": "8",
+              "variableSource": "8",
               "saveSlot": 0
             },
             "id": "bacaae40-54b4-4777-8c51-25fa486b3b17"
@@ -63,8 +63,8 @@
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
-              "variableDest": "1",
-              "variableSource": "1",
+              "variableDest": "9",
+              "variableSource": "9",
               "saveSlot": 0
             },
             "id": "9dca0968-8674-4148-ae18-31ebc6a5da86"
@@ -128,7 +128,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "0",
+              "variable": "8",
               "value": {
                 "type": "number",
                 "value": 1
@@ -139,7 +139,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "1",
+              "variable": "9",
               "value": {
                 "type": "number",
                 "value": 1

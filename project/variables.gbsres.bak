@@ -330,6 +330,26 @@
       "id": "b14537b9-62a3-4179-b564-346c5da22fd1__L0",
       "name": "Local 0",
       "symbol": "var_local_11"
+    },
+    {
+      "id": "73275a47-e996-495c-b706-d0e1d1376641__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture"
+    },
+    {
+      "id": "d8e4b24b-15de-40c3-a8cb-995f5d653f33__L0",
+      "name": "da",
+      "symbol": "var_da_4"
+    },
+    {
+      "id": "fc4b59cd-ea67-458a-b4c5-5a5794cb706b__L1",
+      "name": "Local 1",
+      "symbol": "var_local_12"
+    },
+    {
+      "id": "fc4b59cd-ea67-458a-b4c5-5a5794cb706b__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture_0"
     }
   ]
 }
