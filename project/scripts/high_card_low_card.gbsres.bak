@@ -860,43 +860,11 @@
                   "id": "31d0f3ca-6ed0-4c88-bac9-5a01aefcb086"
                 },
                 {
-                  "command": "EVENT_SAVE_DATA",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
-                    "saveSlot": 0,
-                    "__scriptTabs": "save",
-                    "__collapse": true
+                    "customEventId": "b2c441ed-d302-40cc-92da-158e8fd42bca"
                   },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
-                            "Game Saved!"
-                          ],
-                          "__section": "text",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": -1,
-                          "speedOut": -1,
-                          "closeWhen": "key",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
-                        },
-                        "id": "869316c8-1ec6-4ac7-8318-1b98b5a2d82c"
-                      }
-                    ],
-                    "load": []
-                  },
-                  "id": "12b5ba26-3ef5-47f1-b897-340b3a353dc7"
+                  "id": "90a631f3-b741-4412-99c6-f167d3649296"
                 },
                 {
                   "command": "EVENT_SWITCH_SCENE",
@@ -1014,43 +982,11 @@
                   "id": "a7bd8c1c-b762-4a3a-98ba-f634d6824ea7"
                 },
                 {
-                  "command": "EVENT_SAVE_DATA",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
-                    "saveSlot": 0,
-                    "__scriptTabs": "save",
-                    "__collapse": true
+                    "customEventId": "b2c441ed-d302-40cc-92da-158e8fd42bca"
                   },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
-                            "Game Saved!"
-                          ],
-                          "__section": "text",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": -1,
-                          "speedOut": -1,
-                          "closeWhen": "key",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
-                        },
-                        "id": "fff33c72-a292-4fca-9124-0fe29b9edfef"
-                      }
-                    ],
-                    "load": []
-                  },
-                  "id": "e3beeed5-ea79-4bfa-99bf-894f36a67536"
+                  "id": "d4ae03d8-4b6d-4eb7-a57c-199737cd3a71"
                 },
                 {
                   "command": "EVENT_SWITCH_SCENE",

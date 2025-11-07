@@ -961,7 +961,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "30eb9bfc-f0b7-493a-ab13-bbdcc55c2ef7"
                 },

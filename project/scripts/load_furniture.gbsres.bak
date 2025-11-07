@@ -23,26 +23,6 @@
       "id": "V3",
       "name": "Save 4",
       "passByReference": true
-    },
-    "V4": {
-      "id": "V4",
-      "name": "Local 1",
-      "passByReference": true
-    },
-    "V5": {
-      "id": "V5",
-      "name": "Local 2",
-      "passByReference": true
-    },
-    "V6": {
-      "id": "V6",
-      "name": "Local 3",
-      "passByReference": true
-    },
-    "V7": {
-      "id": "V7",
-      "name": "Local 4",
-      "passByReference": true
     }
   },
   "actors": {
@@ -85,7 +65,7 @@
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
-              "variableDest": "V5",
+              "variableDest": "V1",
               "variableSource": "V1",
               "saveSlot": 0
             },
@@ -94,7 +74,7 @@
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
-              "variableDest": "V6",
+              "variableDest": "V2",
               "variableSource": "V2",
               "saveSlot": 0
             },
@@ -103,7 +83,7 @@
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
-              "variableDest": "V7",
+              "variableDest": "V3",
               "variableSource": "V3",
               "saveSlot": 0
             },

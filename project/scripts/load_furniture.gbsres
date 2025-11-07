@@ -23,6 +23,11 @@
       "id": "V3",
       "name": "Save 4",
       "passByReference": true
+    },
+    "V4": {
+      "id": "V4",
+      "name": "Variable E",
+      "passByReference": true
     }
   },
   "actors": {

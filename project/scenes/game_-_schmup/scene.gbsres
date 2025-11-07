@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "b14537b9-62a3-4179-b564-346c5da22fd1",
-  "_index": 10,
+  "_index": 6,
   "name": "Game - Schmup",
   "backgroundId": "8b58631e-cbd4-4793-8591-2d994ae03518",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
-  "x": 880,
-  "y": 408,
+  "x": 1128,
+  "y": 592,
   "script": [
     {
       "command": "EVENT_SET_VALUE",

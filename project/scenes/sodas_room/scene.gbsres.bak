@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "78dc882c-dca5-4f43-9ab9-d1ecbaca3e12",
-  "_index": 11,
+  "_index": 7,
   "name": "Soda's Room",
   "backgroundId": "3632771a-2527-46e7-901e-0fb925cc7ae2",
   "tilesetId": "",
@@ -17,8 +17,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_12",
-  "x": 696,
-  "y": 32,
+  "x": 944,
+  "y": 216,
   "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
   "script": [
     {
@@ -145,15 +145,15 @@
               },
               "$variable[V1]$": {
                 "type": "variable",
-                "value": "27"
+                "value": "38"
               },
               "$variable[V2]$": {
                 "type": "variable",
-                "value": "38"
+                "value": "45"
               },
               "$variable[V3]$": {
                 "type": "variable",
-                "value": "38"
+                "value": "52"
               },
               "$variable[V4]$": {
                 "type": "variable",
@@ -170,7 +170,11 @@
               "$variable[V7]$": {
                 "type": "variable",
                 "value": "52"
-              }
+              },
+              "$actor[0]$": "d8e36fa9-aa04-4bcb-be7f-8c0a43e02190",
+              "$actor[1]$": "34ffd2cc-82e3-4f82-9f12-282c265b1f75",
+              "$actor[2]$": "3be3146c-59a6-4787-a881-0d3331b08f2a",
+              "$actor[3]$": "18f43967-f9f5-4f9c-aa66-2ccdc9017db1"
             },
             "id": "10f5ddcb-fce9-4ed6-a5cd-76905f479e9a"
           }

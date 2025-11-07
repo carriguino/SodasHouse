@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "5c55910f-c8d5-4b86-af7b-b52450f188cb",
+  "name": "eyecatcher",
+  "symbol": "bg_eyecatcher",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "eyecatcher.png",
+  "tileColors": ""
+}

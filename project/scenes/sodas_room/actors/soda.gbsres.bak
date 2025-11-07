@@ -17,9 +17,24 @@
   "_index": 1,
   "symbol": "actor_10",
   "x": 9,
-  "y": 11,
+  "y": 1,
   "script": [],
   "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        }
+      },
+      "id": "9d737297-1866-4122-bd18-b76ebd987acf"
+    },
     {
       "command": "EVENT_RNG_SEED",
       "args": {

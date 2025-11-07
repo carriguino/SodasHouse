@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "c34cbfb4-fa5e-46b3-8964-3267cdcd3071",
-  "_index": 9,
+  "_index": 5,
   "name": "Game - Sword Fight",
   "backgroundId": "9ebe6a33-f59f-4a00-8893-d1b711b9006b",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
-  "x": 880,
-  "y": 216,
+  "x": 1128,
+  "y": 400,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
