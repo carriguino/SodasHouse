@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "c34cbfb4-fa5e-46b3-8964-3267cdcd3071",
-  "_index": 9,
+  "_index": 5,
   "name": "Game - Sword Fight",
   "backgroundId": "9ebe6a33-f59f-4a00-8893-d1b711b9006b",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
-  "x": 880,
-  "y": 216,
+  "x": 1128,
+  "y": 400,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -43,7 +43,20 @@
         "$variable[V9]$": {
           "type": "variable",
           "value": "L3"
-        }
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "L2"
+        },
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "L3"
+        },
+        "$variable[V4]$": {
+          "type": "variable",
+          "value": "L4"
+        },
+        "__collapse": true
       },
       "id": "914d0555-6d0f-4e14-ada4-42464d0c95d6"
     },
@@ -55,14 +68,15 @@
           "select"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "c212435d-916b-4a8d-8899-6cfe2ed6a71d",
+              "sceneId": "78dc882c-dca5-4f43-9ab9-d1ecbaca3e12",
               "x": {
                 "type": "number",
                 "value": 0

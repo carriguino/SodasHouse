@@ -137,6 +137,11 @@
       "symbol": "var_schmupbest"
     },
     {
+      "id": "27",
+      "name": "Furniture Soda 1",
+      "symbol": "var_furniture_soda_1"
+    },
+    {
       "id": "28",
       "name": "popWeight",
       "symbol": "var_popweight"
@@ -187,9 +192,24 @@
       "symbol": "var_autosavetimer_0"
     },
     {
+      "id": "38",
+      "name": "Furniture Soda 2",
+      "symbol": "var_furniture_soda_2"
+    },
+    {
       "id": "44",
       "name": "adosWeight",
       "symbol": "var_adosweight"
+    },
+    {
+      "id": "45",
+      "name": "Furniture Soda 3",
+      "symbol": "var_furniture_soda_3"
+    },
+    {
+      "id": "52",
+      "name": "Furniture Soda 4",
+      "symbol": "var_furniture_soda_4"
     },
     {
       "id": "66",
@@ -352,24 +372,9 @@
       "symbol": "var_movefurniture_0"
     },
     {
-      "id": "27",
-      "name": "Furniture Soda 1",
-      "symbol": "var_furniture_soda_1"
-    },
-    {
-      "id": "38",
-      "name": "Furniture Soda 2",
-      "symbol": "var_furniture_soda_2"
-    },
-    {
-      "id": "45",
-      "name": "Furniture Soda 3",
-      "symbol": "var_furniture_soda_3"
-    },
-    {
-      "id": "52",
-      "name": "Furniture Soda 4",
-      "symbol": "var_furniture_soda_4"
+      "id": "1682dfc4-f56b-42d1-915e-a42fd783aa7b__L0",
+      "name": "cusor",
+      "symbol": "var_cusor"
     }
   ]
 }

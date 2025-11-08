@@ -5,7 +5,7 @@
   "symbol": "sprite_dpad",
   "numFrames": 6,
   "filename": "dpad.png",
-  "checksum": "fd0b765eace1ad57587120096ea5267ee80f2c6b",
+  "checksum": "897fdb8d34603c7c0fa2165318d4e6bde9b5ae3e",
   "width": 96,
   "height": 32,
   "states": [
@@ -405,7 +405,7 @@
       ]
     }
   ],
-  "numTiles": 9,
+  "numTiles": 10,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,

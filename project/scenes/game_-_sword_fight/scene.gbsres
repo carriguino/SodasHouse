@@ -43,7 +43,20 @@
         "$variable[V9]$": {
           "type": "variable",
           "value": "L3"
-        }
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "L2"
+        },
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "L3"
+        },
+        "$variable[V4]$": {
+          "type": "variable",
+          "value": "L4"
+        },
+        "__collapse": false
       },
       "id": "914d0555-6d0f-4e14-ada4-42464d0c95d6"
     },
@@ -55,14 +68,15 @@
           "select"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "c212435d-916b-4a8d-8899-6cfe2ed6a71d",
+              "sceneId": "78dc882c-dca5-4f43-9ab9-d1ecbaca3e12",
               "x": {
                 "type": "number",
                 "value": 0

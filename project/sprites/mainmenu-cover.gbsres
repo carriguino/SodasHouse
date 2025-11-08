@@ -3,13 +3,11 @@
   "id": "48faa910-0094-4646-95f8-35bfc2f214f2",
   "name": "mainmenu-cover",
   "symbol": "bg_mainmenu_cover_0",
+  "numFrames": 3.125,
+  "filename": "mainmenu-cover.png",
+  "checksum": "b880130b5aa55b2a6f5e2cbb841a001b0936d91d",
   "width": 50,
   "height": 8,
-  "imageWidth": 50,
-  "imageHeight": 8,
-  "filename": "mainmenu-cover.png",
-  "numFrames": 3.125,
-  "checksum": "b880130b5aa55b2a6f5e2cbb841a001b0936d91d",
   "states": [
     {
       "id": "24dfcb50-15dc-47a9-abc4-337eec6564ee",
@@ -191,5 +189,7 @@
   "boundsY": 0,
   "boundsWidth": 16,
   "boundsHeight": 8,
-  "animSpeed": 15
+  "animSpeed": 15,
+  "imageWidth": 50,
+  "imageHeight": 8
 }

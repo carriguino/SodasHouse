@@ -2,14 +2,14 @@
   "_resourceType": "sprite",
   "id": "48faa910-0094-4646-95f8-35bfc2f214f2",
   "name": "mainmenu-cover",
-  "symbol": "bg_mainmenu_cover",
+  "symbol": "bg_mainmenu_cover_0",
   "width": 50,
   "height": 8,
   "imageWidth": 50,
   "imageHeight": 8,
   "filename": "mainmenu-cover.png",
   "numFrames": 3.125,
-  "checksum": "c976b5de5864a72b194946b3b154fd3d7bfadc57",
+  "checksum": "b880130b5aa55b2a6f5e2cbb841a001b0936d91d",
   "states": [
     {
       "id": "24dfcb50-15dc-47a9-abc4-337eec6564ee",
@@ -26,7 +26,7 @@
                 {
                   "id": "4a2d1395-b624-4f38-a030-a1b347cd628f",
                   "x": -15,
-                  "y": 0,
+                  "y": 7,
                   "sliceX": 0,
                   "sliceY": -8,
                   "palette": 0,
@@ -39,7 +39,7 @@
                 {
                   "id": "401da39a-5387-4c0d-9bc4-6b41bd3a5184",
                   "x": -7,
-                  "y": 0,
+                  "y": 7,
                   "sliceX": 8,
                   "sliceY": -8,
                   "palette": 0,
@@ -52,7 +52,7 @@
                 {
                   "id": "b321a7df-d225-49b4-80cb-e31c39400512",
                   "x": 1,
-                  "y": 0,
+                  "y": 7,
                   "sliceX": 16,
                   "sliceY": -8,
                   "palette": 0,
@@ -65,7 +65,7 @@
                 {
                   "id": "43fa3ca3-3ff1-4d56-bb7d-4dd2bdb5782d",
                   "x": 9,
-                  "y": 0,
+                  "y": 7,
                   "sliceX": 24,
                   "sliceY": -8,
                   "palette": 0,
@@ -78,7 +78,7 @@
                 {
                   "id": "3177f433-3b7c-4428-bbdf-8f08a2a4f8ff",
                   "x": 17,
-                  "y": 0,
+                  "y": 7,
                   "sliceX": 32,
                   "sliceY": -8,
                   "palette": 0,
@@ -91,7 +91,7 @@
                 {
                   "id": "e92d97be-dd38-48e4-969d-608ced588eb1",
                   "x": 25,
-                  "y": 0,
+                  "y": 7,
                   "sliceX": 40,
                   "sliceY": -8,
                   "palette": 0,
@@ -104,7 +104,7 @@
                 {
                   "id": "3acf3900-ba9e-4768-806c-b937e4c7f072",
                   "x": 33,
-                  "y": 0,
+                  "y": 7,
                   "sliceX": 48,
                   "sliceY": -8,
                   "palette": 0,

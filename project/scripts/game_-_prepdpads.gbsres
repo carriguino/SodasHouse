@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
   "id": "d931d28b-ae1c-4f08-b7e6-20b4b4665bcf",
-  "name": "PrepDpads",
+  "name": "Game - PrepDpads",
   "description": "sets dpads to random directions and hides them",
   "variables": {
     "V0": {
