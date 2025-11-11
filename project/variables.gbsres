@@ -212,6 +212,11 @@
       "symbol": "var_furniture_soda_4"
     },
     {
+      "id": "53",
+      "name": "PermTemp",
+      "symbol": "var_permtemp"
+    },
+    {
       "id": "66",
       "name": "schmupScore",
       "symbol": "var_schmupscore"
@@ -375,11 +380,6 @@
       "id": "1682dfc4-f56b-42d1-915e-a42fd783aa7b__L0",
       "name": "cusor",
       "symbol": "var_cusor"
-    },
-    {
-      "id": "53",
-      "name": "PermTemp",
-      "symbol": "var_permtemp"
     }
   ]
 }

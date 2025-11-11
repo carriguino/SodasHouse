@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "f52c21d2-01cf-4a38-900a-1b7666d16867",
   "prefabId": "",
-  "direction": "left",
+  "direction": "up",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -16,15 +16,7 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_65",
   "script": [],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "951aac7d-1370-4fd5-a184-cc90c9615063"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
