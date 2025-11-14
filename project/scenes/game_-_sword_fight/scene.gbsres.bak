@@ -50,7 +50,7 @@
         },
         "$variable[V3]$": {
           "type": "number",
-          "value": 27
+          "value": 40
         },
         "$variable[V4]$": {
           "type": "variable",
@@ -60,6 +60,10 @@
         "$variable[V5]$": {
           "type": "variable",
           "value": "L4"
+        },
+        "$variable[V6]$": {
+          "type": "variable",
+          "value": "L5"
         }
       },
       "id": "914d0555-6d0f-4e14-ada4-42464d0c95d6"

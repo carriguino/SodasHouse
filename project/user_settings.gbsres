@@ -1,7 +1,7 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 1170,
-  "worldScrollY": 68,
+  "worldScrollX": 2122.666748046875,
+  "worldScrollY": 0,
   "zoom": 250,
   "navigatorSplitSizes": [
     421,
@@ -35,7 +35,8 @@
     "3",
     "c34cbfb4-fa5e-46b3-8964-3267cdcd3071__L0",
     "T1",
-    "T0"
+    "T0",
+    "c34cbfb4-fa5e-46b3-8964-3267cdcd3071__L5"
   ],
   "openBuildLogOnWarnings": false
 }

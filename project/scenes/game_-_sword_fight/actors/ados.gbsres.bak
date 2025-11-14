@@ -22,7 +22,7 @@
       "args": {
         "actorId": "$self$",
         "spriteStateId": "Swing Bat",
-        "loopAnim": false
+        "loopAnim": true
       },
       "id": "7f01aa00-cabf-4276-b8e9-75dfe7b3e67f"
     },

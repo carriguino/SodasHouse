@@ -16,12 +16,20 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_65",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "28a42306-8a12-4637-ac92-7ff25f7c492d"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 16,
-  "y": 4,
+  "x": 1,
+  "y": 3,
   "_index": 1
 }
