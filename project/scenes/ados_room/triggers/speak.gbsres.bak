@@ -1,10 +1,10 @@
 {
   "_resourceType": "trigger",
-  "id": "ec06126c-4c6e-4ccd-a8f0-45ee601defab",
+  "id": "08e834b7-8353-4f7b-9a52-ed2a79ba7244",
   "name": "Speak",
   "prefabId": "",
   "_index": 3,
-  "symbol": "trigger_19",
+  "symbol": "trigger_7",
   "x": 16,
   "y": 12,
   "width": 2,
@@ -20,35 +20,59 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "5"
+            "value": "2"
           },
           "valueB": {
-            "type": "false"
+            "type": "number",
+            "value": 0
           }
         }
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_STOP",
-            "args": {},
-            "id": "08fffbec-9b85-4a7a-8b99-4ed4debeb3a4"
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "SODA's in his box!",
+                "He'll come out\nonce he feels",
+                "ready."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "80a2637c-1838-4b33-9332-2d0161538f72"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "83b22cb2-5275-4669-a203-3d5793f3297e",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "T0"
+              }
+            },
+            "id": "943e5e02-d67e-422b-a46f-3b7bc17bd4d3"
+          }
+        ]
       },
-      "id": "ef916d41-3eed-4d21-80a5-54d2d8175246"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "f2decf85-d1c3-4ad7-a44e-62fed136c001",
-        "$variable[V0]$": {
-          "type": "variable",
-          "value": "8"
-        }
-      },
-      "id": "3e26ea37-679f-4d78-b4ed-943e4867b65c"
+      "id": "55fc92c0-257e-47c9-9d55-9a53d16a0843"
     }
   ],
   "leaveScript": []

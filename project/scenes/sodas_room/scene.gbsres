@@ -14,7 +14,7 @@
   "spritePaletteIds": [
     "default-bg-1"
   ],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_12",
   "x": 944,
@@ -71,112 +71,6 @@
               "__label": "Load Soda Hunger"
             },
             "id": "0061174e-ed41-4605-bea6-4dc0e0447145"
-          },
-          {
-            "command": "EVENT_PEEK_DATA",
-            "args": {
-              "variableDest": "30",
-              "variableSource": "30",
-              "saveSlot": 0,
-              "__label": "Load Soda Days",
-              "__collapse": true
-            },
-            "id": "323a4616-b17f-4db9-8c4b-a0e022cb6ce7"
-          },
-          {
-            "command": "EVENT_PEEK_DATA",
-            "args": {
-              "variableDest": "32",
-              "variableSource": "32",
-              "saveSlot": 0,
-              "__label": "Load Soda Mins",
-              "__collapse": true
-            },
-            "id": "5bbd7104-d746-4fdc-a93b-41622c1bacb7"
-          },
-          {
-            "command": "EVENT_PEEK_DATA",
-            "args": {
-              "variableDest": "31",
-              "variableSource": "31",
-              "saveSlot": 0,
-              "__label": "Load Soda Hours",
-              "__collapse": true
-            },
-            "id": "011418bb-5a3d-43ed-8d53-dc87bcf9737b"
-          },
-          {
-            "command": "EVENT_PEEK_DATA",
-            "args": {
-              "variableDest": "35",
-              "variableSource": "35",
-              "saveSlot": 0,
-              "__label": "Load Soda Secs",
-              "__collapse": true
-            },
-            "id": "03cc6181-180c-425c-8fae-dc34f7fdff11"
-          },
-          {
-            "command": "PT_EVENT_RTC_SET",
-            "args": {
-              "variableDays": "30",
-              "valueDays": 0,
-              "typeDays": "variable",
-              "variableHours": "31",
-              "valueHours": 0,
-              "typeHours": "variable",
-              "variableMinutes": "32",
-              "valueMinutes": 0,
-              "typeMinutes": "variable",
-              "variableSeconds": "35",
-              "valueSeconds": 0,
-              "typeSeconds": "variable",
-              "__collapse": true
-            },
-            "id": "b401b3ad-8677-4083-9973-7c998bd98fea"
-          },
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "67f9cd51-9247-46e9-a59a-d3f7f695b993",
-              "$variable[V0]$": {
-                "type": "variable",
-                "value": "27"
-              },
-              "$variable[V1]$": {
-                "type": "variable",
-                "value": "38"
-              },
-              "$variable[V2]$": {
-                "type": "variable",
-                "value": "45"
-              },
-              "$variable[V3]$": {
-                "type": "variable",
-                "value": "52"
-              },
-              "$variable[V4]$": {
-                "type": "variable",
-                "value": "45"
-              },
-              "$variable[V5]$": {
-                "type": "variable",
-                "value": "45"
-              },
-              "$variable[V6]$": {
-                "type": "variable",
-                "value": "52"
-              },
-              "$variable[V7]$": {
-                "type": "variable",
-                "value": "52"
-              },
-              "$actor[0]$": "d8e36fa9-aa04-4bcb-be7f-8c0a43e02190",
-              "$actor[1]$": "34ffd2cc-82e3-4f82-9f12-282c265b1f75",
-              "$actor[2]$": "3be3146c-59a6-4787-a881-0d3331b08f2a",
-              "$actor[3]$": "18f43967-f9f5-4f9c-aa66-2ccdc9017db1"
-            },
-            "id": "10f5ddcb-fce9-4ed6-a5cd-76905f479e9a"
           }
         ],
         "false": [
@@ -209,7 +103,7 @@
     {
       "command": "PT_EVENT_RTC_START",
       "args": {
-        "__collapse": true
+        "__collapse": false
       },
       "id": "29de3ada-3fe2-45d0-8997-253cc6872617"
     },
@@ -218,7 +112,7 @@
       "args": {
         "actorId": "$self$",
         "speed": 15,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "36cd9f25-65e2-43bb-8ce3-27f200973c81"
     }

@@ -15,7 +15,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Move Cursor Right"
       },
       "children": {
@@ -310,7 +310,7 @@
         "override": true,
         "__scriptTabs": "press",
         "__label": "Start Input",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -396,7 +396,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Select Input"
       },
       "children": {

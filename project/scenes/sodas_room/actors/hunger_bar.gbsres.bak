@@ -1,23 +1,23 @@
 {
   "_resourceType": "actor",
-  "id": "54baad47-182f-4ece-b0b1-3d7cd935e735",
-  "_index": 4,
-  "symbol": "actor_3",
-  "prefabId": "",
+  "id": "98095d64-33ff-4da4-b901-de77f552f196",
   "name": "Hunger Bar",
-  "x": 16,
-  "y": 3,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "155d9800-ea8c-4d47-9cc6-b253aa35c2db",
-  "paletteId": "",
+  "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 255,
+  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
+  "_index": 8,
+  "symbol": "actor_81",
+  "x": 15,
+  "y": 4,
   "script": [],
   "startScript": [
     {
@@ -50,7 +50,7 @@
                       "type": "gt",
                       "valueA": {
                         "type": "variable",
-                        "value": "1"
+                        "value": "9"
                       },
                       "valueB": {
                         "type": "number",
@@ -65,138 +65,36 @@
                       {
                         "command": "EVENT_DEC_VALUE",
                         "args": {
-                          "variable": "1"
+                          "variable": "9"
                         },
-                        "id": "3ad55a7f-0402-4f56-87da-2e7c20caba1b"
+                        "id": "76d287ba-44a7-480f-a7bf-e47e887c0f9c"
                       }
                     ],
                     "false": []
                   },
-                  "id": "2b9957e2-b5fe-4c8f-b1a0-947352c9bf3a"
+                  "id": "8ff18f71-7957-46df-93d9-5d90bed942da"
                 },
                 {
                   "command": "EVENT_DEC_VALUE",
                   "args": {
-                    "variable": "0"
+                    "variable": "8"
                   },
-                  "id": "28a85600-9c2c-4b69-882b-65ad57a1cf7a"
+                  "id": "96304a71-cdee-4f1f-9970-8dcd8fa0b1e0"
                 }
               ]
             },
-            "id": "38fead58-c1f0-45e8-a36e-b109598cf033"
+            "id": "bb4019c6-74bc-4f5f-8c0f-46b6dbd14bc0"
           },
           {
             "command": "EVENT_TIMER_DISABLE",
             "args": {
               "timer": 2
             },
-            "id": "481c4158-43c8-4c9b-84f7-463e2334338f"
+            "id": "9336f128-6ae5-41a7-951d-59d41e87213b"
           }
         ]
       },
-      "id": "5f7f9681-2ca4-4cf3-b21d-84f1ffc5e280"
-    },
-    {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "up"
-        ],
-        "override": false,
-        "__scriptTabs": "press",
-        "__collapse": false,
-        "__comment": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "variable": "1",
-              "operator": "<=",
-              "comparator": 3,
-              "__collapseElse": true,
-              "__disableElse": true,
-              "condition": {
-                "type": "lte",
-                "valueA": {
-                  "type": "variable",
-                  "value": "1"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 3
-                }
-              }
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_INC_VALUE",
-                  "args": {
-                    "variable": "1"
-                  },
-                  "id": "effbdd2e-7666-416b-a79f-36ed7e2072a9"
-                }
-              ],
-              "false": []
-            },
-            "id": "30f9d395-339d-4c02-8a60-d44cac2e6274"
-          }
-        ]
-      },
-      "id": "67950bca-67ad-46f0-8359-b14769aca2e5"
-    },
-    {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "down"
-        ],
-        "override": false,
-        "__scriptTabs": "press",
-        "__collapse": true,
-        "__comment": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "variable": "1",
-              "operator": ">=",
-              "comparator": 1,
-              "__collapseElse": true,
-              "__disableElse": true,
-              "condition": {
-                "type": "gte",
-                "valueA": {
-                  "type": "variable",
-                  "value": "1"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 1
-                }
-              }
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_DEC_VALUE",
-                  "args": {
-                    "variable": "1"
-                  },
-                  "id": "184f90ad-5deb-40ec-a527-736422cef2b2"
-                }
-              ],
-              "false": []
-            },
-            "id": "62a4d6e2-ed9f-44c3-be7f-407010fbe41b"
-          }
-        ]
-      },
-      "id": "cf4a7e9b-b987-4d2d-bcec-e45c77a2e901"
+      "id": "1295381b-df94-49e3-8f25-7a620edef399"
     }
   ],
   "updateScript": [
@@ -239,7 +137,7 @@
         "value15": 16,
         "__collapseElse": false,
         "__disableElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Update Hunger"
       },
       "children": {
@@ -253,7 +151,7 @@
                 "value": 0
               }
             },
-            "id": "ed222a10-8b4b-4b7c-bbe1-622f60885858"
+            "id": "b0ca8e13-c571-4ab4-be7d-979a3a46b417"
           }
         ],
         "true1": [
@@ -266,7 +164,7 @@
                 "value": 1
               }
             },
-            "id": "92e8287f-2474-43c6-bc69-fbc4a15e0ab4"
+            "id": "0b4ced88-2d0c-4872-8b5b-3c91531942d8"
           }
         ],
         "true2": [
@@ -279,7 +177,7 @@
                 "value": 2
               }
             },
-            "id": "2144f774-eea6-4852-81ba-5789869deae8"
+            "id": "d16fd7ff-de1b-4448-b578-e996a32eff84"
           }
         ],
         "true3": [
@@ -292,7 +190,7 @@
                 "value": 3
               }
             },
-            "id": "8d5f0680-4009-462a-991a-08511c573305"
+            "id": "66f6b5bd-5d43-4f78-b613-2e4c937b2c52"
           }
         ],
         "true4": [
@@ -305,7 +203,7 @@
                 "value": 4
               }
             },
-            "id": "444e8b01-9898-43ec-b389-aad13d5c7a52"
+            "id": "4d29d162-8fa9-48fa-8550-84756f84a10d"
           }
         ],
         "true5": [],
@@ -321,7 +219,7 @@
         "true15": [],
         "false": []
       },
-      "id": "4c85c7c8-0306-4c08-9d0b-2ac530b3dba5"
+      "id": "77334e81-97f6-4a67-8d72-e2c3e5d158aa"
     }
   ],
   "hit1Script": [],

@@ -19,6 +19,21 @@
   "y": 80,
   "script": [
     {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        }
+      },
+      "id": "9beedd14-8cff-48d4-b494-78fb028d3390"
+    },
+    {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {
         "actorId": "$self$",

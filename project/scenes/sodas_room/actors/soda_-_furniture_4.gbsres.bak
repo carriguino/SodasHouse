@@ -1,27 +1,62 @@
 {
   "_resourceType": "actor",
-  "id": "a3dea8c6-92d4-4a5a-bd74-0428e912b05e",
-  "name": "Soda - Furniture 1",
+  "id": "18f43967-f9f5-4f9c-aa66-2ccdc9017db1",
+  "name": "Soda - Furniture 4",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "73ff9e63-5368-4bb9-a3db-aea1b28091cf",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 255,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_8",
+  "symbol": "actor_79",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF_SAVED_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "52",
+              "variableSource": "52",
+              "saveSlot": 0
+            },
+            "id": "272257c0-00e9-4c80-b5e7-881b2294854b"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "variable",
+                "value": "52"
+              },
+              "__collapse": false
+            },
+            "id": "09c7dc33-425f-427f-a7c5-d2f44ba66cfd"
+          }
+        ],
+        "false": []
+      },
+      "id": "3db0d657-7af1-4c49-b57e-de3c931f3a15"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 16,
-  "y": 11,
+  "x": 15,
+  "y": 10,
   "_index": 7
 }

@@ -1,0 +1,77 @@
+{
+  "_resourceType": "trigger",
+  "id": "08e834b7-8353-4f7b-9a52-ed2a79ba7244",
+  "name": "Speak",
+  "prefabId": "",
+  "_index": 3,
+  "symbol": "trigger_7",
+  "x": 16,
+  "y": 12,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "5",
+        "__collapseElse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "44"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "ADOS is in his box",
+                "You can hear him\nshadowboxing in",
+                "there...",
+                "Guess he'll come\nout when he wants."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "80a2637c-1838-4b33-9332-2d0161538f72"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "f2decf85-d1c3-4ad7-a44e-62fed136c001",
+              "$actor[0]$": "1d89eeba-2654-46d0-85c5-22b81866cfdb"
+            },
+            "id": "943e5e02-d67e-422b-a46f-3b7bc17bd4d3"
+          }
+        ]
+      },
+      "id": "55fc92c0-257e-47c9-9d55-9a53d16a0843"
+    }
+  ],
+  "leaveScript": []
+}

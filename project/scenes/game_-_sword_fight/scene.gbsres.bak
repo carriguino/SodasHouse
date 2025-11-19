@@ -3,7 +3,7 @@
   "id": "c34cbfb4-fa5e-46b3-8964-3267cdcd3071",
   "_index": 5,
   "name": "Game - Sword Fight",
-  "backgroundId": "9ebe6a33-f59f-4a00-8893-d1b711b9006b",
+  "backgroundId": "267a1aae-2960-40b3-8f0c-9711480525f3",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -29,7 +29,7 @@
           "value": "L1"
         },
         "$actor[0]$": "2a5b9e10-2209-4e7c-a595-fd285b03cd41",
-        "$actor[1]$": "d7a5513e-91f9-4814-b811-0a8118c5cb76",
+        "$actor[1]$": "4d14c772-23bb-4356-9a17-ebc24b0124da",
         "$actor[2]$": "044a6468-2412-4a76-968a-b2401bc12d2b",
         "$actor[3]$": "79cdde71-52b9-4ddc-895f-3c61aaca6db3",
         "$variable[V7]$": {

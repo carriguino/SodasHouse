@@ -12,186 +12,212 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "command": "PT_EVENT_ADVANCED_MENU",
-      "args": {
-        "__scriptTabs": "items",
-        "width": 18,
-        "height": 5,
-        "from": "bottom",
-        "variable": "L0",
-        "items": 3,
-        "option_1_text": "Yes",
-        "option1_x": 2,
-        "option1_y": 2,
-        "option1_l": 0,
-        "option1_r": 0,
-        "option1_u": 0,
-        "option1_d": 2,
-        "option_2_text": "No",
-        "option2_x": 2,
-        "option2_y": 3,
-        "option2_l": 0,
-        "option2_r": 0,
-        "option2_u": 1,
-        "option2_d": 0,
-        "option_3_text": "Move Furniture?",
-        "option3_x": 0,
-        "option3_y": 0,
-        "option3_l": 0,
-        "option3_r": 0,
-        "option3_u": 0,
-        "option3_d": 0,
-        "option_4_text": "",
-        "option4_x": 0,
-        "option4_y": 0,
-        "option4_l": 0,
-        "option4_r": 0,
-        "option4_u": 0,
-        "option4_d": 0,
-        "option_5_text": "",
-        "option5_x": 0,
-        "option5_y": 0,
-        "option5_l": 0,
-        "option5_r": 0,
-        "option5_u": 0,
-        "option5_d": 0,
-        "option_6_text": "",
-        "option6_x": 0,
-        "option6_y": 0,
-        "option6_l": 0,
-        "option6_r": 0,
-        "option6_u": 0,
-        "option6_d": 0,
-        "option_7_text": "",
-        "option7_x": 0,
-        "option7_y": 0,
-        "option7_l": 0,
-        "option7_r": 0,
-        "option7_u": 0,
-        "option7_d": 0,
-        "option_8_text": "",
-        "option8_x": 0,
-        "option8_y": 0,
-        "option8_l": 0,
-        "option8_r": 0,
-        "option8_u": 0,
-        "option8_d": 0,
-        "option_9_text": "",
-        "option9_x": 0,
-        "option9_y": 0,
-        "option9_l": 0,
-        "option9_r": 0,
-        "option9_u": 0,
-        "option9_d": 0,
-        "option_10_text": "",
-        "option10_x": 0,
-        "option10_y": 0,
-        "option10_l": 0,
-        "option10_r": 0,
-        "option10_u": 0,
-        "option10_d": 0,
-        "option_11_text": "",
-        "option11_x": 0,
-        "option11_y": 0,
-        "option11_l": 0,
-        "option11_r": 0,
-        "option11_u": 0,
-        "option11_d": 0,
-        "option_12_text": "",
-        "option12_x": 0,
-        "option12_y": 0,
-        "option12_l": 0,
-        "option12_r": 0,
-        "option12_u": 0,
-        "option12_d": 0,
-        "option_13_text": "",
-        "option13_x": 0,
-        "option13_y": 0,
-        "option13_l": 0,
-        "option13_r": 0,
-        "option13_u": 0,
-        "option13_d": 0,
-        "option_14_text": "",
-        "option14_x": 0,
-        "option14_y": 0,
-        "option14_l": 0,
-        "option14_r": 0,
-        "option14_u": 0,
-        "option14_d": 0,
-        "option_15_text": "",
-        "option15_x": 0,
-        "option15_y": 0,
-        "option15_l": 0,
-        "option15_r": 0,
-        "option15_u": 0,
-        "option15_d": 0,
-        "option_16_text": "",
-        "option16_x": 0,
-        "option16_y": 0,
-        "option16_l": 0,
-        "option16_r": 0,
-        "option16_u": 0,
-        "option16_d": 0
-      },
-      "id": "ab0cd510-a65e-42dc-8be3-e7793bc3ceea"
-    },
-    {
       "command": "EVENT_IF",
       "args": {
+        "variable": "5",
+        "__collapseElse": false,
         "condition": {
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "L0"
+            "value": "2"
           },
           "valueB": {
             "type": "number",
-            "value": 1
+            "value": 0
           }
-        },
-        "__collapseElse": true
+        }
       },
       "children": {
-        "true": [
+        "true": [],
+        "false": [
           {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "command": "PT_EVENT_ADVANCED_MENU",
             "args": {
-              "customEventId": "71a0f2cf-7f5a-4d42-a964-1a03f8b82be5",
-              "$actor[0]$": "d8e36fa9-aa04-4bcb-be7f-8c0a43e02190",
-              "$actor[1]$": "34ffd2cc-82e3-4f82-9f12-282c265b1f75",
-              "$actor[2]$": "3be3146c-59a6-4787-a881-0d3331b08f2a",
-              "$actor[3]$": "18f43967-f9f5-4f9c-aa66-2ccdc9017db1",
-              "$variable[V0]$": {
-                "type": "variable",
-                "value": "L1"
-              },
-              "$variable[V1]$": {
-                "type": "variable",
-                "value": "L2"
-              },
-              "$variable[V2]$": {
-                "type": "variable",
-                "value": "27"
-              },
-              "$variable[V3]$": {
-                "type": "variable",
-                "value": "38"
-              },
-              "$variable[V4]$": {
-                "type": "variable",
-                "value": "45"
-              },
-              "$variable[V5]$": {
-                "type": "variable",
-                "value": "52"
-              }
+              "__scriptTabs": "items",
+              "width": 18,
+              "height": 5,
+              "from": "bottom",
+              "variable": "L0",
+              "items": 3,
+              "option_1_text": "Yes",
+              "option1_x": 2,
+              "option1_y": 2,
+              "option1_l": 0,
+              "option1_r": 0,
+              "option1_u": 0,
+              "option1_d": 2,
+              "option_2_text": "No",
+              "option2_x": 2,
+              "option2_y": 3,
+              "option2_l": 0,
+              "option2_r": 0,
+              "option2_u": 1,
+              "option2_d": 0,
+              "option_3_text": "Move Furniture?",
+              "option3_x": 0,
+              "option3_y": 0,
+              "option3_l": 0,
+              "option3_r": 0,
+              "option3_u": 0,
+              "option3_d": 0,
+              "option_4_text": "",
+              "option4_x": 0,
+              "option4_y": 0,
+              "option4_l": 0,
+              "option4_r": 0,
+              "option4_u": 0,
+              "option4_d": 0,
+              "option_5_text": "",
+              "option5_x": 0,
+              "option5_y": 0,
+              "option5_l": 0,
+              "option5_r": 0,
+              "option5_u": 0,
+              "option5_d": 0,
+              "option_6_text": "",
+              "option6_x": 0,
+              "option6_y": 0,
+              "option6_l": 0,
+              "option6_r": 0,
+              "option6_u": 0,
+              "option6_d": 0,
+              "option_7_text": "",
+              "option7_x": 0,
+              "option7_y": 0,
+              "option7_l": 0,
+              "option7_r": 0,
+              "option7_u": 0,
+              "option7_d": 0,
+              "option_8_text": "",
+              "option8_x": 0,
+              "option8_y": 0,
+              "option8_l": 0,
+              "option8_r": 0,
+              "option8_u": 0,
+              "option8_d": 0,
+              "option_9_text": "",
+              "option9_x": 0,
+              "option9_y": 0,
+              "option9_l": 0,
+              "option9_r": 0,
+              "option9_u": 0,
+              "option9_d": 0,
+              "option_10_text": "",
+              "option10_x": 0,
+              "option10_y": 0,
+              "option10_l": 0,
+              "option10_r": 0,
+              "option10_u": 0,
+              "option10_d": 0,
+              "option_11_text": "",
+              "option11_x": 0,
+              "option11_y": 0,
+              "option11_l": 0,
+              "option11_r": 0,
+              "option11_u": 0,
+              "option11_d": 0,
+              "option_12_text": "",
+              "option12_x": 0,
+              "option12_y": 0,
+              "option12_l": 0,
+              "option12_r": 0,
+              "option12_u": 0,
+              "option12_d": 0,
+              "option_13_text": "",
+              "option13_x": 0,
+              "option13_y": 0,
+              "option13_l": 0,
+              "option13_r": 0,
+              "option13_u": 0,
+              "option13_d": 0,
+              "option_14_text": "",
+              "option14_x": 0,
+              "option14_y": 0,
+              "option14_l": 0,
+              "option14_r": 0,
+              "option14_u": 0,
+              "option14_d": 0,
+              "option_15_text": "",
+              "option15_x": 0,
+              "option15_y": 0,
+              "option15_l": 0,
+              "option15_r": 0,
+              "option15_u": 0,
+              "option15_d": 0,
+              "option_16_text": "",
+              "option16_x": 0,
+              "option16_y": 0,
+              "option16_l": 0,
+              "option16_r": 0,
+              "option16_u": 0,
+              "option16_d": 0,
+              "__collapse": true
             },
-            "id": "ba7d7a9f-70da-49ed-845a-065b9deb9dee"
+            "id": "ab0cd510-a65e-42dc-8be3-e7793bc3ceea"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "71a0f2cf-7f5a-4d42-a964-1a03f8b82be5",
+                    "$actor[0]$": "d8e36fa9-aa04-4bcb-be7f-8c0a43e02190",
+                    "$actor[1]$": "34ffd2cc-82e3-4f82-9f12-282c265b1f75",
+                    "$actor[2]$": "3be3146c-59a6-4787-a881-0d3331b08f2a",
+                    "$actor[3]$": "18f43967-f9f5-4f9c-aa66-2ccdc9017db1",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "L1"
+                    },
+                    "$variable[V1]$": {
+                      "type": "variable",
+                      "value": "L2"
+                    },
+                    "$variable[V2]$": {
+                      "type": "variable",
+                      "value": "27"
+                    },
+                    "$variable[V3]$": {
+                      "type": "variable",
+                      "value": "38"
+                    },
+                    "$variable[V4]$": {
+                      "type": "variable",
+                      "value": "45"
+                    },
+                    "$variable[V5]$": {
+                      "type": "variable",
+                      "value": "52"
+                    }
+                  },
+                  "id": "ba7d7a9f-70da-49ed-845a-065b9deb9dee"
+                }
+              ],
+              "false": []
+            },
+            "id": "313a0951-ac56-4ee1-bbf1-771b3829826d"
           }
-        ],
-        "false": []
+        ]
       },
-      "id": "313a0951-ac56-4ee1-bbf1-771b3829826d"
+      "id": "3199e234-8882-494b-b8be-007ba1923622"
     }
   ],
   "leaveScript": []

@@ -13,8 +13,8 @@
     },
     {
       "id": "2",
-      "name": "sodaWeight",
-      "symbol": "var_sodaweight"
+      "name": "sodaAge",
+      "symbol": "var_sodaage"
     },
     {
       "id": "3",
@@ -139,7 +139,7 @@
     {
       "id": "27",
       "name": "Furniture Soda 1",
-      "symbol": "var_furniture_soda_1"
+      "symbol": "var_furniture_soda_2"
     },
     {
       "id": "28",
@@ -194,12 +194,12 @@
     {
       "id": "38",
       "name": "Furniture Soda 2",
-      "symbol": "var_furniture_soda_2"
+      "symbol": "var_furniture_soda_0"
     },
     {
       "id": "44",
-      "name": "adosWeight",
-      "symbol": "var_adosweight"
+      "name": "adosAge",
+      "symbol": "var_adosage"
     },
     {
       "id": "45",
@@ -380,6 +380,96 @@
       "id": "1682dfc4-f56b-42d1-915e-a42fd783aa7b__L0",
       "name": "cusor",
       "symbol": "var_cusor"
+    },
+    {
+      "id": "5e3e5e0c-10f8-40ba-a94a-133cfae32675__L0",
+      "name": "babyTimer",
+      "symbol": "var_babytimer"
+    },
+    {
+      "id": "e307590a-0701-4f51-b740-168ec72b82f3__L0",
+      "name": "da",
+      "symbol": "var_da_5"
+    },
+    {
+      "id": "1d89eeba-2654-46d0-85c5-22b81866cfdb__L0",
+      "name": "babyTimer",
+      "symbol": "var_babytimer_0"
+    },
+    {
+      "id": "c8456c7d-35b9-4228-a74b-827e065d3b2b__L1",
+      "name": "Local 1",
+      "symbol": "var_local_13"
+    },
+    {
+      "id": "c8456c7d-35b9-4228-a74b-827e065d3b2b__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture_1"
+    },
+    {
+      "id": "a135e2a0-4186-42c7-adbb-38dc1b3e4158__L0",
+      "name": "da",
+      "symbol": "var_da_6"
+    },
+    {
+      "id": "b02331ce-e18b-4781-a2a6-3483dafbd19c__L0",
+      "name": "babyTimer",
+      "symbol": "var_babytimer_1"
+    },
+    {
+      "id": "d611c8e0-8837-4ace-9f6a-bacbaa9eca8e__L1",
+      "name": "Local 1",
+      "symbol": "var_local_14"
+    },
+    {
+      "id": "d611c8e0-8837-4ace-9f6a-bacbaa9eca8e__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture_2"
+    },
+    {
+      "id": "d1593104-7156-44c3-a732-795761b7b220__L0",
+      "name": "da",
+      "symbol": "var_da_7"
+    },
+    {
+      "id": "97c9d9be-e8e3-4808-a358-1f3c9803d344__L0",
+      "name": "babyTimer",
+      "symbol": "var_babytimer_2"
+    },
+    {
+      "id": "a4dd021a-d643-4ce2-8d32-138228bee266__L1",
+      "name": "Local 1",
+      "symbol": "var_local_15"
+    },
+    {
+      "id": "a4dd021a-d643-4ce2-8d32-138228bee266__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture_3"
+    },
+    {
+      "id": "37f06be5-677e-4f05-99fc-1090b0d1f270__L1",
+      "name": "Local 1",
+      "symbol": "var_local_16"
+    },
+    {
+      "id": "39",
+      "name": "Furniture - Ados 1",
+      "symbol": "var_furniture_ados_1"
+    },
+    {
+      "id": "40",
+      "name": "Furniture - Ados 2",
+      "symbol": "var_furniture_ados_2"
+    },
+    {
+      "id": "41",
+      "name": "Furniture - Ados 3",
+      "symbol": "var_furniture_ados_3"
+    },
+    {
+      "id": "42",
+      "name": "Furniture - Ados 4",
+      "symbol": "var_furniture_ados_4"
     }
   ]
 }

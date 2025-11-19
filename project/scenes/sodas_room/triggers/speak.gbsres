@@ -20,35 +20,59 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "5"
+            "value": "2"
           },
           "valueB": {
-            "type": "false"
+            "type": "number",
+            "value": 0
           }
         }
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_STOP",
-            "args": {},
-            "id": "570423d9-ad09-4dc5-aa75-d068e65893a2"
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "SODA's in his box!",
+                "He'll come out\nonce he feels",
+                "ready."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "4874a735-2de6-4ca4-9fe7-588624c92d16"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "83b22cb2-5275-4669-a203-3d5793f3297e",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "T0"
+              }
+            },
+            "id": "28c33bae-6097-48f8-8bb9-72b960d84dd1"
+          }
+        ]
       },
-      "id": "8a7fcebb-88c5-402a-8d9a-b52e2ae472d4"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "83b22cb2-5275-4669-a203-3d5793f3297e",
-        "$variable[V0]$": {
-          "type": "variable",
-          "value": "T0"
-        }
-      },
-      "id": "28c33bae-6097-48f8-8bb9-72b960d84dd1"
+      "id": "e5c5302a-ae1f-4fe6-b2fd-5ecfc43cdc6e"
     }
   ],
   "leaveScript": []

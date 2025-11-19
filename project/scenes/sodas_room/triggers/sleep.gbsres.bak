@@ -131,7 +131,8 @@
         "option16_l": 0,
         "option16_r": 0,
         "option16_u": 0,
-        "option16_d": 0
+        "option16_d": 0,
+        "__collapse": true
       },
       "id": "ab0cd510-a65e-42dc-8be3-e7793bc3ceea"
     },
@@ -149,7 +150,8 @@
             "value": 1
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -168,6 +170,22 @@
               "$variable[V1]$": {
                 "type": "variable",
                 "value": "L2"
+              },
+              "$variable[V2]$": {
+                "type": "variable",
+                "value": "27"
+              },
+              "$variable[V3]$": {
+                "type": "variable",
+                "value": "38"
+              },
+              "$variable[V4]$": {
+                "type": "variable",
+                "value": "45"
+              },
+              "$variable[V5]$": {
+                "type": "variable",
+                "value": "52"
               }
             },
             "id": "ba7d7a9f-70da-49ed-845a-065b9deb9dee"

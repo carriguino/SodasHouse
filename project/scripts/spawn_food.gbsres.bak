@@ -28,11 +28,6 @@
       "id": "V4",
       "name": "localWeight",
       "passByReference": true
-    },
-    "V5": {
-      "id": "V5",
-      "name": "foodLoc",
-      "passByReference": true
     }
   },
   "actors": {
@@ -171,16 +166,18 @@
       "id": "becd704c-84e9-4e41-976e-ab177a3473b0"
     },
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_VARIABLE_MATH",
       "args": {
-        "variable": "V1",
-        "value": {
-          "type": "expression",
-          "value": "rnd(16)+1"
-        },
-        "__collapse": false
+        "vectorX": "V1",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 3,
+        "maxValue": 15,
+        "clamp": false
       },
-      "id": "3bad9019-bf70-4c9d-82d7-e462d93ce8d2"
+      "id": "92f20cb5-ca58-48fc-8b20-cae2fb362821"
     },
     {
       "command": "EVENT_ACTOR_SET_POSITION",
@@ -238,18 +235,6 @@
       "id": "81eb4927-5d6d-4ef9-893f-3d0150e0d612"
     },
     {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "V5",
-        "value": {
-          "type": "property",
-          "target": "0",
-          "property": "xpos"
-        }
-      },
-      "id": "46aaba2a-d536-436f-baba-e3784f14db37"
-    },
-    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -275,8 +260,9 @@
             "args": {
               "actorId": "1",
               "x": {
-                "type": "expression",
-                "value": "$V5$"
+                "type": "property",
+                "target": "0",
+                "property": "xpos"
               },
               "y": {
                 "type": "number",
@@ -295,8 +281,9 @@
             "args": {
               "actorId": "1",
               "x": {
-                "type": "expression",
-                "value": "$V5$+1"
+                "type": "property",
+                "target": "0",
+                "property": "xpos"
               },
               "y": {
                 "type": "number",

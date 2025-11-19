@@ -16,12 +16,47 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_78",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF_SAVED_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "45",
+              "variableSource": "45",
+              "saveSlot": 0
+            },
+            "id": "585e2616-eab5-4c1f-b600-e6e68f1496c2"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "variable",
+                "value": "45"
+              },
+              "__collapse": false
+            },
+            "id": "e7337692-9d1f-4fbb-983b-f63a4a5773a1"
+          }
+        ],
+        "false": []
+      },
+      "id": "bb6b297f-c7e8-4767-85f1-9288f09bdba3"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "x": 13,
   "y": 9,
-  "_index": 6
+  "_index": 5
 }

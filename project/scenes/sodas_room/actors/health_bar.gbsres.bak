@@ -1,23 +1,23 @@
 {
   "_resourceType": "actor",
-  "id": "8e65465f-bf5d-42c1-8ed3-644340afedb4",
-  "_index": 2,
-  "symbol": "actor_6",
-  "prefabId": "",
+  "id": "788e995e-9dc2-4a9b-82c3-1152daa4fa3f",
   "name": "Health Bar",
-  "x": 16,
-  "y": 2,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "155d9800-ea8c-4d47-9cc6-b253aa35c2db",
-  "paletteId": "",
+  "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 255,
+  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
+  "_index": 8,
+  "symbol": "actor_80",
+  "x": 15,
+  "y": 3,
   "script": [],
   "startScript": [],
   "updateScript": [
@@ -59,8 +59,8 @@
         "__collapseCase15": false,
         "value15": 16,
         "__collapseElse": false,
-        "__disableElse": true,
-        "__collapse": true,
+        "__disableElse": false,
+        "__collapse": false,
         "__label": "Update Happiness"
       },
       "children": {
@@ -74,7 +74,7 @@
                 "value": 0
               }
             },
-            "id": "49ce13ec-983e-4001-922b-d74c718fa5f4"
+            "id": "9ea297e0-1b5e-4e1b-85bf-dcb4a15c5ea5"
           }
         ],
         "true1": [
@@ -87,7 +87,7 @@
                 "value": 1
               }
             },
-            "id": "1ce7cb81-13ef-4362-a27c-5cb3e45cd53d"
+            "id": "5438b4a0-c1e1-4af2-bc0e-e4f9df1c5336"
           }
         ],
         "true2": [
@@ -100,7 +100,7 @@
                 "value": 2
               }
             },
-            "id": "613cad1e-af86-4483-90e4-8fdf48cd008f"
+            "id": "5001ddb2-1507-4aad-8a01-da3527705066"
           }
         ],
         "true3": [
@@ -113,7 +113,7 @@
                 "value": 3
               }
             },
-            "id": "8b68bb77-598c-463d-8e5f-3a6c81ce0691"
+            "id": "b7f9e73e-01e9-405f-8849-15f74b8c459b"
           }
         ],
         "true4": [
@@ -126,7 +126,7 @@
                 "value": 4
               }
             },
-            "id": "a814f18c-7ee0-4586-9fbc-5aa9f6177b03"
+            "id": "06c73350-7e58-49d5-b528-4dd8737c96f7"
           }
         ],
         "true5": [],
@@ -140,9 +140,45 @@
         "true13": [],
         "true14": [],
         "true15": [],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 4
+                }
+              },
+              "__collapseElse": true,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "number",
+                      "value": 4
+                    }
+                  },
+                  "id": "39509cb5-9719-4704-8b78-736762f3406c"
+                }
+              ],
+              "false": []
+            },
+            "id": "27f6532a-4388-44b1-aff1-83000538ab98"
+          }
+        ]
       },
-      "id": "06d7b4d9-e2ab-4c3f-bfe3-63d363c0c39c"
+      "id": "89c740d6-6b9d-49ba-b074-d449adc62f74"
     }
   ],
   "hit1Script": [],

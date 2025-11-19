@@ -1,10 +1,10 @@
 {
   "_resourceType": "trigger",
-  "id": "f758d46a-db62-4007-9cea-7ba6e07b8ece",
+  "id": "430422c2-a007-44f6-9719-c94b4d894e0a",
   "name": "Eat",
   "prefabId": "",
   "_index": 2,
-  "symbol": "trigger_18",
+  "symbol": "trigger_6",
   "x": 12,
   "y": 12,
   "width": 2,
@@ -20,149 +20,95 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "5"
-          },
-          "valueB": {
-            "type": "false"
-          }
-        }
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_STOP",
-            "args": {},
-            "id": "39c2dbf4-2a7b-457c-bf8e-c61d8bb13d7d"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "gt",
-                "valueA": {
-                  "type": "variable",
-                  "value": "1"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 3
-                }
-              },
-              "__collapseElse": true,
-              "__disableElse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "SODA: I'm not\nhungry right now,",
-                      "but thank you for\noffering!"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": false
-                  },
-                  "id": "385ae260-987b-45a5-9069-f8a98fc020f1"
-                },
-                {
-                  "command": "EVENT_STOP",
-                  "args": {
-                    "__collapse": true
-                  },
-                  "id": "dbfd4e59-b8b4-4fb7-a22d-28374d037e09"
-                }
-              ],
-              "false": []
-            },
-            "id": "5b130384-0c68-489f-8824-378be7ca3f72"
-          }
-        ]
-      },
-      "id": "63d43ed8-d2ba-4b30-a636-26e7f6cc3504"
-    },
-    {
-      "command": "EVENT_MENU",
-      "args": {
-        "variable": "T0",
-        "items": 3,
-        "option1": "Meal",
-        "option2": "Snack",
-        "option3": "Back",
-        "option4": "",
-        "option5": "",
-        "option6": "",
-        "option7": "",
-        "option8": "",
-        "cancelOnB": true,
-        "layout": "menu",
-        "cancelOnLastOption": true,
-        "__collapse": false
-      },
-      "id": "2226da3f-d710-413b-ae10-84c99c9c8e19"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "ne",
-          "valueA": {
-            "type": "variable",
-            "value": "T0"
+            "value": "44"
           },
           "valueB": {
             "type": "number",
             "value": 0
           }
-        },
-        "__collapseElse": true
+        }
       },
       "children": {
-        "true": [
+        "true": [],
+        "false": [
           {
-            "command": "EVENT_RNG_SEED",
-            "args": {},
-            "id": "c7fa0820-69c9-4f0a-acac-13ef6e6ad2de"
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "T0",
+              "items": 3,
+              "option1": "Meal",
+              "option2": "Snack",
+              "option3": "Back",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "menu",
+              "cancelOnLastOption": true,
+              "__collapse": true
+            },
+            "id": "97b86346-106d-4815-a478-ef6bdb88fdf9"
           },
           {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "command": "EVENT_IF",
             "args": {
-              "customEventId": "fd9c7372-06f1-46dd-9b64-9e196422a0f7",
-              "$variable[V0]$": {
-                "type": "variable",
-                "value": "T0"
+              "condition": {
+                "type": "ne",
+                "valueA": {
+                  "type": "variable",
+                  "value": "T0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
               },
-              "$actor[0]$": "fe1158a9-5f37-45d0-a401-a2a187abeb0b",
-              "$actor[1]$": "134a5524-3c99-4271-b460-627d8499b0a1",
-              "$actor[2]$": "player",
-              "$variable[V1]$": {
-                "type": "variable",
-                "value": "T1"
-              }
+              "__collapseElse": false,
+              "__collapse": true
             },
-            "id": "9d98b7c3-f2fa-4a3e-9ba5-91abc7899453"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_RNG_SEED",
+                  "args": {},
+                  "id": "07fdc588-609c-4aa7-bfea-12ef1033d44c"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "fd9c7372-06f1-46dd-9b64-9e196422a0f7",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "T0"
+                    },
+                    "$actor[0]$": "4701d773-c2ec-4850-a4dc-cc270352a4aa",
+                    "$actor[1]$": "5e3e5e0c-10f8-40ba-a94a-133cfae32675",
+                    "$actor[2]$": "player",
+                    "$variable[V1]$": {
+                      "type": "variable",
+                      "value": "T1"
+                    },
+                    "$variable[V2]$": {
+                      "type": "variable",
+                      "value": "1"
+                    },
+                    "$variable[V4]$": {
+                      "type": "variable",
+                      "value": "2"
+                    }
+                  },
+                  "id": "d3f4c201-256b-4955-b0c9-5b1a5edb3ad8"
+                }
+              ],
+              "false": []
+            },
+            "id": "2d047629-2a6f-41ff-ab4a-92fc8cdda6b9"
           }
-        ],
-        "false": []
+        ]
       },
-      "id": "ae2d15f0-9efa-4408-bcfc-c57f979f3972"
+      "id": "0ca17239-699d-4a9b-a645-91a10e7d959f"
     }
   ],
   "leaveScript": []

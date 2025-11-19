@@ -34,7 +34,7 @@
         "$actor[3]$": "79cdde71-52b9-4ddc-895f-3c61aaca6db3",
         "$variable[V7]$": {
           "type": "variable",
-          "value": "L1"
+          "value": "T1"
         },
         "$variable[V8]$": {
           "type": "variable",
@@ -84,7 +84,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "78dc882c-dca5-4f43-9ab9-d1ecbaca3e12",
+              "sceneId": "10e7364a-d5ba-4bde-b4b7-91bdc19a559c",
               "x": {
                 "type": "number",
                 "value": 0
