@@ -1,0 +1,111 @@
+{
+  "_resourceType": "scene",
+  "id": "c9e1000e-6cf6-4200-b481-f14e01db6661",
+  "_index": 12,
+  "name": "Preamble 2",
+  "backgroundId": "61a38034-cc12-4014-ae5c-24b2168e79f2",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_13",
+  "x": 1088,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "78dc882c-dca5-4f43-9ab9-d1ecbaca3e12",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "c6f1cd83-dc80-4166-800a-113634eaaa67"
+          }
+        ]
+      },
+      "id": "b498c0f1-1088-4579-b4b8-343adc47ac01"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "What's this?\nThere's a package\nlaying delicately\non the doorstep.",
+          "You pull it inside\nand cautiously\nbegin to pry it\nopen.",
+          "You reveal a small\ntoy house and an\neven smaller box\ninside one of it's\nmany rooms.",
+          "There's a small\nnote. It reads:"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "c121c293-33ca-4141-a7e7-b97a241dbc04"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f1f69d40-a5ef-404e-88cd-0f739f1552a2",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 0
+      },
+      "id": "e6d2d578-8037-440e-a87a-726b82b6ecbe"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "parallax": [
+    {
+      "height": 12,
+      "speed": 128
+    },
+    {
+      "height": 0,
+      "speed": 128
+    }
+  ]
+}

@@ -197,6 +197,26 @@
       "symbol": "var_furniture_soda_0"
     },
     {
+      "id": "39",
+      "name": "Furniture - Ados 1",
+      "symbol": "var_furniture_ados_1"
+    },
+    {
+      "id": "40",
+      "name": "Furniture - Ados 2",
+      "symbol": "var_furniture_ados_2"
+    },
+    {
+      "id": "41",
+      "name": "Furniture - Ados 3",
+      "symbol": "var_furniture_ados_3"
+    },
+    {
+      "id": "42",
+      "name": "Furniture - Ados 4",
+      "symbol": "var_furniture_ados_4"
+    },
+    {
       "id": "44",
       "name": "adosAge",
       "symbol": "var_adosage"

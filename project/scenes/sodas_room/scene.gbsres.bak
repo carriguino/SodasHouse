@@ -103,7 +103,7 @@
     {
       "command": "PT_EVENT_RTC_START",
       "args": {
-        "__collapse": true
+        "__collapse": false
       },
       "id": "29de3ada-3fe2-45d0-8997-253cc6872617"
     },

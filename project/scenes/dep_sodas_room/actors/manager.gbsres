@@ -658,11 +658,11 @@
                     "sceneId": "14b781a2-6b45-4493-b0cc-a3bd80deca7d",
                     "x": {
                       "type": "number",
-                      "value": 2
+                      "value": 0
                     },
                     "y": {
                       "type": "number",
-                      "value": 17
+                      "value": 0
                     },
                     "direction": "",
                     "fadeSpeed": "2"

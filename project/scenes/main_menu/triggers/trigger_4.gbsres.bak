@@ -1,0 +1,66 @@
+{
+  "_resourceType": "trigger",
+  "id": "474fc710-b1bd-47c4-8a23-7377838e5359",
+  "name": "",
+  "prefabId": "",
+  "x": 1,
+  "y": 13,
+  "symbol": "trigger_32",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "MADE BY CARRI"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6defe263-7a8c-4a2d-a2b4-67b957f50324"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "MERRY CHRISTMAS VIOLET AND GIA!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0fe6058d-2e43-47a2-980f-bfa6e9f19603"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

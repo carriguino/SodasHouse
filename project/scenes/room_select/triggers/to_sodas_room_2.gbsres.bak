@@ -6,7 +6,7 @@
   "_index": 2,
   "symbol": "trigger_22",
   "x": 9,
-  "y": 2,
+  "y": 9,
   "width": 2,
   "height": 2,
   "prefabScriptOverrides": {},
@@ -14,7 +14,7 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "60e79e67-ad81-4a74-aa85-0bbe0d244697",
+        "sceneId": "78dc882c-dca5-4f43-9ab9-d1ecbaca3e12",
         "x": {
           "type": "number",
           "value": 2

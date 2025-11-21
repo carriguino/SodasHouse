@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "72a854d1-76a2-40aa-b35d-13161fbd3583",
+  "name": "preamble_background",
+  "symbol": "bg_preamble_background",
+  "width": 60,
+  "height": 18,
+  "imageWidth": 480,
+  "imageHeight": 144,
+  "filename": "preamble_background.png",
+  "tileColors": ""
+}

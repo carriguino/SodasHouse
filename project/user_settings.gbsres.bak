@@ -1,6 +1,6 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 669.3333129882812,
+  "worldScrollX": 692,
   "worldScrollY": 600,
   "zoom": 175,
   "navigatorSplitSizes": [
@@ -24,7 +24,7 @@
   ],
   "debuggerEnabled": true,
   "debuggerScriptType": "editor",
-  "debuggerVariablesFilter": "watched",
+  "debuggerVariablesFilter": "all",
   "debuggerCollapsedPanes": [],
   "debuggerPauseOnScriptChanged": false,
   "debuggerPauseOnWatchedVariableChanged": false,
