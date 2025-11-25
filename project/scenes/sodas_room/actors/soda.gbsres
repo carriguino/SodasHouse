@@ -58,7 +58,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -366,7 +366,7 @@
             "command": "EVENT_SET_TIMER_SCRIPT",
             "args": {
               "timer": 3,
-              "duration": 60,
+              "duration": 20,
               "frames": 30,
               "__scriptTabs": "end",
               "__collapse": false

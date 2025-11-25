@@ -1,0 +1,52 @@
+{
+  "_resourceType": "scene",
+  "id": "d569b068-18de-4390-aa33-a07df45e77c3",
+  "_index": 10,
+  "name": "Game - Tennis",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_14",
+  "x": 1128,
+  "y": 792,
+  "script": [
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "__section": "projectile",
+        "spriteSheetId": "5699334d-9c54-4583-b6b2-c243f851456b",
+        "spriteStateId": "",
+        "actorId": "1481f63e-3f8a-424b-a26d-8b2c0591c254",
+        "x": 0,
+        "y": 0,
+        "directionType": "target",
+        "otherActorId": "$self$",
+        "direction": "right",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "$self$",
+        "initialOffset": 0,
+        "speed": 2,
+        "animSpeed": 15,
+        "lifeTime": 1,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "1",
+        "collisionMask": [
+          "1"
+        ]
+      },
+      "id": "138507be-62a0-41cf-9fd2-bddcf8537be3"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2"
+}

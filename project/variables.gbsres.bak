@@ -217,6 +217,11 @@
       "symbol": "var_furniture_ados_4"
     },
     {
+      "id": "43",
+      "name": "CursorPos",
+      "symbol": "var_cursorpos_0"
+    },
+    {
       "id": "44",
       "name": "adosAge",
       "symbol": "var_adosage"
@@ -470,6 +475,11 @@
       "id": "37f06be5-677e-4f05-99fc-1090b0d1f270__L1",
       "name": "Local 1",
       "symbol": "var_local_16"
+    },
+    {
+      "id": "b5bc3fc0-a149-4d61-955c-1e2e7588c997__L1",
+      "name": "Local 1",
+      "symbol": "var_local_17"
     }
   ]
 }

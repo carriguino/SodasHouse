@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "9773d830-f8f3-4104-92f1-0bd3d00e38a5",
-  "_index": 11,
+  "_index": 8,
   "name": "Preamble",
   "backgroundId": "ba38f5c7-5645-444b-9f2b-c8da1e860aa4",
   "tilesetId": "",
@@ -142,7 +142,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You open your front\ndoor..."
+          "You open your\nfront door..."
         ],
         "__section": "text",
         "avatarId": "",

@@ -4,9 +4,9 @@
   "name": "Basic Shot",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "6270716e-595c-4e0b-a356-60d563bb3c46",
+  "spriteSheetId": "e48825d3-7b93-432d-a768-f89bce29d856",
   "moveSpeed": 1,
-  "animSpeed": 255,
+  "animSpeed": 63,
   "paletteId": "",
   "persistent": false,
   "collisionGroup": "1",
@@ -34,8 +34,9 @@
             "args": {
               "timer": 1,
               "duration": 0.5,
-              "frames": 30,
-              "__scriptTabs": "end"
+              "frames": 10,
+              "__scriptTabs": "end",
+              "units": "frames"
             },
             "children": {
               "script": [
@@ -102,6 +103,24 @@
       },
       "id": "16428aa6-0cc9-4bf4-a0a5-7f09ed58d0b7",
       "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Death",
+        "loopAnim": false
+      },
+      "id": "f99fa389-30f4-4795-a4ac-835e39a6418e"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 4,
+        "units": "frames"
+      },
+      "id": "71b32139-2ae3-41f3-8aad-f1424df12980"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",

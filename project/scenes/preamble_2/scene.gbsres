@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "c9e1000e-6cf6-4200-b481-f14e01db6661",
-  "_index": 12,
+  "_index": 9,
   "name": "Preamble 2",
   "backgroundId": "61a38034-cc12-4014-ae5c-24b2168e79f2",
   "tilesetId": "",
@@ -53,7 +53,7 @@
       "args": {
         "text": [
           "What's this?\nThere's a package\nlaying delicately\non the doorstep.",
-          "You pull it inside\nand cautiously\nbegin to pry it\nopen.",
+          "You lug it inside\nand cautiously\nbegin to pry it\nopen.",
           "You reveal a small\ntoy house and an\neven smaller box\ninside one of it's\nmany rooms.",
           "There's a small\nnote. It reads:",
           "\"Please take care\nof me\""

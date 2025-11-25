@@ -348,20 +348,20 @@
             "command": "PT_EVENT_ADVANCED_MENU",
             "args": {
               "__scriptTabs": "items",
-              "width": 20,
-              "height": 5,
+              "width": 15,
+              "height": 4,
               "from": "bottom",
               "variable": "53",
               "items": 3,
               "option_1_text": "Yes",
-              "option1_x": 2,
+              "option1_x": 1,
               "option1_y": 1,
               "option1_l": 0,
               "option1_r": 0,
               "option1_u": 0,
               "option1_d": 2,
               "option_2_text": "No",
-              "option2_x": 2,
+              "option2_x": 1,
               "option2_y": 2,
               "option2_l": 0,
               "option2_r": 0,
@@ -531,22 +531,11 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Select Input"
       },
       "children": {
         "true": [
-          {
-            "command": "PT_EVENT_RTC_GET",
-            "args": {
-              "variableDays": "30",
-              "variableHours": "31",
-              "variableMinutes": "32",
-              "variableSeconds": "35",
-              "__collapse": false
-            },
-            "id": "9deca7df-1453-4517-8b85-34500e87baf2"
-          },
           {
             "command": "EVENT_MENU",
             "args": {

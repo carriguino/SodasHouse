@@ -1,12 +1,12 @@
 {
   "_resourceType": "scene",
   "id": "b14537b9-62a3-4179-b564-346c5da22fd1",
-  "_index": 6,
+  "_index": 3,
   "name": "Game - Schmup",
   "backgroundId": "8b58631e-cbd4-4793-8591-2d994ae03518",
   "tilesetId": "",
   "width": 180,
-  "height": 20,
+  "height": 18,
   "type": "SHMUP",
   "paletteIds": [],
   "spritePaletteIds": [],
@@ -23,7 +23,8 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": true
       },
       "id": "889b9d5b-d6c4-49c3-9f96-26c6426c6a57"
     },
@@ -34,7 +35,8 @@
         "value": {
           "type": "number",
           "value": 3
-        }
+        },
+        "__collapse": true
       },
       "id": "32d6a529-dc69-45a3-8f5f-29594c3aa769"
     },
@@ -42,19 +44,36 @@
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 2
+        "speed": 2,
+        "__collapse": true
       },
       "id": "2295b8fd-be67-4c7f-bb4e-9c9bb456530b"
     },
     {
       "command": "EVENT_SCENE_RESET_STATE",
-      "args": {},
+      "args": {
+        "__collapse": true
+      },
       "id": "859cd517-3624-4349-a6a6-cbc83a6e5623"
     },
     {
       "command": "EVENT_SCENE_PUSH_STATE",
-      "args": {},
+      "args": {
+        "__collapse": true
+      },
       "id": "9f9f8672-2361-4717-8eef-c4f70de61a5a"
+    },
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "down",
+          "up"
+        ],
+        "__comment": false,
+        "__collapse": true
+      },
+      "id": "1c322e41-96b8-44ae-9759-a903211c28f1"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -63,7 +82,8 @@
           "a"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
         "true": [

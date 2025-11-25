@@ -4,9 +4,9 @@
   "name": "roomselect",
   "symbol": "bg_roomselect",
   "width": 20,
-  "height": 59,
+  "height": 40,
   "imageWidth": 160,
-  "imageHeight": 475,
+  "imageHeight": 320,
   "filename": "roomselect.png",
   "tileColors": "",
   "autoColor": false

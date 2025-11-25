@@ -4,9 +4,9 @@
   "name": "temproom3",
   "symbol": "sprite_temproom3",
   "width": 180,
-  "height": 20,
+  "height": 18,
   "imageWidth": 1440,
-  "imageHeight": 160,
+  "imageHeight": 144,
   "filename": "temproom3.png",
   "tileColors": "",
   "autoColor": false

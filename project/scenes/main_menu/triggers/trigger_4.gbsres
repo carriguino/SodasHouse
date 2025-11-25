@@ -14,7 +14,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "MADE BY CARRI"
+          "Made by Carri!\ncarriganreilly.com",
+          "GB Studio 4.1.3"
         ],
         "__section": "text",
         "avatarId": "",
@@ -39,7 +40,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "MERRY CHRISTMAS VIOLET AND GIA!"
+          "Merry Christmas \nViolet and Gia!"
         ],
         "__section": "text",
         "avatarId": "",

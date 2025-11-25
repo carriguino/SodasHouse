@@ -3,23 +3,11 @@
   "id": "8b58631e-cbd4-4793-8591-2d994ae03518",
   "name": "temproom3",
   "symbol": "sprite_temproom3",
-  "numFrames": 10,
-  "filename": "temproom3.png",
-  "checksum": "a2d3df6bb645b2fd5fa2ccff13b0d77699f901b5",
   "width": 180,
   "height": 20,
-  "states": [
-    "3f50b5d5-aedb-4e47-8185-3b67200ba813"
-  ],
-  "numTiles": 0,
-  "canvasWidth": 32,
-  "canvasHeight": 32,
-  "boundsX": 0,
-  "boundsY": 0,
-  "boundsWidth": 16,
-  "boundsHeight": 16,
-  "animSpeed": 15,
   "imageWidth": 1440,
   "imageHeight": 160,
-  "tileColors": ""
+  "filename": "temproom3.png",
+  "tileColors": "",
+  "autoColor": false
 }

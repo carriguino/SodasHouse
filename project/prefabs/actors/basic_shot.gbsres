@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "e48825d3-7b93-432d-a768-f89bce29d856",
   "moveSpeed": 1,
-  "animSpeed": 63,
+  "animSpeed": 31,
   "paletteId": "",
   "persistent": false,
   "collisionGroup": "1",
@@ -116,9 +116,9 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.5,
-        "frames": 4,
-        "units": "frames"
+        "time": 1,
+        "frames": 10,
+        "units": "time"
       },
       "id": "71b32139-2ae3-41f3-8aad-f1424df12980"
     },

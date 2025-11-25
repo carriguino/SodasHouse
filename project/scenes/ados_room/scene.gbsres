@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "10e7364a-d5ba-4bde-b4b7-91bdc19a559c",
-  "_index": 10,
+  "_index": 7,
   "name": "Ados' Room",
   "backgroundId": "88f65c0f-5d36-4d6f-a72e-05ec68552ceb",
   "tilesetId": "",
@@ -47,7 +47,7 @@
       "args": {
         "saveSlot": 0,
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -101,13 +101,6 @@
       "id": "7a4f1148-7576-4e85-8638-bda7b5654386"
     },
     {
-      "command": "PT_EVENT_RTC_START",
-      "args": {
-        "__collapse": false
-      },
-      "id": "f39513bc-c3d4-4619-b632-79f369ac027e"
-    },
-    {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",
@@ -115,6 +108,42 @@
         "__collapse": true
       },
       "id": "bbd17970-30b8-4f62-b7b7-dad42b748f6f"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 20,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true,
+        "__label": "Attach Auto Save"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "save"
+            },
+            "children": {
+              "true": [],
+              "load": []
+            },
+            "id": "e0867a7d-d852-41d9-889b-85dfdffafb41"
+          }
+        ]
+      },
+      "id": "e3fe5a2e-6dc3-45bd-8a1d-5882b842050d"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d76b0987-6c8a-438d-b066-d43584ff2541",
+        "__collapse": true
+      },
+      "id": "df59cda8-4b3a-48ab-b7e6-530bc40272ec"
     }
   ],
   "playerHit1Script": [],

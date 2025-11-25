@@ -142,7 +142,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You open your front\ndoor..."
+          "You open your\nfront door..."
         ],
         "__section": "text",
         "avatarId": "",
@@ -177,7 +177,7 @@
           "value": 0
         },
         "direction": "",
-        "fadeSpeed": 0
+        "fadeSpeed": 1
       },
       "id": "f1b10bcf-57f4-4afe-ab62-e530e4616d4f"
     }

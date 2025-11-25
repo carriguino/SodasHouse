@@ -101,11 +101,32 @@
       "id": "16210f10-7d91-4bde-b9fe-93949b2d9f2b"
     },
     {
-      "command": "PT_EVENT_RTC_START",
+      "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
-        "__collapse": false
+        "timer": 1,
+        "duration": 20,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true,
+        "__label": "Attach Auto Save"
       },
-      "id": "29de3ada-3fe2-45d0-8997-253cc6872617"
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "save"
+            },
+            "children": {
+              "true": [],
+              "load": []
+            },
+            "id": "1ab55405-883f-45c8-8cfc-cd8e14a99d8c"
+          }
+        ]
+      },
+      "id": "39333d55-a386-490b-8431-fe6be3c4e63e"
     },
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -115,6 +136,14 @@
         "__collapse": true
       },
       "id": "36cd9f25-65e2-43bb-8ce3-27f200973c81"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d76b0987-6c8a-438d-b066-d43584ff2541",
+        "__collapse": true
+      },
+      "id": "d89d1612-1654-4fc3-8481-95fca66ce4f7"
     }
   ],
   "playerHit1Script": [],

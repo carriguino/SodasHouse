@@ -8,7 +8,7 @@
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
-  "animSpeed": 3,
+  "animSpeed": 7,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
@@ -58,7 +58,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -167,7 +167,7 @@
             "command": "EVENT_SET_TIMER_SCRIPT",
             "args": {
               "timer": 3,
-              "duration": 60,
+              "duration": 10,
               "frames": 30,
               "__scriptTabs": "end",
               "__collapse": false

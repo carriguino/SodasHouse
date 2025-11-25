@@ -60,7 +60,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "10992acf-3419-4e0a-aba7-305925084a3b"
     },
@@ -74,13 +74,6 @@
         "__collapse": true
       },
       "id": "29f22c5f-46a9-4d7f-b7cc-5249f6b52a35"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "d76b0987-6c8a-438d-b066-d43584ff2541"
-      },
-      "id": "2f88a8a8-8ae7-4191-b281-015230ff3d1c"
     }
   ],
   "updateScript": [],

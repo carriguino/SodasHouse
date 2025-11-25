@@ -13,7 +13,16 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "1",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "71b32139-2ae3-41f3-8aad-f1424df12980": {
+      "id": "71b32139-2ae3-41f3-8aad-f1424df12980",
+      "args": {
+        "frames": 10,
+        "units": "time",
+        "time": 3
+      }
+    }
+  },
   "symbol": "actor_70",
   "script": [],
   "startScript": [],

@@ -217,6 +217,11 @@
       "symbol": "var_furniture_ados_4"
     },
     {
+      "id": "43",
+      "name": "CursorPos",
+      "symbol": "var_cursorpos_0"
+    },
+    {
       "id": "44",
       "name": "adosAge",
       "symbol": "var_adosage"
@@ -475,6 +480,31 @@
       "id": "b5bc3fc0-a149-4d61-955c-1e2e7588c997__L1",
       "name": "Local 1",
       "symbol": "var_local_17"
+    },
+    {
+      "id": "140d34f7-2db2-46ab-b83e-2a8711b8f7cd__L0",
+      "name": "da",
+      "symbol": "var_da_8"
+    },
+    {
+      "id": "1188ea38-47de-4098-a25a-2b40151fa9dc__L0",
+      "name": "babyTimer",
+      "symbol": "var_babytimer_3"
+    },
+    {
+      "id": "285512e5-ef79-4d17-8f9b-0f34d386e047__L1",
+      "name": "Local 1",
+      "symbol": "var_local_18"
+    },
+    {
+      "id": "285512e5-ef79-4d17-8f9b-0f34d386e047__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture_4"
+    },
+    {
+      "id": "948d554e-f7d2-46b6-961b-6447ac3ed8c1__L1",
+      "name": "Local 1",
+      "symbol": "var_local_19"
     }
   ]
 }

@@ -6,9 +6,9 @@
   "name": "Room Select",
   "symbol": "scene_9",
   "x": 696,
-  "y": 328,
+  "y": 336,
   "width": 20,
-  "height": 59,
+  "height": 30,
   "backgroundId": "9425d321-7b4b-4b1a-b0bf-9c94066d8b5b",
   "tilesetId": "",
   "paletteIds": [],
@@ -17,7 +17,7 @@
     "default-sprite"
   ],
   "autoFadeSpeed": 1,
-  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "playerSpriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
   "script": [
     {
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
@@ -41,13 +41,6 @@
       "id": "5de5ae4b-7c94-4188-868e-eecf0dc1e3d0"
     },
     {
-      "command": "PT_EVENT_RTC_START",
-      "args": {
-        "__collapse": true
-      },
-      "id": "bc7d5d02-c11e-4e83-87df-e0248d1c8db3"
-    },
-    {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",
@@ -55,10 +48,23 @@
         "__collapse": true
       },
       "id": "79a46001-9720-47a1-9699-75de6c6c4850"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        },
+        "__collapse": true
+      },
+      "id": "cf3b0a5a-9e0c-496d-82f2-bf9743ad5ccb"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "",
+  "autoFadeEventCollapse": true
 }

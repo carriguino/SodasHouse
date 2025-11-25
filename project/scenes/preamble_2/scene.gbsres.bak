@@ -53,9 +53,10 @@
       "args": {
         "text": [
           "What's this?\nThere's a package\nlaying delicately\non the doorstep.",
-          "You pull it inside\nand cautiously\nbegin to pry it\nopen.",
+          "You lug it inside\nand cautiously\nbegin to pry it\nopen.",
           "You reveal a small\ntoy house and an\neven smaller box\ninside one of it's\nmany rooms.",
-          "There's a small\nnote. It reads:"
+          "There's a small\nnote. It reads:",
+          "\"Please take care\nof me\""
         ],
         "__section": "text",
         "avatarId": "",
@@ -80,7 +81,7 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "f1f69d40-a5ef-404e-88cd-0f739f1552a2",
+        "sceneId": "78dc882c-dca5-4f43-9ab9-d1ecbaca3e12",
         "x": {
           "type": "number",
           "value": 0
@@ -90,7 +91,7 @@
           "value": 0
         },
         "direction": "",
-        "fadeSpeed": 0
+        "fadeSpeed": 4
       },
       "id": "e6d2d578-8037-440e-a87a-726b82b6ecbe"
     }
