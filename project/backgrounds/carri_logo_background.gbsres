@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9c161203-8214-42e3-af39-5a21f8d778bf",
+  "name": "carri_logo_background",
+  "symbol": "bg_carri_logo_background",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "carri_logo_background.png",
+  "tileColors": "",
+  "autoColor": false
+}

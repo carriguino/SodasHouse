@@ -8,6 +8,17 @@
   "symbol": "script_0",
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "43",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "f31d7076-ecc8-4348-aefc-d2358bb96d8c"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -23,7 +34,7 @@
           {
             "command": "EVENT_SWITCH",
             "args": {
-              "variable": "L0",
+              "variable": "43",
               "choices": 3,
               "__collapseCase0": false,
               "value0": 0,
@@ -80,7 +91,7 @@
                 {
                   "command": "EVENT_INC_VALUE",
                   "args": {
-                    "variable": "L0"
+                    "variable": "43"
                   },
                   "id": "4d61182c-829b-485d-84a4-e27963e65a79"
                 }
@@ -104,7 +115,7 @@
                 {
                   "command": "EVENT_INC_VALUE",
                   "args": {
-                    "variable": "L0"
+                    "variable": "43"
                   },
                   "id": "b96141e1-8701-43ae-9fd2-22515e62344a"
                 }
@@ -128,7 +139,7 @@
                 {
                   "command": "EVENT_INC_VALUE",
                   "args": {
-                    "variable": "L0"
+                    "variable": "43"
                   },
                   "id": "bc12ed79-550e-4e29-8a75-f9e82c1add7d"
                 }
@@ -170,7 +181,7 @@
           {
             "command": "EVENT_SWITCH",
             "args": {
-              "variable": "L0",
+              "variable": "43",
               "choices": 3,
               "__collapseCase0": false,
               "value0": 1,
@@ -227,7 +238,7 @@
                 {
                   "command": "EVENT_DEC_VALUE",
                   "args": {
-                    "variable": "L0"
+                    "variable": "43"
                   },
                   "id": "d0564c03-bd40-49ee-8635-db4419910e89"
                 }
@@ -251,7 +262,7 @@
                 {
                   "command": "EVENT_DEC_VALUE",
                   "args": {
-                    "variable": "L0"
+                    "variable": "43"
                   },
                   "id": "4ff000a8-df2e-4f2b-84ad-902546f7a0bd"
                 }
@@ -275,7 +286,7 @@
                 {
                   "command": "EVENT_DEC_VALUE",
                   "args": {
-                    "variable": "L0"
+                    "variable": "43"
                   },
                   "id": "067da738-2106-43b8-9037-c6b86442862e"
                 }
@@ -305,42 +316,12 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "up"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
-        "__collapse": true
-      },
-      "children": {
-        "true": []
-      },
-      "id": "b523050f-1b65-433d-abff-84344d40e4db"
-    },
-    {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "down"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
-        "__collapse": true
-      },
-      "children": {
-        "true": []
-      },
-      "id": "b930cb94-2cb1-4067-a69d-d60799e9e3e7"
-    },
-    {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
           "b"
         ],
         "override": true,
         "__scriptTabs": "press",
         "__label": "Change Rooms",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -531,7 +512,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Select Input"
       },
       "children": {
@@ -541,7 +522,7 @@
             "args": {
               "variable": "53",
               "items": 3,
-              "option1": "Save Game",
+              "option1": "Save Game(FL:$46$)",
               "option2": "Erase Save",
               "option3": "Back",
               "option4": "Back",

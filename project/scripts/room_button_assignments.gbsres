@@ -26,7 +26,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Move Cursor Right"
       },
       "children": {
@@ -173,7 +173,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Move Cursor Left"
       },
       "children": {
@@ -512,7 +512,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Select Input"
       },
       "children": {
@@ -524,7 +524,7 @@
               "items": 3,
               "option1": "Save Game",
               "option2": "Erase Save",
-              "option3": "Back",
+              "option3": "Back      (FL:$46$)",
               "option4": "Back",
               "option5": "",
               "option6": "",
