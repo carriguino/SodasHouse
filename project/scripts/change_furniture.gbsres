@@ -51,6 +51,63 @@
   "symbol": "script_11",
   "script": [
     {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "46"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 5
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You don't have any\nfurniture!",
+                "You can unlock\nmore by playing",
+                "games with soda\nand friends!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "2923a559-c3f7-4909-b39a-74735ec0a9c5"
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {
+              "__collapse": true
+            },
+            "id": "ebe15357-65bf-43d0-a950-257dab496de2"
+          }
+        ],
+        "false": []
+      },
+      "id": "40f9fdf6-9249-4174-9668-9a827081ceaa"
+    },
+    {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
@@ -187,39 +244,27 @@
     {
       "command": "EVENT_COMMENT",
       "args": {
-        "text": "Menuing\n(using permtemp to avoid a weird bug)"
+        "text": "Menuing\n(using permtemp to avoid a weird bug)",
+        "__collapse": true
       },
       "id": "b7cbea3a-71f7-49db-a1e7-bf3d262060e0"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "46",
-        "value": {
-          "type": "number",
-          "value": 5
-        },
-        "__collapse": false
-      },
-      "id": "46b1ef58-0d86-4117-a880-5fde35b2f4a2"
     },
     {
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "lt",
+          "type": "gte",
           "valueA": {
             "type": "variable",
             "value": "46"
           },
           "valueB": {
             "type": "number",
-            "value": 5
+            "value": 75
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
-        "__label": "Furniture Level Nest"
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -236,38 +281,38 @@
               "option1_x": 2,
               "option1_y": 2,
               "option1_l": 0,
-              "option1_r": 0,
+              "option1_r": 2,
               "option1_u": 0,
-              "option1_d": 0,
-              "option_2_text": "LOCKED",
+              "option1_d": 3,
+              "option_2_text": "Cool",
               "option2_x": 11,
               "option2_y": 2,
               "option2_l": 1,
               "option2_r": 0,
               "option2_u": 0,
               "option2_d": 4,
-              "option_3_text": "LOCKED",
+              "option_3_text": "Cute",
               "option3_x": 2,
               "option3_y": 3,
               "option3_l": 0,
               "option3_r": 4,
               "option3_u": 1,
               "option3_d": 5,
-              "option_4_text": "LOCKED",
+              "option_4_text": "Chud",
               "option4_x": 11,
               "option4_y": 3,
               "option4_l": 3,
               "option4_r": 0,
               "option4_u": 2,
               "option4_d": 6,
-              "option_5_text": "LOCKED",
+              "option_5_text": "Festive",
               "option5_x": 2,
               "option5_y": 4,
               "option5_l": 0,
               "option5_r": 6,
               "option5_u": 3,
               "option5_d": 0,
-              "option_6_text": "LOCKED",
+              "option_6_text": "Bonus",
               "option6_x": 11,
               "option6_y": 4,
               "option6_l": 5,
@@ -345,9 +390,10 @@
               "option16_u": 0,
               "option16_d": 0,
               "__collapse": true,
-              "__label": "Level 5"
+              "__comment": false,
+              "__label": "Level MAX"
             },
-            "id": "d6a0b8c6-7b57-4fab-8dee-130b5616120e"
+            "id": "a6475164-ff79-43d1-8320-ecebbb87e78c"
           }
         ],
         "false": [
@@ -355,14 +401,14 @@
             "command": "EVENT_IF",
             "args": {
               "condition": {
-                "type": "lt",
+                "type": "gte",
                 "valueA": {
                   "type": "variable",
                   "value": "46"
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 10
+                  "value": 50
                 }
               },
               "__collapseElse": false,
@@ -385,33 +431,33 @@
                     "option1_l": 0,
                     "option1_r": 2,
                     "option1_u": 0,
-                    "option1_d": 0,
+                    "option1_d": 3,
                     "option_2_text": "Cool",
                     "option2_x": 11,
                     "option2_y": 2,
                     "option2_l": 1,
                     "option2_r": 0,
                     "option2_u": 0,
-                    "option2_d": 0,
-                    "option_3_text": "LOCKED",
+                    "option2_d": 4,
+                    "option_3_text": "Cute",
                     "option3_x": 2,
                     "option3_y": 3,
                     "option3_l": 0,
                     "option3_r": 4,
                     "option3_u": 1,
                     "option3_d": 5,
-                    "option_4_text": "LOCKED",
+                    "option_4_text": "Chud",
                     "option4_x": 11,
                     "option4_y": 3,
                     "option4_l": 3,
                     "option4_r": 0,
                     "option4_u": 2,
-                    "option4_d": 6,
-                    "option_5_text": "LOCKED",
+                    "option4_d": 0,
+                    "option_5_text": "Festive",
                     "option5_x": 2,
                     "option5_y": 4,
                     "option5_l": 0,
-                    "option5_r": 6,
+                    "option5_r": 0,
                     "option5_u": 3,
                     "option5_d": 0,
                     "option_6_text": "LOCKED",
@@ -491,10 +537,11 @@
                     "option16_r": 0,
                     "option16_u": 0,
                     "option16_d": 0,
-                    "__collapse": false,
-                    "__label": "Level 10"
+                    "__collapse": true,
+                    "__comment": false,
+                    "__label": "Level 50"
                   },
-                  "id": "95680603-d031-42a1-a881-59ee1cfa56e9"
+                  "id": "126ec5fe-30c4-49ab-b7d4-4ab471217425"
                 }
               ],
               "false": [
@@ -502,14 +549,14 @@
                   "command": "EVENT_IF",
                   "args": {
                     "condition": {
-                      "type": "lt",
+                      "type": "gte",
                       "valueA": {
                         "type": "variable",
                         "value": "46"
                       },
                       "valueB": {
                         "type": "number",
-                        "value": 20
+                        "value": 35
                       }
                     },
                     "__collapseElse": false,
@@ -539,21 +586,21 @@
                           "option2_l": 1,
                           "option2_r": 0,
                           "option2_u": 0,
-                          "option2_d": 0,
+                          "option2_d": 4,
                           "option_3_text": "Cute",
                           "option3_x": 2,
                           "option3_y": 3,
                           "option3_l": 0,
-                          "option3_r": 0,
+                          "option3_r": 4,
                           "option3_u": 1,
                           "option3_d": 0,
-                          "option_4_text": "LOCKED",
+                          "option_4_text": "Chud",
                           "option4_x": 11,
                           "option4_y": 3,
                           "option4_l": 3,
                           "option4_r": 0,
                           "option4_u": 2,
-                          "option4_d": 6,
+                          "option4_d": 0,
                           "option_5_text": "LOCKED",
                           "option5_x": 2,
                           "option5_y": 4,
@@ -638,11 +685,11 @@
                           "option16_r": 0,
                           "option16_u": 0,
                           "option16_d": 0,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__comment": false,
-                          "__label": "Level 20"
+                          "__label": "Level 35"
                         },
-                        "id": "c14bdcbe-fc52-44f5-9bd6-f436f2867c1d"
+                        "id": "76623c46-c568-4bd2-b41d-d9fffc115ffb"
                       }
                     ],
                     "false": [
@@ -650,14 +697,14 @@
                         "command": "EVENT_IF",
                         "args": {
                           "condition": {
-                            "type": "lt",
+                            "type": "gte",
                             "valueA": {
                               "type": "variable",
                               "value": "46"
                             },
                             "valueB": {
                               "type": "number",
-                              "value": 35
+                              "value": 20
                             }
                           },
                           "__collapseElse": false,
@@ -687,21 +734,21 @@
                                 "option2_l": 1,
                                 "option2_r": 0,
                                 "option2_u": 0,
-                                "option2_d": 4,
+                                "option2_d": 0,
                                 "option_3_text": "Cute",
                                 "option3_x": 2,
                                 "option3_y": 3,
                                 "option3_l": 0,
-                                "option3_r": 4,
+                                "option3_r": 0,
                                 "option3_u": 1,
                                 "option3_d": 0,
-                                "option_4_text": "Chud",
+                                "option_4_text": "LOCKED",
                                 "option4_x": 11,
                                 "option4_y": 3,
                                 "option4_l": 3,
                                 "option4_r": 0,
                                 "option4_u": 2,
-                                "option4_d": 0,
+                                "option4_d": 6,
                                 "option_5_text": "LOCKED",
                                 "option5_x": 2,
                                 "option5_y": 4,
@@ -788,9 +835,9 @@
                                 "option16_d": 0,
                                 "__collapse": true,
                                 "__comment": false,
-                                "__label": "Level 35"
+                                "__label": "Level 20"
                               },
-                              "id": "76623c46-c568-4bd2-b41d-d9fffc115ffb"
+                              "id": "c14bdcbe-fc52-44f5-9bd6-f436f2867c1d"
                             }
                           ],
                           "false": [
@@ -798,14 +845,14 @@
                               "command": "EVENT_IF",
                               "args": {
                                 "condition": {
-                                  "type": "lt",
+                                  "type": "gte",
                                   "valueA": {
                                     "type": "variable",
                                     "value": "46"
                                   },
                                   "valueB": {
                                     "type": "number",
-                                    "value": 50
+                                    "value": 10
                                   }
                                 },
                                 "__collapseElse": false,
@@ -828,33 +875,33 @@
                                       "option1_l": 0,
                                       "option1_r": 2,
                                       "option1_u": 0,
-                                      "option1_d": 3,
+                                      "option1_d": 0,
                                       "option_2_text": "Cool",
                                       "option2_x": 11,
                                       "option2_y": 2,
                                       "option2_l": 1,
                                       "option2_r": 0,
                                       "option2_u": 0,
-                                      "option2_d": 4,
-                                      "option_3_text": "Cute",
+                                      "option2_d": 0,
+                                      "option_3_text": "LOCKED",
                                       "option3_x": 2,
                                       "option3_y": 3,
                                       "option3_l": 0,
                                       "option3_r": 4,
                                       "option3_u": 1,
                                       "option3_d": 5,
-                                      "option_4_text": "Chud",
+                                      "option_4_text": "LOCKED",
                                       "option4_x": 11,
                                       "option4_y": 3,
                                       "option4_l": 3,
                                       "option4_r": 0,
                                       "option4_u": 2,
-                                      "option4_d": 0,
-                                      "option_5_text": "Festive",
+                                      "option4_d": 6,
+                                      "option_5_text": "LOCKED",
                                       "option5_x": 2,
                                       "option5_y": 4,
                                       "option5_l": 0,
-                                      "option5_r": 0,
+                                      "option5_r": 6,
                                       "option5_u": 3,
                                       "option5_d": 0,
                                       "option_6_text": "LOCKED",
@@ -935,10 +982,9 @@
                                       "option16_u": 0,
                                       "option16_d": 0,
                                       "__collapse": true,
-                                      "__comment": false,
-                                      "__label": "Level 50"
+                                      "__label": "Level 10"
                                     },
-                                    "id": "126ec5fe-30c4-49ab-b7d4-4ab471217425"
+                                    "id": "95680603-d031-42a1-a881-59ee1cfa56e9"
                                   }
                                 ],
                                 "false": [
@@ -946,18 +992,19 @@
                                     "command": "EVENT_IF",
                                     "args": {
                                       "condition": {
-                                        "type": "lt",
+                                        "type": "gte",
                                         "valueA": {
                                           "type": "variable",
                                           "value": "46"
                                         },
                                         "valueB": {
                                           "type": "number",
-                                          "value": 75
+                                          "value": 5
                                         }
                                       },
-                                      "__collapseElse": true,
-                                      "__collapse": false
+                                      "__collapseElse": false,
+                                      "__collapse": false,
+                                      "__label": ""
                                     },
                                     "children": {
                                       "true": [
@@ -974,38 +1021,38 @@
                                             "option1_x": 2,
                                             "option1_y": 2,
                                             "option1_l": 0,
-                                            "option1_r": 2,
+                                            "option1_r": 0,
                                             "option1_u": 0,
-                                            "option1_d": 3,
-                                            "option_2_text": "Cool",
+                                            "option1_d": 0,
+                                            "option_2_text": "LOCKED",
                                             "option2_x": 11,
                                             "option2_y": 2,
                                             "option2_l": 1,
                                             "option2_r": 0,
                                             "option2_u": 0,
                                             "option2_d": 4,
-                                            "option_3_text": "Cute",
+                                            "option_3_text": "LOCKED",
                                             "option3_x": 2,
                                             "option3_y": 3,
                                             "option3_l": 0,
                                             "option3_r": 4,
                                             "option3_u": 1,
                                             "option3_d": 5,
-                                            "option_4_text": "Chud",
+                                            "option_4_text": "LOCKED",
                                             "option4_x": 11,
                                             "option4_y": 3,
                                             "option4_l": 3,
                                             "option4_r": 0,
                                             "option4_u": 2,
                                             "option4_d": 6,
-                                            "option_5_text": "Festive",
+                                            "option_5_text": "LOCKED",
                                             "option5_x": 2,
                                             "option5_y": 4,
                                             "option5_l": 0,
                                             "option5_r": 6,
                                             "option5_u": 3,
                                             "option5_d": 0,
-                                            "option_6_text": "Bonus",
+                                            "option_6_text": "LOCKED",
                                             "option6_x": 11,
                                             "option6_y": 4,
                                             "option6_l": 5,
@@ -1083,35 +1130,34 @@
                                             "option16_u": 0,
                                             "option16_d": 0,
                                             "__collapse": true,
-                                            "__comment": false,
-                                            "__label": "Level MAX"
+                                            "__label": "Level 5"
                                           },
-                                          "id": "a6475164-ff79-43d1-8320-ecebbb87e78c"
+                                          "id": "d6a0b8c6-7b57-4fab-8dee-130b5616120e"
                                         }
                                       ],
                                       "false": []
                                     },
-                                    "id": "1e29e459-2ef2-4450-9807-9dc0275352ed"
+                                    "id": "5e297531-4732-4767-a272-70e03295cd0e"
                                   }
                                 ]
                               },
-                              "id": "9293dd8b-3955-4594-bad0-aa648372eaa6"
+                              "id": "2b4df962-6eb4-4814-b51f-09892d6a7cf8"
                             }
                           ]
                         },
-                        "id": "5887f69b-13f4-47d0-b8e9-4e8340544e53"
+                        "id": "ba5c1e49-23e8-4902-92cd-6e0fb374b515"
                       }
                     ]
                   },
-                  "id": "ba5c1e49-23e8-4902-92cd-6e0fb374b515"
+                  "id": "5887f69b-13f4-47d0-b8e9-4e8340544e53"
                 }
               ]
             },
-            "id": "2b4df962-6eb4-4814-b51f-09892d6a7cf8"
+            "id": "9293dd8b-3955-4594-bad0-aa648372eaa6"
           }
         ]
       },
-      "id": "5e297531-4732-4767-a272-70e03295cd0e"
+      "id": "1e29e459-2ef2-4450-9807-9dc0275352ed"
     },
     {
       "command": "EVENT_TEXT",
@@ -1135,7 +1181,8 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": true,
+        "__comment": true
       },
       "id": "7e202753-90a5-4b49-a5c4-35a5b31b832d"
     },
@@ -1146,15 +1193,15 @@
         "choices": 6,
         "__collapseCase0": false,
         "value0": 1,
-        "__collapseCase1": false,
+        "__collapseCase1": true,
         "value1": 2,
-        "__collapseCase2": false,
+        "__collapseCase2": true,
         "value2": 3,
-        "__collapseCase3": false,
+        "__collapseCase3": true,
         "value3": 4,
-        "__collapseCase4": false,
+        "__collapseCase4": true,
         "value4": 5,
-        "__collapseCase5": false,
+        "__collapseCase5": true,
         "value5": 6,
         "__collapseCase6": false,
         "value6": 7,
@@ -1176,22 +1223,11 @@
         "value14": 15,
         "__collapseCase15": false,
         "value15": 16,
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true0": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "53",
-              "value": {
-                "type": "number",
-                "value": 0
-              },
-              "__collapse": true
-            },
-            "id": "e94d9e22-5836-4389-8217-ce29f86d0828"
-          },
           {
             "command": "PT_EVENT_ADVANCED_MENU",
             "args": {
@@ -1200,7 +1236,7 @@
               "height": 6,
               "from": "bottom",
               "variable": "53",
-              "items": 6,
+              "items": 5,
               "option_1_text": "Chair",
               "option1_x": 1,
               "option1_y": 2,
@@ -1214,7 +1250,7 @@
               "option2_l": 0,
               "option2_r": 4,
               "option2_u": 1,
-              "option2_d": 5,
+              "option2_d": 0,
               "option_3_text": "TV",
               "option3_x": 10,
               "option3_y": 2,
@@ -1228,13 +1264,13 @@
               "option4_l": 2,
               "option4_r": 0,
               "option4_u": 3,
-              "option4_d": 5,
-              "option_5_text": "Clear",
-              "option5_x": 5,
-              "option5_y": 4,
-              "option5_l": 2,
-              "option5_r": 4,
-              "option5_u": 2,
+              "option4_d": 0,
+              "option_5_text": "Pick",
+              "option5_x": 0,
+              "option5_y": 0,
+              "option5_l": 0,
+              "option5_r": 0,
+              "option5_u": 0,
               "option5_d": 0,
               "option_6_text": "Pick",
               "option6_x": 0,
@@ -1321,18 +1357,6 @@
         ],
         "true1": [
           {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "53",
-              "value": {
-                "type": "number",
-                "value": 0
-              },
-              "__collapse": true
-            },
-            "id": "2295384d-8beb-4734-a39e-30547c29d769"
-          },
-          {
             "command": "PT_EVENT_ADVANCED_MENU",
             "args": {
               "__scriptTabs": "items",
@@ -1340,7 +1364,7 @@
               "height": 6,
               "from": "bottom",
               "variable": "53",
-              "items": 6,
+              "items": 5,
               "option_1_text": "Guitar",
               "option1_x": 1,
               "option1_y": 2,
@@ -1354,7 +1378,7 @@
               "option2_l": 0,
               "option2_r": 4,
               "option2_u": 1,
-              "option2_d": 5,
+              "option2_d": 0,
               "option_3_text": "TBD",
               "option3_x": 10,
               "option3_y": 2,
@@ -1368,13 +1392,13 @@
               "option4_l": 2,
               "option4_r": 0,
               "option4_u": 3,
-              "option4_d": 5,
-              "option_5_text": "Clear",
-              "option5_x": 5,
-              "option5_y": 4,
-              "option5_l": 2,
-              "option5_r": 4,
-              "option5_u": 2,
+              "option4_d": 0,
+              "option_5_text": "Pick",
+              "option5_x": 0,
+              "option5_y": 0,
+              "option5_l": 0,
+              "option5_r": 0,
+              "option5_u": 0,
               "option5_d": 0,
               "option_6_text": "Pick",
               "option6_x": 0,
@@ -1480,18 +1504,6 @@
         ],
         "true2": [
           {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "53",
-              "value": {
-                "type": "number",
-                "value": 0
-              },
-              "__collapse": true
-            },
-            "id": "fde9caa6-980a-4ab6-a843-e0cd39e306c7"
-          },
-          {
             "command": "PT_EVENT_ADVANCED_MENU",
             "args": {
               "__scriptTabs": "items",
@@ -1499,7 +1511,7 @@
               "height": 6,
               "from": "bottom",
               "variable": "53",
-              "items": 6,
+              "items": 5,
               "option_1_text": "Plushie",
               "option1_x": 1,
               "option1_y": 2,
@@ -1513,7 +1525,7 @@
               "option2_l": 0,
               "option2_r": 4,
               "option2_u": 1,
-              "option2_d": 5,
+              "option2_d": 0,
               "option_3_text": "TBD",
               "option3_x": 10,
               "option3_y": 2,
@@ -1527,13 +1539,13 @@
               "option4_l": 2,
               "option4_r": 0,
               "option4_u": 3,
-              "option4_d": 5,
-              "option_5_text": "Clear",
-              "option5_x": 5,
-              "option5_y": 4,
-              "option5_l": 2,
-              "option5_r": 4,
-              "option5_u": 2,
+              "option4_d": 0,
+              "option_5_text": "Pick",
+              "option5_x": 0,
+              "option5_y": 0,
+              "option5_l": 0,
+              "option5_r": 0,
+              "option5_u": 0,
               "option5_d": 0,
               "option_6_text": "Pick",
               "option6_x": 0,
@@ -1639,18 +1651,6 @@
         ],
         "true3": [
           {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "53",
-              "value": {
-                "type": "number",
-                "value": 0
-              },
-              "__collapse": true
-            },
-            "id": "0288107a-d32d-40ae-b112-c38586e0aeed"
-          },
-          {
             "command": "PT_EVENT_ADVANCED_MENU",
             "args": {
               "__scriptTabs": "items",
@@ -1658,7 +1658,7 @@
               "height": 6,
               "from": "bottom",
               "variable": "53",
-              "items": 6,
+              "items": 5,
               "option_1_text": "Beanbag",
               "option1_x": 1,
               "option1_y": 2,
@@ -1672,7 +1672,7 @@
               "option2_l": 0,
               "option2_r": 4,
               "option2_u": 1,
-              "option2_d": 5,
+              "option2_d": 0,
               "option_3_text": "PC",
               "option3_x": 10,
               "option3_y": 2,
@@ -1686,13 +1686,13 @@
               "option4_l": 2,
               "option4_r": 0,
               "option4_u": 3,
-              "option4_d": 5,
-              "option_5_text": "Clear",
-              "option5_x": 5,
-              "option5_y": 4,
-              "option5_l": 2,
-              "option5_r": 4,
-              "option5_u": 2,
+              "option4_d": 0,
+              "option_5_text": "Pick",
+              "option5_x": 0,
+              "option5_y": 0,
+              "option5_l": 0,
+              "option5_r": 0,
+              "option5_u": 0,
               "option5_d": 0,
               "option_6_text": "Pick",
               "option6_x": 0,
@@ -1798,18 +1798,6 @@
         ],
         "true4": [
           {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "53",
-              "value": {
-                "type": "number",
-                "value": 0
-              },
-              "__collapse": true
-            },
-            "id": "f925fe2f-c6b5-4847-884d-47b769a39a16"
-          },
-          {
             "command": "PT_EVENT_ADVANCED_MENU",
             "args": {
               "__scriptTabs": "items",
@@ -1817,7 +1805,7 @@
               "height": 6,
               "from": "bottom",
               "variable": "53",
-              "items": 6,
+              "items": 5,
               "option_1_text": "Tree",
               "option1_x": 1,
               "option1_y": 2,
@@ -1831,7 +1819,7 @@
               "option2_l": 0,
               "option2_r": 4,
               "option2_u": 1,
-              "option2_d": 5,
+              "option2_d": 0,
               "option_3_text": "Candy Cane",
               "option3_x": 10,
               "option3_y": 2,
@@ -1845,13 +1833,13 @@
               "option4_l": 2,
               "option4_r": 0,
               "option4_u": 3,
-              "option4_d": 5,
-              "option_5_text": "Clear",
-              "option5_x": 5,
-              "option5_y": 4,
-              "option5_l": 2,
-              "option5_r": 4,
-              "option5_u": 2,
+              "option4_d": 0,
+              "option_5_text": "Pick",
+              "option5_x": 0,
+              "option5_y": 0,
+              "option5_l": 0,
+              "option5_r": 0,
+              "option5_u": 0,
               "option5_d": 0,
               "option_6_text": "Pick",
               "option6_x": 0,
@@ -1957,18 +1945,6 @@
         ],
         "true5": [
           {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "53",
-              "value": {
-                "type": "number",
-                "value": 0
-              },
-              "__collapse": true
-            },
-            "id": "7c3c669b-812d-485f-8dd9-366f3a9dc6b2"
-          },
-          {
             "command": "PT_EVENT_ADVANCED_MENU",
             "args": {
               "__scriptTabs": "items",
@@ -1976,7 +1952,7 @@
               "height": 6,
               "from": "bottom",
               "variable": "53",
-              "items": 6,
+              "items": 5,
               "option_1_text": "Gamegirl",
               "option1_x": 1,
               "option1_y": 2,
@@ -1990,7 +1966,7 @@
               "option2_l": 0,
               "option2_r": 4,
               "option2_u": 1,
-              "option2_d": 5,
+              "option2_d": 0,
               "option_3_text": "TBD",
               "option3_x": 10,
               "option3_y": 2,
@@ -2004,15 +1980,15 @@
               "option4_l": 2,
               "option4_r": 0,
               "option4_u": 3,
-              "option4_d": 5,
-              "option_5_text": "Clear",
-              "option5_x": 5,
-              "option5_y": 4,
-              "option5_l": 2,
-              "option5_r": 4,
-              "option5_u": 2,
+              "option4_d": 0,
+              "option_5_text": "Pick",
+              "option5_x": 0,
+              "option5_y": 0,
+              "option5_l": 0,
+              "option5_r": 0,
+              "option5_u": 0,
               "option5_d": 0,
-              "option_6_text": "Pick",
+              "option_6_text": "",
               "option6_x": 0,
               "option6_y": 0,
               "option6_l": 0,
@@ -2129,7 +2105,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "ERROR"
+                "You don't have any\nfurniture!",
+                "You can unlock\nmore by playing",
+                "games with soda\nand friends!",
+                "Wait nvm this is\nactually an error.\nplease tell carri"
               ],
               "__section": "text",
               "avatarId": "",
@@ -2147,13 +2126,40 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "31a544bb-c346-4366-968a-30b3e9abe581"
           }
         ]
       },
       "id": "0361ea25-d403-4435-97e5-db8a496a5c68"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "LEVEL: $46$\nTYPE: $53$"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "8218bf9a-a1dc-4eda-b190-b7f55c5707b1"
     },
     {
       "command": "EVENT_COMMENT",
@@ -2164,45 +2170,10 @@
       "id": "1f358415-93e7-4dcb-857c-ad65b37da1d9"
     },
     {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "53"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 5
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "53",
-              "value": {
-                "type": "number",
-                "value": 0
-              }
-            },
-            "id": "87488707-da42-498d-abaf-63be1aea81df"
-          }
-        ],
-        "false": []
-      },
-      "id": "b8d1da6d-d91e-4217-b145-c32cc9a7984a"
-    },
-    {
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "V0",
-        "choices": 5,
+        "choices": 4,
         "__collapseCase0": false,
         "value0": 1,
         "__collapseCase1": false,
@@ -2236,7 +2207,7 @@
         "__collapseCase15": false,
         "value15": 16,
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Switch Sprites"
       },
       "children": {

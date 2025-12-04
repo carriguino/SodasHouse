@@ -34,8 +34,8 @@
           {
             "command": "PT_EVENT_ADVANCED_MENU",
             "args": {
-              "__scriptTabs": "items",
-              "width": 18,
+              "__scriptTabs": "text",
+              "width": 20,
               "height": 5,
               "from": "bottom",
               "variable": "L0",
@@ -152,7 +152,7 @@
               "option16_r": 0,
               "option16_u": 0,
               "option16_d": 0,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "a0564110-62e7-4aa2-af17-a0a6af7b83e1"
           },

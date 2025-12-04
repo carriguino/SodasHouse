@@ -171,7 +171,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -179,10 +179,10 @@
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "71a0f2cf-7f5a-4d42-a964-1a03f8b82be5",
-                    "$actor[0]$": "d8e36fa9-aa04-4bcb-be7f-8c0a43e02190",
-                    "$actor[1]$": "34ffd2cc-82e3-4f82-9f12-282c265b1f75",
-                    "$actor[2]$": "3be3146c-59a6-4787-a881-0d3331b08f2a",
-                    "$actor[3]$": "18f43967-f9f5-4f9c-aa66-2ccdc9017db1",
+                    "$actor[0]$": "e569ff8a-0742-4577-8cfe-8f1d886346bc",
+                    "$actor[1]$": "df45e7d3-1bd6-4dfe-8f2d-bc74aaec9d44",
+                    "$actor[2]$": "0bac26cc-777a-4c49-8803-1ad421166406",
+                    "$actor[3]$": "f22636c7-2a73-44cf-95d9-86f16763dbba",
                     "$variable[V0]$": {
                       "type": "variable",
                       "value": "L1"
@@ -193,19 +193,19 @@
                     },
                     "$variable[V2]$": {
                       "type": "variable",
-                      "value": "27"
+                      "value": "39"
                     },
                     "$variable[V3]$": {
                       "type": "variable",
-                      "value": "38"
+                      "value": "40"
                     },
                     "$variable[V4]$": {
                       "type": "variable",
-                      "value": "45"
+                      "value": "41"
                     },
                     "$variable[V5]$": {
                       "type": "variable",
-                      "value": "52"
+                      "value": "42"
                     }
                   },
                   "id": "6a23560f-7914-4c07-9b2e-f4fb868ed62a"
