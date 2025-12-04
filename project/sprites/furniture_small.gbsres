@@ -145,6 +145,46 @@
                   "priority": false
                 }
               ]
+            },
+            {
+              "id": "ba291b59-b819-4765-a38b-496231e81372",
+              "tiles": []
+            },
+            {
+              "id": "aa9c35f3-943d-4a59-8eac-ad7497555cc0",
+              "tiles": []
+            },
+            {
+              "id": "411772c2-b54e-4895-81f3-a8696d0701ba",
+              "tiles": []
+            },
+            {
+              "id": "b134b220-a624-40d0-bd64-62ab16360921",
+              "tiles": []
+            },
+            {
+              "id": "45744551-40e4-40d0-88e5-cc57a183cefd",
+              "tiles": []
+            },
+            {
+              "id": "66055872-cade-47bb-81db-5779a7d3112e",
+              "tiles": []
+            },
+            {
+              "id": "b6430b1d-5d26-4600-9e85-974184050b60",
+              "tiles": []
+            },
+            {
+              "id": "ec98b3be-3c28-4c6d-a8f4-07bedee53ca1",
+              "tiles": []
+            },
+            {
+              "id": "3c520cab-1d5e-4fd1-9ffe-05b7cbd5101b",
+              "tiles": []
+            },
+            {
+              "id": "77ec24d3-a7a9-4e3e-af1d-e145656298ee",
+              "tiles": []
             }
           ]
         },
@@ -214,7 +254,7 @@
       ]
     }
   ],
-  "numTiles": 6,
+  "numTiles": 7,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,

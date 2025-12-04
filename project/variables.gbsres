@@ -232,6 +232,11 @@
       "symbol": "var_furniture_soda_3"
     },
     {
+      "id": "46",
+      "name": "FurnitureLevel",
+      "symbol": "var_furniturelevel"
+    },
+    {
       "id": "52",
       "name": "Furniture Soda 4",
       "symbol": "var_furniture_soda_4"
@@ -507,9 +512,24 @@
       "symbol": "var_local_19"
     },
     {
-      "id": "46",
-      "name": "Furniture Level",
-      "symbol": "var_furniture_level"
+      "id": "0ae43657-1364-4c17-a031-02ddbce7d30c__L1",
+      "name": "Local 1",
+      "symbol": "var_local_20"
+    },
+    {
+      "id": "0ae43657-1364-4c17-a031-02ddbce7d30c__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture_5"
+    },
+    {
+      "id": "9f26c32b-a817-4c79-ac73-a6f7a1cfe325__L1",
+      "name": "Local 1",
+      "symbol": "var_local_21"
+    },
+    {
+      "id": "9f26c32b-a817-4c79-ac73-a6f7a1cfe325__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture_6"
     }
   ]
 }

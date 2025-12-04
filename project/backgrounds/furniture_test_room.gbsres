@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e9de249c-1cbf-41ef-a682-8fe2b8960243",
+  "name": "furniture test room",
+  "symbol": "bg_furniture_test_room",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "furniture test room.png",
+  "tileColors": "",
+  "autoColor": false
+}

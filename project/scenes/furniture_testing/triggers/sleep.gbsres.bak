@@ -1,0 +1,206 @@
+{
+  "_resourceType": "trigger",
+  "id": "9f26c32b-a817-4c79-ac73-a6f7a1cfe325",
+  "name": "Sleep",
+  "prefabId": "",
+  "_index": 0,
+  "symbol": "trigger_1",
+  "x": 2,
+  "y": 2,
+  "width": 8,
+  "height": 6,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "PT_EVENT_ADVANCED_MENU",
+      "args": {
+        "__scriptTabs": "items",
+        "width": 20,
+        "height": 5,
+        "from": "bottom",
+        "variable": "L0",
+        "items": 3,
+        "option_1_text": "Yes",
+        "option1_x": 2,
+        "option1_y": 2,
+        "option1_l": 0,
+        "option1_r": 0,
+        "option1_u": 0,
+        "option1_d": 2,
+        "option_2_text": "No",
+        "option2_x": 2,
+        "option2_y": 3,
+        "option2_l": 0,
+        "option2_r": 0,
+        "option2_u": 1,
+        "option2_d": 0,
+        "option_3_text": "Move Furniture?",
+        "option3_x": 0,
+        "option3_y": 0,
+        "option3_l": 0,
+        "option3_r": 0,
+        "option3_u": 0,
+        "option3_d": 0,
+        "option_4_text": "",
+        "option4_x": 0,
+        "option4_y": 0,
+        "option4_l": 0,
+        "option4_r": 0,
+        "option4_u": 0,
+        "option4_d": 0,
+        "option_5_text": "",
+        "option5_x": 0,
+        "option5_y": 0,
+        "option5_l": 0,
+        "option5_r": 0,
+        "option5_u": 0,
+        "option5_d": 0,
+        "option_6_text": "",
+        "option6_x": 0,
+        "option6_y": 0,
+        "option6_l": 0,
+        "option6_r": 0,
+        "option6_u": 0,
+        "option6_d": 0,
+        "option_7_text": "",
+        "option7_x": 0,
+        "option7_y": 0,
+        "option7_l": 0,
+        "option7_r": 0,
+        "option7_u": 0,
+        "option7_d": 0,
+        "option_8_text": "",
+        "option8_x": 0,
+        "option8_y": 0,
+        "option8_l": 0,
+        "option8_r": 0,
+        "option8_u": 0,
+        "option8_d": 0,
+        "option_9_text": "",
+        "option9_x": 0,
+        "option9_y": 0,
+        "option9_l": 0,
+        "option9_r": 0,
+        "option9_u": 0,
+        "option9_d": 0,
+        "option_10_text": "",
+        "option10_x": 0,
+        "option10_y": 0,
+        "option10_l": 0,
+        "option10_r": 0,
+        "option10_u": 0,
+        "option10_d": 0,
+        "option_11_text": "",
+        "option11_x": 0,
+        "option11_y": 0,
+        "option11_l": 0,
+        "option11_r": 0,
+        "option11_u": 0,
+        "option11_d": 0,
+        "option_12_text": "",
+        "option12_x": 0,
+        "option12_y": 0,
+        "option12_l": 0,
+        "option12_r": 0,
+        "option12_u": 0,
+        "option12_d": 0,
+        "option_13_text": "",
+        "option13_x": 0,
+        "option13_y": 0,
+        "option13_l": 0,
+        "option13_r": 0,
+        "option13_u": 0,
+        "option13_d": 0,
+        "option_14_text": "",
+        "option14_x": 0,
+        "option14_y": 0,
+        "option14_l": 0,
+        "option14_r": 0,
+        "option14_u": 0,
+        "option14_d": 0,
+        "option_15_text": "",
+        "option15_x": 0,
+        "option15_y": 0,
+        "option15_l": 0,
+        "option15_r": 0,
+        "option15_u": 0,
+        "option15_d": 0,
+        "option_16_text": "",
+        "option16_x": 0,
+        "option16_y": 0,
+        "option16_l": 0,
+        "option16_r": 0,
+        "option16_u": 0,
+        "option16_d": 0,
+        "__collapse": false,
+        "__comment": false
+      },
+      "id": "411ee20b-741c-41eb-8cb3-6817dbf91bb3"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "71a0f2cf-7f5a-4d42-a964-1a03f8b82be5",
+              "$actor[0]$": "d56bafdb-28a9-4c19-840f-7a9a256638d8",
+              "$actor[1]$": "efe4d4d0-dcc4-48cd-b279-57c2cd8fff99",
+              "$actor[2]$": "05e364e4-76ec-4b37-83f5-4cfc12e1a030",
+              "$actor[3]$": "4f72fb48-ef1a-4817-8bf4-82b6aee51037",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L1"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "L2"
+              },
+              "$variable[V2]$": {
+                "type": "variable",
+                "value": "27"
+              },
+              "$variable[V3]$": {
+                "type": "variable",
+                "value": "38"
+              },
+              "$variable[V4]$": {
+                "type": "variable",
+                "value": "45"
+              },
+              "$variable[V5]$": {
+                "type": "variable",
+                "value": "52"
+              },
+              "$variable[V6]$": {
+                "type": "variable",
+                "value": "53"
+              },
+              "__collapse": false
+            },
+            "id": "b5ad377f-877c-43ca-934d-c4cc2b835f13"
+          }
+        ],
+        "false": []
+      },
+      "id": "91272057-d666-4327-bfa5-bf734f5565f0"
+    }
+  ],
+  "leaveScript": []
+}

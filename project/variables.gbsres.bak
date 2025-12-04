@@ -505,6 +505,11 @@
       "id": "948d554e-f7d2-46b6-961b-6447ac3ed8c1__L1",
       "name": "Local 1",
       "symbol": "var_local_19"
+    },
+    {
+      "id": "46",
+      "name": "Furniture Level",
+      "symbol": "var_furniture_level"
     }
   ]
 }

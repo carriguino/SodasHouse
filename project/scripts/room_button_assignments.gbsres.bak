@@ -522,9 +522,9 @@
             "args": {
               "variable": "53",
               "items": 3,
-              "option1": "Save Game(FL:$46$)",
+              "option1": "Save Game",
               "option2": "Erase Save",
-              "option3": "Back",
+              "option3": "Back      (FL:$46$)",
               "option4": "Back",
               "option5": "",
               "option6": "",

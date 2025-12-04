@@ -512,7 +512,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Select Input"
       },
       "children": {
