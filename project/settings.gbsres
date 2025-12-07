@@ -1,11 +1,11 @@
 {
   "_resourceType": "settings",
   "startSceneId": "4797e82b-2f10-45fd-a8c7-b3619070fd14",
-  "startX": 11,
-  "startY": 6,
+  "startX": 0,
+  "startY": 2,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
-  "startDirection": "up",
+  "startDirection": "right",
   "showCollisionExtraTiles": false,
   "sgbEnabled": false,
   "customHead": "",
@@ -57,7 +57,7 @@
   "customControlsB": [],
   "customControlsStart": [],
   "customControlsSelect": [],
-  "colorMode": "mixed",
+  "colorMode": "color",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
   "scriptEventPresets": {

@@ -1,0 +1,62 @@
+{
+  "_resourceType": "actor",
+  "id": "da7c4ac4-3675-4115-8b9e-e0dd2d57bb5c",
+  "name": "Ados - Furniture 2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "73ff9e63-5368-4bb9-a3db-aea1b28091cf",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_28",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF_SAVED_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "40",
+              "variableSource": "40",
+              "saveSlot": 0
+            },
+            "id": "0bc157a6-73d0-449f-8e1b-5de2a9931116"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "variable",
+                "value": "40"
+              },
+              "__collapse": false
+            },
+            "id": "c622faee-5f45-4e4c-a976-9c32559555a0"
+          }
+        ],
+        "false": []
+      },
+      "id": "276a8575-1351-474f-92d6-912720a9d485"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 3,
+  "y": 10,
+  "_index": 3
+}

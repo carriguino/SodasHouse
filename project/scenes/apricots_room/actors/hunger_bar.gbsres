@@ -1,0 +1,264 @@
+{
+  "_resourceType": "actor",
+  "id": "4ce36234-a9a4-462f-8e5c-27cfa1c925a0",
+  "name": "Hunger Bar",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "155d9800-ea8c-4d47-9cc6-b253aa35c2db",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "_index": 8,
+  "symbol": "actor_52",
+  "x": 15,
+  "y": 4,
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "duration": 60,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "timer": 1,
+        "__collapse": false,
+        "__label": "Hunger Timer"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 2,
+              "duration": 60,
+              "frames": 30,
+              "__scriptTabs": "end",
+              "units": "time"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gt",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "9"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__disableElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_DEC_VALUE",
+                        "args": {
+                          "variable": "9"
+                        },
+                        "id": "628a9d7b-862b-4b42-8a7e-28701a888e8c"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "6e559941-b340-49a1-b633-3a094138f872"
+                },
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "8"
+                  },
+                  "id": "1da34d7f-cfd5-4fa7-a1bb-998f7fc3c89b"
+                }
+              ]
+            },
+            "id": "8d0b7098-69fc-4591-9373-08a41cf71aba"
+          },
+          {
+            "command": "EVENT_TIMER_DISABLE",
+            "args": {
+              "timer": 2
+            },
+            "id": "2d699751-84bb-4f47-ad50-a0405d4b9b1a"
+          }
+        ]
+      },
+      "id": "1b9576b6-45bc-418e-80e3-7e26514070ed"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "9",
+        "choices": 5,
+        "__collapseCase0": false,
+        "value0": 0,
+        "__collapseCase1": false,
+        "value1": 1,
+        "__collapseCase2": false,
+        "value2": 2,
+        "__collapseCase3": false,
+        "value3": 3,
+        "__collapseCase4": false,
+        "value4": 4,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false,
+        "__disableElse": false,
+        "__collapse": false,
+        "__label": "Update Hunger"
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "fe5ddd32-daa1-442e-8fc8-7858884c9db9"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "f8a344bc-c935-4b43-a507-14cf440bb128"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "96f0d6fd-2bf4-47f8-8c0b-1f3c19526e1a"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "d740c212-b906-461c-a009-68f67fbce4d0"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "04c8af48-d417-4094-ba29-8409583ad8d2"
+          }
+        ],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "9"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 4
+                }
+              },
+              "__collapseElse": true,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "9",
+                    "value": {
+                      "type": "number",
+                      "value": 4
+                    }
+                  },
+                  "id": "df8158ab-441e-422c-9a3a-1874fcc95ab4"
+                }
+              ],
+              "false": []
+            },
+            "id": "3b65bb35-ff79-4a1a-8817-0fee26e34c71"
+          }
+        ]
+      },
+      "id": "ebe4a4e9-79e4-40cf-a4af-167d1c8f87fe"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

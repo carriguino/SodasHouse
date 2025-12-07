@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d49e9cdb-0300-4f65-a87e-14242e8da3c0",
+  "name": "3DS-BANNER",
+  "symbol": "bg_3ds_banner",
+  "width": 32,
+  "height": 8,
+  "imageWidth": 256,
+  "imageHeight": 64,
+  "filename": "3DS-BANNER.png",
+  "tileColors": "",
+  "autoColor": false
+}

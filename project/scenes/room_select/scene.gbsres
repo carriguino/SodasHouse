@@ -5,8 +5,8 @@
   "type": "POINTNCLICK",
   "name": "Room Select",
   "symbol": "scene_9",
-  "x": 696,
-  "y": 336,
+  "x": 656,
+  "y": 584,
   "width": 20,
   "height": 30,
   "backgroundId": "9425d321-7b4b-4b1a-b0bf-9c94066d8b5b",
@@ -17,7 +17,7 @@
     "default-sprite"
   ],
   "autoFadeSpeed": 1,
-  "playerSpriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+  "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
   "script": [
     {
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
@@ -48,18 +48,6 @@
         "__collapse": true
       },
       "id": "79a46001-9720-47a1-9699-75de6c6c4850"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_DIRECTION",
-      "args": {
-        "actorId": "$self$",
-        "direction": {
-          "type": "direction",
-          "value": "left"
-        },
-        "__collapse": true
-      },
-      "id": "cf3b0a5a-9e0c-496d-82f2-bf9743ad5ccb"
     }
   ],
   "playerHit1Script": [],

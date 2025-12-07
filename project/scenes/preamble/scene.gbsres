@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "9773d830-f8f3-4104-92f1-0bd3d00e38a5",
-  "_index": 8,
+  "_index": 7,
   "name": "Preamble",
   "backgroundId": "ba38f5c7-5645-444b-9f2b-c8da1e860aa4",
   "tilesetId": "",
@@ -13,9 +13,16 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
-  "x": 920,
+  "x": 944,
   "y": 30,
   "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "6d8a303f-639a-40b3-97fa-355a8b69179a"
+    },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
@@ -23,7 +30,8 @@
           "start"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -53,7 +61,8 @@
       "args": {
         "time": 3,
         "frames": 3,
-        "units": "frames"
+        "units": "frames",
+        "__collapse": true
       },
       "id": "7a8ce784-1ec3-461a-9df1-1d57ff3865fe"
     },
@@ -134,7 +143,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": false
       },
       "id": "d0de0fc2-be36-4188-bb93-f12ba34e3323"
     },
@@ -194,5 +204,6 @@
       "height": 0,
       "speed": 128
     }
-  ]
+  ],
+  "autoFadeEventCollapse": true
 }

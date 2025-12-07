@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "c9e1000e-6cf6-4200-b481-f14e01db6661",
-  "_index": 12,
+  "_index": 8,
   "name": "Preamble 2",
   "backgroundId": "61a38034-cc12-4014-ae5c-24b2168e79f2",
   "tilesetId": "",
@@ -13,7 +13,7 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
-  "x": 1088,
+  "x": 1128,
   "y": 32,
   "script": [
     {

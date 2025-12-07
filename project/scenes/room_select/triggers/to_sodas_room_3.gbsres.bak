@@ -5,12 +5,23 @@
   "prefabId": "",
   "_index": 3,
   "symbol": "trigger_23",
-  "x": 12,
-  "y": 16,
+  "x": 3,
+  "y": 12,
   "width": 2,
   "height": 2,
   "prefabScriptOverrides": {},
   "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "47a18ef0-2f39-43d1-a839-20bf7a3589b6"
+    },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {

@@ -101,7 +101,7 @@
     {
       "command": "EVENT_SWITCH",
       "args": {
-        "variable": "1",
+        "variable": "9",
         "choices": 5,
         "__collapseCase0": false,
         "value0": 0,

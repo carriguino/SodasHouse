@@ -5,12 +5,23 @@
   "prefabId": "",
   "_index": 5,
   "symbol": "trigger_8",
-  "x": 12,
-  "y": 28,
+  "x": 5,
+  "y": 21,
   "width": 2,
   "height": 2,
   "prefabScriptOverrides": {},
   "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "eda2ee78-fc8e-4e91-a7da-27e1242af48d"
+    },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
@@ -24,7 +35,8 @@
           "value": 17
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__comment": true
       },
       "id": "f6c14b9c-1bb7-4dfb-acce-a31b0b3870f7"
     }

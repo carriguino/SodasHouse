@@ -21,9 +21,17 @@
   "y": 72,
   "script": [
     {
-      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "348d71fc-6c8f-4883-983c-896d87e6ba27"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "b3807f61-e158-4ec2-84d4-b673a832a865",
         "speed": 3
       },
       "id": "befd3bca-040a-43cd-8c0f-faa8cfc07236"
@@ -40,7 +48,7 @@
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
-        "actorId": "$self$",
+        "actorId": "b3807f61-e158-4ec2-84d4-b673a832a865",
         "speed": 255
       },
       "id": "14c9c9e6-87f3-4945-8106-7136f870e1f6"
@@ -66,5 +74,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "5b9d63ae-25b8-4282-af3e-c22a62b84453"
+  "playerSpriteSheetId": "b78766fb-5b84-4c6b-a621-5ba8b62d55ec"
 }

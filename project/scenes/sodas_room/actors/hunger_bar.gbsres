@@ -136,7 +136,7 @@
         "__collapseCase15": false,
         "value15": 16,
         "__collapseElse": false,
-        "__disableElse": true,
+        "__disableElse": false,
         "__collapse": false,
         "__label": "Update Hunger"
       },
@@ -217,7 +217,43 @@
         "true13": [],
         "true14": [],
         "true15": [],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 4
+                }
+              },
+              "__collapseElse": true,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "1",
+                    "value": {
+                      "type": "number",
+                      "value": 4
+                    }
+                  },
+                  "id": "da127b08-b83f-4748-908e-01ed3572e0fe"
+                }
+              ],
+              "false": []
+            },
+            "id": "9ed0f389-736e-45ae-9473-7738a14333c7"
+          }
+        ]
       },
       "id": "77334e81-97f6-4a67-8d72-e2c3e5d158aa"
     }

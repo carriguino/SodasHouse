@@ -23,11 +23,6 @@
       "id": "V3",
       "name": "localHappiness",
       "passByReference": true
-    },
-    "V4": {
-      "id": "V4",
-      "name": "localWeight",
-      "passByReference": true
     }
   },
   "actors": {
@@ -395,25 +390,6 @@
             "id": "26aaf812-4e14-432d-af94-f0c9dbb6dfb5"
           },
           {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "V4",
-              "value": {
-                "type": "add",
-                "valueA": {
-                  "type": "variable",
-                  "value": "V4"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 2
-                }
-              },
-              "__collapse": false
-            },
-            "id": "151640df-00a0-4799-91aa-39ff5ca2701e"
-          },
-          {
             "command": "EVENT_INC_VALUE",
             "args": {
               "variable": "V3",
@@ -429,13 +405,6 @@
               "variable": "V2"
             },
             "id": "508c391f-a874-4088-ac02-d033b82719f2"
-          },
-          {
-            "command": "EVENT_INC_VALUE",
-            "args": {
-              "variable": "V4"
-            },
-            "id": "b275bb61-128d-4ba5-a170-8acd5b5a1e15"
           },
           {
             "command": "EVENT_INC_VALUE",

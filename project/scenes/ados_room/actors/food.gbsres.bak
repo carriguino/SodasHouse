@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "fe1158a9-5f37-45d0-a401-a2a187abeb0b",
+  "id": "d292d448-d89d-4d08-9cea-8e048cac02c0",
   "name": "Food",
   "frame": 0,
   "animate": false,
@@ -14,14 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_56",
+  "symbol": "actor_15",
   "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 16,
-  "y": 11,
-  "_index": 10
+  "x": 7,
+  "y": 10,
+  "_index": 2
 }

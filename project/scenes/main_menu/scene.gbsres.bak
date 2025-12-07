@@ -22,7 +22,8 @@
       "command": "EVENT_IF_SAVED_DATA",
       "args": {
         "saveSlot": 0,
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [

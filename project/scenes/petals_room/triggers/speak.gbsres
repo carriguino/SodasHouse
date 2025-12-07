@@ -1,0 +1,77 @@
+{
+  "_resourceType": "trigger",
+  "id": "f2f6cce8-5d8c-40a7-8a62-aae9778272d5",
+  "name": "Speak",
+  "prefabId": "",
+  "_index": 3,
+  "symbol": "trigger_13",
+  "x": 16,
+  "y": 12,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "5",
+        "__collapseElse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "44"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "ADOS is in his box",
+                "You can hear him\nshadowboxing in",
+                "there...",
+                "Guess he'll come\nout when he wants."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "250408aa-a541-494d-9585-de5c0a97e3c1"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "f2decf85-d1c3-4ad7-a44e-62fed136c001",
+              "$actor[0]$": "1d89eeba-2654-46d0-85c5-22b81866cfdb"
+            },
+            "id": "dc7987e8-e516-4bb9-8100-e9aa85ec3037"
+          }
+        ]
+      },
+      "id": "0bcdae57-7249-4d05-af1d-5c6460a1c884"
+    }
+  ],
+  "leaveScript": []
+}

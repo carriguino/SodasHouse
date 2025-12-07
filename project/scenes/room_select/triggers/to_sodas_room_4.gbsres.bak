@@ -5,7 +5,7 @@
   "prefabId": "",
   "_index": 4,
   "symbol": "trigger_24",
-  "x": 14,
+  "x": 3,
   "y": 16,
   "width": 2,
   "height": 2,
@@ -25,10 +25,10 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "10e7364a-d5ba-4bde-b4b7-91bdc19a559c",
+        "sceneId": "d569b068-18de-4390-aa33-a07df45e77c3",
         "x": {
           "type": "number",
-          "value": 2
+          "value": 8
         },
         "y": {
           "type": "number",

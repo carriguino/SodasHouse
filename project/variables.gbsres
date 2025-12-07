@@ -530,6 +530,106 @@
       "id": "9f26c32b-a817-4c79-ac73-a6f7a1cfe325__L0",
       "name": "moveFurniture",
       "symbol": "var_movefurniture_6"
+    },
+    {
+      "id": "17984c73-4b8c-4cfa-9351-0aedfcfdd483__L0",
+      "name": "da",
+      "symbol": "var_da_9"
+    },
+    {
+      "id": "197a6343-0314-46c4-b09f-cb6d904c6b81__L0",
+      "name": "babyTimer",
+      "symbol": "var_babytimer_4"
+    },
+    {
+      "id": "d61598b0-7597-404d-8b4f-240686fc8089__L1",
+      "name": "Local 1",
+      "symbol": "var_local_22"
+    },
+    {
+      "id": "d61598b0-7597-404d-8b4f-240686fc8089__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture_7"
+    },
+    {
+      "id": "28cf7eb4-7c4a-42cb-b3eb-6084a3219fcf__L1",
+      "name": "Local 1",
+      "symbol": "var_local_23"
+    },
+    {
+      "id": "d4f35278-08b4-4054-891f-4ac60ed67e9b__L0",
+      "name": "da",
+      "symbol": "var_da_10"
+    },
+    {
+      "id": "2441351e-504b-4854-bd0a-15e51deb79b3__L0",
+      "name": "babyTimer",
+      "symbol": "var_babytimer_5"
+    },
+    {
+      "id": "c6839b17-3276-4c52-b74b-51a1625ff9ef__L1",
+      "name": "Local 1",
+      "symbol": "var_local_24"
+    },
+    {
+      "id": "c6839b17-3276-4c52-b74b-51a1625ff9ef__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture_8"
+    },
+    {
+      "id": "9ecbd9c1-cab4-4802-b96c-19399fa2c090__L1",
+      "name": "Local 1",
+      "symbol": "var_local_25"
+    },
+    {
+      "id": "eab6f21e-12ac-45bb-bea7-b479d5cd8bc3__L0",
+      "name": "da",
+      "symbol": "var_da_11"
+    },
+    {
+      "id": "de9fe301-52c5-4fb3-87e1-f71825eb5c2f__L0",
+      "name": "babyTimer",
+      "symbol": "var_babytimer_6"
+    },
+    {
+      "id": "dfd1b8d6-a2be-4fa1-a88a-3ad4cb210062__L1",
+      "name": "Local 1",
+      "symbol": "var_local_26"
+    },
+    {
+      "id": "dfd1b8d6-a2be-4fa1-a88a-3ad4cb210062__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture_9"
+    },
+    {
+      "id": "4aef93c0-716f-42d7-9e3e-9bbb49654507__L1",
+      "name": "Local 1",
+      "symbol": "var_local_27"
+    },
+    {
+      "id": "26e1bf33-925d-4f9f-8a18-7f701ad68224__L0",
+      "name": "da",
+      "symbol": "var_da_12"
+    },
+    {
+      "id": "984c9d28-e003-463e-a6e7-47e7ccbf99d3__L0",
+      "name": "babyTimer",
+      "symbol": "var_babytimer_7"
+    },
+    {
+      "id": "b406ae83-9fa7-4352-988e-74b1ac469162__L1",
+      "name": "Local 1",
+      "symbol": "var_local_28"
+    },
+    {
+      "id": "b406ae83-9fa7-4352-988e-74b1ac469162__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture_10"
+    },
+    {
+      "id": "63139a61-3a6d-4e76-a2d6-dfa88c23edc3__L1",
+      "name": "Local 1",
+      "symbol": "var_local_29"
     }
   ]
 }

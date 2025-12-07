@@ -1,0 +1,119 @@
+{
+  "_resourceType": "trigger",
+  "id": "af710893-1454-4e04-91d0-815417ea7fee",
+  "name": "Eat",
+  "prefabId": "",
+  "_index": 2,
+  "symbol": "trigger_12",
+  "x": 12,
+  "y": 12,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "5",
+        "__collapseElse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "44"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "T0",
+              "items": 3,
+              "option1": "Meal",
+              "option2": "Snack",
+              "option3": "Back",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "menu",
+              "cancelOnLastOption": true,
+              "__collapse": true
+            },
+            "id": "ee910f6a-8df1-4908-8d42-55b490f3dd40"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "ne",
+                "valueA": {
+                  "type": "variable",
+                  "value": "T0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_RNG_SEED",
+                  "args": {},
+                  "id": "b4b36789-2971-49f2-bb57-a5e9d1f5c346"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "fd9c7372-06f1-46dd-9b64-9e196422a0f7",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "T0"
+                    },
+                    "$actor[0]$": "d292d448-d89d-4d08-9cea-8e048cac02c0",
+                    "$actor[1]$": "1d89eeba-2654-46d0-85c5-22b81866cfdb",
+                    "$actor[2]$": "player",
+                    "$variable[V1]$": {
+                      "type": "variable",
+                      "value": "T1"
+                    },
+                    "$variable[V2]$": {
+                      "type": "variable",
+                      "value": "9"
+                    },
+                    "$variable[V4]$": {
+                      "type": "variable",
+                      "value": "L0"
+                    },
+                    "$variable[V3]$": {
+                      "type": "variable",
+                      "value": "8"
+                    }
+                  },
+                  "id": "8c802bd2-f198-4c44-9c2a-af2932d0c001"
+                }
+              ],
+              "false": []
+            },
+            "id": "bee98c4a-40a1-4492-bb5e-81d6610c3054"
+          }
+        ]
+      },
+      "id": "d44a99a3-5c11-4eb5-a142-1d090325920e"
+    }
+  ],
+  "leaveScript": []
+}

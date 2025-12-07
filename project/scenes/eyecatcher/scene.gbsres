@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "4797e82b-2f10-45fd-a8c7-b3619070fd14",
-  "_index": 6,
+  "_index": 5,
   "name": "Eyecatcher",
   "backgroundId": "9c161203-8214-42e3-af39-5a21f8d778bf",
   "tilesetId": "",
@@ -17,13 +17,21 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
-  "x": 480,
-  "y": 72,
+  "x": 576,
+  "y": 32,
   "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "348d71fc-6c8f-4883-983c-896d87e6ba27"
+    },
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
-        "actorId": "$self$",
+        "actorId": "b3807f61-e158-4ec2-84d4-b673a832a865",
         "speed": 3
       },
       "id": "befd3bca-040a-43cd-8c0f-faa8cfc07236"
@@ -40,7 +48,7 @@
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
-        "actorId": "$self$",
+        "actorId": "b3807f61-e158-4ec2-84d4-b673a832a865",
         "speed": 255
       },
       "id": "14c9c9e6-87f3-4945-8106-7136f870e1f6"
