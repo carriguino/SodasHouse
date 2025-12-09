@@ -26,10 +26,10 @@
       "args": {
         "type": "tone",
         "pitch": 4,
-        "frequency": 600,
+        "frequency": 666,
         "duration": 0.05,
         "effect": 0,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "7acfe0ba-763d-4214-896c-9a3d6d41d542"
     },
