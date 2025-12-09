@@ -15,7 +15,53 @@
   "symbol": "scene_4",
   "x": 1128,
   "y": 592,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "FUCK WHAT SHOULD\nTHIS GAME BE?",
+          "i tried a schmup\nbut the GB isn't",
+          "powerful enough.\npls give carri",
+          "some suggestions "
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9f04b671-0511-478e-a8b6-6047e33b3467"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "83f5b6b3-358d-45fb-9c1a-a41ced118a77",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "165ee4ae-48a8-4c1a-85c0-1f1a49922259"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

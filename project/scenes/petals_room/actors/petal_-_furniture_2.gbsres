@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "da7c4ac4-3675-4115-8b9e-e0dd2d57bb5c",
-  "name": "Ados - Furniture 2",
+  "id": "abd6bf2c-7052-4cb8-ac08-988aa34b4ec2",
+  "name": "Petal - Furniture 2",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "73ff9e63-5368-4bb9-a3db-aea1b28091cf",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_28",
+  "symbol": "actor_38",
   "script": [],
   "startScript": [
     {
@@ -32,7 +32,7 @@
               "variableSource": "40",
               "saveSlot": 0
             },
-            "id": "0bc157a6-73d0-449f-8e1b-5de2a9931116"
+            "id": "83ec72ee-ab8f-4a80-a383-85e4d197d028"
           },
           {
             "command": "EVENT_ACTOR_SET_FRAME",
@@ -44,12 +44,12 @@
               },
               "__collapse": false
             },
-            "id": "c622faee-5f45-4e4c-a976-9c32559555a0"
+            "id": "54dc8fea-ab05-417f-95ca-d9c422b9579f"
           }
         ],
         "false": []
       },
-      "id": "276a8575-1351-474f-92d6-912720a9d485"
+      "id": "a9f40c6d-beed-4490-b00e-8bfe3aeba297"
     }
   ],
   "updateScript": [],

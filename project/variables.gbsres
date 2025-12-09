@@ -123,13 +123,13 @@
     },
     {
       "id": "24",
-      "name": "apricotWeight",
-      "symbol": "var_apricotweight"
+      "name": "apricotAge",
+      "symbol": "var_apricotage"
     },
     {
       "id": "25",
-      "name": "petalWeight",
-      "symbol": "var_petalweight"
+      "name": "petalAge",
+      "symbol": "var_petalage"
     },
     {
       "id": "26",
@@ -138,13 +138,13 @@
     },
     {
       "id": "27",
-      "name": "Furniture Soda 1",
+      "name": "Furniture - Soda 1",
       "symbol": "var_furniture_soda_2"
     },
     {
       "id": "28",
-      "name": "popWeight",
-      "symbol": "var_popweight"
+      "name": "popAge",
+      "symbol": "var_popage"
     },
     {
       "id": "29",
@@ -193,7 +193,7 @@
     },
     {
       "id": "38",
-      "name": "Furniture Soda 2",
+      "name": "Furniture - Soda 2",
       "symbol": "var_furniture_soda_0"
     },
     {
@@ -228,7 +228,7 @@
     },
     {
       "id": "45",
-      "name": "Furniture Soda 3",
+      "name": "Furniture - Soda 3",
       "symbol": "var_furniture_soda_3"
     },
     {
@@ -237,14 +237,74 @@
       "symbol": "var_furniturelevel"
     },
     {
+      "id": "47",
+      "name": "Furniture - Pop 1",
+      "symbol": "var_furniture_pop_1"
+    },
+    {
+      "id": "48",
+      "name": "Furniture - Pop 2",
+      "symbol": "var_furniture_pop_2"
+    },
+    {
+      "id": "49",
+      "name": "Furniture - Pop 3",
+      "symbol": "var_furniture_pop_3"
+    },
+    {
+      "id": "50",
+      "name": "Furniture - Pop 4",
+      "symbol": "var_furniture_pop_4"
+    },
+    {
+      "id": "51",
+      "name": "Furniture - Petal 1",
+      "symbol": "var_furniture_petal_1"
+    },
+    {
       "id": "52",
-      "name": "Furniture Soda 4",
+      "name": "Furniture - Soda 4",
       "symbol": "var_furniture_soda_4"
     },
     {
       "id": "53",
       "name": "PermTemp",
       "symbol": "var_permtemp"
+    },
+    {
+      "id": "54",
+      "name": "Furniture - Petal 2",
+      "symbol": "var_furniture_petal_2"
+    },
+    {
+      "id": "55",
+      "name": "Furniture - Petal 3",
+      "symbol": "var_furniture_petal_3"
+    },
+    {
+      "id": "56",
+      "name": "Furniture - Petal 4",
+      "symbol": "var_furniture_petal_4"
+    },
+    {
+      "id": "57",
+      "name": "Furniture - Appa 1",
+      "symbol": "var_furniture_appa_1"
+    },
+    {
+      "id": "58",
+      "name": "Furniture - Appa 2",
+      "symbol": "var_furniture_appa_2"
+    },
+    {
+      "id": "59",
+      "name": "Furniture - Appa 3",
+      "symbol": "var_furniture_appa_3"
+    },
+    {
+      "id": "60",
+      "name": "Furniture - Appa 4",
+      "symbol": "var_furniture_appa_4"
     },
     {
       "id": "66",

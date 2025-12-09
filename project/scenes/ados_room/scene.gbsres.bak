@@ -12,10 +12,10 @@
     "dmg"
   ],
   "spritePaletteIds": [
-    ""
+    "default-sprite"
   ],
   "collisions": "",
-  "autoFadeSpeed": 2,
+  "autoFadeSpeed": 1,
   "symbol": "scene_6",
   "x": 944,
   "y": 400,

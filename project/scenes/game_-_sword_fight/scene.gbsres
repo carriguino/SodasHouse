@@ -8,8 +8,14 @@
   "width": 20,
   "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [],
-  "spritePaletteIds": [],
+  "paletteIds": [
+    "default-bg-1",
+    "default-bg-3",
+    "default-bg-2"
+  ],
+  "spritePaletteIds": [
+    "default-bg-1"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",

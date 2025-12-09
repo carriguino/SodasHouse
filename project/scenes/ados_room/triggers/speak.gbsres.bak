@@ -20,7 +20,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "2"
+            "value": "44"
           },
           "valueB": {
             "type": "number",
@@ -34,9 +34,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "SODA's in his box!",
-                "He'll come out\nonce he feels",
-                "ready."
+                "You can hear \nfighting and",
+                "grunting coming\nfrom the box",
+                "They'll come out\neventually!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -62,11 +62,8 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "83b22cb2-5275-4669-a203-3d5793f3297e",
-              "$variable[V0]$": {
-                "type": "variable",
-                "value": "T0"
-              }
+              "customEventId": "f2decf85-d1c3-4ad7-a44e-62fed136c001",
+              "$actor[0]$": "1d89eeba-2654-46d0-85c5-22b81866cfdb"
             },
             "id": "943e5e02-d67e-422b-a46f-3b7bc17bd4d3"
           }

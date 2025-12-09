@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "3100cd9e-9d3c-4c9e-a4ec-f5eb97679706",
-  "name": "Ados - Furniture 3",
+  "id": "da7c4ac4-3675-4115-8b9e-e0dd2d57bb5c",
+  "name": "Pop - Furniture 2",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "73ff9e63-5368-4bb9-a3db-aea1b28091cf",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_40",
+  "symbol": "actor_28",
   "script": [],
   "startScript": [
     {
@@ -28,11 +28,11 @@
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
-              "variableDest": "41",
-              "variableSource": "41",
+              "variableDest": "48",
+              "variableSource": "48",
               "saveSlot": 0
             },
-            "id": "9246e742-f5f3-4bb0-830e-ee9ff2f6027c"
+            "id": "0bc157a6-73d0-449f-8e1b-5de2a9931116"
           },
           {
             "command": "EVENT_ACTOR_SET_FRAME",
@@ -40,23 +40,23 @@
               "actorId": "$self$",
               "frame": {
                 "type": "variable",
-                "value": "41"
+                "value": "48"
               },
               "__collapse": false
             },
-            "id": "5f2d6488-3c67-46a2-9292-af7542f909a0"
+            "id": "c622faee-5f45-4e4c-a976-9c32559555a0"
           }
         ],
         "false": []
       },
-      "id": "fa0becaa-83dc-4fe1-b8af-3953105c13a5"
+      "id": "276a8575-1351-474f-92d6-912720a9d485"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 13,
-  "y": 9,
-  "_index": 5
+  "x": 3,
+  "y": 10,
+  "_index": 3
 }

@@ -20,7 +20,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "44"
+            "value": "28"
           },
           "valueB": {
             "type": "number",
@@ -83,8 +83,8 @@
                       "type": "variable",
                       "value": "T0"
                     },
-                    "$actor[0]$": "d292d448-d89d-4d08-9cea-8e048cac02c0",
-                    "$actor[1]$": "1d89eeba-2654-46d0-85c5-22b81866cfdb",
+                    "$actor[0]$": "6182b277-74b3-4fcc-a7c2-395171b67019",
+                    "$actor[1]$": "2441351e-504b-4854-bd0a-15e51deb79b3",
                     "$actor[2]$": "player",
                     "$variable[V1]$": {
                       "type": "variable",
@@ -92,7 +92,7 @@
                     },
                     "$variable[V2]$": {
                       "type": "variable",
-                      "value": "9"
+                      "value": "17"
                     },
                     "$variable[V4]$": {
                       "type": "variable",
@@ -100,7 +100,7 @@
                     },
                     "$variable[V3]$": {
                       "type": "variable",
-                      "value": "8"
+                      "value": "14"
                     }
                   },
                   "id": "5e868cf7-608a-4043-83e8-fa82568b3c47"

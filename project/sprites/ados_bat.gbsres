@@ -5,7 +5,7 @@
   "symbol": "sprite_ados_bat",
   "numFrames": 14.25,
   "filename": "ados_bat.png",
-  "checksum": "09258fa2cb2269e2aeb1fd1e4d5542ab7716e998",
+  "checksum": "a65f02637325e9c977c4ab64cc0c1d0760b969f3",
   "width": 228,
   "height": 31,
   "states": [
@@ -460,7 +460,7 @@
       ]
     }
   ],
-  "numTiles": 24,
+  "numTiles": 22,
   "canvasWidth": 80,
   "canvasHeight": 32,
   "boundsX": 0,

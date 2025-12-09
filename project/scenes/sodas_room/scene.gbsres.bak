@@ -15,7 +15,7 @@
     ""
   ],
   "collisions": "00168+",
-  "autoFadeSpeed": 2,
+  "autoFadeSpeed": 1,
   "symbol": "scene_12",
   "x": 944,
   "y": 216,

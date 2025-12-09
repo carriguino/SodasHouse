@@ -193,7 +193,7 @@
             "value": 7
           }
         },
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -1922,9 +1922,18 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "597a8021-d1b8-4ad6-9278-7c1613480d3f"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "46",
+        "__collapse": true
+      },
+      "id": "df94e4a9-2e64-4f1a-a53b-c9c614a31ddd"
     },
     {
       "command": "EVENT_IF",

@@ -316,11 +316,12 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "up"
+          "up",
+          "down"
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": []
@@ -747,7 +748,7 @@
                         "value": 50
                       }
                     },
-                    "__collapseElse": true,
+                    "__collapseElse": false,
                     "__collapse": true
                   },
                   "children": {

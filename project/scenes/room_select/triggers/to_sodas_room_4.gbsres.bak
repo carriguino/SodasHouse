@@ -5,8 +5,8 @@
   "prefabId": "",
   "_index": 4,
   "symbol": "trigger_24",
-  "x": 3,
-  "y": 16,
+  "x": 5,
+  "y": 17,
   "width": 2,
   "height": 2,
   "prefabScriptOverrides": {},
@@ -35,7 +35,8 @@
           "value": 17
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__comment": true
       },
       "id": "efd1912a-25db-4420-9d29-ef5bd8770557"
     }

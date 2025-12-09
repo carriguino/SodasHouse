@@ -1,10 +1,10 @@
 {
   "_resourceType": "trigger",
-  "id": "f0a7b52a-a587-4c8c-b818-a9b2c2a1e815",
+  "id": "373f80eb-6028-457c-a750-b5f6b5ac9631",
   "name": "Speak",
   "prefabId": "",
   "_index": 3,
-  "symbol": "trigger_7",
+  "symbol": "trigger_17",
   "x": 16,
   "y": 12,
   "width": 2,
@@ -20,35 +20,55 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "5"
+            "value": "24"
           },
           "valueB": {
-            "type": "false"
+            "type": "number",
+            "value": 0
           }
         }
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_STOP",
-            "args": {},
-            "id": "b728a04b-d570-4d53-bb28-8e9cebbcbcdd"
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The box smells\nlike coffee.",
+                "You can hear\nquiet yapping..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "defd4a78-ac51-4936-8853-34f49f707e3b"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "f2decf85-d1c3-4ad7-a44e-62fed136c001",
+              "$actor[0]$": "1d89eeba-2654-46d0-85c5-22b81866cfdb"
+            },
+            "id": "2c59f1d6-c8c0-4b4f-8cc0-571caae33913"
+          }
+        ]
       },
-      "id": "023a247a-7c49-40b8-b7a0-a0e85f90842a"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "08321f2d-a8d8-4038-9f1a-7bdf7fcc8fd1",
-        "$variable[V0]$": {
-          "type": "variable",
-          "value": "15"
-        }
-      },
-      "id": "92722830-eca8-44f9-9484-9a4bcaba7bd4"
+      "id": "be932a05-43a4-4d69-9b0e-3041ee3ee61d"
     }
   ],
   "leaveScript": []

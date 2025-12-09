@@ -8,7 +8,7 @@
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 1,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
@@ -21,77 +21,10 @@
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
-        "spriteStateId": "Swing Bat",
-        "loopAnim": true
+        "spriteStateId": "",
+        "loopAnim": false
       },
-      "id": "7f01aa00-cabf-4276-b8e9-75dfe7b3e67f"
-    },
-    {
-      "command": "EVENT_SET_TIMER_SCRIPT",
-      "args": {
-        "timer": 1,
-        "duration": 0.5,
-        "frames": 30,
-        "__scriptTabs": "end",
-        "__collapse": true
-      },
-      "children": {
-        "script": [
-          {
-            "command": "EVENT_IF_ACTOR_DIRECTION",
-            "args": {
-              "actorId": "$self$",
-              "direction": {
-                "type": "direction",
-                "value": "left"
-              },
-              "__collapseElse": false
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_ACTOR_SET_DIRECTION",
-                  "args": {
-                    "actorId": "$self$",
-                    "direction": {
-                      "type": "direction",
-                      "value": "right"
-                    }
-                  },
-                  "id": "e585607b-1be6-4776-aab3-2417a6d988f3"
-                }
-              ],
-              "false": [
-                {
-                  "command": "EVENT_ACTOR_SET_DIRECTION",
-                  "args": {
-                    "actorId": "$self$",
-                    "direction": {
-                      "type": "direction",
-                      "value": "left"
-                    },
-                    "__collapse": false
-                  },
-                  "id": "78024a42-e4e6-498c-88be-c56428bd2b71"
-                }
-              ]
-            },
-            "id": "0138c79a-5692-4902-9969-4f05ea703533"
-          },
-          {
-            "command": "EVENT_ACTOR_SET_FRAME",
-            "args": {
-              "actorId": "$self$",
-              "frame": {
-                "type": "number",
-                "value": 0
-              }
-            },
-            "id": "ed7ca922-e1b5-4431-81f6-1b2fd9359681"
-          }
-        ]
-      },
-      "id": "d14f1e59-024c-4cdd-b273-514b50a37e10"
+      "id": "1ad4626d-aa50-494f-9815-722cda29d7bd"
     }
   ],
   "updateScript": [],

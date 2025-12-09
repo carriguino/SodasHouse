@@ -20,7 +20,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "44"
+            "value": "28"
           },
           "valueB": {
             "type": "number",
@@ -34,10 +34,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "ADOS is in his box",
-                "You can hear him\nshadowboxing in",
-                "there...",
-                "Guess he'll come\nout when he wants."
+                "You can't hear\nanything and the",
+                "box is very light.\nBut there is",
+                "unmistakably some-\none in there.",
+                "You put the box\ndown gently."
               ],
               "__section": "text",
               "avatarId": "",
@@ -63,8 +63,11 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "f2decf85-d1c3-4ad7-a44e-62fed136c001",
-              "$actor[0]$": "1d89eeba-2654-46d0-85c5-22b81866cfdb"
+              "customEventId": "0165148e-7ead-4876-9fc4-111d755bca60",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "T0"
+              }
             },
             "id": "4ca04cf9-dc0b-4752-a716-0fa8199d2824"
           }

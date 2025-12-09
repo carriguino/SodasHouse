@@ -3,13 +3,11 @@
   "id": "f6f47705-dfc9-41f0-88e3-9741181c3532",
   "name": "ados_flare",
   "symbol": "bg_ados_flare",
+  "numFrames": 9,
+  "filename": "ados_flare.png",
+  "checksum": "49cf217cd23d1f768c592fe8ee9858bd85ab00e5",
   "width": 144,
   "height": 32,
-  "imageWidth": 144,
-  "imageHeight": 32,
-  "filename": "ados_flare.png",
-  "numFrames": 9,
-  "checksum": "49cf217cd23d1f768c592fe8ee9858bd85ab00e5",
   "states": [
     {
       "id": "1be63bbc-1ad9-4963-8ac2-8679c4cef5fa",
@@ -578,5 +576,7 @@
   "boundsY": 0,
   "boundsWidth": 16,
   "boundsHeight": 16,
-  "animSpeed": 15
+  "animSpeed": 15,
+  "imageWidth": 144,
+  "imageHeight": 32
 }

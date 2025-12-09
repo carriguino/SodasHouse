@@ -96,7 +96,7 @@
             "command": "EVENT_SET_INPUT_SCRIPT",
             "args": {
               "input": [
-                "down"
+                "start"
               ],
               "override": true,
               "__scriptTabs": "press",
@@ -108,7 +108,7 @@
                   "command": "EVENT_IF_INPUT",
                   "args": {
                     "input": [
-                      "start"
+                      "down"
                     ],
                     "__collapseElse": true
                   },
@@ -555,7 +555,7 @@
             "command": "EVENT_SET_TIMER_SCRIPT",
             "args": {
               "timer": 3,
-              "duration": 10,
+              "duration": 15,
               "frames": 30,
               "__scriptTabs": "end",
               "__collapse": false
@@ -702,9 +702,8 @@
                                     "command": "EVENT_TEXT",
                                     "args": {
                                       "text": [
-                                        "SODA: Hey, I'm\nfeeling kinda",
-                                        "down right now...",
-                                        "Would you play\na game with me?"
+                                        "ADOS: You're\nignoring me,",
+                                        "aren't you?"
                                       ],
                                       "__section": "text",
                                       "avatarId": "",
@@ -730,8 +729,8 @@
                                     "args": {
                                       "variable": "T1",
                                       "items": 2,
-                                      "option1": "Sure!",
-                                      "option2": "Not right now",
+                                      "option1": "No I'm not",
+                                      "option2": "I'm just busy!",
                                       "option3": "",
                                       "option4": "",
                                       "option5": "",
@@ -783,7 +782,9 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "SODA: Yay! I'm so\nexcited!"
+                                              "ADOS: Really?!",
+                                              "ADOS: *Ahem* I\nmean prove it!",
+                                              "Train with\nme right now!"
                                             ],
                                             "__section": "text",
                                             "avatarId": "",
@@ -807,7 +808,7 @@
                                         {
                                           "command": "EVENT_SWITCH_SCENE",
                                           "args": {
-                                            "sceneId": "24251738-415c-4c92-b619-7dd01c505b02",
+                                            "sceneId": "c34cbfb4-fa5e-46b3-8964-3267cdcd3071",
                                             "x": {
                                               "type": "number",
                                               "value": 0
@@ -830,8 +831,7 @@
                                     "command": "EVENT_TEXT",
                                     "args": {
                                       "text": [
-                                        "SODA: That's ok,\nI understand.",
-                                        "Thanks for talking\nwith me though. <3"
+                                        "ADOS: Sure.\nWhatever."
                                       ],
                                       "__section": "text",
                                       "avatarId": "",

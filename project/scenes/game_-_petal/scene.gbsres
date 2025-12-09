@@ -1,0 +1,66 @@
+{
+  "_resourceType": "scene",
+  "id": "d569b068-18de-4390-aa33-a07df45e77c3",
+  "_index": 9,
+  "name": "Game - Petal",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_14",
+  "x": 1128,
+  "y": 792,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "petal game WIP"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9c4f896a-6516-46ea-a7e3-1de31b44b07b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "22c67f1b-53e5-4713-bf93-fc99dc78f6ba",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "36d1dfc1-a465-4133-a0fa-7b18e51ebc49"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2"
+}

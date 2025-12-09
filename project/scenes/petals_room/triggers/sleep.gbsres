@@ -20,7 +20,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "44"
+            "value": "25"
           },
           "valueB": {
             "type": "number",
@@ -34,7 +34,7 @@
           {
             "command": "PT_EVENT_ADVANCED_MENU",
             "args": {
-              "__scriptTabs": "text",
+              "__scriptTabs": "items",
               "width": 20,
               "height": 5,
               "from": "bottom",
@@ -152,7 +152,7 @@
               "option16_r": 0,
               "option16_u": 0,
               "option16_d": 0,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "f1b8b848-da09-4a0a-ad42-8a736ab2b5ec"
           },
@@ -179,10 +179,10 @@
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "71a0f2cf-7f5a-4d42-a964-1a03f8b82be5",
-                    "$actor[0]$": "e569ff8a-0742-4577-8cfe-8f1d886346bc",
-                    "$actor[1]$": "df45e7d3-1bd6-4dfe-8f2d-bc74aaec9d44",
-                    "$actor[2]$": "0bac26cc-777a-4c49-8803-1ad421166406",
-                    "$actor[3]$": "f22636c7-2a73-44cf-95d9-86f16763dbba",
+                    "$actor[0]$": "5de889b4-7b53-415f-bc47-15d024846372",
+                    "$actor[1]$": "abd6bf2c-7052-4cb8-ac08-988aa34b4ec2",
+                    "$actor[2]$": "3100cd9e-9d3c-4c9e-a4ec-f5eb97679706",
+                    "$actor[3]$": "3d3f1427-315a-4c4c-8d47-374e9e1d1f45",
                     "$variable[V0]$": {
                       "type": "variable",
                       "value": "L1"
@@ -193,19 +193,19 @@
                     },
                     "$variable[V2]$": {
                       "type": "variable",
-                      "value": "39"
+                      "value": "51"
                     },
                     "$variable[V3]$": {
                       "type": "variable",
-                      "value": "40"
+                      "value": "54"
                     },
                     "$variable[V4]$": {
                       "type": "variable",
-                      "value": "41"
+                      "value": "55"
                     },
                     "$variable[V5]$": {
                       "type": "variable",
-                      "value": "42"
+                      "value": "56"
                     }
                   },
                   "id": "294878ff-4687-4fb4-848d-ff59181ff808"

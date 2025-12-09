@@ -8,7 +8,7 @@
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
-  "animSpeed": 1,
+  "animSpeed": 3,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
@@ -31,7 +31,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 7,
+  "x": 8,
   "y": 8,
   "_index": 0
 }

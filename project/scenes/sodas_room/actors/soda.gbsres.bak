@@ -17,7 +17,7 @@
   "_index": 1,
   "symbol": "actor_10",
   "x": 9,
-  "y": 11,
+  "y": 6,
   "script": [],
   "startScript": [
     {
@@ -100,7 +100,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -340,7 +340,7 @@
               "duration": 12,
               "frames": 30,
               "__scriptTabs": "end",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "script": [
@@ -550,6 +550,65 @@
         ],
         "false": [
           {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "2"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "???: Hi! I'm SODA!\nIt's nice to",
+                      "finally meet you!\n",
+                      "SODA: Thank you\nfor agreeing to",
+                      "babysit while my \nparents go on",
+                      "an international\nmall crawl! ^-^"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "4d1c849a-a0b9-4e07-a59c-0daa075770a7"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "43a11f8b-be37-4ad6-a2ff-a5ca35d5d860"
+                }
+              ],
+              "false": []
+            },
+            "id": "c8a24578-e3dd-4c35-b226-de5ce356fb24"
+          },
+          {
             "command": "EVENT_SET_TIMER_SCRIPT",
             "args": {
               "timer": 3,
@@ -604,7 +663,7 @@
               "duration": 60,
               "frames": 30,
               "__scriptTabs": "end",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "script": [

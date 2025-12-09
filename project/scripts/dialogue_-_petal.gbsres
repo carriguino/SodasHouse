@@ -56,7 +56,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "SODA: I'm so\nfreaking hungry!"
+                "PETAL: mooo\n(Hungry...)"
               ],
               "__section": "text",
               "avatarId": "",
@@ -101,8 +101,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "SODA: Sorry...\nI'm not really",
-                      "in the mood to\ntalk right now..."
+                      "PETAL: *sad moo..*"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -172,7 +171,8 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: Hi! I'm\nSoda! :P"
+                            "PETAL: Moo!",
+                            "(Moo!)"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -199,8 +199,8 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: .... uh....\nI was gonna say",
-                            "something, \nbut i forgot..."
+                            "PETAL: Moo! Moo mo\nmooo momo moo!",
+                            "(I think girls\nare pretty )"
                           ],
                           "__section": "text",
                           "avatarId": "",

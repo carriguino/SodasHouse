@@ -34,7 +34,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "SODA's in his box!"
+                "SODA's in his box!",
+                "He'll come out\nonce he feels",
+                "ready."
               ],
               "__section": "text",
               "avatarId": "",

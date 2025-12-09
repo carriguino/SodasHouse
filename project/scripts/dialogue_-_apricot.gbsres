@@ -29,7 +29,7 @@
             "value": 12
           }
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "ad5a2d4c-e85f-4d79-9ee3-84c06c671333"
     },
@@ -40,7 +40,7 @@
           "type": "lt",
           "valueA": {
             "type": "variable",
-            "value": "1"
+            "value": "18"
           },
           "valueB": {
             "type": "number",
@@ -56,7 +56,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "SODA: I'm so\nfreaking hungry!"
+                "APRICOT: hey!!!\ni'm kinda hungry..",
+                "could I get some\nfood?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -86,7 +87,7 @@
                 "type": "eq",
                 "valueA": {
                   "type": "variable",
-                  "value": "0"
+                  "value": "15"
                 },
                 "valueB": {
                   "type": "number",
@@ -101,8 +102,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "SODA: Sorry...\nI'm not really",
-                      "in the mood to\ntalk right now..."
+                      "APRICOT: *wuf...*",
+                      "(She's pawing at\nthe ground sadly)"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -172,7 +173,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: Hi! I'm\nSoda! :P"
+                            "APRICOT: i'm glad\nwe can be friends!"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -199,8 +200,8 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: .... uh....\nI was gonna say",
-                            "something, \nbut i forgot..."
+                            "APRICOT: i also go\nby APPA! so don't",
+                            "get confused!"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -227,7 +228,14 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: Merry\nChristmas!"
+                            "APRICOT is\ngiggling and kick-",
+                            "ing their paws!",
+                            "APRICOT: oh sorry\nhehe, i'm reading",
+                            "this REALLY good\nyuri, yknow?",
+                            "You look down at\ntheir book at",
+                            "see two anime\ngirls embracing",
+                            "in front of a \nreligious statue.",
+                            "It looks pretty\ngood."
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -254,7 +262,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: Rub my\nbelly!!!"
+                            "APRICOT: wruf...!"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -281,11 +289,11 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: Wanna see\nsomething cool?",
-                            "Check it. B)",
-                            "effective. Power \nلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ 冗",
-                            "Wait it can't\nrender those",
-                            "characters....\nnvm...."
+                            "APRICOT: i'm glad\nSODA is letting",
+                            "PETAL and i stay\nhere and hang out",
+                            ":3",
+                            "i'm having a lot\nof fun being with",
+                            "everyone!"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -312,8 +320,8 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: I love\nGHM comics!",
-                            "And I love my\nparents!"
+                            "APRICOT: i'm so\nfreaking sleepy!",
+                            "wruf!"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -340,9 +348,9 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: I saw ADOS\neating my snacks",
-                            "out of the fridge\nlast night...",
-                            "He's such a\nmenace!"
+                            "APRICOT: you may\nthink i'm a dog",
+                            "but i'm actually a\nwolf!",
+                            "APRICOT strikes a\nwolf-like pose."
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -369,7 +377,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: Hi!"
+                            "APRICOT: hiya"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -396,8 +404,8 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: Thank you so\nmuch for taking",
-                            "care of me! <3"
+                            "APRICOT: thanks\nfor taking care of",
+                            "me and my friends."
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -424,8 +432,9 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: I wish we\nhad a mail service",
-                            "Then I could send\nyou fan mail!"
+                            "APRICOT: oh yeah,\nmy mom says ",
+                            "they're sorry \"if\nit's buggy\" but",
+                            "i don't know what\nthat means."
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -455,11 +464,24 @@
                           "priority": "medium",
                           "pitch": 4,
                           "frequency": 75,
-                          "duration": 0.5,
+                          "duration": 0.15,
                           "wait": true,
                           "effect": 0
                         },
                         "id": "336b1aff-ffa7-40cc-9b83-6c21b6183677"
+                      },
+                      {
+                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                        "args": {
+                          "type": "crash",
+                          "priority": "medium",
+                          "pitch": 1,
+                          "frequency": 75,
+                          "duration": 0.06,
+                          "wait": true,
+                          "effect": 0
+                        },
+                        "id": "7125c55b-6ea1-4043-a0da-36ba0d41195b"
                       },
                       {
                         "command": "EVENT_CAMERA_SHAKE",
@@ -478,7 +500,8 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: *BURPS*"
+                            "APRICOT is\npracticing her",
+                            "barks. She's doing\ngreat!"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -505,8 +528,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: I had two\npancakes earlier!",
-                            "Two!!!"
+                            "APRICOT: i want\ncoffee so badly.."
                           ],
                           "__section": "text",
                           "avatarId": "",

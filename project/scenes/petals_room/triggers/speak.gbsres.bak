@@ -1,10 +1,10 @@
 {
   "_resourceType": "trigger",
-  "id": "73f018b9-e11c-4826-a904-c62e3a197d34",
+  "id": "f2f6cce8-5d8c-40a7-8a62-aae9778272d5",
   "name": "Speak",
   "prefabId": "",
   "_index": 3,
-  "symbol": "trigger_11",
+  "symbol": "trigger_13",
   "x": 16,
   "y": 12,
   "width": 2,
@@ -20,35 +20,58 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "5"
+            "value": "25"
           },
           "valueB": {
-            "type": "false"
+            "type": "number",
+            "value": 0
           }
         }
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_STOP",
-            "args": {},
-            "id": "53571162-fd84-43d3-92ee-fd4e06a7d803"
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The small box is\nshaking gently.",
+                "You hear purring!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "250408aa-a541-494d-9585-de5c0a97e3c1"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "a94cb1a1-472c-453e-9a94-65a865aae6a1",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "16"
+              }
+            },
+            "id": "dc7987e8-e516-4bb9-8100-e9aa85ec3037"
+          }
+        ]
       },
-      "id": "6a177db8-f2e4-4367-bbdf-8251daf17fa9"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "a94cb1a1-472c-453e-9a94-65a865aae6a1",
-        "$variable[V0]$": {
-          "type": "variable",
-          "value": "16"
-        }
-      },
-      "id": "c08f2cc1-1cb4-4c8d-9a69-65ceead2655b"
+      "id": "0bcdae57-7249-4d05-af1d-5c6460a1c884"
     }
   ],
   "leaveScript": []
