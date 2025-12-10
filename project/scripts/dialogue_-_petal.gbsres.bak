@@ -2,7 +2,7 @@
   "_resourceType": "script",
   "id": "a94cb1a1-472c-453e-9a94-65a865aae6a1",
   "name": "Dialogue - Petal",
-  "description": "",
+  "description": "sorry if i broke something lolllll feel free to change whatevel u wanna btw\n- joni",
   "variables": {
     "V0": {
       "id": "V0",
@@ -227,13 +227,12 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "PETAL: Mooo, moo!\nMoo moo mooooo.",
-                            "(Since the dawn of\ntime, man wonders-)",
+                            "PETAL: Mooo, mmoo!",
+                            "(?)",
                             "PETAL: moooo moo\nMOOOOO moo mooo",
-                            "(the) *... uh...\n...what? huh? um*",
+                            "(?????)",
                             "PETAL: Moooo, moo?\nMoo Mooo...",
-                            "*this is unintell-\nigable nonsense...*",
-                            "*get it together,\ngirl...*"
+                            "(PETAL's just\nmaking noises now)"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -292,10 +291,8 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "PETAL: Rub my\nbe- um. Ahem.",
-                            "PETAL: Moo.",
-                            "(rub my belly.)\n*she seems...*",
-                            "*...agitated?*"
+                            "PETAL: Moo. Mooo.\nMo Moo!",
+                            "(Thank you for\nwatching over us!)"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -330,10 +327,8 @@
                         "args": {
                           "text": [
                             "PETAL: Moo mooo\nmoooooo moo?",
-                            "(Wanna see\nsomething cool?)",
-                            "*...*",
-                            "*.........*",
-                            "*she didn't do\nanything...*"
+                            "(I'm actually\nhere on a break",
+                            "with APPA!)"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -421,7 +416,7 @@
                           "text": [
                             "SODA: Hi!"
                           ],
-                          "__section": "behavior",
+                          "__section": "text",
                           "avatarId": "",
                           "minHeight": 4,
                           "maxHeight": 7,
@@ -447,8 +442,7 @@
                         "args": {
                           "text": [
                             "PETAL: Moo! Moo\nmooooooooooooo!",
-                            "*She seems\nappreciative!*",
-                            "*Of what...?\nIt's unclear...*"
+                            "*She seems\nappreciative!*"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -475,9 +469,9 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "PETAL: Moo!\nMooo!",
-                            "//translator note\nplease censor",
-                            "//replace obscenity\nwith wholesome joke carri if you can make this look like an actual note supposed to be commented out that'd rule thanks girl"
+                            "PETAL: Moo?\nMooo.",
+                            "(Do you play\nWARFRAME?)",
+                            "(We should play\ntogether sometime)"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -507,7 +501,7 @@
                           "priority": "medium",
                           "pitch": 4,
                           "frequency": 35,
-                          "duration": 2,
+                          "duration": 1,
                           "wait": true,
                           "effect": 0
                         },
@@ -530,9 +524,10 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "POP: *BELCHES\nEARTH-SHATTERINGLY*",
-                            "PETAL: Moo.......",
-                            "*resigned sigh*"
+                            "PETAL: Moo. Moo...",
+                            "(SODA keeps\nburping SO loud.)",
+                            "(That scared me!\nIt was kind of",
+                            "funny though....)"
                           ],
                           "__section": "text",
                           "avatarId": "",

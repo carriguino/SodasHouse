@@ -58,7 +58,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -832,12 +832,10 @@
                                     "command": "EVENT_TEXT",
                                     "args": {
                                       "text": [
-                                        "PETAL: Moo, moo...",
-                                        "(Okay...)",
-                                        "(Fine...)",
-                                        "PETAL: Moooo mooo\nmoo moo moOOo...",
-                                        "(It's FIIIINEE Aaa\nahahahahahahahaaaaaaaaaaaaaa)",
-                                        "aaaaaaaah...)"
+                                        "PETAL: Moo... Moo.",
+                                        "(Okay...)\n(Fine.)",
+                                        "PETAL: Moo.",
+                                        "(Moo.)"
                                       ],
                                       "__section": "text",
                                       "avatarId": "",

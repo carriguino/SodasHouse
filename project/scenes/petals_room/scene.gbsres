@@ -144,6 +144,13 @@
         "__collapse": true
       },
       "id": "e222b247-eb0e-4671-a608-d86831c05647"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "a6347d8c-ebf9-452c-a1fe-b6cd5e82ebfa"
+      },
+      "id": "6993fac2-88b5-44b3-ad7f-feab6a561976"
     }
   ],
   "playerHit1Script": [],

@@ -23,6 +23,13 @@
   "y": 400,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "bc470f54-e71f-4d99-9a78-dcb181e9e6ea"
+      },
+      "id": "4cb27fda-c241-4fed-8745-0407ff7975df"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "e122d8ad-edca-4d1d-a9bb-9ff40e0243f9",
@@ -62,7 +69,7 @@
           "type": "variable",
           "value": "L3"
         },
-        "__collapse": false,
+        "__collapse": true,
         "$variable[V5]$": {
           "type": "variable",
           "value": "L4"

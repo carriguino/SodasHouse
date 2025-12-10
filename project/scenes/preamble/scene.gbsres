@@ -19,7 +19,8 @@
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "6d8a303f-639a-40b3-97fa-355a8b69179a"
     },
@@ -205,5 +206,6 @@
       "speed": 128
     }
   ],
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "6f21571c-4e6b-47cb-80ba-08bc6880603f"
 }

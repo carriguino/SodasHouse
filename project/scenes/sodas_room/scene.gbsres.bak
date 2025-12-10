@@ -47,7 +47,7 @@
       "args": {
         "saveSlot": 0,
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
