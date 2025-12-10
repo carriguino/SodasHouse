@@ -255,7 +255,7 @@
               "minValue": 1,
               "maxValue": 8,
               "clamp": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "c0a040e9-f4a2-4140-96a0-752304a99056"
           },
@@ -273,7 +273,7 @@
                   "value": 4
                 }
               },
-              "__collapse": true,
+              "__collapse": false,
               "__label": "Loop While Randomizing"
             },
             "children": {

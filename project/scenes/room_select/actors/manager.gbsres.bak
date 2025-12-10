@@ -11,7 +11,7 @@
   "animSpeed": 255,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "_index": 0,
@@ -300,7 +300,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 17
+                "value": 18
               }
             },
             "id": "cc46b1ad-7ff1-44ad-89a2-63e5e7064e33"
@@ -317,7 +317,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 21
+                "value": 23
               }
             },
             "id": "efca24e9-26eb-46a4-bb3a-c2d18e9f3970"

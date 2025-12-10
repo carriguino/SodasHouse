@@ -5,7 +5,7 @@
   "symbol": "bg_ados_flare",
   "numFrames": 9,
   "filename": "ados_flare.png",
-  "checksum": "49cf217cd23d1f768c592fe8ee9858bd85ab00e5",
+  "checksum": "bd99a0221c8e2c1652b00ccb7df0adcde8881303",
   "width": 144,
   "height": 32,
   "states": [
@@ -569,7 +569,7 @@
       ]
     }
   ],
-  "numTiles": 24,
+  "numTiles": 28,
   "canvasWidth": 48,
   "canvasHeight": 32,
   "boundsX": 0,

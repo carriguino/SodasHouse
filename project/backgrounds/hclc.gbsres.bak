@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "71ffd198-6822-4c5d-bd0f-6ce054b2205e",
+  "name": "HCLC",
+  "symbol": "bg_hclc",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "HCLC.png",
+  "autoColor": false,
+  "tileColors": ""
+}

@@ -63,13 +63,13 @@
         "actorId": "0",
         "x": {
           "type": "number",
-          "value": 16
+          "value": 2
         },
         "y": {
           "type": "number",
-          "value": 4
+          "value": 5
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "babb4d89-00b3-434d-8653-f7b75f65a058"
     },
@@ -193,7 +193,7 @@
             "value": 7
           }
         },
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -212,7 +212,8 @@
               "x": 1,
               "y": 1,
               "location": "background",
-              "__collapse": true
+              "__collapse": true,
+              "__comment": true
             },
             "id": "de6e15e5-42f2-405d-8941-bcf722f8514f"
           },
@@ -531,7 +532,7 @@
               "palette5": "keep",
               "palette6": "keep",
               "palette7": "keep",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "cba3af7c-29bf-4fc9-af57-310f4a6a0d5d"
           },

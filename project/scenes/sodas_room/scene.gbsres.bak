@@ -47,7 +47,7 @@
       "args": {
         "saveSlot": 0,
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -144,6 +144,13 @@
         "__collapse": true
       },
       "id": "d89d1612-1654-4fc3-8481-95fca66ce4f7"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "a6347d8c-ebf9-452c-a1fe-b6cd5e82ebfa"
+      },
+      "id": "2652a18a-5bab-44e9-9c8f-acb6f574c397"
     }
   ],
   "playerHit1Script": [],

@@ -123,8 +123,8 @@
     },
     {
       "id": "24",
-      "name": "apricotWeight",
-      "symbol": "var_apricotweight"
+      "name": "apricotAge",
+      "symbol": "var_apricotage"
     },
     {
       "id": "25",
@@ -305,6 +305,16 @@
       "id": "60",
       "name": "Furniture - Appa 4",
       "symbol": "var_furniture_appa_4"
+    },
+    {
+      "id": "61",
+      "name": "petsUnlocked",
+      "symbol": "var_petsunlocked"
+    },
+    {
+      "id": "62",
+      "name": "whackPosition",
+      "symbol": "var_whackposition"
     },
     {
       "id": "66",
@@ -690,6 +700,11 @@
       "id": "63139a61-3a6d-4e76-a2d6-dfa88c23edc3__L1",
       "name": "Local 1",
       "symbol": "var_local_29"
+    },
+    {
+      "id": "42b710ce-ccec-484c-aa38-919f331d2b1a__L0",
+      "name": "hammerPos",
+      "symbol": "var_hammerpos"
     }
   ]
 }

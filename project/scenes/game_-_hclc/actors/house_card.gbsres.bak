@@ -4,11 +4,11 @@
   "name": "House Card",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "fd0255e9-c120-435a-a408-d3c929eaa817",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 255,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
@@ -16,12 +16,22 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_5",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Card Back",
+        "loopAnim": false
+      },
+      "id": "576b0e00-24dc-4cf0-85c8-548c123cc19b"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 9,
+  "x": 10,
   "y": 8,
-  "_index": 1
+  "_index": 0
 }
