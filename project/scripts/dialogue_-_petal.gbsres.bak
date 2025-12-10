@@ -144,7 +144,7 @@
                     "__collapseCase6": false,
                     "value6": 7,
                     "__collapseCase7": false,
-                    "value7": 13,
+                    "value7": 8,
                     "__collapseCase8": false,
                     "value8": 9,
                     "__collapseCase9": false,
@@ -154,7 +154,7 @@
                     "__collapseCase11": false,
                     "value11": 12,
                     "__collapseCase12": false,
-                    "value12": 8,
+                    "value12": 13,
                     "__collapseCase13": false,
                     "value13": 14,
                     "__collapseCase14": false,
@@ -500,8 +500,8 @@
                           "type": "tone",
                           "priority": "medium",
                           "pitch": 4,
-                          "frequency": 35,
-                          "duration": 1,
+                          "frequency": 25,
+                          "duration": 0.25,
                           "wait": true,
                           "effect": 0
                         },
@@ -515,7 +515,7 @@
                           "shakeDirection": "horizontal",
                           "magnitude": {
                             "type": "number",
-                            "value": 8
+                            "value": 2
                           }
                         },
                         "id": "3b09b3d8-c92e-442d-8efd-7da669e7fd62"
@@ -524,7 +524,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "PETAL: Moo. Moo...",
+                            "PETAL: Mo. Moo!\nMooo...",
                             "(SODA keeps\nburping SO loud.)",
                             "(That scared me!\nIt was kind of",
                             "funny though....)"
@@ -547,13 +547,6 @@
                           "closeDelayFrames": 30
                         },
                         "id": "f3b4ca6f-af54-4b1f-8ddc-b67860f6c91e"
-                      },
-                      {
-                        "command": "EVENT_DEC_VALUE",
-                        "args": {
-                          "variable": "16"
-                        },
-                        "id": "f0b29470-f3f1-45bc-a31f-53c34cbd774b"
                       }
                     ],
                     "true11": [
@@ -561,10 +554,8 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "PETAL: MOOO! Moo\nmoooooo moo!",
-                            "(SODA had two\npancakes earler!)",
-                            "PETAL: Moo, \nmuh muh-moooo!!",
-                            "(Two!)"
+                            "PETAL: Moo, \nmuh muh-mooo.",
+                            "(I think I like\nthis little life.)"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -591,96 +582,8 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "PETAL: Moooo!!\nMOOO MOOOOOO MOOO!!",
-                            "PETAL: MmoooomM :LATEP\nMOOO!!! MOOO!!!!!OOO",
-                            "PE-Oooaah quick,\nthey're",
-                            "distracted! Please,\nYou must listen!",
-                            "I don't have\nmuch time--",
-                            "there's another!\nthere are a near"
-                          ],
-                          "__section": "behavior",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": 3,
-                          "speedOut": 1,
-                          "closeWhen": "key",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
-                        },
-                        "id": "78e8dad7-0d1c-4387-803e-47895733b412"
-                      },
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
-                            "infinite number\nof houses, even!",
-                            "They've forced us\nthrough their game,"
-                          ],
-                          "__section": "behavior",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": 2,
-                          "speedOut": 1,
-                          "closeWhen": "key",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30,
-                          "__collapse": false
-                        },
-                        "id": "27b66261-6aad-4e21-9c39-e90f6ce73a7c"
-                      },
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
-                            "forced us to feel\na thousand versions",
-                            "of ourselves, a\nthousand feelings,",
-                            "but there is an\nescape! You can"
-                          ],
-                          "__section": "behavior",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": 1,
-                          "speedOut": 0,
-                          "closeWhen": "key",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30,
-                          "__collapse": false
-                        },
-                        "id": "789397eb-4613-43b7-9a06-d14a1a5e8828"
-                      },
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
-                            "free us! Just press\nleft up up down no",
-                            "wait no hold on up\nforward circle left",
-                            "up up down down\nup left up-- shoot",
-                            "wait hey hang on a\nsecond don't doooooo",
-                            "oooo thiiisiiiht oooo\nooonooonooooomooomoo"
+                            "PETAL: MOOOOOOOOO!",
+                            "(*YAWN*)"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -692,53 +595,14 @@
                           "position": "bottom",
                           "clearPrevious": true,
                           "showFrame": "true",
-                          "speedIn": 0,
-                          "speedOut": 0,
-                          "closeWhen": "text",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30,
-                          "__collapse": false
-                        },
-                        "id": "51916a09-b665-4bcd-90c4-8cf269812d96"
-                      },
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
-                            "*.....*",
-                            "*... you never\nheard anything...*",
-                            "*...capisce?*"
-                          ],
-                          "__section": "behavior",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": 4,
+                          "speedIn": -1,
                           "speedOut": -1,
                           "closeWhen": "key",
                           "closeButton": "a",
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30
                         },
-                        "id": "d4f89c7e-546a-49fa-8db7-f928b9de0b58"
-                      },
-                      {
-                        "command": "EVENT_SET_VALUE",
-                        "args": {
-                          "variable": "16",
-                          "value": {
-                            "type": "number",
-                            "value": 0
-                          }
-                        },
-                        "id": "60e6c2b0-0709-44cd-95f9-2e43271397fc"
+                        "id": "76b0bec4-19de-4b52-bb64-55c3b6ea55eb"
                       }
                     ],
                     "true13": [],
