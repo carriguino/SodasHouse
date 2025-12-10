@@ -16,12 +16,34 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_55",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": false,
+        "__collapse": false
+      },
+      "id": "3f3e5980-b65d-4abe-ab45-672f01484d62"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "a82d6f96-40dc-418f-be81-59b521b14bf3"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 14,
-  "y": 7,
+  "x": 6,
+  "y": 10,
   "_index": 2
 }

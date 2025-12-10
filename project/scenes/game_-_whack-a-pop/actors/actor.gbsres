@@ -42,13 +42,13 @@
         "actorId": "player",
         "x": {
           "type": "number",
-          "value": 6
+          "value": 5
         },
         "y": {
           "type": "number",
           "value": 2
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "1a8790b9-b829-4d3b-b1a2-8277e7861193"
     },
@@ -337,7 +337,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 2
+                "value": 3
               }
             },
             "id": "92343351-d7a0-485a-8342-47e718a1d085"
@@ -354,7 +354,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 2
+                "value": 3
               }
             },
             "id": "ef4b6232-224b-4c8b-9a96-799d67a22a40"
@@ -371,7 +371,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 8
+                "value": 9
               }
             },
             "id": "15b14183-3780-435f-a2e8-5eb7631c54c3"
@@ -388,7 +388,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 8
+                "value": 9
               }
             },
             "id": "92bd07e5-3362-4269-8cc4-c91afb303fdc"
@@ -405,7 +405,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 14
+                "value": 15
               }
             },
             "id": "8dc54140-9db0-4fb2-b615-e20142f2e7b6"
@@ -422,7 +422,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 14
+                "value": 15
               }
             },
             "id": "00ac8410-8979-45f6-9bfd-37e63efd55dc"
@@ -475,7 +475,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 5
+                "value": 3
               }
             },
             "id": "07563e97-e9b9-4283-b0e8-ee6789ad85b7"

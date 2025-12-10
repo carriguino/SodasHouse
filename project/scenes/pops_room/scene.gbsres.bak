@@ -12,7 +12,8 @@
     "dmg"
   ],
   "spritePaletteIds": [
-    "default-bg-5"
+    "default-bg-5",
+    ""
   ],
   "collisions": "",
   "autoFadeSpeed": 1,

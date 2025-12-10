@@ -39,7 +39,7 @@
       "args": {
         "actorId": "$self$",
         "speed": 1,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "70be293a-8512-49f2-ac5c-f220a5f865b8"
     },

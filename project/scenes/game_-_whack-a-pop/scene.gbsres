@@ -2,8 +2,8 @@
   "_resourceType": "scene",
   "id": "03816d0c-8ac2-4323-a506-70437f3aa25c",
   "_index": 12,
-  "name": "Game - TBD",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "name": "Game - Whack-a-Pop",
+  "backgroundId": "9dcae758-9a72-40fb-8bea-fdbe85fdba8b",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -16,6 +16,37 @@
   "x": 1128,
   "y": 592,
   "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "62",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false
+      },
+      "id": "8204a333-09df-495b-8475-7ef834dea7c8"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 3,
+        "__collapse": true
+      },
+      "id": "52c579cd-b232-4801-9d39-94c461a123fa"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": false,
+        "__collapse": true
+      },
+      "id": "981faf28-441a-4717-b28c-4741307a2262"
+    },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
@@ -36,12 +67,12 @@
         },
         "__comment": false,
         "$variable[V2]$": {
-          "type": "number",
-          "value": 300
+          "type": "variable",
+          "value": "L3"
         },
         "$variable[V3]$": {
-          "type": "variable",
-          "value": "T0"
+          "type": "number",
+          "value": 600
         },
         "$variable[V4]$": {
           "type": "variable",
@@ -55,7 +86,7 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
-        "duration": 3,
+        "duration": 1,
         "frames": 30,
         "__scriptTabs": "end",
         "__collapse": false

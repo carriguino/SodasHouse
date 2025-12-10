@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "2e329897-2df1-4a18-9ad0-f9fbfa695972",
-  "name": "Hole 2",
+  "id": "c046cdac-3d92-4b4a-b5b3-d5fc3cf7c66d",
+  "name": "Hole 5",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "08b883c9-c452-4ada-b8d2-d6a99b79bc30",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_54",
+  "symbol": "actor_58",
   "script": [],
   "startScript": [
     {
@@ -25,7 +25,7 @@
         "loopAnim": false,
         "__collapse": false
       },
-      "id": "22e4b243-c48a-4331-bb23-f7997e7ef7ee"
+      "id": "12050368-4820-4406-9cc4-34951da8cbdc"
     },
     {
       "command": "EVENT_ACTOR_SET_FRAME",
@@ -36,14 +36,14 @@
           "value": 1
         }
       },
-      "id": "546cd89a-8327-4006-96a6-eea434296c78"
+      "id": "062a0bca-af38-43b6-a107-b90d65e60819"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 12,
-  "y": 5,
-  "_index": 1
+  "x": 5,
+  "y": 17,
+  "_index": 4
 }

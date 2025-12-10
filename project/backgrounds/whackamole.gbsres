@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9dcae758-9a72-40fb-8bea-fdbe85fdba8b",
+  "name": "whackamole",
+  "symbol": "bg_whackamole",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "whackamole.png",
+  "tileColors": ""
+}

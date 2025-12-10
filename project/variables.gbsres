@@ -312,14 +312,14 @@
       "symbol": "var_petsunlocked"
     },
     {
-      "id": "62",
-      "name": "whackPosition",
-      "symbol": "var_whackposition"
-    },
-    {
       "id": "66",
       "name": "schmupScore",
       "symbol": "var_schmupscore"
+    },
+    {
+      "id": "67",
+      "name": "hammerPos",
+      "symbol": "var_hammerpos_2"
     },
     {
       "id": "3a066778-da30-4ee5-858e-12141e7966cc__L0",
@@ -712,11 +712,6 @@
       "symbol": "var_hammerpos_1"
     },
     {
-      "id": "67",
-      "name": "hammerPos",
-      "symbol": "var_hammerpos_2"
-    },
-    {
       "id": "42b710ce-ccec-484c-aa38-919f331d2b1a__L0",
       "name": "rounds",
       "symbol": "var_rounds"
@@ -730,6 +725,36 @@
       "id": "42b710ce-ccec-484c-aa38-919f331d2b1a__L2",
       "name": "timer",
       "symbol": "var_timer"
+    },
+    {
+      "id": "03816d0c-8ac2-4323-a506-70437f3aa25c__L2",
+      "name": "popPos",
+      "symbol": "var_poppos_0"
+    },
+    {
+      "id": "03816d0c-8ac2-4323-a506-70437f3aa25c__L1",
+      "name": "rounds",
+      "symbol": "var_rounds_0"
+    },
+    {
+      "id": "68",
+      "name": "popPos",
+      "symbol": "var_poppos_1"
+    },
+    {
+      "id": "4e914656-44e5-4f22-9ac2-fa7a28072f51__L0",
+      "name": "rounds",
+      "symbol": "var_rounds_1"
+    },
+    {
+      "id": "62",
+      "name": "whackamoleRounds",
+      "symbol": "var_whackamolerounds"
+    },
+    {
+      "id": "03816d0c-8ac2-4323-a506-70437f3aa25c__L3",
+      "name": "time",
+      "symbol": "var_time"
     }
   ]
 }
