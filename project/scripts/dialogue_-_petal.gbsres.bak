@@ -200,7 +200,7 @@
                         "args": {
                           "text": [
                             "PETAL: Moo! Moo mo\nmooo momo moo!",
-                            "(I think girls\nare pretty )"
+                            "(I think girls\nare pretty!)"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -232,7 +232,7 @@
                             "PETAL: moooo moo\nMOOOOO moo mooo",
                             "(?????)",
                             "PETAL: Moooo, moo?\nMoo Mooo...",
-                            "(PETAL's just\nmaking noises now)"
+                            "(PETAL's just\nmaking noises...)"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -252,38 +252,6 @@
                           "closeDelayFrames": 30
                         },
                         "id": "7f1aaaa8-0e2b-431f-b39e-4d6e61609770"
-                      },
-                      {
-                        "command": "EVENT_IF",
-                        "args": {
-                          "condition": {
-                            "type": "lt",
-                            "valueA": {
-                              "type": "variable",
-                              "value": "16"
-                            },
-                            "valueB": {
-                              "type": "number",
-                              "value": 4
-                            }
-                          },
-                          "__collapseElse": true,
-                          "__collapse": false
-                        },
-                        "children": {
-                          "true": [
-                            {
-                              "command": "EVENT_INC_VALUE",
-                              "args": {
-                                "variable": "16",
-                                "__collapse": false
-                              },
-                              "id": "94d181b9-a7d9-48dc-9751-9556dc2f0301"
-                            }
-                          ],
-                          "false": []
-                        },
-                        "id": "e46a3a43-286d-430a-a7b8-19d78a47a47f"
                       }
                     ],
                     "true3": [
@@ -355,9 +323,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "PETAL: Mooo! Moo,\nmooo!",
-                            "(I swear, whoever\ntries milking me",
-                            "is gonna get what's\ncoming to them...)"
+                            "PETAL: Mooo! Moo,\nmooo!"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -414,7 +380,9 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: Hi!"
+                            "PETAL: Moo! Moo,\nmoo moo!",
+                            "(My mama made\nthese songs!",
+                            "Isn't that\nneat?)"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -524,7 +492,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "PETAL: Mo. Moo!\nMooo...",
+                            "PETAL: Moo. Moo!\nMooo...",
                             "(SODA keeps\nburping SO loud.)",
                             "(That scared me!\nIt was kind of",
                             "funny though....)"
