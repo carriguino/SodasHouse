@@ -1,0 +1,245 @@
+{
+  "_resourceType": "script",
+  "id": "3a05244a-9fb2-4641-8f09-45681ac867ab",
+  "name": "Game - Targets",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "score",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_SCRIPT_UNLOCK",
+      "args": {},
+      "id": "a5c88289-c93c-48a1-8826-19fbbe4ba70c"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 1
+      },
+      "id": "499aad8e-78c7-4d2a-885f-76fcc1ea4ed7"
+    },
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 200
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "permtemp is acting as a buffer for the tracker"
+            },
+            "id": "bbda11cf-dcc5-4e92-8dc1-74421c50bb1c"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 3
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "02100be1-8b48-4363-a9c6-1b538e75d6d5"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "53",
+              "__collapse": false
+            },
+            "id": "2198dd7e-7500-496c-9d73-3e857a0df992"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 3
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "05cf39f8-9836-4568-9cd4-09bcc29057bd"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "53",
+              "__collapse": false
+            },
+            "id": "dbff5604-30a6-4feb-a16c-34a4999fc986"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "53"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "    GAME OVER"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "622ce298-06dc-4fba-8f74-b7775128d3a3"
+                },
+                {
+                  "command": "EVENT_SAVE_DATA",
+                  "args": {
+                    "saveSlot": 0,
+                    "__scriptTabs": "save"
+                  },
+                  "children": {
+                    "true": [],
+                    "load": []
+                  },
+                  "id": "bf1687a0-c7d8-4ac7-88f7-1ad2bbae5f21"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "16"
+                  },
+                  "id": "ffe6a6fd-b9d4-424b-8365-e2eb56e8bd82"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "22c67f1b-53e5-4713-bf93-fc99dc78f6ba",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "e469b66a-c0c2-4a9e-88c8-473a8d21f4d1"
+                }
+              ],
+              "false": []
+            },
+            "id": "8f2c71d7-56be-4cc9-b385-0b315355f0da"
+          }
+        ]
+      },
+      "id": "36ecdd18-919b-452f-bd67-cd89ed9bfdc8"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "PETAL: Moo!!!!!!\nMoo Moo Moo! MooMo!",
+          "(Holy moly! You\nshot all of my",
+          "targets!\nCongratulations!)"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4700cbc1-3c2c-4cd4-a878-46545f56fb10"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "16",
+        "value": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": true
+      },
+      "id": "4bf98737-f667-4d68-92bd-4daabf62191c"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "15",
+        "value": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": true
+      },
+      "id": "57b309f3-20d1-4191-9980-0ae87c5d0159"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9c11ab34-0cf6-4ad4-b83e-7ef399f1e818",
+  "name": "targets",
+  "symbol": "bg_targets",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "targets.png",
+  "tileColors": "",
+  "autoColor": false
+}

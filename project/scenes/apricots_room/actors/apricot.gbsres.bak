@@ -96,7 +96,7 @@
             "command": "EVENT_SET_INPUT_SCRIPT",
             "args": {
               "input": [
-                "down"
+                "start"
               ],
               "override": true,
               "__scriptTabs": "press",
@@ -108,7 +108,7 @@
                   "command": "EVENT_IF_INPUT",
                   "args": {
                     "input": [
-                      "start"
+                      "down"
                     ],
                     "__collapseElse": true
                   },

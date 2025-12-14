@@ -149,7 +149,8 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "a6347d8c-ebf9-452c-a1fe-b6cd5e82ebfa"
+        "musicId": "a6347d8c-ebf9-452c-a1fe-b6cd5e82ebfa",
+        "__collapse": true
       },
       "id": "2652a18a-5bab-44e9-9c8f-acb6f574c397"
     }
@@ -157,5 +158,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": true
 }

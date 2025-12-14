@@ -166,7 +166,7 @@
         "variable": "V6",
         "value": {
           "type": "number",
-          "value": 25
+          "value": 30
         }
       },
       "id": "ec2633b1-8b96-478c-9d5e-2e2f3efcc021"
@@ -190,7 +190,7 @@
           },
           "valueB": {
             "type": "number",
-            "value": 7
+            "value": 9
           }
         },
         "__collapse": false
@@ -1903,32 +1903,6 @@
       "id": "11d9996d-dfe4-42eb-8a88-b0885454af95"
     },
     {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "$V0$ HIT - $V1$ MISS"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
-      },
-      "id": "597a8021-d1b8-4ad6-9278-7c1613480d3f"
-    },
-    {
       "command": "EVENT_INC_VALUE",
       "args": {
         "variable": "46",
@@ -1959,7 +1933,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "YOU WIN"
+                "      $V0$ - $V1$ \n TRAINING SUCCESS"
               ],
               "__section": "text",
               "avatarId": "",
@@ -1976,9 +1950,18 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": false
             },
-            "id": "2ec8bda6-296f-4968-a0f5-403e8d2bd833"
+            "id": "597a8021-d1b8-4ad6-9278-7c1613480d3f"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "8",
+              "__collapse": true
+            },
+            "id": "5508d1b3-cbec-47d3-9479-8594f6c5971e"
           },
           {
             "command": "EVENT_SWITCH_SCENE",
@@ -2021,7 +2004,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "YOU LOSE"
+                      "      $V0$ - $V1$ \n  TRAINING FAIL"
                     ],
                     "__section": "text",
                     "avatarId": "",

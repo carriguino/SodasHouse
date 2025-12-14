@@ -66,7 +66,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "SODA: Hi! It's\nnice to meet you!",
+                "PETAL INTRO",
                 "My name is SODA!\nThank you for",
                 "agreeing to watch\nus!"
               ],
@@ -95,8 +95,8 @@
             "args": {
               "variable": "T0",
               "items": 2,
-              "option1": "Of course!",
-              "option2": "Huh?",
+              "option1": "PETAL POSITIVE",
+              "option2": "PETAL NEGATIVE",
               "option3": "",
               "option4": "",
               "option5": "",
@@ -132,7 +132,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "SODA: My moms were\nunsure who to hire",
+                      "PETAL POSITIVE ",
                       "to babysit for\nthem, but I'm  ",
                       "glad they chose\nyou!"
                     ],
@@ -152,7 +152,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "190599c2-6907-4130-8c97-5401a759556e"
                 }
@@ -162,7 +162,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "SODA: My mom said\nto tell you that",
+                      "PETAL NEGATIV",
                       "everything is in\nthe note!"
                     ],
                     "__section": "text",
@@ -181,7 +181,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "43f9eb8e-e3ae-49fd-a9a7-101f8d9383e8"
                 },
@@ -540,11 +540,11 @@
                                       "sceneId": "d569b068-18de-4390-aa33-a07df45e77c3",
                                       "x": {
                                         "type": "number",
-                                        "value": 0
+                                        "value": 3
                                       },
                                       "y": {
                                         "type": "number",
-                                        "value": 0
+                                        "value": 2
                                       },
                                       "direction": "",
                                       "fadeSpeed": "2"

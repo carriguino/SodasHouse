@@ -336,7 +336,7 @@
         "duration": 60,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Attention Timer"
       },
       "children": {

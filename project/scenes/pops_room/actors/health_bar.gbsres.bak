@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "a1f1504b-f383-4907-b24b-c34aae6e60f8",
+  "id": "9dd217a7-ebd0-4ac5-8016-b048ae1db5a8",
   "name": "Health Bar",
   "frame": 0,
   "animate": false,
@@ -14,17 +14,17 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "_index": 2,
-  "symbol": "actor_37",
-  "x": 16,
-  "y": 2,
+  "_index": 7,
+  "symbol": "actor_32",
+  "x": 15,
+  "y": 3,
   "script": [],
   "startScript": [],
   "updateScript": [
     {
       "command": "EVENT_SWITCH",
       "args": {
-        "variable": "0",
+        "variable": "8",
         "choices": 5,
         "__collapseCase0": false,
         "value0": 0,
@@ -74,7 +74,7 @@
                 "value": 0
               }
             },
-            "id": "8182a35c-7223-4a8e-8089-397dc750fa4f"
+            "id": "42646f25-4c6b-40a2-bbdb-92776d839acd"
           }
         ],
         "true1": [
@@ -87,7 +87,7 @@
                 "value": 1
               }
             },
-            "id": "051bbbc4-6a41-4e36-9d6e-382e32ab4a21"
+            "id": "7178ccea-311c-4f33-be3f-1472e125224b"
           }
         ],
         "true2": [
@@ -100,7 +100,7 @@
                 "value": 2
               }
             },
-            "id": "4db820c0-5179-4886-be19-7189341fa8cc"
+            "id": "2907b2a2-45bd-4179-b101-846083c2bf4c"
           }
         ],
         "true3": [
@@ -113,7 +113,7 @@
                 "value": 3
               }
             },
-            "id": "3333e5e9-a2ea-4c4c-b2ba-46d6a8e1f6c8"
+            "id": "1ed73067-1ea9-45fd-8fe1-99c1d316323f"
           }
         ],
         "true4": [
@@ -126,7 +126,7 @@
                 "value": 4
               }
             },
-            "id": "f535b645-caa6-421a-887a-c500c3bfa561"
+            "id": "9b7e6e6b-f244-4f47-9e0d-6089b1a158f5"
           }
         ],
         "true5": [],
@@ -148,7 +148,7 @@
                 "type": "gt",
                 "valueA": {
                   "type": "variable",
-                  "value": "0"
+                  "value": "8"
                 },
                 "valueB": {
                   "type": "number",
@@ -163,22 +163,22 @@
                 {
                   "command": "EVENT_SET_VALUE",
                   "args": {
-                    "variable": "0",
+                    "variable": "8",
                     "value": {
                       "type": "number",
                       "value": 4
                     }
                   },
-                  "id": "ef23533b-209b-4903-9e11-cb4da521555a"
+                  "id": "a02e2146-a0da-4261-b04a-dffc72ccf376"
                 }
               ],
               "false": []
             },
-            "id": "45cb62f6-a513-487d-88ac-43ab381e673e"
+            "id": "9562f7a0-bca6-48cf-9fdf-1c74b9f07cff"
           }
         ]
       },
-      "id": "b4be0363-d5be-4728-abe5-08765c0342b7"
+      "id": "de9a3474-d040-4d7c-a726-7ec927667a7a"
     }
   ],
   "hit1Script": [],

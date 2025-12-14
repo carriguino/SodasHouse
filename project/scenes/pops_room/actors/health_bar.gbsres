@@ -24,7 +24,7 @@
     {
       "command": "EVENT_SWITCH",
       "args": {
-        "variable": "8",
+        "variable": "14",
         "choices": 5,
         "__collapseCase0": false,
         "value0": 0,
@@ -148,7 +148,7 @@
                 "type": "gt",
                 "valueA": {
                   "type": "variable",
-                  "value": "8"
+                  "value": "14"
                 },
                 "valueB": {
                   "type": "number",
@@ -163,7 +163,7 @@
                 {
                   "command": "EVENT_SET_VALUE",
                   "args": {
-                    "variable": "8",
+                    "variable": "14",
                     "value": {
                       "type": "number",
                       "value": 4

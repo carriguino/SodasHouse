@@ -17,6 +17,13 @@
   "y": 216,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "c615afaf-f1e7-406f-b18f-41fdfa0dd0fc"
+      },
+      "id": "79adc989-532d-4edd-8701-c4856454cd37"
+    },
+    {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
@@ -31,7 +38,8 @@
         "pitch": 4,
         "frequency": 300,
         "duration": 0.03,
-        "effect": 0
+        "effect": 0,
+        "__collapse": true
       },
       "id": "788c7740-4c3a-4a03-83c6-fae33dd818df"
     },
@@ -68,7 +76,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "5589179b-b86b-493c-929d-1ed454cadb0f",
-        "__collapse": false,
+        "__collapse": true,
         "$variable[V0]$": {
           "type": "variable",
           "value": "L2"

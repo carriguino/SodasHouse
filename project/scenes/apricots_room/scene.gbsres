@@ -22,6 +22,13 @@
   "playerSpriteSheetId": "dbc26a10-9e7a-4131-8d7f-70d4ee9788ab",
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "dff76ffb-df86-43bf-9d4b-694da5dd4cd4"
+      },
+      "id": "f264e851-e84e-4d39-bcb8-b5fe8e0b64e1"
+    },
+    {
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
       "args": {
         "type": "tone",
@@ -144,13 +151,6 @@
         "__collapse": true
       },
       "id": "25bde602-35fa-4f4c-b01c-85f17a378960"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "a6347d8c-ebf9-452c-a1fe-b6cd5e82ebfa"
-      },
-      "id": "f264e851-e84e-4d39-bcb8-b5fe8e0b64e1"
     }
   ],
   "playerHit1Script": [],
