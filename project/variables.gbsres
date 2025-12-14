@@ -318,8 +318,8 @@
     },
     {
       "id": "66",
-      "name": "schmupScore",
-      "symbol": "var_schmupscore"
+      "name": "targetScore",
+      "symbol": "var_targetscore"
     },
     {
       "id": "67",

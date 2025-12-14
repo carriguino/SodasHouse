@@ -20,7 +20,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "44"
+            "value": "24"
           },
           "valueB": {
             "type": "number",
@@ -177,7 +177,7 @@
                 {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "c34cbfb4-fa5e-46b3-8964-3267cdcd3071",
+                    "sceneId": "5a3e58ff-88fc-4aae-a5a2-f0958304da71",
                     "x": {
                       "type": "number",
                       "value": 0

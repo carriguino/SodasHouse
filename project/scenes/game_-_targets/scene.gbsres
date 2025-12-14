@@ -2,40 +2,57 @@
   "_resourceType": "scene",
   "id": "d569b068-18de-4390-aa33-a07df45e77c3",
   "_index": 9,
-  "name": "Game - Targets",
-  "backgroundId": "9c11ab34-0cf6-4ad4-b83e-7ef399f1e818",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    "default-bg-6"
-  ],
-  "spritePaletteIds": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    "default-sprite"
-  ],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Game - Targets",
   "symbol": "scene_14",
   "x": 1128,
   "y": 792,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "9c11ab34-0cf6-4ad4-b83e-7ef399f1e818",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "default-bg-6"
+  ],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "default-sprite"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "1aaeddbb-2eff-464b-9ef3-a8df3505929d",
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "c615afaf-f1e7-406f-b18f-41fdfa0dd0fc"
+        "musicId": "c615afaf-f1e7-406f-b18f-41fdfa0dd0fc",
+        "__collapse": true
       },
       "id": "f81819fc-423d-41d4-b4f5-7572476a73bc"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "__collapse": true
+      },
+      "id": "95c56bf1-1799-4f86-9e7a-98f846908866"
     },
     {
       "command": "EVENT_TEXT",
@@ -58,7 +75,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "9c4f896a-6516-46ea-a7e3-1de31b44b07b"
     },
@@ -75,7 +93,7 @@
         "customEventId": "3a05244a-9fb2-4641-8f09-45681ac867ab",
         "$variable[V0]$": {
           "type": "variable",
-          "value": "L1"
+          "value": "66"
         },
         "$variable[V1]$": {
           "type": "variable",
@@ -88,5 +106,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "1aaeddbb-2eff-464b-9ef3-a8df3505929d"
+  "collisions": "",
+  "autoFadeEventCollapse": true
 }

@@ -32,6 +32,31 @@
         "true": [],
         "false": [
           {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "HEADS UP THIS\nIS SUPER BROKEN."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "46416dc3-2c2f-4cfa-9618-7bb63606543e"
+          },
+          {
             "command": "PT_EVENT_ADVANCED_MENU",
             "args": {
               "__scriptTabs": "items",

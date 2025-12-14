@@ -180,19 +180,19 @@
     {
       "command": "EVENT_INC_VALUE",
       "args": {
-        "variable": "L1",
-        "__collapse": true
+        "variable": "66",
+        "__collapse": false
       },
       "id": "f00884d7-ca5a-405e-a3c5-18795ca9caed"
     },
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "SCORE: $L1$",
+        "text": "SCORE: $66$",
         "x": 9,
         "y": 1,
         "location": "background",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "923f326f-5826-40df-b3fb-61320d0c5ea4"
     },

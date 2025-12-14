@@ -69,7 +69,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -106,6 +106,13 @@
               "__collapse": true
             },
             "id": "a011c966-d73d-4111-ab12-34d8f8d6fe0d"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "46"
+            },
+            "id": "968dc6bb-88e1-4fbc-8163-4134300c4d4d"
           },
           {
             "command": "EVENT_SWITCH_SCENE",

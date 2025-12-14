@@ -54,7 +54,7 @@
               "option2_r": 0,
               "option2_u": 1,
               "option2_d": 0,
-              "option_3_text": "Train with ADOS?",
+              "option_3_text": "Read with APPA?",
               "option3_x": 0,
               "option3_y": 0,
               "option3_l": 0,
@@ -152,7 +152,7 @@
               "option16_r": 0,
               "option16_u": 0,
               "option16_d": 0,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "93a36f7d-c103-4598-a29f-5c425a721e6c"
           },

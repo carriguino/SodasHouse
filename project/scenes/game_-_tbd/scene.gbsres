@@ -42,6 +42,13 @@
       "id": "6179cba3-73f2-4160-9375-1a3babfa1ead"
     },
     {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "46"
+      },
+      "id": "b86bd2a2-368d-4379-a44c-caabf35b345c"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "5c2de070-fc7d-4f78-8604-8713fc3febb5",

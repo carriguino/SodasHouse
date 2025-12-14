@@ -32,31 +32,6 @@
         "true": [],
         "false": [
           {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "HEADS UP THIS\nIS SUPER BROKEN."
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "46416dc3-2c2f-4cfa-9618-7bb63606543e"
-          },
-          {
             "command": "PT_EVENT_ADVANCED_MENU",
             "args": {
               "__scriptTabs": "items",
@@ -79,7 +54,7 @@
               "option2_r": 0,
               "option2_u": 1,
               "option2_d": 0,
-              "option_3_text": "Train with ADOS?",
+              "option_3_text": "Hammer with POP?",
               "option3_x": 0,
               "option3_y": 0,
               "option3_l": 0,
@@ -177,7 +152,7 @@
               "option16_r": 0,
               "option16_u": 0,
               "option16_d": 0,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "209037d7-a1de-4c53-a298-d1fb12ec7f70"
           },
