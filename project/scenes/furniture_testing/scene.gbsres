@@ -143,6 +143,17 @@
       "id": "94c2e849-2d4d-4a30-ac10-694afcfda7f7"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "46",
+        "value": {
+          "type": "number",
+          "value": 100
+        }
+      },
+      "id": "8d45e145-de6d-4fc1-b547-296cf1cc769e"
+    },
+    {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {
         "actorId": "$self$",

@@ -412,7 +412,7 @@
                 }
               },
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -1160,48 +1160,21 @@
       "id": "1e29e459-2ef2-4450-9807-9dc0275352ed"
     },
     {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "LEVEL: $46$\nTYPE: $53$"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true,
-        "__comment": true
-      },
-      "id": "7e202753-90a5-4b49-a5c4-35a5b31b832d"
-    },
-    {
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "53",
         "choices": 6,
         "__collapseCase0": false,
         "value0": 1,
-        "__collapseCase1": true,
+        "__collapseCase1": false,
         "value1": 2,
-        "__collapseCase2": true,
+        "__collapseCase2": false,
         "value2": 3,
-        "__collapseCase3": true,
+        "__collapseCase3": false,
         "value3": 4,
-        "__collapseCase4": true,
+        "__collapseCase4": false,
         "value4": 5,
-        "__collapseCase5": true,
+        "__collapseCase5": false,
         "value5": 6,
         "__collapseCase6": false,
         "value6": 7,
@@ -1223,8 +1196,8 @@
         "value14": 15,
         "__collapseCase15": false,
         "value15": 16,
-        "__collapseElse": false,
-        "__collapse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true0": [
@@ -1380,14 +1353,14 @@
               "option2_u": 1,
               "option2_d": 0,
               "option_3_text": "TBD",
-              "option3_x": 10,
+              "option3_x": 12,
               "option3_y": 2,
               "option3_l": 1,
               "option3_r": 0,
               "option3_u": 0,
               "option3_d": 4,
               "option_4_text": "TBD",
-              "option4_x": 10,
+              "option4_x": 12,
               "option4_y": 3,
               "option4_l": 2,
               "option4_r": 0,
@@ -1477,7 +1450,7 @@
               "option16_r": 0,
               "option16_u": 0,
               "option16_d": 0,
-              "__collapse": true,
+              "__collapse": false,
               "__label": "Choose Cool"
             },
             "id": "2e378b7d-2956-496f-a271-11cf9394678f"
@@ -1624,7 +1597,7 @@
               "option16_r": 0,
               "option16_u": 0,
               "option16_d": 0,
-              "__collapse": true,
+              "__collapse": false,
               "__label": "Choose Cute"
             },
             "id": "8bcb2513-7259-4b69-a935-0198d0c16dce"
@@ -1771,7 +1744,7 @@
               "option16_r": 0,
               "option16_u": 0,
               "option16_d": 0,
-              "__collapse": true,
+              "__collapse": false,
               "__label": "Choose Chud"
             },
             "id": "6b2aebdf-a096-4f00-aa22-6ca0bfec3356"
@@ -1821,14 +1794,14 @@
               "option2_u": 1,
               "option2_d": 0,
               "option_3_text": "Candy Cane",
-              "option3_x": 10,
+              "option3_x": 8,
               "option3_y": 2,
               "option3_l": 1,
               "option3_r": 0,
               "option3_u": 0,
               "option3_d": 4,
               "option_4_text": "Snowman",
-              "option4_x": 10,
+              "option4_x": 8,
               "option4_y": 3,
               "option4_l": 2,
               "option4_r": 0,
@@ -1918,7 +1891,7 @@
               "option16_r": 0,
               "option16_u": 0,
               "option16_d": 0,
-              "__collapse": true,
+              "__collapse": false,
               "__label": "Choose Holiday"
             },
             "id": "ccbbde81-b6ce-4ff5-8f3d-5a0ff53c6f1e"
@@ -1960,7 +1933,7 @@
               "option1_r": 3,
               "option1_u": 0,
               "option1_d": 2,
-              "option_2_text": "Letter Rug",
+              "option_2_text": "Mail Rug",
               "option2_x": 1,
               "option2_y": 3,
               "option2_l": 0,
@@ -2065,7 +2038,7 @@
               "option16_r": 0,
               "option16_u": 0,
               "option16_d": 0,
-              "__collapse": true,
+              "__collapse": false,
               "__label": "Choose Bonus"
             },
             "id": "10ea39b3-5b62-4083-a163-897fb85ff694"
@@ -2133,33 +2106,6 @@
         ]
       },
       "id": "0361ea25-d403-4435-97e5-db8a496a5c68"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "LEVEL: $46$\nTYPE: $53$"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true,
-        "__comment": true
-      },
-      "id": "8218bf9a-a1dc-4eda-b190-b7f55c5707b1"
     },
     {
       "command": "EVENT_COMMENT",

@@ -17,14 +17,134 @@
   "symbol": "actor_61",
   "script": [
     {
-      "command": "EVENT_ACTOR_SET_STATE",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "actorId": "6b4240e4-3cae-4144-86b6-466a9bf81f40",
-        "spriteStateId": "Death",
-        "loopAnim": false,
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.05,
+        "wait": true,
+        "effect": 0,
         "__collapse": true
       },
-      "id": "5bc970c9-a1c4-40de-8ba4-92d7d12e203b"
+      "id": "08bb65e9-22b7-4d0a-8512-f721a1082b5c"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "L3",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "L0",
+        "value": "0",
+        "minValue": 1,
+        "maxValue": 2,
+        "clamp": false,
+        "__collapse": true
+      },
+      "id": "cf679360-7d44-4614-8f37-9f671467d58e"
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "L3",
+        "choices": 2,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 2,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false,
+        "__collapse": true,
+        "__label": "Random Target Switch"
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "6b4240e4-3cae-4144-86b6-466a9bf81f40",
+              "direction": {
+                "type": "direction",
+                "value": "down"
+              },
+              "__collapse": false
+            },
+            "id": "a3dabc00-4aab-4bf6-b617-d525a6841752"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "fd31b2aa-444c-4211-8cd8-7c7bf62098c0",
+              "direction": {
+                "type": "direction",
+                "value": "down"
+              },
+              "__collapse": false
+            },
+            "id": "6db52e54-95de-4a25-a694-c311709526e0"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "439ceb6d-e9ea-4a57-b9b2-2f283fff485d",
+              "direction": {
+                "type": "direction",
+                "value": "down"
+              },
+              "__collapse": false
+            },
+            "id": "8907ef4e-a5f0-419f-a552-f99a09b5954b"
+          }
+        ],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "9c723094-4838-402e-b9cf-ea92598cbe36"
     },
     {
       "command": "EVENT_VARIABLE_MATH",
@@ -46,12 +166,12 @@
       "args": {
         "actorId": "$self$",
         "x": {
-          "type": "number",
-          "value": 4
-        },
-        "y": {
           "type": "variable",
           "value": "L0"
+        },
+        "y": {
+          "type": "number",
+          "value": 16
         },
         "__collapse": true
       },
@@ -263,7 +383,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 4,
-  "y": 6,
+  "x": 7,
+  "y": 16,
   "_index": 1
 }

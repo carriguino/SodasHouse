@@ -74,13 +74,6 @@
         "__collapse": true
       },
       "id": "da0238ef-bfc0-46f4-bdb1-3f75ffa81321"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "d76b0987-6c8a-438d-b066-d43584ff2541"
-      },
-      "id": "14651363-270c-4044-9367-5c42c536f719"
     }
   ],
   "updateScript": [],

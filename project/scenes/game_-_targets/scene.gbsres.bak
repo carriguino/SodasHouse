@@ -8,14 +8,35 @@
   "width": 20,
   "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [],
-  "spritePaletteIds": [],
+  "paletteIds": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    "default-bg-6"
+  ],
+  "spritePaletteIds": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    "default-sprite"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_14",
   "x": 1128,
   "y": 792,
   "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "c615afaf-f1e7-406f-b18f-41fdfa0dd0fc"
+      },
+      "id": "f81819fc-423d-41d4-b4f5-7572476a73bc"
+    },
     {
       "command": "EVENT_TEXT",
       "args": {

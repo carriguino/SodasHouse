@@ -1,0 +1,87 @@
+{
+  "_resourceType": "actor",
+  "id": "fd31b2aa-444c-4211-8cd8-7c7bf62098c0",
+  "name": "Target 2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "85f05991-5b00-43be-b90a-ebb8622f080d",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_64",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": false
+      },
+      "id": "a6cf41fe-45f7-452e-b774-be0f2881a8b5"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 1,
+              "duration": 0.1,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "up"
+                    }
+                  },
+                  "id": "f02364f0-22ed-4740-a804-664ec0d0f5ac"
+                },
+                {
+                  "command": "EVENT_TIMER_DISABLE",
+                  "args": {
+                    "timer": 1
+                  },
+                  "id": "d289b32c-328a-4a26-86bb-bab6d177c83a"
+                }
+              ]
+            },
+            "id": "3e8e324a-35d3-4611-b09b-af144ee3956d"
+          }
+        ],
+        "false": []
+      },
+      "id": "d1df32a7-2168-464e-b70d-413f351441b3"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 13,
+  "y": 7,
+  "_index": 3
+}

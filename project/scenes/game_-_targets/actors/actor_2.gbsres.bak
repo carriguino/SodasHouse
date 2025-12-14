@@ -17,6 +17,16 @@
   "symbol": "actor_61",
   "script": [
     {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "6b4240e4-3cae-4144-86b6-466a9bf81f40",
+        "spriteStateId": "Death",
+        "loopAnim": false,
+        "__collapse": true
+      },
+      "id": "5bc970c9-a1c4-40de-8ba4-92d7d12e203b"
+    },
+    {
       "command": "EVENT_VARIABLE_MATH",
       "args": {
         "vectorX": "L0",
@@ -43,7 +53,7 @@
           "type": "variable",
           "value": "L0"
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "6c69601b-ff63-4031-af4a-541baf86a1d1"
     },
@@ -243,7 +253,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "b0433bec-de52-4624-85a8-b09a1c7f1742"
     }

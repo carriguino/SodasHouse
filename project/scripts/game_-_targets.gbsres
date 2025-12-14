@@ -15,14 +15,35 @@
   "script": [
     {
       "command": "EVENT_SCRIPT_UNLOCK",
-      "args": {},
+      "args": {
+        "__collapse": true
+      },
       "id": "a5c88289-c93c-48a1-8826-19fbbe4ba70c"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "right",
+          "up",
+          "down"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": []
+      },
+      "id": "2e13793a-8e14-4782-8fc0-6ef17e15fb93"
     },
     {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {
         "actorId": "player",
-        "speed": 1
+        "speed": 1,
+        "__collapse": true
       },
       "id": "499aad8e-78c7-4d2a-885f-76fcc1ea4ed7"
     },
@@ -39,14 +60,16 @@
             "type": "number",
             "value": 200
           }
-        }
+        },
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_COMMENT",
             "args": {
-              "text": "permtemp is acting as a buffer for the tracker"
+              "text": "permtemp is acting as a buffer for the tracker",
+              "__collapse": false
             },
             "id": "bbda11cf-dcc5-4e92-8dc1-74421c50bb1c"
           },
@@ -56,15 +79,15 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 3
+                "value": 1
               },
               "y": {
                 "type": "number",
-                "value": 3
+                "value": 15
               },
               "moveType": "horizontal",
               "useCollisions": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "02100be1-8b48-4363-a9c6-1b538e75d6d5"
           },
@@ -82,7 +105,7 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 3
+                "value": 17
               },
               "y": {
                 "type": "number",
@@ -90,7 +113,7 @@
               },
               "moveType": "horizontal",
               "useCollisions": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "05cf39f8-9836-4568-9cd4-09bcc29057bd"
           },

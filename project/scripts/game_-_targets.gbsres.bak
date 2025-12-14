@@ -6,7 +6,7 @@
   "variables": {
     "V0": {
       "id": "V0",
-      "name": "Variable A",
+      "name": "score",
       "passByReference": true
     }
   },
@@ -44,6 +44,13 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "permtemp is acting as a buffer for the tracker"
+            },
+            "id": "bbda11cf-dcc5-4e92-8dc1-74421c50bb1c"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "$self$",
@@ -60,6 +67,14 @@
               "__collapse": true
             },
             "id": "02100be1-8b48-4363-a9c6-1b538e75d6d5"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "53",
+              "__collapse": false
+            },
+            "id": "2198dd7e-7500-496c-9d73-3e857a0df992"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -82,10 +97,94 @@
           {
             "command": "EVENT_INC_VALUE",
             "args": {
-              "variable": "V0",
-              "__collapse": true
+              "variable": "53",
+              "__collapse": false
             },
-            "id": "34138f72-497c-46de-a63d-99045d532670"
+            "id": "dbff5604-30a6-4feb-a16c-34a4999fc986"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "53"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "    GAME OVER"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "622ce298-06dc-4fba-8f74-b7775128d3a3"
+                },
+                {
+                  "command": "EVENT_SAVE_DATA",
+                  "args": {
+                    "saveSlot": 0,
+                    "__scriptTabs": "save"
+                  },
+                  "children": {
+                    "true": [],
+                    "load": []
+                  },
+                  "id": "bf1687a0-c7d8-4ac7-88f7-1ad2bbae5f21"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "16"
+                  },
+                  "id": "ffe6a6fd-b9d4-424b-8365-e2eb56e8bd82"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "22c67f1b-53e5-4713-bf93-fc99dc78f6ba",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "e469b66a-c0c2-4a9e-88c8-473a8d21f4d1"
+                }
+              ],
+              "false": []
+            },
+            "id": "8f2c71d7-56be-4cc9-b385-0b315355f0da"
           }
         ]
       },

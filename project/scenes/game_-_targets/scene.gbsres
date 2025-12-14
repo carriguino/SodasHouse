@@ -8,8 +8,22 @@
   "width": 20,
   "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [],
-  "spritePaletteIds": [],
+  "paletteIds": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    "default-bg-6"
+  ],
+  "spritePaletteIds": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    "default-sprite"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_14",
@@ -47,6 +61,13 @@
         "closeDelayFrames": 30
       },
       "id": "9c4f896a-6516-46ea-a7e3-1de31b44b07b"
+    },
+    {
+      "command": "EVENT_RNG_SEED",
+      "args": {
+        "__collapse": true
+      },
+      "id": "43a7e35f-6e7d-484d-85ba-fb205aee688e"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",

@@ -765,6 +765,11 @@
       "id": "fa8b4720-39cd-4bf4-b7ae-c2ccbe0edd41__L1",
       "name": "score",
       "symbol": "var_score_0"
+    },
+    {
+      "id": "fa8b4720-39cd-4bf4-b7ae-c2ccbe0edd41__L2",
+      "name": "buffer",
+      "symbol": "var_buffer"
     }
   ]
 }

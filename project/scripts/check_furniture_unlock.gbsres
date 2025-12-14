@@ -1,85 +1,17 @@
 {
-  "_resourceType": "actor",
-  "id": "d8e4b24b-15de-40c3-a8cb-995f5d653f33",
-  "name": "Manager",
-  "frame": 0,
-  "animate": false,
-  "spriteSheetId": "d04cf812-dd39-4def-a692-41da1dadd868",
-  "prefabId": "",
-  "direction": "down",
-  "moveSpeed": 0.0001,
-  "animSpeed": 255,
-  "paletteId": "",
-  "isPinned": false,
-  "persistent": false,
-  "collisionGroup": "",
-  "prefabScriptOverrides": {},
-  "_index": 0,
-  "symbol": "actor_9",
-  "x": 0,
-  "y": 17,
-  "script": [],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": true
-      },
-      "id": "45058be5-427b-42c7-a024-856d529aa573"
-    },
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "4701d773-c2ec-4850-a4dc-cc270352a4aa",
-        "__collapse": true
-      },
-      "id": "7ec38b5d-4150-4acc-9ad8-6aceb8cbaf11"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_POSITION",
-      "args": {
-        "actorId": "player",
-        "x": {
-          "type": "number",
-          "value": 2
-        },
-        "y": {
-          "type": "number",
-          "value": 12
-        },
-        "__collapse": true
-      },
-      "id": "ee458d90-cf0c-405a-81b8-03d3bbfa9fd6"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "number",
-          "value": 0
-        },
-        "__collapse": false
-      },
-      "id": "10992acf-3419-4e0a-aba7-305925084a3b"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "5",
-        "value": {
-          "type": "true"
-        },
-        "__collapse": true
-      },
-      "id": "29f22c5f-46a9-4d7f-b7cc-5249f6b52a35"
-    },
+  "_resourceType": "script",
+  "id": "5f9b0ddd-f891-4b6d-a32e-5cecc34365f8",
+  "name": "Check Furniture Unlock",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_14",
+  "script": [
     {
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "46",
-        "choices": 5,
+        "choices": 6,
         "__collapseCase0": false,
         "value0": 3,
         "__collapseCase1": false,
@@ -113,7 +45,7 @@
         "__collapseCase15": false,
         "value15": 16,
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true0": [
@@ -121,7 +53,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Congratulations!\nYou unlocked\n\"Cute\" furniture\nfor decorating!"
+                "Congratulations!\nYou unlocked\n\"Basic\" furniture\nfor decorating!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -140,7 +72,7 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "d77b911a-33ba-4b0f-a1a2-8cc6913026bd"
+            "id": "a8a45307-74cc-4402-b7d3-a96298c7f507"
           }
         ],
         "true1": [
@@ -148,7 +80,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Nice Job!\nYou unlocked\n\"Cool\" furniture\nfor decorating!"
+                "Nice Job!\nYou unlocked\n\"Cute\" furniture\nfor decorating!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -167,7 +99,7 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "698ba9e0-73c3-4a17-bc16-ab878cf0edc9"
+            "id": "5df8fcd5-d8df-4c51-b914-22e7d4901388"
           }
         ],
         "true2": [
@@ -175,7 +107,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Way to go!\nYou unlocked\n\"Chud\" furniture\nfor decorating!"
+                "Way to go!\nYou unlocked\n\"Cool\" furniture\nfor decorating!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -194,7 +126,7 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "18a0d245-0f5b-4a96-9d8b-fe919d9542a1"
+            "id": "ae3f355f-57d5-4639-ac90-9e50bafb220a"
           }
         ],
         "true3": [
@@ -202,7 +134,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "How awesome!\nYou unlocked\n\"Holiday\" \nfurniture\nfor decorating!"
+                "How awesome!\nYou unlocked\n\"Chud\" furniture\nfor decorating!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -221,11 +153,64 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "66ba4447-2645-4d2a-a7de-1a0a3652dd43"
+            "id": "7695cbdb-68ea-488e-a631-a0cab87339fa"
           }
         ],
-        "true4": [],
-        "true5": [],
+        "true4": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Way past cool!\nYou unlocked\n\"Holiday\"\nfurniture\nfor decorating!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "41f2ad3b-5b68-46e2-94a0-75f7d44f7a38"
+          }
+        ],
+        "true5": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Yippee!!\nYou unlocked\n\"Bonus\" furniture\nfor decorating!",
+                "You've unlocked\nall the furniture!\nWay to go!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e04ed43e-00be-43e1-bcb8-00981e080271"
+          }
+        ],
         "true6": [],
         "true7": [],
         "true8": [],
@@ -238,11 +223,7 @@
         "true15": [],
         "false": []
       },
-      "id": "4a005084-4763-4d8f-8823-55a859c97318"
+      "id": "fbbf4dcc-d9e9-4c1e-9585-b70e3e94050e"
     }
-  ],
-  "updateScript": [],
-  "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": []
+  ]
 }
