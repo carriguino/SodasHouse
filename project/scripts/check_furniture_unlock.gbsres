@@ -88,7 +88,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Nice Job!\nYou unlocked\n\"Cute\" furniture\nfor decorating!"
+                "Nice Job!\nYou unlocked\n\"Cool\" furniture\nfor decorating!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -123,7 +123,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Way to go!\nYou unlocked\n\"Cool\" furniture\nfor decorating!"
+                "Way to go!\nYou unlocked\n\"Cute\" furniture\nfor decorating!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -193,7 +193,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Way past cool!\nYou unlocked\n\"Holiday\"\nfurniture\nfor decorating!"
+                "Way past cool!\nYou unlocked\n\"Festive\"\nfurniture\nfor decorating!"
               ],
               "__section": "text",
               "avatarId": "",

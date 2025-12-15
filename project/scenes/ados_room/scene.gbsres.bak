@@ -23,6 +23,13 @@
   "playerSpriteSheetId": "dbc26a10-9e7a-4131-8d7f-70d4ee9788ab",
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "dff76ffb-df86-43bf-9d4b-694da5dd4cd4"
+      },
+      "id": "4a9f40ec-4f32-4993-9efe-28fea89d7a73"
+    },
+    {
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
       "args": {
         "type": "tone",
@@ -42,64 +49,6 @@
         "__collapse": true
       },
       "id": "852bd651-299d-4837-8603-a69c009cb679"
-    },
-    {
-      "command": "EVENT_IF_SAVED_DATA",
-      "args": {
-        "saveSlot": 0,
-        "__collapseElse": false,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_PEEK_DATA",
-            "args": {
-              "variableDest": "8",
-              "variableSource": "8",
-              "saveSlot": 0,
-              "__collapse": false,
-              "__label": "Load Soda Happiness"
-            },
-            "id": "0cefe778-9a08-4d8e-96cc-0e3bb9f726d6"
-          },
-          {
-            "command": "EVENT_PEEK_DATA",
-            "args": {
-              "variableDest": "9",
-              "variableSource": "9",
-              "saveSlot": 0,
-              "__label": "Load Soda Hunger"
-            },
-            "id": "f48cd157-0700-4bd8-92a7-d168cd45e361"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "8",
-              "value": {
-                "type": "number",
-                "value": 1
-              }
-            },
-            "id": "b6af4a84-e176-43ab-a8d8-d08a17e419fd"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "9",
-              "value": {
-                "type": "number",
-                "value": 1
-              }
-            },
-            "id": "f3109233-7a1e-4135-9298-34e3a11df20b"
-          }
-        ]
-      },
-      "id": "7a4f1148-7576-4e85-8638-bda7b5654386"
     },
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -145,13 +94,6 @@
         "__collapse": true
       },
       "id": "df59cda8-4b3a-48ab-b7e6-530bc40272ec"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "a6347d8c-ebf9-452c-a1fe-b6cd5e82ebfa"
-      },
-      "id": "4a9f40ec-4f32-4993-9efe-28fea89d7a73"
     }
   ],
   "playerHit1Script": [],

@@ -124,7 +124,7 @@
                 }
               },
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -257,7 +257,7 @@
               "value": {
                 "type": "true"
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "af4750c2-12bb-4bc0-b1b7-736f14ff4be1"
           },
@@ -266,7 +266,7 @@
             "args": {
               "saveSlot": 0,
               "__scriptTabs": "save",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [],

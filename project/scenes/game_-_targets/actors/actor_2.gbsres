@@ -181,14 +181,14 @@
       "command": "EVENT_INC_VALUE",
       "args": {
         "variable": "66",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "f00884d7-ca5a-405e-a3c5-18795ca9caed"
     },
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "SCORE: $66$",
+        "text": "SCORE: $66$\nHIGH: $26$",
         "x": 9,
         "y": 1,
         "location": "background",
@@ -199,7 +199,7 @@
     {
       "command": "EVENT_SWITCH",
       "args": {
-        "variable": "L1",
+        "variable": "66",
         "choices": 12,
         "__collapseCase0": false,
         "value0": 5,

@@ -66,7 +66,7 @@
                 }
               },
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -96,7 +96,11 @@
                     },
                     "$variable[V4]$": {
                       "type": "variable",
-                      "value": "2"
+                      "value": "L0"
+                    },
+                    "$variable[V3]$": {
+                      "type": "variable",
+                      "value": "0"
                     }
                   },
                   "id": "d95a62e9-2e09-42a0-b94b-4fc140267b77"

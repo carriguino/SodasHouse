@@ -1,0 +1,62 @@
+{
+  "_resourceType": "actor",
+  "id": "3d3f1427-315a-4c4c-8d47-374e9e1d1f45",
+  "name": "Petal - Furniture 4",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "73ff9e63-5368-4bb9-a3db-aea1b28091cf",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_41",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF_SAVED_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "42",
+              "variableSource": "42",
+              "saveSlot": 0
+            },
+            "id": "60117240-72c6-4106-8ead-3d01b89f3cb7"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "variable",
+                "value": "42"
+              },
+              "__collapse": false
+            },
+            "id": "3905ac26-168d-4131-a805-09e0c8fa0f74"
+          }
+        ],
+        "false": []
+      },
+      "id": "a42904bf-1d70-4327-bf39-4a1be3d3b650"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 15,
+  "y": 10,
+  "_index": 6
+}

@@ -1,0 +1,49 @@
+{
+  "_resourceType": "actor",
+  "id": "18916998-f18a-458c-97a8-4690df138d23",
+  "name": "Hole 4",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "08b883c9-c452-4ada-b8d2-d6a99b79bc30",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_59",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": false,
+        "__collapse": false
+      },
+      "id": "0b632d6f-0ece-4abd-88a1-86a6a264c69e"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "6091734e-1962-4135-af5e-3d03000bda58"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 13,
+  "y": 11,
+  "_index": 5
+}

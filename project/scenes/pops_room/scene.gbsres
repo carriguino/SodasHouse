@@ -13,7 +13,9 @@
   ],
   "spritePaletteIds": [
     "default-bg-5",
-    ""
+    "",
+    null,
+    "default-ui"
   ],
   "collisions": "",
   "autoFadeSpeed": 1,
@@ -49,64 +51,6 @@
         "__collapse": true
       },
       "id": "70be293a-8512-49f2-ac5c-f220a5f865b8"
-    },
-    {
-      "command": "EVENT_IF_SAVED_DATA",
-      "args": {
-        "saveSlot": 0,
-        "__collapseElse": false,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_PEEK_DATA",
-            "args": {
-              "variableDest": "14",
-              "variableSource": "14",
-              "saveSlot": 0,
-              "__collapse": false,
-              "__label": "Load Soda Happiness"
-            },
-            "id": "aa791d2a-b6b3-437f-a30f-5af9fb24b084"
-          },
-          {
-            "command": "EVENT_PEEK_DATA",
-            "args": {
-              "variableDest": "17",
-              "variableSource": "17",
-              "saveSlot": 0,
-              "__label": "Load Soda Hunger"
-            },
-            "id": "7de42832-2784-4b61-b3cb-8dd69240532f"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "14",
-              "value": {
-                "type": "number",
-                "value": 1
-              }
-            },
-            "id": "e72e5f65-ba68-4302-9bc3-842215cb4837"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "17",
-              "value": {
-                "type": "number",
-                "value": 1
-              }
-            },
-            "id": "d668d1ff-834f-4b24-9524-7b7bace603b0"
-          }
-        ]
-      },
-      "id": "39d2fa62-4b0a-443c-a87a-06148f14dd89"
     },
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",

@@ -1,0 +1,49 @@
+{
+  "_resourceType": "actor",
+  "id": "3c506bb4-1621-4f03-a249-52bb66f064aa",
+  "name": "Hole 3",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "08b883c9-c452-4ada-b8d2-d6a99b79bc30",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_55",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": false,
+        "__collapse": false
+      },
+      "id": "3f3e5980-b65d-4abe-ab45-672f01484d62"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "a82d6f96-40dc-418f-be81-59b521b14bf3"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 13,
+  "y": 8,
+  "_index": 2
+}

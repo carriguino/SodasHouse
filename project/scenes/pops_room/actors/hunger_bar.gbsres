@@ -50,7 +50,7 @@
                       "type": "gt",
                       "valueA": {
                         "type": "variable",
-                        "value": "9"
+                        "value": "17"
                       },
                       "valueB": {
                         "type": "number",
@@ -65,7 +65,7 @@
                       {
                         "command": "EVENT_DEC_VALUE",
                         "args": {
-                          "variable": "9"
+                          "variable": "17"
                         },
                         "id": "0a412395-3758-4ce4-a775-1f13c9044aa8"
                       }
@@ -77,7 +77,7 @@
                 {
                   "command": "EVENT_DEC_VALUE",
                   "args": {
-                    "variable": "8"
+                    "variable": "14"
                   },
                   "id": "c67c801a-9e6d-4bcd-9038-514444b02b50"
                 }

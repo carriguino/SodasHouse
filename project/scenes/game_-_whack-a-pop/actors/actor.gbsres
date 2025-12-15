@@ -60,7 +60,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -75,7 +75,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 2
+                  "value": 3
                 }
               },
               "__collapseElse": true,
@@ -98,6 +98,14 @@
                     "__collapse": false
                   },
                   "id": "dea47ad6-58f7-4eb4-ac33-3b521b19b851"
+                },
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "67",
+                    "__collapse": false
+                  },
+                  "id": "899a4ab5-2702-4aeb-9de0-7e0a6568f802"
                 }
               ],
               "false": []
@@ -116,7 +124,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -131,7 +139,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 5
+                  "value": 4
                 }
               },
               "__collapseElse": true,
@@ -152,6 +160,13 @@
                     "variable": "67"
                   },
                   "id": "7cbadd07-d7e4-412d-ba65-3c9c2bad6b55"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "67"
+                  },
+                  "id": "ab130931-de0c-416f-9c0c-3b7483c81e17"
                 }
               ],
               "false": []
@@ -170,7 +185,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -218,7 +233,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -333,11 +348,11 @@
               "actorId": "player",
               "x": {
                 "type": "number",
-                "value": 5
+                "value": 3
               },
               "y": {
                 "type": "number",
-                "value": 3
+                "value": 5
               }
             },
             "id": "92343351-d7a0-485a-8342-47e718a1d085"
@@ -350,11 +365,11 @@
               "actorId": "player",
               "x": {
                 "type": "number",
-                "value": 13
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 3
+                "value": 5
               }
             },
             "id": "ef4b6232-224b-4c8b-9a96-799d67a22a40"
@@ -367,11 +382,11 @@
               "actorId": "player",
               "x": {
                 "type": "number",
-                "value": 5
+                "value": 15
               },
               "y": {
                 "type": "number",
-                "value": 9
+                "value": 5
               }
             },
             "id": "15b14183-3780-435f-a2e8-5eb7631c54c3"
@@ -384,11 +399,11 @@
               "actorId": "player",
               "x": {
                 "type": "number",
-                "value": 13
+                "value": 3
               },
               "y": {
                 "type": "number",
-                "value": 9
+                "value": 10
               }
             },
             "id": "92bd07e5-3362-4269-8cc4-c91afb303fdc"
@@ -401,11 +416,11 @@
               "actorId": "player",
               "x": {
                 "type": "number",
-                "value": 5
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 15
+                "value": 10
               }
             },
             "id": "8dc54140-9db0-4fb2-b615-e20142f2e7b6"
@@ -418,11 +433,11 @@
               "actorId": "player",
               "x": {
                 "type": "number",
-                "value": 13
+                "value": 15
               },
               "y": {
                 "type": "number",
-                "value": 15
+                "value": 10
               }
             },
             "id": "00ac8410-8979-45f6-9bfd-37e63efd55dc"

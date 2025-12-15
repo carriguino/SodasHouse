@@ -57,7 +57,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Introduction"
       },
       "children": {

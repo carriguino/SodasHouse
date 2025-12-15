@@ -97,7 +97,7 @@
               "actorId": "0",
               "spriteStateId": "Burger",
               "loopAnim": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "260cc34f-8eb8-4340-a76f-f838c04a7af4"
           }

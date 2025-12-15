@@ -83,9 +83,6 @@
                       "type": "variable",
                       "value": "T0"
                     },
-                    "$actor[0]$": "4701d773-c2ec-4850-a4dc-cc270352a4aa",
-                    "$actor[1]$": "5e3e5e0c-10f8-40ba-a94a-133cfae32675",
-                    "$actor[2]$": "player",
                     "$variable[V1]$": {
                       "type": "variable",
                       "value": "T1"
@@ -94,12 +91,10 @@
                       "type": "variable",
                       "value": "1"
                     },
-                    "$variable[V4]$": {
-                      "type": "variable",
-                      "value": "L0"
-                    }
+                    "$actor[0]$": "4701d773-c2ec-4850-a4dc-cc270352a4aa",
+                    "$actor[1]$": "5e3e5e0c-10f8-40ba-a94a-133cfae32675"
                   },
-                  "id": "d95a62e9-2e09-42a0-b94b-4fc140267b77"
+                  "id": "c610fff2-51bb-4a6b-990e-d375099dd459"
                 }
               ],
               "false": []

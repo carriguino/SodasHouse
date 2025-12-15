@@ -382,20 +382,19 @@
             "args": {
               "variable": "V2",
               "value": {
-                "type": "number",
-                "value": 4
+                "type": "add",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V2"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
               },
               "__collapse": false
             },
             "id": "26aaf812-4e14-432d-af94-f0c9dbb6dfb5"
-          },
-          {
-            "command": "EVENT_INC_VALUE",
-            "args": {
-              "variable": "V3",
-              "__collapse": false
-            },
-            "id": "e8ef2cad-44c7-4218-b881-5aa1eedf0421"
           }
         ],
         "true1": [

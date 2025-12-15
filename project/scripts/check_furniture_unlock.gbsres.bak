@@ -2,7 +2,7 @@
   "_resourceType": "script",
   "id": "5f9b0ddd-f891-4b6d-a32e-5cecc34365f8",
   "name": "Check Furniture Unlock",
-  "description": "",
+  "description": "increments its own level to avoid triggering on accident.",
   "variables": {},
   "actors": {},
   "symbol": "script_14",
@@ -73,6 +73,14 @@
               "closeDelayFrames": 30
             },
             "id": "a8a45307-74cc-4402-b7d3-a96298c7f507"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "46",
+              "__collapse": true
+            },
+            "id": "31da42e6-71b2-48c5-bba9-6b42f366997a"
           }
         ],
         "true1": [
@@ -100,6 +108,14 @@
               "closeDelayFrames": 30
             },
             "id": "5df8fcd5-d8df-4c51-b914-22e7d4901388"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "46",
+              "__collapse": false
+            },
+            "id": "771e4d78-137c-4e00-baf4-334429b97c0c"
           }
         ],
         "true2": [
@@ -127,6 +143,14 @@
               "closeDelayFrames": 30
             },
             "id": "ae3f355f-57d5-4639-ac90-9e50bafb220a"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "46",
+              "__collapse": false
+            },
+            "id": "9578abf7-5b51-459e-bae5-cd387caa1011"
           }
         ],
         "true3": [
@@ -154,6 +178,14 @@
               "closeDelayFrames": 30
             },
             "id": "7695cbdb-68ea-488e-a631-a0cab87339fa"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "46",
+              "__collapse": false
+            },
+            "id": "03f532c4-a64c-4899-9175-fc66863d6d8a"
           }
         ],
         "true4": [
@@ -181,6 +213,14 @@
               "closeDelayFrames": 30
             },
             "id": "41f2ad3b-5b68-46e2-94a0-75f7d44f7a38"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "46",
+              "__collapse": false
+            },
+            "id": "bfb7996f-5c10-4d17-bd4a-80b8019d8918"
           }
         ],
         "true5": [
@@ -209,6 +249,14 @@
               "closeDelayFrames": 30
             },
             "id": "e04ed43e-00be-43e1-bcb8-00981e080271"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "46",
+              "__collapse": false
+            },
+            "id": "28153ecb-5bbd-4364-afee-56032e417020"
           }
         ],
         "true6": [],

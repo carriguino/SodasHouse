@@ -69,7 +69,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -106,6 +106,38 @@
               "__collapse": true
             },
             "id": "a011c966-d73d-4111-ab12-34d8f8d6fe0d"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "46"
+            },
+            "id": "968dc6bb-88e1-4fbc-8163-4134300c4d4d"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "POP: Yayy!!! Good\njob keeping up! :D"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "5ef8e0c7-20e8-426a-972f-f391e75fd97a"
           },
           {
             "command": "EVENT_SWITCH_SCENE",

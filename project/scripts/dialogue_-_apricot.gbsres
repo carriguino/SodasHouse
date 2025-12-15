@@ -19,19 +19,18 @@
       "id": "b09cd942-9889-4ef6-86b2-7702166342c4"
     },
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_VARIABLE_MATH",
       "args": {
-        "variable": "V0",
-        "value": {
-          "type": "rnd",
-          "value": {
-            "type": "number",
-            "value": 12
-          }
-        },
-        "__collapse": false
+        "vectorX": "V0",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 1,
+        "maxValue": 12,
+        "clamp": false
       },
-      "id": "ad5a2d4c-e85f-4d79-9ee3-84c06c671333"
+      "id": "8a5aba78-ce90-4633-b722-9165d4c741c2"
     },
     {
       "command": "EVENT_IF",

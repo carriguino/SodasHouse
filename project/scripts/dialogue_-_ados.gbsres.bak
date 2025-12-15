@@ -458,7 +458,7 @@
                             "dogs working in a\nstupid office.",
                             "ADOS: So dumb.\nDon't they realize",
                             "it's way more fun\nto be ",
-                            "unemployed like\nme!"
+                            "unemployed like\nme."
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -537,19 +537,10 @@
                     ],
                     "true8": [
                       {
-                        "command": "EVENT_ACTOR_EMOTE",
-                        "args": {
-                          "actorId": "0",
-                          "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
-                        },
-                        "id": "3f846bd7-fb67-41cf-8f43-2099924afdb2"
-                      },
-                      {
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "*You look at ADOS'\nback tattoo*",
-                            "ADOS: HEY. My eyes\nare up here."
+                            "*You look at ADOS'\nback tattoo*"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -569,6 +560,60 @@
                           "closeDelayFrames": 30
                         },
                         "id": "0562d354-6e65-4d5b-a457-4c7b9c543101"
+                      },
+                      {
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 0.5,
+                          "frames": 30
+                        },
+                        "id": "8b104b15-9fde-4fab-8dad-4e1999ee4326"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "0",
+                          "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+                        },
+                        "id": "3f846bd7-fb67-41cf-8f43-2099924afdb2"
+                      },
+                      {
+                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                        "args": {
+                          "type": "tone",
+                          "priority": "medium",
+                          "pitch": 4,
+                          "frequency": 75,
+                          "duration": 0.35,
+                          "wait": false,
+                          "effect": 0
+                        },
+                        "id": "6d2697e1-710b-427c-ab35-4662f302edf6"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS: HEY. My eyes\nare up here."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "a9cabff4-5db6-41e8-af17-bee744590883"
                       }
                     ],
                     "true9": [

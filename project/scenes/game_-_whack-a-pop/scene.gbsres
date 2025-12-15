@@ -9,7 +9,12 @@
   "height": 18,
   "type": "POINTNCLICK",
   "paletteIds": [],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    null,
+    null,
+    null,
+    "default-bg-5"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
@@ -22,6 +27,17 @@
         "musicId": "c615afaf-f1e7-406f-b18f-41fdfa0dd0fc"
       },
       "id": "2bb7488c-3644-4167-a495-a8872287e514"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "ROUND $62$",
+        "x": 5,
+        "y": 0,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "83a790c3-27a9-42f6-92c0-1c8d8df1756c"
     },
     {
       "command": "EVENT_SET_VALUE",

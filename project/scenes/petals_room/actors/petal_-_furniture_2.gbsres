@@ -28,8 +28,8 @@
           {
             "command": "EVENT_PEEK_DATA",
             "args": {
-              "variableDest": "40",
-              "variableSource": "40",
+              "variableDest": "54",
+              "variableSource": "54",
               "saveSlot": 0
             },
             "id": "83ec72ee-ab8f-4a80-a383-85e4d197d028"
@@ -40,7 +40,7 @@
               "actorId": "$self$",
               "frame": {
                 "type": "variable",
-                "value": "40"
+                "value": "54"
               },
               "__collapse": false
             },

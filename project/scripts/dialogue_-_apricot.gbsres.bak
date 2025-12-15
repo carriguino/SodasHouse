@@ -57,7 +57,7 @@
             "args": {
               "text": [
                 "APRICOT: hey!!!\ni'm kinda hungry..",
-                "could I get some food?"
+                "could I get some\nfood?"
               ],
               "__section": "text",
               "avatarId": "",

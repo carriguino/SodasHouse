@@ -181,7 +181,7 @@
       "command": "EVENT_INC_VALUE",
       "args": {
         "variable": "66",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "f00884d7-ca5a-405e-a3c5-18795ca9caed"
     },
@@ -192,14 +192,14 @@
         "x": 9,
         "y": 1,
         "location": "background",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "923f326f-5826-40df-b3fb-61320d0c5ea4"
     },
     {
       "command": "EVENT_SWITCH",
       "args": {
-        "variable": "L1",
+        "variable": "66",
         "choices": 12,
         "__collapseCase0": false,
         "value0": 5,
@@ -378,19 +378,7 @@
       "id": "b0433bec-de52-4624-85a8-b09a1c7f1742"
     }
   ],
-  "startScript": [
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "66",
-        "value": {
-          "type": "number",
-          "value": 0
-        }
-      },
-      "id": "b84caada-b6a9-4488-b354-b59a3b9225f5"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
