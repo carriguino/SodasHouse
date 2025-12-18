@@ -11,6 +11,39 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "78dc882c-dca5-4f43-9ab9-d1ecbaca3e12",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "4af468c8-4bb8-407e-8348-efe3824cdf99"
+          }
+        ],
+        "false": []
+      },
+      "id": "4bfb43c2-c39e-4c1c-b84f-3797f4ebb030"
+    },
+    {
       "command": "PT_EVENT_ADVANCED_MENU",
       "args": {
         "__scriptTabs": "items",
@@ -131,7 +164,7 @@
         "option16_r": 0,
         "option16_u": 0,
         "option16_d": 0,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "0b48c695-a222-4af2-b856-1d1176b85e15"
     },
@@ -149,7 +182,8 @@
             "value": 1
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [

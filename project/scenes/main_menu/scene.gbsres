@@ -23,7 +23,7 @@
       "args": {
         "saveSlot": 0,
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -45,13 +45,13 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 11
+                "value": 9
               },
               "y": {
                 "type": "number",
                 "value": 7
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "324997b6-4112-4353-895e-1960284974aa"
           },
@@ -83,13 +83,13 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 11
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 9
+                "value": 10
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "29c888d1-be5a-4de4-ab4b-9134e84889c7"
           },
@@ -123,7 +123,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -220,7 +220,7 @@
                           },
                           "y": {
                             "type": "number",
-                            "value": -2
+                            "value": -3
                           }
                         },
                         "id": "74ad7a6b-b723-496d-8022-79892efe671a"
@@ -247,7 +247,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -287,7 +287,7 @@
                     },
                     "y": {
                       "type": "number",
-                      "value": 2
+                      "value": 3
                     },
                     "__collapse": false
                   },
@@ -305,7 +305,7 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "dff76ffb-df86-43bf-9d4b-694da5dd4cd4"
+        "musicId": "197d558c-6a86-4308-99fe-43499ded8e95"
       },
       "id": "e8ebb61e-81f8-41e0-8f7a-e90e7a4adcdc"
     }
@@ -313,5 +313,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2"
+  "playerSpriteSheetId": "d65792dd-fd22-4f38-aa4c-bbe7bdcec234"
 }

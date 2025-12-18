@@ -41,6 +41,17 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "1481f63e-3f8a-424b-a26d-8b2c0591c254",
+              "direction": {
+                "type": "direction",
+                "value": "down"
+              }
+            },
+            "id": "0f9883e9-51b8-4039-9321-d8c47cb09f0b"
+          },
+          {
             "command": "EVENT_SET_TIMER_SCRIPT",
             "args": {
               "timer": 1,
@@ -53,35 +64,46 @@
                 {
                   "command": "EVENT_ACTOR_SET_DIRECTION",
                   "args": {
+                    "actorId": "1481f63e-3f8a-424b-a26d-8b2c0591c254",
+                    "direction": {
+                      "type": "direction",
+                      "value": "up"
+                    }
+                  },
+                  "id": "34699a84-ee8a-4fc9-a5a4-36a709e77a0b"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
                     "actorId": "$self$",
                     "direction": {
                       "type": "direction",
                       "value": "up"
                     }
                   },
-                  "id": "f02364f0-22ed-4740-a804-664ec0d0f5ac"
+                  "id": "dc103bc8-63b7-49a2-bc71-f550ef092c41"
                 },
                 {
                   "command": "EVENT_TIMER_DISABLE",
                   "args": {
                     "timer": 1
                   },
-                  "id": "d289b32c-328a-4a26-86bb-bab6d177c83a"
+                  "id": "dc72ae3e-2d00-4747-8ac5-91b3a79fd282"
                 }
               ]
             },
-            "id": "3e8e324a-35d3-4611-b09b-af144ee3956d"
+            "id": "06920472-fa0f-407f-95e5-70e490ee29d7"
           }
         ],
         "false": []
       },
-      "id": "d1df32a7-2168-464e-b70d-413f351441b3"
+      "id": "53f7ac9b-bf7c-4e2f-8e44-ec5ae3d331b4"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 13,
-  "y": 7,
+  "x": 12,
+  "y": 10,
   "_index": 3
 }

@@ -14,7 +14,12 @@
   "paletteIds": [],
   "spritePaletteIds": [
     "",
-    "default-sprite"
+    "default-sprite",
+    "default-sprite",
+    "default-bg-5",
+    "default-bg-4",
+    null,
+    "default-bg-6"
   ],
   "autoFadeSpeed": 1,
   "playerSpriteSheetId": "d65792dd-fd22-4f38-aa4c-bbe7bdcec234",

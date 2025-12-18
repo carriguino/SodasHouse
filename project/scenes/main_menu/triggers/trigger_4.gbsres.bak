@@ -41,7 +41,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Merry Christmas \nViolet and Gia!"
+          "Merry Christmas \nViolet and Gia!",
+          "Thank you for\nbeing the best",
+          "friends a person\ncould ask for <3"
         ],
         "__section": "text",
         "avatarId": "",

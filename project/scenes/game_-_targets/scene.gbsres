@@ -20,7 +20,7 @@
     "default-bg-6"
   ],
   "spritePaletteIds": [
-    "default-bg-3",
+    "default-sprite",
     "",
     "",
     "",
@@ -33,8 +33,8 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "c615afaf-f1e7-406f-b18f-41fdfa0dd0fc",
-        "__collapse": true
+        "musicId": "7ac75a33-38bd-4f20-a769-66b9ab45c77d",
+        "__collapse": false
       },
       "id": "f81819fc-423d-41d4-b4f5-7572476a73bc"
     },
@@ -66,6 +66,17 @@
       "id": "95c56bf1-1799-4f86-9e7a-98f846908866"
     },
     {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "1481f63e-3f8a-424b-a26d-8b2c0591c254",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
+      },
+      "id": "0d12aadb-8237-4a21-825c-b886f5a7f4d1"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -90,6 +101,17 @@
         "__collapse": true
       },
       "id": "9c4f896a-6516-46ea-a7e3-1de31b44b07b"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "1481f63e-3f8a-424b-a26d-8b2c0591c254",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
+      },
+      "id": "e92489d8-e14b-48e9-bca4-dd9a36faa729"
     },
     {
       "command": "EVENT_RNG_SEED",

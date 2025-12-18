@@ -2,27 +2,27 @@
   "_resourceType": "scene",
   "id": "22c67f1b-53e5-4713-bf93-fc99dc78f6ba",
   "_index": 14,
+  "type": "POINTNCLICK",
   "name": "Petal's Room",
-  "backgroundId": "88f65c0f-5d36-4d6f-a72e-05ec68552ceb",
-  "tilesetId": "",
+  "symbol": "scene_15",
+  "x": 944,
+  "y": 792,
   "width": 20,
   "height": 18,
-  "type": "POINTNCLICK",
+  "backgroundId": "88f65c0f-5d36-4d6f-a72e-05ec68552ceb",
+  "tilesetId": "",
   "paletteIds": [
     "dmg"
   ],
   "spritePaletteIds": [
     "default-bg-4",
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
     "default-bg-4"
   ],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_15",
-  "x": 944,
-  "y": 792,
+  "autoFadeEventCollapse": false,
   "playerSpriteSheetId": "dbc26a10-9e7a-4131-8d7f-70d4ee9788ab",
   "script": [
     {
@@ -52,64 +52,6 @@
         "__collapse": true
       },
       "id": "14dd8b36-f550-40f7-b362-1bdbc406e1cc"
-    },
-    {
-      "command": "EVENT_IF_SAVED_DATA",
-      "args": {
-        "saveSlot": 0,
-        "__collapseElse": false,
-        "__collapse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_PEEK_DATA",
-            "args": {
-              "variableDest": "8",
-              "variableSource": "8",
-              "saveSlot": 0,
-              "__collapse": false,
-              "__label": "Load Soda Happiness"
-            },
-            "id": "d9e77034-955c-408e-9f81-9a911903d6a1"
-          },
-          {
-            "command": "EVENT_PEEK_DATA",
-            "args": {
-              "variableDest": "9",
-              "variableSource": "9",
-              "saveSlot": 0,
-              "__label": "Load Soda Hunger"
-            },
-            "id": "6e3d1e50-05d2-4d45-9bb1-e60ae4c0ec52"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "8",
-              "value": {
-                "type": "number",
-                "value": 1
-              }
-            },
-            "id": "e31be91c-e537-4d42-ba38-150f3e0a0aa4"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "9",
-              "value": {
-                "type": "number",
-                "value": 1
-              }
-            },
-            "id": "f870536c-d20a-4d2d-b493-57210c2df42d"
-          }
-        ]
-      },
-      "id": "7f9adb64-6077-42f7-8139-4c488b3b1679"
     },
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -160,5 +102,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false
+  "collisions": ""
 }

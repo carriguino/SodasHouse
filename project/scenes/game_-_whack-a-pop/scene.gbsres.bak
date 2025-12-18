@@ -31,7 +31,7 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "ROUND $V0$",
+        "text": "ROUND $62$",
         "x": 5,
         "y": 0,
         "location": "background",

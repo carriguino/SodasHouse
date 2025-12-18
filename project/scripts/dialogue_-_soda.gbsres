@@ -27,7 +27,7 @@
         "vectorY": "V0",
         "value": "0",
         "minValue": 1,
-        "maxValue": 12,
+        "maxValue": 16,
         "clamp": false
       },
       "id": "16ec198e-2f24-4e3e-b035-4b5868aba312"
@@ -128,7 +128,7 @@
                   "command": "EVENT_SWITCH",
                   "args": {
                     "variable": "V0",
-                    "choices": 12,
+                    "choices": 16,
                     "__collapseCase0": false,
                     "value0": 1,
                     "__collapseCase1": false,
@@ -527,10 +527,116 @@
                         "id": "8e7bf9bd-ff9a-460c-824a-7a3144260d66"
                       }
                     ],
-                    "true12": [],
-                    "true13": [],
-                    "true14": [],
-                    "true15": [],
+                    "true12": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: I heard you\ncan hit \"B\" to",
+                            "change rooms!\nWhat's \"B\" mean?"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "243ba3ac-d859-431c-81d6-2f30481f1bb8"
+                      }
+                    ],
+                    "true13": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: This window\nmakes me happy :D"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "bc07e111-46cc-44f2-92ea-4306b194e108"
+                      }
+                    ],
+                    "true14": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: This house\nwas made out of",
+                            "cardboard! Isn't\nthat so cool!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "19388d8c-1d16-4f89-b199-9ea74a2a13ac"
+                      }
+                    ],
+                    "true15": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "SODA: Worm."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "5f3c160e-fea9-4306-9f93-6820f7298f80"
+                      }
+                    ],
                     "false": []
                   },
                   "id": "af61488e-9477-46df-9d12-1012c0258c19"

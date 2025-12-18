@@ -27,7 +27,7 @@
         "vectorY": "V0",
         "value": "0",
         "minValue": 1,
-        "maxValue": 12,
+        "maxValue": 16,
         "clamp": false
       },
       "id": "8a5aba78-ce90-4633-b722-9165d4c741c2"
@@ -129,7 +129,7 @@
                   "command": "EVENT_SWITCH",
                   "args": {
                     "variable": "V0",
-                    "choices": 12,
+                    "choices": 16,
                     "__collapseCase0": false,
                     "value0": 1,
                     "__collapseCase1": false,
@@ -549,10 +549,117 @@
                         "id": "d191f80f-6526-4179-b0ad-5fa07e9bc5db"
                       }
                     ],
-                    "true12": [],
-                    "true13": [],
-                    "true14": [],
-                    "true15": [],
+                    "true12": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "APRICOT: sometimes\nif my novel is too",
+                            "good, i take it\nout on the wall..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "e35c17eb-717c-4b82-9636-439c4bf23bae"
+                      }
+                    ],
+                    "true13": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "APRICOT: ADOS has\na cool eyebrow",
+                            "piercing....\nI want one soo bad"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "6858d58c-27f5-48bd-8664-6c1be6ebb776"
+                      }
+                    ],
+                    "true14": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "APRICOT is  busy\nscratching up",
+                            "the wall behind\nher..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "6930d774-bd42-474e-87cd-016721d4af67"
+                      }
+                    ],
+                    "true15": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "APRICOT: bark!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "597e13e0-2702-4230-b278-b4d6dc585d43"
+                      }
+                    ],
                     "false": []
                   },
                   "id": "08783c3f-5367-4703-bca7-877a18bce89a"

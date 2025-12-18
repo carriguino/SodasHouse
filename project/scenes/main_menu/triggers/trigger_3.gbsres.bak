@@ -14,7 +14,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "what"
+          "what? this just\nskips the\npreamble..?",
+          "ok?"
         ],
         "__section": "text",
         "avatarId": "",
@@ -34,6 +35,23 @@
         "closeDelayFrames": 30
       },
       "id": "b4b64aba-cca9-4f17-8838-a1beeb6154cc"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "78dc882c-dca5-4f43-9ab9-d1ecbaca3e12",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "ab12572f-23bf-49e3-871a-4a4d38d18613"
     }
   ],
   "leaveScript": [],

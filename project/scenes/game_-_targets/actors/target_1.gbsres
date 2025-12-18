@@ -41,6 +41,17 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "1481f63e-3f8a-424b-a26d-8b2c0591c254",
+              "direction": {
+                "type": "direction",
+                "value": "down"
+              }
+            },
+            "id": "cb1c1c93-3db6-4147-ac3b-1ce597706a35"
+          },
+          {
             "command": "EVENT_SET_TIMER_SCRIPT",
             "args": {
               "timer": 1,
@@ -50,6 +61,17 @@
             },
             "children": {
               "script": [
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "1481f63e-3f8a-424b-a26d-8b2c0591c254",
+                    "direction": {
+                      "type": "direction",
+                      "value": "up"
+                    }
+                  },
+                  "id": "f9d4533c-adcd-4c80-a4f8-931db78af6b4"
+                },
                 {
                   "command": "EVENT_ACTOR_SET_DIRECTION",
                   "args": {
@@ -81,7 +103,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 5,
-  "y": 7,
+  "x": 6,
+  "y": 10,
   "_index": 2
 }

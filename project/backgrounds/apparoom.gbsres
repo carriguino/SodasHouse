@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ab334ca2-1b46-4a2e-b6a8-916a5cb94a6d",
+  "name": "apparoom",
+  "symbol": "bg_apparoom",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "apparoom.png",
+  "tileColors": ""
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a1dd2597-90b8-4b52-bd49-395cf8cb3eb0",
+  "name": "petalsroom",
+  "symbol": "bg_petalsroom",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "petalsroom.png",
+  "tileColors": ""
+}

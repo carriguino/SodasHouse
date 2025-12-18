@@ -7,7 +7,7 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "type": "ADVENTURE",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
@@ -20,7 +20,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "APRICOT game wip"
+          "APRICOT: Can you\nfind me?"
         ],
         "__section": "text",
         "avatarId": "",
@@ -37,26 +37,42 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": false
       },
       "id": "6179cba3-73f2-4160-9375-1a3babfa1ead"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_WAIT",
       "args": {
-        "sceneId": "5c2de070-fc7d-4f78-8604-8713fc3febb5",
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "58750db8-1ebd-449f-a72e-fefb6edb8f57"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "c8cf1ac9-f061-4ee8-89b2-23e9bde70246",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 8
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 7
         },
-        "direction": "",
-        "fadeSpeed": "2"
+        "moveType": "horizontal",
+        "useCollisions": false
       },
-      "id": "ce7f4f6a-41b4-4111-bc64-a09aaca3e6c5"
+      "id": "8b2afe9f-4887-4bde-bbf6-3458b9fc3516"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "c8cf1ac9-f061-4ee8-89b2-23e9bde70246"
+      },
+      "id": "6b06c042-9788-49eb-888d-f1a442638788"
     }
   ],
   "playerHit1Script": [],

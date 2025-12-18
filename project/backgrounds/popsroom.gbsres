@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "27ed0f84-bfac-4724-ba01-49906cdeefd8",
+  "name": "popsroom",
+  "symbol": "bg_popsroom",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "popsroom.png",
+  "tileColors": ""
+}

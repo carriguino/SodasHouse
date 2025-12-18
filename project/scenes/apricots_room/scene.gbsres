@@ -2,29 +2,29 @@
   "_resourceType": "scene",
   "id": "5c2de070-fc7d-4f78-8604-8713fc3febb5",
   "_index": 15,
+  "type": "POINTNCLICK",
   "name": "Apricot's Room",
-  "backgroundId": "88f65c0f-5d36-4d6f-a72e-05ec68552ceb",
-  "tilesetId": "",
+  "symbol": "scene_16",
+  "x": 944,
+  "y": 984,
   "width": 20,
   "height": 18,
-  "type": "POINTNCLICK",
+  "backgroundId": "ab334ca2-1b46-4a2e-b6a8-916a5cb94a6d",
+  "tilesetId": "",
   "paletteIds": [
     "dmg"
   ],
   "spritePaletteIds": [
     "default-bg-6",
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "default-bg-6"
   ],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_16",
-  "x": 944,
-  "y": 984,
+  "autoFadeEventCollapse": false,
   "playerSpriteSheetId": "dbc26a10-9e7a-4131-8d7f-70d4ee9788ab",
   "script": [
     {
@@ -104,5 +104,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false
+  "collisions": ""
 }
