@@ -66,9 +66,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "APRICOT",
-                "My name is SODA!\nThank you for",
-                "agreeing to watch\nus!"
+                "APRICOT: hey it's\nnice to meet you",
+                "i'm APRICOT!!\nand i'm a wolf >:3",
+                "thanks for letting\nus crash here.",
+                "woof!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -95,8 +96,8 @@
             "args": {
               "variable": "T0",
               "items": 2,
-              "option1": "APPA POSITIVE",
-              "option2": "APPA NEGATIVE",
+              "option1": "Any time",
+              "option2": "Okay...",
               "option3": "",
               "option4": "",
               "option5": "",
@@ -132,9 +133,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "APPA POSITIVE",
-                      "to babysit for\nthem, but I'm  ",
-                      "glad they chose\nyou!"
+                      "APRICOT: woof woof\nwoof!",
+                      "APRICOT is running\nin circles happily"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -162,8 +162,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "APPA NEGATIVE",
-                      "everything is in\nthe note!"
+                      "APRICOT: do you\nread yuri...?",
+                      "i have plenty of \nrecommendations!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -184,67 +184,6 @@
                     "__collapse": false
                   },
                   "id": "ffd7258f-1a17-4119-a9ff-7afb33ae6c30"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "You glance at the\nnote again.",
-                      "There's a bit more\nwriting you didn't",
-                      "notice, it reads:",
-                      "\"Thank you for\nagreeing to watch",
-                      "SODA and co while\nwe start our",
-                      "'North American\nGreat Mall Crawl'",
-                      "...",
-                      "\"There's $400 in\nthe first floor",
-                      "as payment\"",
-                      "You glance back\nto SODA..."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": true
-                  },
-                  "id": "97472893-37fb-48b3-b2db-7d0108fc2dc3"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "SODA: :D"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": true
-                  },
-                  "id": "5dfd3f21-07c3-4638-8667-2cd5e56f26ff"
                 }
               ]
             },

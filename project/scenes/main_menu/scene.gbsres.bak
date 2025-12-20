@@ -45,7 +45,7 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 10
+                "value": 9
               },
               "y": {
                 "type": "number",
@@ -83,13 +83,13 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 10
+                "value": 9
               },
               "y": {
                 "type": "number",
                 "value": 10
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "29c888d1-be5a-4de4-ab4b-9134e84889c7"
           },

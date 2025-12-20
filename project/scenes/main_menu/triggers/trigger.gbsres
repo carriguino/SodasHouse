@@ -3,8 +3,8 @@
   "id": "30a37e58-6e36-4092-97bf-3d22427eaa71",
   "name": "",
   "prefabId": "",
-  "x": 10,
-  "y": 10,
+  "x": 5,
+  "y": 14,
   "symbol": "trigger_29",
   "prefabScriptOverrides": {},
   "width": 2,
@@ -16,7 +16,8 @@
         "input": [
           "b"
         ],
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -183,7 +184,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [

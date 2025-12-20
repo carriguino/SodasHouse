@@ -32,7 +32,7 @@
         "vectorY": "V0",
         "value": "0",
         "minValue": 1,
-        "maxValue": 12,
+        "maxValue": 16,
         "clamp": false
       },
       "id": "073f6a24-3934-453f-aceb-801c2466b661"
@@ -132,7 +132,7 @@
                   "command": "EVENT_SWITCH",
                   "args": {
                     "variable": "V0",
-                    "choices": 12,
+                    "choices": 16,
                     "__collapseCase0": false,
                     "value0": 1,
                     "__collapseCase1": false,
@@ -751,10 +751,123 @@
                         "id": "21aba402-f61a-4d03-a560-c4a65d27032a"
                       }
                     ],
-                    "true12": [],
-                    "true13": [],
-                    "true14": [],
-                    "true15": [],
+                    "true12": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS: Heh kid,\nyou got plenty to",
+                            "learn in this\nworld.",
+                            "You probably\ndon't even know",
+                            "how bad DBZ's\npreservation is."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "607b14ae-0a88-4ad4-a268-be24fdc0620f"
+                      }
+                    ],
+                    "true13": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS eats a chip\nand then wipes",
+                            "the dust onto his\ntail like a rag."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "294544b9-e7df-4c34-828a-7f2338f4bce4"
+                      }
+                    ],
+                    "true14": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS: I train\nevery single day.",
+                            "I don't even hit\nmyself with the",
+                            "bat anymore!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "7662c161-579a-4433-b461-41ffc5a5d645"
+                      }
+                    ],
+                    "true15": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ADOS: I know you\nare scared of my ",
+                            "sheer power, but\ndon't worry...",
+                            "I only hurt those\nwho are evil...",
+                            "ADOS poses like he\nhas rehearsed this"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "7303a459-731f-4866-af8d-837ee9b4bd5b"
+                      }
+                    ],
                     "false": []
                   },
                   "id": "43deee4c-7ed2-46a1-afa8-302bac1962d0"

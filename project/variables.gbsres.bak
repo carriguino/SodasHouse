@@ -94,7 +94,7 @@
     {
       "id": "18",
       "name": "apricotHunger",
-      "symbol": "var_apricothunger"
+      "symbol": "var_apricothunger_0"
     },
     {
       "id": "19",
@@ -133,8 +133,8 @@
     },
     {
       "id": "26",
-      "name": "schmupBest",
-      "symbol": "var_schmupbest"
+      "name": "targetBest",
+      "symbol": "var_targetbest"
     },
     {
       "id": "27",
