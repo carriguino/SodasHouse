@@ -60,7 +60,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -75,7 +75,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 2
+                  "value": 3
                 }
               },
               "__collapseElse": true,
@@ -98,6 +98,14 @@
                     "__collapse": false
                   },
                   "id": "dea47ad6-58f7-4eb4-ac33-3b521b19b851"
+                },
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "67",
+                    "__collapse": false
+                  },
+                  "id": "899a4ab5-2702-4aeb-9de0-7e0a6568f802"
                 }
               ],
               "false": []
@@ -116,7 +124,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -131,7 +139,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 5
+                  "value": 4
                 }
               },
               "__collapseElse": true,
@@ -152,6 +160,13 @@
                     "variable": "67"
                   },
                   "id": "7cbadd07-d7e4-412d-ba65-3c9c2bad6b55"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "67"
+                  },
+                  "id": "ab130931-de0c-416f-9c0c-3b7483c81e17"
                 }
               ],
               "false": []
@@ -170,7 +185,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -218,7 +233,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -367,7 +382,7 @@
               "actorId": "player",
               "x": {
                 "type": "number",
-                "value": 14
+                "value": 15
               },
               "y": {
                 "type": "number",

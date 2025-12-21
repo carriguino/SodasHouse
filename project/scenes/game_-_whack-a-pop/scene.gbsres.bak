@@ -2,24 +2,25 @@
   "_resourceType": "scene",
   "id": "03816d0c-8ac2-4323-a506-70437f3aa25c",
   "_index": 12,
-  "name": "Game - Whack-a-Pop",
-  "backgroundId": "9dcae758-9a72-40fb-8bea-fdbe85fdba8b",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [],
-  "spritePaletteIds": [
-    null,
-    null,
-    null,
-    "default-bg-5"
-  ],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Game - Whack-a-Pop",
   "symbol": "scene_4",
   "x": 1128,
   "y": 592,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "9dcae758-9a72-40fb-8bea-fdbe85fdba8b",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "default-bg-5"
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "b40b92e7-6a99-4315-a176-4187043c4871",
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -32,7 +33,7 @@
       "command": "EVENT_TEXT_DRAW",
       "args": {
         "text": "ROUND $62$",
-        "x": 5,
+        "x": 6,
         "y": 0,
         "location": "background",
         "__collapse": false
@@ -239,6 +240,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "b40b92e7-6a99-4315-a176-4187043c4871",
-  "autoFadeEventCollapse": true
+  "collisions": ""
 }

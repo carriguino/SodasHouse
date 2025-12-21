@@ -127,7 +127,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "*Knock Knock*"
+          "*Knock Knock*\n\n\n"
         ],
         "__section": "text",
         "avatarId": "",
@@ -153,7 +153,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You open your\nfront door..."
+          "You open your\nfront door...\n\n"
         ],
         "__section": "text",
         "avatarId": "",

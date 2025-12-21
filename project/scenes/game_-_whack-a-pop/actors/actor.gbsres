@@ -18,6 +18,22 @@
   "script": [],
   "startScript": [
     {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapse": false
+      },
+      "id": "1a8790b9-b829-4d3b-b1a2-8277e7861193"
+    },
+    {
       "command": "EVENT_RNG_SEED",
       "args": {
         "__collapse": true
@@ -37,22 +53,6 @@
       "id": "e87071be-f755-467f-90e6-a5afa65eb7fb"
     },
     {
-      "command": "EVENT_ACTOR_SET_POSITION",
-      "args": {
-        "actorId": "player",
-        "x": {
-          "type": "number",
-          "value": 5
-        },
-        "y": {
-          "type": "number",
-          "value": 2
-        },
-        "__collapse": false
-      },
-      "id": "1a8790b9-b829-4d3b-b1a2-8277e7861193"
-    },
-    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -60,7 +60,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -124,7 +124,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -185,7 +185,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -233,7 +233,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

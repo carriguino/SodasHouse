@@ -66,9 +66,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "ADOS: INTRO",
-                "",
-                ""
+                "ADOS: Heh.Hey kid\nI'm ADOS.",
+                "You play COD?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -95,8 +94,8 @@
             "args": {
               "variable": "T0",
               "items": 2,
-              "option1": "ADOS POSITIVE",
-              "option2": "ADOS NEGATIVE",
+              "option1": "Yeah totally",
+              "option2": "Definetly not",
               "option3": "",
               "option4": "",
               "option5": "",
@@ -132,9 +131,10 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "ADOS: POSITIVE",
-                      "to babysit for\nthem, but I'm  ",
-                      "glad they chose\nyou!"
+                      "ADOS: Hell yeah",
+                      "Let's totally play\ntogether I need-",
+                      "I mean my friend\nneeds someone to",
+                      "play with."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -162,8 +162,10 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "ADOS: NEGATIVE",
-                      "everything is in\nthe note!"
+                      "ADOS: Hey. No need\nto be rude.",
+                      "You might hurt m-\n",
+                      "Someone's feelings\nif you talk like",
+                      "that on the reg."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -184,67 +186,6 @@
                     "__collapse": false
                   },
                   "id": "83ca5663-3fd3-4e65-a176-014102b656e4"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "You glance at the\nnote again.",
-                      "There's a bit more\nwriting you didn't",
-                      "notice, it reads:",
-                      "\"Thank you for\nagreeing to watch",
-                      "SODA and co while\nwe start our",
-                      "'North American\nGreat Mall Crawl'",
-                      "...",
-                      "\"There's $400 in\nthe first floor",
-                      "as payment\"",
-                      "You glance back\nto SODA..."
-                    ],
-                    "__section": "behavior",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": true
-                  },
-                  "id": "37542060-6dd6-4620-ac37-6a2702bda419"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "SODA: :D"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": true
-                  },
-                  "id": "ea1d7dd8-0b66-44fc-8e72-ec76ff44baed"
                 }
               ]
             },

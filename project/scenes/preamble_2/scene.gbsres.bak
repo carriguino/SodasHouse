@@ -17,6 +17,14 @@
   "y": 32,
   "script": [
     {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "0f304a53-c566-4c47-bd4b-8ab470a2b6a7"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
