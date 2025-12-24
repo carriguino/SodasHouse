@@ -41,6 +41,19 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.2,
+              "wait": false,
+              "effect": 0
+            },
+            "id": "4b1336fc-0ea6-47f0-9501-61dfdf0754bb"
+          },
+          {
             "command": "EVENT_ACTOR_SET_DIRECTION",
             "args": {
               "actorId": "3c506bb4-1621-4f03-a249-52bb66f064aa",

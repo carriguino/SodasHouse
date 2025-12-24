@@ -55,7 +55,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "SODA: I'm so\nfreaking hungry!"
+                "POP: Ough... I'm\nhungy.."
               ],
               "__section": "text",
               "avatarId": "",
@@ -100,8 +100,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "SODA: Sorry...\nI'm not really",
-                      "in the mood to\ntalk right now..."
+                      "POP: Can we play..\nI feel sad..."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -171,7 +170,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: Hi! I'm\nSoda! :P"
+                            "POP: Hello! My \nname is POP!"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -198,8 +197,8 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: .... uh....\nI was gonna say",
-                            "something, \nbut i forgot..."
+                            "POP: Did you know\nmy brother SODA is",
+                            "SUPER COOL!!!\nHe is so awesome!"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -226,7 +225,8 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: Merry\nChristmas!"
+                            "POP: I called my\nmoms earlier!",
+                            "They're doing ok\nbut I miss them..."
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -253,7 +253,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: Rub my\nbelly!!!"
+                            "POP: I like bugs!"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -280,11 +280,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: Wanna see\nsomething cool?",
-                            "Check it. B)",
-                            "effective. Power \nلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ 冗",
-                            "Wait it can't\nrender those",
-                            "characters....\nnvm...."
+                            "POP holds out a\ncool looking bug."
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -304,6 +300,101 @@
                           "closeDelayFrames": 30
                         },
                         "id": "07f8253e-e6f8-47d1-ad54-7c8bf3ded9a5"
+                      },
+                      {
+                        "command": "EVENT_MENU",
+                        "args": {
+                          "variable": "V0",
+                          "items": 2,
+                          "option1": "That's awesome",
+                          "option2": "Ew! Bugs!",
+                          "option3": "",
+                          "option4": "",
+                          "option5": "",
+                          "option6": "",
+                          "option7": "",
+                          "option8": "",
+                          "cancelOnB": false,
+                          "layout": "dialogue"
+                        },
+                        "id": "ef6a14af-1f2a-4f7b-a93a-6024a2b9f3ec"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "V0"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 1
+                            }
+                          },
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "POP: Right! This\nbug is actually  ",
+                                  "called a Dad's\nLong Legs!",
+                                  "I think!"
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "63fe8819-c747-45b6-b045-add2a7ae8fff"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "POP: Fine then!\nThis one is mine",
+                                  "anyways!"
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "309de87e-7bdc-4538-bd2a-80bdeba2b0b3"
+                            }
+                          ]
+                        },
+                        "id": "82482a5d-6c53-42f4-98c5-f81cd896dd33"
                       }
                     ],
                     "true5": [

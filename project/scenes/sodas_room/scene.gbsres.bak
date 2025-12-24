@@ -52,64 +52,6 @@
       "id": "63041426-4aa7-442b-8338-832badaafeab"
     },
     {
-      "command": "EVENT_IF_SAVED_DATA",
-      "args": {
-        "saveSlot": 0,
-        "__collapseElse": false,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_PEEK_DATA",
-            "args": {
-              "variableDest": "0",
-              "variableSource": "0",
-              "saveSlot": 0,
-              "__collapse": false,
-              "__label": "Load Soda Happiness"
-            },
-            "id": "a3cb475c-9ec7-4a79-9af9-68438a60b26d"
-          },
-          {
-            "command": "EVENT_PEEK_DATA",
-            "args": {
-              "variableDest": "1",
-              "variableSource": "1",
-              "saveSlot": 0,
-              "__label": "Load Soda Hunger"
-            },
-            "id": "0061174e-ed41-4605-bea6-4dc0e0447145"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "0",
-              "value": {
-                "type": "number",
-                "value": 1
-              }
-            },
-            "id": "ee4e6915-8432-4b7c-a972-12abcd0e895d"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "1",
-              "value": {
-                "type": "number",
-                "value": 1
-              }
-            },
-            "id": "64760013-a284-45d0-b650-382923ba4333"
-          }
-        ]
-      },
-      "id": "16210f10-7d91-4bde-b9fe-93949b2d9f2b"
-    },
-    {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",

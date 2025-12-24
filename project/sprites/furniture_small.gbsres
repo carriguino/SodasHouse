@@ -5,7 +5,7 @@
   "symbol": "sprite_furniture_small",
   "numFrames": 4,
   "filename": "furniture_small.png",
-  "checksum": "d1c5b045236cb9aec3f9fa83a0cb5903ab326583",
+  "checksum": "5f521f81b0532c6d25a3382d590687131f44e648",
   "width": 64,
   "height": 96,
   "states": [
@@ -834,7 +834,7 @@
       ]
     }
   ],
-  "numTiles": 32,
+  "numTiles": 46,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,

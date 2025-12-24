@@ -14,7 +14,9 @@
     "default-bg-2"
   ],
   "spritePaletteIds": [
-    "default-bg-1"
+    "default-bg-1",
+    "default-bg-4",
+    "default-sprite"
   ],
   "collisions": "",
   "autoFadeSpeed": 1,

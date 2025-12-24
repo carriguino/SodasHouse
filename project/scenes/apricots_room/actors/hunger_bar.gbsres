@@ -23,78 +23,81 @@
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
+        "timer": 1,
         "duration": 60,
         "frames": 30,
         "__scriptTabs": "end",
-        "timer": 1,
-        "__collapse": false,
-        "__label": "Hunger Timer"
+        "units": "time",
+        "__collapse": false
       },
       "children": {
         "script": [
           {
-            "command": "EVENT_SET_TIMER_SCRIPT",
+            "command": "EVENT_IF",
             "args": {
-              "timer": 2,
-              "duration": 60,
-              "frames": 30,
-              "__scriptTabs": "end",
-              "units": "time"
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "18"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false,
+              "__disableElse": false
             },
             "children": {
-              "script": [
+              "true": [
                 {
-                  "command": "EVENT_IF",
+                  "command": "EVENT_DEC_VALUE",
                   "args": {
-                    "condition": {
-                      "type": "gt",
-                      "valueA": {
-                        "type": "variable",
-                        "value": "18"
-                      },
-                      "valueB": {
-                        "type": "number",
-                        "value": 0
-                      }
-                    },
-                    "__collapseElse": true,
-                    "__disableElse": false
+                    "variable": "18"
                   },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "EVENT_DEC_VALUE",
-                        "args": {
-                          "variable": "18"
-                        },
-                        "id": "628a9d7b-862b-4b42-8a7e-28701a888e8c"
-                      }
-                    ],
-                    "false": []
-                  },
-                  "id": "6e559941-b340-49a1-b633-3a094138f872"
-                },
+                  "id": "64b9a81d-a10c-4af1-842c-14d4de5cd030"
+                }
+              ],
+              "false": [
                 {
                   "command": "EVENT_DEC_VALUE",
                   "args": {
                     "variable": "15"
                   },
-                  "id": "1da34d7f-cfd5-4fa7-a1bb-998f7fc3c89b"
+                  "id": "0ea189a6-6785-4f10-9e1e-111bbd9bfacf"
                 }
               ]
             },
-            "id": "8d0b7098-69fc-4591-9373-08a41cf71aba"
+            "id": "5395d6fa-bac6-4ab8-89ac-0cba9c8a1a08"
           },
           {
             "command": "EVENT_TIMER_DISABLE",
             "args": {
-              "timer": 2
+              "timer": 2,
+              "__comment": true
             },
-            "id": "2d699751-84bb-4f47-ad50-a0405d4b9b1a"
+            "id": "6b6a3803-5382-4e00-b208-61ebed165122"
           }
         ]
       },
-      "id": "1b9576b6-45bc-418e-80e3-7e26514070ed"
+      "id": "2483c1f4-a16f-4c3e-be77-c57fd28a8d8c"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "duration": 60,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "timer": 1,
+        "__collapse": false,
+        "__label": "Hunger Timer",
+        "__comment": true
+      },
+      "children": {
+        "script": []
+      },
+      "id": "5c643431-3e31-4eda-8099-e3a5c7cf290e"
     }
   ],
   "updateScript": [

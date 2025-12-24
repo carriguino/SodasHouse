@@ -337,7 +337,7 @@
         "override": true,
         "__scriptTabs": "press",
         "__label": "Change Rooms",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -461,7 +461,8 @@
               "option16_l": 0,
               "option16_r": 0,
               "option16_u": 0,
-              "option16_d": 0
+              "option16_d": 0,
+              "__collapse": true
             },
             "id": "e8315c80-4b36-4556-89f7-1d2b4872fd5d"
           },
@@ -493,6 +494,19 @@
                     }
                   },
                   "id": "4d7e6b73-cc3a-43b8-bb65-1d31dd031b59"
+                },
+                {
+                  "command": "EVENT_SAVE_DATA",
+                  "args": {
+                    "saveSlot": 0,
+                    "__scriptTabs": "save",
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [],
+                    "load": []
+                  },
+                  "id": "dee83317-9110-43b9-b8e1-aff8faf1017f"
                 },
                 {
                   "command": "EVENT_SWITCH_SCENE",

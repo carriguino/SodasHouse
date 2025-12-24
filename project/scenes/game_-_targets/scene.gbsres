@@ -80,7 +80,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "PETAL: Shoot my\ntargets!"
+          "PETAL: Moo!(Shoot\nmy targets!)"
         ],
         "__section": "text",
         "avatarId": "",

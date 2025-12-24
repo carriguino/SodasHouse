@@ -48,7 +48,7 @@
                 "type": "direction",
                 "value": "right"
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "3e480bbe-0aba-4c17-8775-631a6b14ccd9"
           },

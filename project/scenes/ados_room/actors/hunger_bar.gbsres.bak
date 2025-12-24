@@ -57,7 +57,7 @@
                         "value": 0
                       }
                     },
-                    "__collapseElse": true,
+                    "__collapseElse": false,
                     "__disableElse": false
                   },
                   "children": {
@@ -67,34 +67,36 @@
                         "args": {
                           "variable": "9"
                         },
-                        "id": "0b8d7152-6481-47ae-82d8-f29bd07813db"
+                        "id": "2a539e61-0cbc-45b6-b6f2-402c47c0e9dc"
                       }
                     ],
-                    "false": []
+                    "false": [
+                      {
+                        "command": "EVENT_DEC_VALUE",
+                        "args": {
+                          "variable": "8",
+                          "__collapse": false
+                        },
+                        "id": "838b5fd3-30a6-44ec-9c37-991e7c90fab8"
+                      }
+                    ]
                   },
-                  "id": "1324dbb8-61fb-4aa1-b3d0-e52b12af10d9"
+                  "id": "57c3969d-ba85-490f-a0a3-086675fd60a2"
                 },
                 {
-                  "command": "EVENT_DEC_VALUE",
+                  "command": "EVENT_TIMER_DISABLE",
                   "args": {
-                    "variable": "8"
+                    "timer": 2
                   },
-                  "id": "5d669e14-1d21-4302-8c33-311f3909b4cf"
+                  "id": "14580b6a-96fc-4490-8ddf-d4ea2129e840"
                 }
               ]
             },
-            "id": "937f8bf1-3e15-4b93-9416-716bdf998aec"
-          },
-          {
-            "command": "EVENT_TIMER_DISABLE",
-            "args": {
-              "timer": 2
-            },
-            "id": "ec5632b4-3521-4d2b-a828-3038d8d23b64"
+            "id": "9f914384-58ea-42e0-8fb4-0260c9f24cc9"
           }
         ]
       },
-      "id": "ea0ef393-e08f-4964-9fe0-cee77299adb4"
+      "id": "04fab422-3bc2-4f83-b07e-31c182a41707"
     }
   ],
   "updateScript": [
@@ -136,7 +138,7 @@
         "__collapseCase15": false,
         "value15": 16,
         "__collapseElse": false,
-        "__disableElse": true,
+        "__disableElse": false,
         "__collapse": false,
         "__label": "Update Hunger"
       },
@@ -217,7 +219,43 @@
         "true13": [],
         "true14": [],
         "true15": [],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "9"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 4
+                }
+              },
+              "__collapseElse": true,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "9",
+                    "value": {
+                      "type": "number",
+                      "value": 4
+                    }
+                  },
+                  "id": "5d429e1a-680f-458b-bf8d-c78c3e5d8b8f"
+                }
+              ],
+              "false": []
+            },
+            "id": "ae492cae-575b-419e-8034-68b05bf5cbd5"
+          }
+        ]
       },
       "id": "64fb87c9-1e6a-46ec-8ea5-9b70a6ccefa8"
     }

@@ -1,0 +1,53 @@
+{
+  "_resourceType": "scene",
+  "id": "5a3e58ff-88fc-4aae-a5a2-f0958304da71",
+  "_index": 10,
+  "name": "Game - Read",
+  "backgroundId": "8773cb93-1db2-45e3-9581-63667a566dcd",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "default-bg-5",
+    "default-bg-5",
+    null,
+    null,
+    null,
+    null,
+    "default-bg-6"
+  ],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 1128,
+  "y": 984,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "3357d768-2852-4914-8a77-9f60baa557c6"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "c615afaf-f1e7-406f-b18f-41fdfa0dd0fc"
+      },
+      "id": "f1ce750c-79c7-4b15-b78d-f479eead6a4e"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "1e21044c-3415-4dc3-94c5-bbbeeed78c3b"
+      },
+      "id": "060cc8dd-0de6-4c26-8378-cd22810a544e"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "f6602bf7-73fe-422d-8cac-fbe902137660"
+}

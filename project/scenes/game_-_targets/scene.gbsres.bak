@@ -20,7 +20,7 @@
     "default-bg-6"
   ],
   "spritePaletteIds": [
-    "default-bg-3",
+    "default-sprite",
     "",
     "",
     "",
@@ -80,7 +80,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "PETAL: Shoot my\ntargets!"
+          "PETAL: Moo!(Shoot\nmy targets!)"
         ],
         "__section": "text",
         "avatarId": "",
@@ -98,7 +98,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "9c4f896a-6516-46ea-a7e3-1de31b44b07b"
     },

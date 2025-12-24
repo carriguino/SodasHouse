@@ -50,14 +50,14 @@
                       "type": "gt",
                       "valueA": {
                         "type": "variable",
-                        "value": "9"
+                        "value": "17"
                       },
                       "valueB": {
                         "type": "number",
                         "value": 0
                       }
                     },
-                    "__collapseElse": true,
+                    "__collapseElse": false,
                     "__disableElse": false
                   },
                   "children": {
@@ -65,36 +65,37 @@
                       {
                         "command": "EVENT_DEC_VALUE",
                         "args": {
-                          "variable": "9"
+                          "variable": "17"
                         },
-                        "id": "0a412395-3758-4ce4-a775-1f13c9044aa8"
+                        "id": "9de654e8-0a43-4bb3-a185-0cb5384b0449"
                       }
                     ],
-                    "false": []
+                    "false": [
+                      {
+                        "command": "EVENT_DEC_VALUE",
+                        "args": {
+                          "variable": "14"
+                        },
+                        "id": "374427db-bd84-439e-bfbc-9122fb014475"
+                      }
+                    ]
                   },
-                  "id": "dbd3b149-93ad-42d3-b761-7ba4ac389743"
+                  "id": "3c77d1bb-1245-4929-8221-230a17fd73f9"
                 },
                 {
-                  "command": "EVENT_DEC_VALUE",
+                  "command": "EVENT_TIMER_DISABLE",
                   "args": {
-                    "variable": "8"
+                    "timer": 2
                   },
-                  "id": "c67c801a-9e6d-4bcd-9038-514444b02b50"
+                  "id": "c920c693-e315-4e85-b661-a18d2cf60ee4"
                 }
               ]
             },
-            "id": "cfbd1424-f681-476c-9d23-3ba9c2c272d0"
-          },
-          {
-            "command": "EVENT_TIMER_DISABLE",
-            "args": {
-              "timer": 2
-            },
-            "id": "61fc30f1-1ebc-40bd-a4cb-328c0235b471"
+            "id": "959b3e0d-e83a-4eab-94d9-c94f2a4bf0c8"
           }
         ]
       },
-      "id": "1824bac5-cec5-4e6d-8b60-e8935de37b55"
+      "id": "0ba04a0a-ae0b-423c-90e0-f426ca6f2c1d"
     }
   ],
   "updateScript": [

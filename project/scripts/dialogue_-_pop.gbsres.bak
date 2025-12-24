@@ -19,19 +19,18 @@
       "id": "4c72aed7-7725-45c9-8628-209ef72d58ee"
     },
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_VARIABLE_MATH",
       "args": {
-        "variable": "V0",
-        "value": {
-          "type": "rnd",
-          "value": {
-            "type": "number",
-            "value": 12
-          }
-        },
-        "__collapse": true
+        "vectorX": "V0",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": 1,
+        "maxValue": 12,
+        "clamp": false
       },
-      "id": "c3e7c244-ac8e-4cff-b600-e1bf35cddf97"
+      "id": "3ad293f6-1ce0-4ffe-9b2f-fd0d9f0a2b47"
     },
     {
       "command": "EVENT_IF",
@@ -56,7 +55,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "SODA: I'm so\nfreaking hungry!"
+                "POP: Ough... I'm\nhungy.."
               ],
               "__section": "text",
               "avatarId": "",
@@ -101,8 +100,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "SODA: Sorry...\nI'm not really",
-                      "in the mood to\ntalk right now..."
+                      "POP: Can we play..\nI feel sad..."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -172,7 +170,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: Hi! I'm\nSoda! :P"
+                            "POP: Hello! My \nname is POP!"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -199,8 +197,8 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: .... uh....\nI was gonna say",
-                            "something, \nbut i forgot..."
+                            "POP: Did you know\nmy brother SODA is",
+                            "SUPER COOL!!!\nHe is so awesome!"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -227,7 +225,8 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: Merry\nChristmas!"
+                            "POP: I called my\nmoms earlier!",
+                            "They're doing ok\nbut I miss them..."
                           ],
                           "__section": "text",
                           "avatarId": "",

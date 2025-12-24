@@ -57,7 +57,7 @@
                         "value": 0
                       }
                     },
-                    "__collapseElse": true,
+                    "__collapseElse": false,
                     "__disableElse": false
                   },
                   "children": {
@@ -70,27 +70,28 @@
                         "id": "76d287ba-44a7-480f-a7bf-e47e887c0f9c"
                       }
                     ],
-                    "false": []
+                    "false": [
+                      {
+                        "command": "EVENT_DEC_VALUE",
+                        "args": {
+                          "variable": "0"
+                        },
+                        "id": "96304a71-cdee-4f1f-9970-8dcd8fa0b1e0"
+                      }
+                    ]
                   },
                   "id": "8ff18f71-7957-46df-93d9-5d90bed942da"
                 },
                 {
-                  "command": "EVENT_DEC_VALUE",
+                  "command": "EVENT_TIMER_DISABLE",
                   "args": {
-                    "variable": "0"
+                    "timer": 2
                   },
-                  "id": "96304a71-cdee-4f1f-9970-8dcd8fa0b1e0"
+                  "id": "9336f128-6ae5-41a7-951d-59d41e87213b"
                 }
               ]
             },
             "id": "bb4019c6-74bc-4f5f-8c0f-46b6dbd14bc0"
-          },
-          {
-            "command": "EVENT_TIMER_DISABLE",
-            "args": {
-              "timer": 2
-            },
-            "id": "9336f128-6ae5-41a7-951d-59d41e87213b"
           }
         ]
       },
@@ -136,7 +137,7 @@
         "__collapseCase15": false,
         "value15": 16,
         "__collapseElse": false,
-        "__disableElse": true,
+        "__disableElse": false,
         "__collapse": false,
         "__label": "Update Hunger"
       },
@@ -217,7 +218,43 @@
         "true13": [],
         "true14": [],
         "true15": [],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 4
+                }
+              },
+              "__collapseElse": true,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "1",
+                    "value": {
+                      "type": "number",
+                      "value": 4
+                    }
+                  },
+                  "id": "da127b08-b83f-4748-908e-01ed3572e0fe"
+                }
+              ],
+              "false": []
+            },
+            "id": "9ed0f389-736e-45ae-9473-7738a14333c7"
+          }
+        ]
       },
       "id": "77334e81-97f6-4a67-8d72-e2c3e5d158aa"
     }

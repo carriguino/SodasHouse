@@ -542,7 +542,7 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Select Input"
       },
       "children": {
@@ -889,6 +889,11 @@
         ]
       },
       "id": "867bb16b-6ee5-4a4f-b952-6f8be821e7d9"
+    },
+    {
+      "command": "EVENT_SCRIPT_UNLOCK",
+      "args": {},
+      "id": "7e7a0806-8241-4a15-8714-acce99e1a757"
     }
   ]
 }
