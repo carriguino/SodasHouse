@@ -23,7 +23,7 @@
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
-        "timer": 1,
+        "timer": 2,
         "duration": 60,
         "frames": 30,
         "__scriptTabs": "end",

@@ -23,77 +23,79 @@
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
+        "timer": 1,
+        "duration": 60,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "units": "time",
+        "__collapse": false
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "18"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false,
+              "__disableElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "18"
+                  },
+                  "id": "64b9a81d-a10c-4af1-842c-14d4de5cd030"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "15"
+                  },
+                  "id": "0ea189a6-6785-4f10-9e1e-111bbd9bfacf"
+                }
+              ]
+            },
+            "id": "5395d6fa-bac6-4ab8-89ac-0cba9c8a1a08"
+          },
+          {
+            "command": "EVENT_TIMER_DISABLE",
+            "args": {
+              "timer": 2,
+              "__comment": true
+            },
+            "id": "6b6a3803-5382-4e00-b208-61ebed165122"
+          }
+        ]
+      },
+      "id": "2483c1f4-a16f-4c3e-be77-c57fd28a8d8c"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
         "duration": 60,
         "frames": 30,
         "__scriptTabs": "end",
         "timer": 1,
         "__collapse": false,
-        "__label": "Hunger Timer"
+        "__label": "Hunger Timer",
+        "__comment": true
       },
       "children": {
-        "script": [
-          {
-            "command": "EVENT_SET_TIMER_SCRIPT",
-            "args": {
-              "timer": 2,
-              "duration": 60,
-              "frames": 30,
-              "__scriptTabs": "end",
-              "units": "time"
-            },
-            "children": {
-              "script": [
-                {
-                  "command": "EVENT_IF",
-                  "args": {
-                    "condition": {
-                      "type": "gt",
-                      "valueA": {
-                        "type": "variable",
-                        "value": "18"
-                      },
-                      "valueB": {
-                        "type": "number",
-                        "value": 0
-                      }
-                    },
-                    "__collapseElse": false,
-                    "__disableElse": false
-                  },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "EVENT_DEC_VALUE",
-                        "args": {
-                          "variable": "18"
-                        },
-                        "id": "64b9a81d-a10c-4af1-842c-14d4de5cd030"
-                      }
-                    ],
-                    "false": [
-                      {
-                        "command": "EVENT_DEC_VALUE",
-                        "args": {
-                          "variable": "15"
-                        },
-                        "id": "0ea189a6-6785-4f10-9e1e-111bbd9bfacf"
-                      }
-                    ]
-                  },
-                  "id": "5395d6fa-bac6-4ab8-89ac-0cba9c8a1a08"
-                },
-                {
-                  "command": "EVENT_TIMER_DISABLE",
-                  "args": {
-                    "timer": 2
-                  },
-                  "id": "6b6a3803-5382-4e00-b208-61ebed165122"
-                }
-              ]
-            },
-            "id": "2483c1f4-a16f-4c3e-be77-c57fd28a8d8c"
-          }
-        ]
+        "script": []
       },
       "id": "5c643431-3e31-4eda-8099-e3a5c7cf290e"
     }

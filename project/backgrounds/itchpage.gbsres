@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a1c91ff2-0c96-4a6e-8a2e-28c16f2365f0",
+  "name": "itchpage",
+  "symbol": "bg_itchpage",
+  "width": 78,
+  "height": 62,
+  "imageWidth": 630,
+  "imageHeight": 500,
+  "filename": "itchpage.png",
+  "tileColors": ""
+}

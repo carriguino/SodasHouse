@@ -10,7 +10,7 @@
   "type": "ADVENTURE",
   "paletteIds": [],
   "spritePaletteIds": [
-    "default-sprite",
+    "default-bg-5",
     "default-bg-5",
     null,
     null,

@@ -2,27 +2,27 @@
   "_resourceType": "scene",
   "id": "5a3e58ff-88fc-4aae-a5a2-f0958304da71",
   "_index": 10,
+  "type": "ADVENTURE",
   "name": "Game - Read",
-  "backgroundId": "8773cb93-1db2-45e3-9581-63667a566dcd",
-  "tilesetId": "",
+  "symbol": "scene_1",
+  "x": 1128,
+  "y": 984,
   "width": 20,
   "height": 18,
-  "type": "ADVENTURE",
+  "backgroundId": "8773cb93-1db2-45e3-9581-63667a566dcd",
+  "tilesetId": "",
   "paletteIds": [],
   "spritePaletteIds": [
     "default-bg-5",
     "default-bg-5",
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
     "default-bg-6"
   ],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_1",
-  "x": 1128,
-  "y": 984,
+  "playerSpriteSheetId": "f6602bf7-73fe-422d-8cac-fbe902137660",
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -49,5 +49,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "f6602bf7-73fe-422d-8cac-fbe902137660"
+  "collisions": ""
 }

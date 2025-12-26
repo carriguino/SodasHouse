@@ -66,9 +66,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "POP INTRO",
-                "My name is SODA!\nThank you for",
-                "agreeing to watch\nus!"
+                "POP: Hi! Hi!\nI'm POP!",
+                "SODA is my big\nbrother and ADOS",
+                "is also my big\nbrother!",
+                "Thank you for\ncoming to play!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -95,8 +96,8 @@
             "args": {
               "variable": "T0",
               "items": 2,
-              "option1": "POP POSITIVE",
-              "option2": "POP NEGATIVE",
+              "option1": "Of course",
+              "option2": "I wanna play!",
               "option3": "",
               "option4": "",
               "option5": "",
@@ -132,9 +133,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "POP POSITIVE",
-                      "to babysit for\nthem, but I'm  ",
-                      "glad they chose\nyou!"
+                      "POP: Yay!!!!",
+                      "I hope we can play\na lot together!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -162,8 +162,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "POP NEGATIVE",
-                      "everything is in\nthe note!"
+                      "POP: YAY! Let's\nplay right now OK?"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -186,65 +185,44 @@
                   "id": "05e30543-2418-40fa-8965-c8f19e1cc7b3"
                 },
                 {
-                  "command": "EVENT_TEXT",
+                  "command": "EVENT_SET_VALUE",
                   "args": {
-                    "text": [
-                      "You glance at the\nnote again.",
-                      "There's a bit more\nwriting you didn't",
-                      "notice, it reads:",
-                      "\"Thank you for\nagreeing to watch",
-                      "SODA and co while\nwe start our",
-                      "'North American\nGreat Mall Crawl'",
-                      "...",
-                      "\"There's $400 in\nthe first floor",
-                      "as payment\"",
-                      "You glance back\nto SODA..."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": true
+                    "variable": "28",
+                    "value": {
+                      "type": "true"
+                    },
+                    "__collapse": false
                   },
-                  "id": "55af0a4b-d956-4b15-89d1-efa7b3dd01a9"
+                  "id": "840d334c-ef27-4599-95d4-4c045d0da359"
                 },
                 {
-                  "command": "EVENT_TEXT",
+                  "command": "EVENT_SAVE_DATA",
                   "args": {
-                    "text": [
-                      "SODA: :D"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": true
+                    "saveSlot": 0,
+                    "__scriptTabs": "save"
                   },
-                  "id": "6eed4b96-58cb-4f5e-9c3a-759ad2126c58"
+                  "children": {
+                    "true": [],
+                    "load": []
+                  },
+                  "id": "65e4bb6f-732d-498b-8f2b-52f3ee066785"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "03816d0c-8ac2-4323-a506-70437f3aa25c",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "dbbaf006-2b38-4192-8c48-dbbc92e26cba"
                 }
               ]
             },

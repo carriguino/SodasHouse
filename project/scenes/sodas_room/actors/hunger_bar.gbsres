@@ -23,7 +23,7 @@
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
-        "timer": 1,
+        "timer": 2,
         "duration": 60,
         "frames": 30,
         "__scriptTabs": "end",
@@ -60,31 +60,6 @@
                 }
               ],
               "false": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "byeee"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "f33e01bd-8c3d-4553-98ac-39a69fe1aa54"
-                },
                 {
                   "command": "EVENT_DEC_VALUE",
                   "args": {

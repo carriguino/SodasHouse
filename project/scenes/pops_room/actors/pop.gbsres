@@ -133,9 +133,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "POP POSITIVE",
-                      "to babysit for\nthem, but I'm  ",
-                      "glad they chose\nyou!"
+                      "POP: Yay!!!!\nI hope we can play",
+                      "together a lot!"
                     ],
                     "__section": "text",
                     "avatarId": "",

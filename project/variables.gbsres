@@ -158,8 +158,8 @@
     },
     {
       "id": "31",
-      "name": "RTC - Hours",
-      "symbol": "var_rtc_hours"
+      "name": "sodaTimer",
+      "symbol": "var_sodatimer"
     },
     {
       "id": "32",
@@ -780,6 +780,26 @@
       "id": "ac8241c5-9a1f-4a39-b282-7d67ccc0a301__L0",
       "name": "randPos",
       "symbol": "var_randpos_0"
+    },
+    {
+      "id": "daf149ea-812b-4219-9a05-b2c63c11947a__L0",
+      "name": "da",
+      "symbol": "var_da_13"
+    },
+    {
+      "id": "a90b5c60-dffe-4c1d-b8c2-884c13c8bef8__L0",
+      "name": "babyTimer",
+      "symbol": "var_babytimer_8"
+    },
+    {
+      "id": "aedc0380-d5b1-4cb5-86d1-0eb7f4af064a__L1",
+      "name": "Local 1",
+      "symbol": "var_local_30"
+    },
+    {
+      "id": "aedc0380-d5b1-4cb5-86d1-0eb7f4af064a__L0",
+      "name": "moveFurniture",
+      "symbol": "var_movefurniture_11"
     }
   ]
 }

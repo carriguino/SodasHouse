@@ -23,77 +23,79 @@
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
+        "timer": 1,
+        "duration": 60,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "units": "time",
+        "__collapse": false
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "17"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false,
+              "__disableElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "17"
+                  },
+                  "id": "9de654e8-0a43-4bb3-a185-0cb5384b0449"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "14"
+                  },
+                  "id": "374427db-bd84-439e-bfbc-9122fb014475"
+                }
+              ]
+            },
+            "id": "3c77d1bb-1245-4929-8221-230a17fd73f9"
+          },
+          {
+            "command": "EVENT_TIMER_DISABLE",
+            "args": {
+              "timer": 2,
+              "__comment": true
+            },
+            "id": "c920c693-e315-4e85-b661-a18d2cf60ee4"
+          }
+        ]
+      },
+      "id": "959b3e0d-e83a-4eab-94d9-c94f2a4bf0c8"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
         "duration": 60,
         "frames": 30,
         "__scriptTabs": "end",
         "timer": 1,
         "__collapse": false,
-        "__label": "Hunger Timer"
+        "__label": "Hunger Timer",
+        "__comment": true
       },
       "children": {
-        "script": [
-          {
-            "command": "EVENT_SET_TIMER_SCRIPT",
-            "args": {
-              "timer": 2,
-              "duration": 60,
-              "frames": 30,
-              "__scriptTabs": "end",
-              "units": "time"
-            },
-            "children": {
-              "script": [
-                {
-                  "command": "EVENT_IF",
-                  "args": {
-                    "condition": {
-                      "type": "gt",
-                      "valueA": {
-                        "type": "variable",
-                        "value": "17"
-                      },
-                      "valueB": {
-                        "type": "number",
-                        "value": 0
-                      }
-                    },
-                    "__collapseElse": false,
-                    "__disableElse": false
-                  },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "EVENT_DEC_VALUE",
-                        "args": {
-                          "variable": "17"
-                        },
-                        "id": "9de654e8-0a43-4bb3-a185-0cb5384b0449"
-                      }
-                    ],
-                    "false": [
-                      {
-                        "command": "EVENT_DEC_VALUE",
-                        "args": {
-                          "variable": "14"
-                        },
-                        "id": "374427db-bd84-439e-bfbc-9122fb014475"
-                      }
-                    ]
-                  },
-                  "id": "3c77d1bb-1245-4929-8221-230a17fd73f9"
-                },
-                {
-                  "command": "EVENT_TIMER_DISABLE",
-                  "args": {
-                    "timer": 2
-                  },
-                  "id": "c920c693-e315-4e85-b661-a18d2cf60ee4"
-                }
-              ]
-            },
-            "id": "959b3e0d-e83a-4eab-94d9-c94f2a4bf0c8"
-          }
-        ]
+        "script": []
       },
       "id": "0ba04a0a-ae0b-423c-90e0-f426ca6f2c1d"
     }
