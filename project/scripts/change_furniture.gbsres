@@ -1196,7 +1196,7 @@
         "value14": 15,
         "__collapseCase15": false,
         "value15": 16,
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": false
       },
       "children": {
@@ -2073,37 +2073,7 @@
         "true13": [],
         "true14": [],
         "true15": [],
-        "false": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "You don't have any\nfurniture!",
-                "You can unlock\nmore by playing",
-                "games with soda\nand friends!",
-                "Wait nvm this is\nactually an error.\nplease tell carri"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": false
-            },
-            "id": "31a544bb-c346-4366-968a-30b3e9abe581"
-          }
-        ]
+        "false": []
       },
       "id": "0361ea25-d403-4435-97e5-db8a496a5c68"
     },
