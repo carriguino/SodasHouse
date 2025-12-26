@@ -542,191 +542,64 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Select Input"
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_MENU",
+            "command": "EVENT_IF_INPUT",
             "args": {
-              "variable": "53",
-              "items": 4,
-              "option1": "Save Game",
-              "option2": "Erase Save",
-              "option3": "DEBUG",
-              "option4": "Back     (FL:$46$)",
-              "option5": "",
-              "option6": "",
-              "option7": "",
-              "option8": "",
-              "cancelOnB": true,
-              "layout": "dialogue",
-              "cancelOnLastOption": true
-            },
-            "id": "e05917a1-0c23-4eea-9aa8-223e547d2575"
-          },
-          {
-            "command": "EVENT_SWITCH",
-            "args": {
-              "variable": "53",
-              "choices": 3,
-              "__collapseCase0": false,
-              "value0": 1,
-              "__collapseCase1": true,
-              "value1": 2,
-              "__collapseCase2": false,
-              "value2": 3,
-              "__collapseCase3": false,
-              "value3": 4,
-              "__collapseCase4": false,
-              "value4": 5,
-              "__collapseCase5": false,
-              "value5": 6,
-              "__collapseCase6": false,
-              "value6": 7,
-              "__collapseCase7": false,
-              "value7": 8,
-              "__collapseCase8": false,
-              "value8": 9,
-              "__collapseCase9": false,
-              "value9": 10,
-              "__collapseCase10": false,
-              "value10": 11,
-              "__collapseCase11": false,
-              "value11": 12,
-              "__collapseCase12": false,
-              "value12": 13,
-              "__collapseCase13": false,
-              "value13": 14,
-              "__collapseCase14": false,
-              "value14": 15,
-              "__collapseCase15": false,
-              "value15": 16,
-              "__collapseElse": false,
-              "__disableElse": true
+              "input": [
+                "start"
+              ],
+              "__collapseElse": false
             },
             "children": {
-              "true0": [
+              "true": [
                 {
-                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "command": "EVENT_TEXT",
                   "args": {
-                    "customEventId": "b2c441ed-d302-40cc-92da-158e8fd42bca"
-                  },
-                  "id": "0c5f62d0-3cd2-498c-a845-ee5ea083dadc"
-                }
-              ],
-              "true1": [
-                {
-                  "command": "EVENT_MENU",
-                  "args": {
-                    "variable": "53",
-                    "items": 2,
-                    "option1": "Confirm Deletion",
-                    "option2": "NEVERMIND!!!!!!",
-                    "option3": "",
-                    "option4": "",
-                    "option5": "",
-                    "option6": "",
-                    "option7": "",
-                    "option8": "",
-                    "cancelOnB": true,
-                    "layout": "dialogue",
+                    "text": [
+                      "   DEBUG MENU"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
                     "__collapse": false
                   },
-                  "id": "b9f9ac4e-e3bd-4e42-8959-36ab502472cf"
+                  "id": "372f819c-1971-406f-9df1-31f1f51ca4a6"
                 },
                 {
-                  "command": "EVENT_IF",
-                  "args": {
-                    "condition": {
-                      "type": "eq",
-                      "valueA": {
-                        "type": "variable",
-                        "value": "53"
-                      },
-                      "valueB": {
-                        "type": "number",
-                        "value": 1
-                      }
-                    },
-                    "__collapseElse": true,
-                    "__disableElse": true,
-                    "__collapse": false
-                  },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "EVENT_CLEAR_DATA",
-                        "args": {
-                          "saveSlot": 0
-                        },
-                        "id": "ed3b9393-04b8-4700-a655-cdbe0431754c"
-                      },
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
-                            "Game Cleared."
-                          ],
-                          "__section": "text",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": -1,
-                          "speedOut": -1,
-                          "closeWhen": "key",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
-                        },
-                        "id": "2afc3682-cf1c-4d3f-8c03-599705627cb5"
-                      },
-                      {
-                        "command": "EVENT_SWITCH_SCENE",
-                        "args": {
-                          "sceneId": "4797e82b-2f10-45fd-a8c7-b3619070fd14",
-                          "x": {
-                            "type": "number",
-                            "value": 0
-                          },
-                          "y": {
-                            "type": "number",
-                            "value": 0
-                          },
-                          "direction": "",
-                          "fadeSpeed": "2"
-                        },
-                        "id": "0afbe2a6-a160-47d7-b5ae-b3e715f08f7e"
-                      }
-                    ],
-                    "false": []
-                  },
-                  "id": "9183cba2-09c2-4d26-baa2-a32053ca1531"
-                }
-              ],
-              "true2": [
-                {
                   "command": "EVENT_MENU",
                   "args": {
                     "variable": "53",
-                    "items": 6,
+                    "items": 7,
                     "option1": "Level 5",
                     "option2": "Level 10",
                     "option3": "Level 20",
                     "option4": "Level 35",
                     "option5": "Level 50",
                     "option6": "Level 75",
-                    "option7": "",
+                    "option7": "LVL=$46$",
                     "option8": "",
                     "cancelOnB": true,
-                    "layout": "dialogue"
+                    "layout": "dialogue",
+                    "__collapse": true,
+                    "cancelOnLastOption": true
                   },
                   "id": "29d36771-d884-484b-9018-18b6ec2bfcb1"
                 },
@@ -767,7 +640,8 @@
                     "value14": 15,
                     "__collapseCase15": false,
                     "value15": 16,
-                    "__collapseElse": false
+                    "__collapseElse": false,
+                    "__collapse": true
                   },
                   "children": {
                     "true0": [
@@ -869,22 +743,194 @@
                   "id": "5a81e728-9928-438f-895b-34ebf73cc88e"
                 }
               ],
-              "true3": [],
-              "true4": [],
-              "true5": [],
-              "true6": [],
-              "true7": [],
-              "true8": [],
-              "true9": [],
-              "true10": [],
-              "true11": [],
-              "true12": [],
-              "true13": [],
-              "true14": [],
-              "true15": [],
-              "false": []
+              "false": [
+                {
+                  "command": "EVENT_MENU",
+                  "args": {
+                    "variable": "53",
+                    "items": 3,
+                    "option1": "Save Game",
+                    "option2": "Erase Save",
+                    "option3": "Back",
+                    "option4": "",
+                    "option5": "",
+                    "option6": "",
+                    "option7": "",
+                    "option8": "",
+                    "cancelOnB": true,
+                    "layout": "dialogue",
+                    "cancelOnLastOption": true,
+                    "__collapse": false
+                  },
+                  "id": "e05917a1-0c23-4eea-9aa8-223e547d2575"
+                },
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "53",
+                    "choices": 2,
+                    "__collapseCase0": false,
+                    "value0": 1,
+                    "__collapseCase1": false,
+                    "value1": 2,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": false,
+                    "__disableElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "b2c441ed-d302-40cc-92da-158e8fd42bca"
+                        },
+                        "id": "0c5f62d0-3cd2-498c-a845-ee5ea083dadc"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_MENU",
+                        "args": {
+                          "variable": "53",
+                          "items": 2,
+                          "option1": "Confirm Deletion",
+                          "option2": "NEVERMIND!!!!!!",
+                          "option3": "",
+                          "option4": "",
+                          "option5": "",
+                          "option6": "",
+                          "option7": "",
+                          "option8": "",
+                          "cancelOnB": true,
+                          "layout": "dialogue",
+                          "__collapse": false
+                        },
+                        "id": "b9f9ac4e-e3bd-4e42-8959-36ab502472cf"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "53"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 1
+                            }
+                          },
+                          "__collapseElse": true,
+                          "__disableElse": true,
+                          "__collapse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_CLEAR_DATA",
+                              "args": {
+                                "saveSlot": 0
+                              },
+                              "id": "ed3b9393-04b8-4700-a655-cdbe0431754c"
+                            },
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "Game Cleared."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "2afc3682-cf1c-4d3f-8c03-599705627cb5"
+                            },
+                            {
+                              "command": "EVENT_SWITCH_SCENE",
+                              "args": {
+                                "sceneId": "4797e82b-2f10-45fd-a8c7-b3619070fd14",
+                                "x": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "direction": "",
+                                "fadeSpeed": "2"
+                              },
+                              "id": "0afbe2a6-a160-47d7-b5ae-b3e715f08f7e"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "9183cba2-09c2-4d26-baa2-a32053ca1531"
+                      }
+                    ],
+                    "true2": [],
+                    "true3": [],
+                    "true4": [],
+                    "true5": [],
+                    "true6": [],
+                    "true7": [],
+                    "true8": [],
+                    "true9": [],
+                    "true10": [],
+                    "true11": [],
+                    "true12": [],
+                    "true13": [],
+                    "true14": [],
+                    "true15": [],
+                    "false": []
+                  },
+                  "id": "1e16388d-98fd-4d79-970d-b08f88ae1a33"
+                }
+              ]
             },
-            "id": "1e16388d-98fd-4d79-970d-b08f88ae1a33"
+            "id": "d92fe0fa-821e-4880-a2ca-34957e5e1523"
           }
         ]
       },
