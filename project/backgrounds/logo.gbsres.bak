@@ -8,6 +8,5 @@
   "imageWidth": 640,
   "imageHeight": 256,
   "filename": "logo.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": ""
 }
