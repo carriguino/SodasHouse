@@ -532,7 +532,7 @@
               "palette5": "keep",
               "palette6": "keep",
               "palette7": "keep",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "cba3af7c-29bf-4fc9-af57-310f4a6a0d5d"
           },
@@ -561,7 +561,7 @@
               "value1": 2,
               "__collapseCase2": true,
               "value2": 3,
-              "__collapseCase3": true,
+              "__collapseCase3": false,
               "value3": 4,
               "__collapseCase4": false,
               "value4": 5,
@@ -1581,7 +1581,7 @@
                       }
                     },
                     "__collapseElse": false,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -1624,14 +1624,14 @@
                         "command": "EVENT_PALETTE_SET_BACKGROUND",
                         "args": {
                           "palette0": "default-ui",
-                          "palette1": "keep",
-                          "palette2": "keep",
-                          "palette3": "keep",
-                          "palette4": "keep",
-                          "palette5": "keep",
-                          "palette6": "keep",
-                          "palette7": "keep",
-                          "__collapse": true
+                          "palette1": "default-ui",
+                          "palette2": "default-ui",
+                          "palette3": "default-ui",
+                          "palette4": "default-ui",
+                          "palette5": "default-ui",
+                          "palette6": "default-ui",
+                          "palette7": "default-ui",
+                          "__collapse": false
                         },
                         "id": "50066f18-8f0b-472e-bb5b-6071501f1787"
                       }
@@ -1676,14 +1676,14 @@
                         "command": "EVENT_PALETTE_SET_BACKGROUND",
                         "args": {
                           "palette0": "default-sprite",
-                          "palette1": "keep",
-                          "palette2": "keep",
-                          "palette3": "keep",
-                          "palette4": "keep",
-                          "palette5": "keep",
-                          "palette6": "keep",
-                          "palette7": "keep",
-                          "__collapse": true
+                          "palette1": "default-sprite",
+                          "palette2": "default-sprite",
+                          "palette3": "default-sprite",
+                          "palette4": "default-sprite",
+                          "palette5": "default-sprite",
+                          "palette6": "default-sprite",
+                          "palette7": "default-sprite",
+                          "__collapse": false
                         },
                         "id": "93259983-2980-44e2-ac8b-9f4f319449f0"
                       }
@@ -1709,7 +1709,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "ERROR: DIRECTION\nOOB"
+                      "ERROR: DIRECTION\nOOB - TELL CARRI"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -1868,14 +1868,14 @@
             "command": "EVENT_PALETTE_SET_BACKGROUND",
             "args": {
               "palette0": "restore",
-              "palette1": "keep",
-              "palette2": "keep",
-              "palette3": "keep",
-              "palette4": "keep",
-              "palette5": "keep",
-              "palette6": "keep",
-              "palette7": "keep",
-              "__collapse": true
+              "palette1": "restore",
+              "palette2": "restore",
+              "palette3": "restore",
+              "palette4": "restore",
+              "palette5": "restore",
+              "palette6": "restore",
+              "palette7": "restore",
+              "__collapse": false
             },
             "id": "16f6608f-791c-47fb-a542-d169ae84c296"
           },

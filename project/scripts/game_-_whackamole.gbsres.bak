@@ -110,7 +110,8 @@
           {
             "command": "EVENT_INC_VALUE",
             "args": {
-              "variable": "46"
+              "variable": "46",
+              "__collapse": true
             },
             "id": "968dc6bb-88e1-4fbc-8163-4134300c4d4d"
           },
@@ -135,7 +136,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "5ef8e0c7-20e8-426a-972f-f391e75fd97a"
           },
@@ -327,7 +329,7 @@
         "__collapseCase15": false,
         "value15": 16,
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {

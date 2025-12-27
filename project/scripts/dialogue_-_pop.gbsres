@@ -39,7 +39,7 @@
           "type": "lt",
           "valueA": {
             "type": "variable",
-            "value": "1"
+            "value": "17"
           },
           "valueB": {
             "type": "number",
@@ -85,7 +85,7 @@
                 "type": "eq",
                 "valueA": {
                   "type": "variable",
-                  "value": "0"
+                  "value": "14"
                 },
                 "valueB": {
                   "type": "number",

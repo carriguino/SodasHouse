@@ -130,35 +130,97 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true,
+              "__collapse": false,
               "__label": "Buffer Check"
             },
             "children": {
               "true": [
                 {
-                  "command": "EVENT_TEXT",
+                  "command": "EVENT_IF",
                   "args": {
-                    "text": [
-                      "    GAME OVER"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
+                    "condition": {
+                      "type": "gt",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "66"
+                      },
+                      "valueB": {
+                        "type": "variable",
+                        "value": "26"
+                      }
+                    },
+                    "__collapseElse": false,
+                    "__collapse": false
                   },
-                  "id": "88e33286-9a3f-463c-bf23-6d0ae0778909"
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "26",
+                          "value": {
+                            "type": "variable",
+                            "value": "66"
+                          },
+                          "__collapse": false
+                        },
+                        "id": "b8d3640d-452c-423a-8ef4-7bda822030e2"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "    GAME OVER\n NEW HIGH SCORE!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "6d917cf4-5214-4260-b384-7f87293b6157"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "    GAME OVER"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "88e33286-9a3f-463c-bf23-6d0ae0778909"
+                      }
+                    ]
+                  },
+                  "id": "ae1e150b-e290-49f2-98a9-245962d05dc9"
                 },
                 {
                   "command": "EVENT_INC_VALUE",
@@ -202,7 +264,8 @@
                       "value": 0
                     },
                     "direction": "",
-                    "fadeSpeed": "2"
+                    "fadeSpeed": "2",
+                    "__collapse": true
                   },
                   "id": "753fc276-4c36-4869-9409-fb96f0b2caa9"
                 }
@@ -252,35 +315,97 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true,
+              "__collapse": false,
               "__label": "Buffer Check"
             },
             "children": {
               "true": [
                 {
-                  "command": "EVENT_TEXT",
+                  "command": "EVENT_IF",
                   "args": {
-                    "text": [
-                      "    GAME OVER"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
+                    "condition": {
+                      "type": "gt",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "66"
+                      },
+                      "valueB": {
+                        "type": "variable",
+                        "value": "26"
+                      }
+                    },
+                    "__collapseElse": false,
+                    "__collapse": false
                   },
-                  "id": "622ce298-06dc-4fba-8f74-b7775128d3a3"
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "26",
+                          "value": {
+                            "type": "variable",
+                            "value": "66"
+                          },
+                          "__collapse": false
+                        },
+                        "id": "11543e48-cf7b-4fe3-bdb7-27df5d87e1c8"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "    GAME OVER\n NEW HIGH SCORE!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "c31ee1ed-1a51-41c2-95ee-74265a36da22"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "    GAME OVER"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "610ec832-919a-49c9-a607-3594c57014c8"
+                      }
+                    ]
+                  },
+                  "id": "9a38bd7c-df9e-4fbc-b952-eebefd89bc0c"
                 },
                 {
                   "command": "EVENT_INC_VALUE",
@@ -384,9 +509,21 @@
           "type": "number",
           "value": 4
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "57b309f3-20d1-4191-9980-0ae87c5d0159"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "26",
+        "value": {
+          "type": "variable",
+          "value": "66"
+        },
+        "__collapse": false
+      },
+      "id": "84be8707-ccbf-4ada-9653-62a2c7ee4c81"
     },
     {
       "command": "EVENT_INC_VALUE",
@@ -430,7 +567,8 @@
           "value": 0
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__collapse": true
       },
       "id": "78501bff-ab0b-42b2-ac30-95b85555154d"
     }

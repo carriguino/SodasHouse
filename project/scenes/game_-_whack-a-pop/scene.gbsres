@@ -30,17 +30,6 @@
       "id": "2bb7488c-3644-4167-a495-a8872287e514"
     },
     {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "ROUND $62$",
-        "x": 6,
-        "y": 0,
-        "location": "background",
-        "__collapse": false
-      },
-      "id": "83a790c3-27a9-42f6-92c0-1c8d8df1756c"
-    },
-    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "62",

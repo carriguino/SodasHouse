@@ -315,7 +315,8 @@
                           "option7": "",
                           "option8": "",
                           "cancelOnB": false,
-                          "layout": "dialogue"
+                          "layout": "dialogue",
+                          "__collapse": false
                         },
                         "id": "ef6a14af-1f2a-4f7b-a93a-6024a2b9f3ec"
                       },
@@ -431,9 +432,9 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "SODA: I saw ADOS\neating my snacks",
-                            "out of the fridge\nlast night...",
-                            "He's such a\nmenace!"
+                            "POP: APRICOT said\nher mom put all",
+                            "her love for our\nmoms into this...",
+                            "I'm not sure what\nshe means!"
                           ],
                           "__section": "text",
                           "avatarId": "",

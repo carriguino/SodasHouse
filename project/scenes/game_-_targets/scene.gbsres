@@ -41,13 +41,13 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "SCORE: 000\n HIGH: $26$",
+        "text": "SCORE: \n HIGH: $26$",
         "x": 10,
         "y": 0,
         "location": "background",
         "__collapse": false
       },
-      "id": "1b4e923a-75fe-49b0-a9db-72869b015d10"
+      "id": "a17f9faa-64f2-45a1-ba6f-cb6f9dd2eb48"
     },
     {
       "command": "EVENT_ACTOR_SET_POSITION",

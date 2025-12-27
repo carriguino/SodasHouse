@@ -130,7 +130,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": false,
+              "__collapse": true,
               "__label": "Buffer Check"
             },
             "children": {
@@ -315,7 +315,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": false,
+              "__collapse": true,
               "__label": "Buffer Check"
             },
             "children": {

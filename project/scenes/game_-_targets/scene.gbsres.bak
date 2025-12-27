@@ -41,8 +41,8 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "SCORE: 000\n HIGH: $26$",
-        "x": 5,
+        "text": "SCORE:\n HIGH: $26$",
+        "x": 10,
         "y": 0,
         "location": "background",
         "__collapse": false
